@@ -1,0 +1,2890 @@
+{
+    "@mdate": "2019-07-10",
+    "@key": "www/org/w3/style-xsl",
+    "title": "W3C: Extensible Stylesheet Language (XSL)",
+    "ee": "http://www.w3.org/Style/XSL/",
+    "year": "2001"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "www/org/w3/http1-1",
+    "author": [
+        "Roy T. Fielding",
+        "Henrik Frystyk Nielsen",
+        "Tim Berners-Lee"
+    ],
+    "title": "Internet Draft: Hypertext Transfer Protocol - HTTP/1.1",
+    "ee": "http://www.w3.org/Protocols/HTTP/1.1/spec.html",
+    "year": "1999"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "www/org/w3/dom",
+    "title": "W3C: Document Oject Model (DOM)",
+    "ee": "http://www.w3.org/DOM/",
+    "year": "1997"
+},{
+    "@mdate": "2019-05-27",
+    "@key": "www/org/w3/TR/query-datamodel",
+    "editor": [
+        "Mary F. Fernandez",
+        "Jonathan Robie"
+    ],
+    "title": "XML Query Data Model",
+    "year": "2001",
+    "ee": "http://www.w3.org/TR/query-datamodel"
+},{
+    "@mdate": "2019-05-27",
+    "@key": "www/org/w3/TR/REC-xml",
+    "title": "W3C: Extensible Markup Language (XML) 1.0 - first edition.",
+    "ee": "https://www.w3.org/TR/xml/",
+    "year": "1998"
+},{
+    "@mdate": "2019-05-27",
+    "@key": "www/org/w3/TR/xquery",
+    "editor": [
+        "Donald D. Chamberlin",
+        "Daniela Florescu",
+        "Jonathan Robie",
+        "Jrme Simon",
+        "Mugur Stefanescu"
+    ],
+    "title": "XQuery: A Query Language for XML",
+    "year": "2001",
+    "ee": "http://www.w3.org/TR/xquery"
+},{
+    "@mdate": "2019-05-27",
+    "@key": "www/org/w3/TR/xmlquery-use-cases",
+    "editor": [
+        "Donald D. Chamberlin",
+        "Peter Fankhauser",
+        "Massimo Marchiori",
+        "Jonathan Robie"
+    ],
+    "title": "XML Query Use Cases",
+    "year": "2001",
+    "ee": "http://www.w3.org/TR/xmlquery-use-cases"
+},{
+    "@mdate": "2019-05-27",
+    "@key": "www/org/w3/TR/NOTE-xml-ql",
+    "author": [
+        "Alin Deutsch",
+        "Mary F. Fernandez",
+        "Daniela Florescu",
+        "Alon Y. Levy",
+        "Dan Suciu"
+    ],
+    "title": "XML-QL: A Query Language for XML",
+    "ee": "http://www.w3.org/TR/NOTE-xml-ql/",
+    "year": "1998"
+},{
+    "@mdate": "2019-05-27",
+    "@key": "www/org/w3/TR/xmlquery-req",
+    "editor": [
+        "Donald D. Chamberlin",
+        "Peter Fankhauser",
+        "Massimo Marchiori",
+        "Jonathan Robie"
+    ],
+    "title": "XML Query Requirements",
+    "year": "2001",
+    "ee": "http://www.w3.org/TR/xmlquery-req"
+},{
+    "@mdate": "2019-05-27",
+    "@key": "www/org/w3/TR/query-algebra",
+    "editor": [
+        "Peter Fankhauser",
+        "Mary F. Fernndez",
+        "Ashok Malhotra",
+        "Michael Rys",
+        "Jrme Simon",
+        "Philip Wadler"
+    ],
+    "title": "The XML Query Algebra",
+    "year": "2001",
+    "ee": "http://www.w3.org/TR/2000/WD-query-algebra-20001204/"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "www/org/w3/ql98",
+    "title": "W3C: The w3c Query Language Workshop, December 1998, Boston, MA, USA",
+    "year": "1998",
+    "ee": "http://www.w3.org/TandS/QL/QL98/"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "www/org/aiim-wfmc",
+    "title": "WfMC Standards: The Workflow Reference Model, Version 1.1.",
+    "year": "1995",
+    "ee": "http://www.aiim.org/wfmc/mainframe.htm"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "www/org/oasis-open-cover-xml",
+    "author": "Robin Cover",
+    "title": "The SGML/XML Web Page",
+    "ee": "http://xml.coverpages.org/sgml-xml.html",
+    "year": "2006"
+},{
+    "@mdate": "2016-10-21",
+    "@key": "www/de/kts",
+    "editor": "Klaus Tschira",
+    "title": "Klaus Tschira Stiftung gemeinntzige GmbH, KTS",
+    "ee": "http://www.klaus-tschira-stiftung.de/",
+    "year": "2012"
+},{
+    "@mdate": "2018-10-18",
+    "@key": "persons/Ley2003",
+    "author": "Michael Ley",
+    "title": "ACM SIGMOD Contribution Award 2003 Acceptance Speech",
+    "year": "2003",
+    "ee": "http://www.informatik.uni-trier.de/~ley/db/about/contributionaward03.html"
+},{
+    "@mdate": "2018-07-05",
+    "@key": "persons/Ley93",
+    "author": "Michael Ley",
+    "title": "DBLP.uni-trier.de: Computer Science Bibliography",
+    "year": "1993",
+    "ee": "http://dblp.uni-trier.de/"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4529",
+    "author": "D. Arteaga",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-08-22",
+    "@key": "homepages/31/5916-13",
+    "author": "Shan Lu 0013",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Capital University of Economics and Business, Beijing, China"
+    }
+},{
+    "@mdate": "2010-01-15",
+    "@key": "homepages/31/7737",
+    "author": "Chiara Toglia",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1499",
+    "author": "Carolina Rodriguez Bohorquez",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-10-26",
+    "@key": "homepages/31/10325",
+    "author": "Kwang-Hee Choi",
+    "title": "Home Page"
+},{
+    "@mdate": "2016-10-20",
+    "@key": "homepages/31/3692",
+    "author": "Vilho Risnen",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Nokia Research, Finland"
+    }
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1663",
+    "author": "Ruriko Yoshida",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3662",
+    "author": "Paul S. Andry",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5051",
+    "author": "Amy L. Ladd",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-02-02",
+    "@key": "homepages/31/4213",
+    "author": "Taiki Ichishita",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-03-03",
+    "@key": "homepages/31/10981",
+    "author": "Tiago Cravo Oliveira",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-04-04",
+    "@key": "homepages/31/9369",
+    "author": "M. S. Cheng",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-12-19",
+    "@key": "homepages/31/10635",
+    "author": "Deepti Mudegowder",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-02-01",
+    "@key": "homepages/31/9063",
+    "author": "Rosa Maria Mininni",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-10-01",
+    "@key": "homepages/31/7402",
+    "author": "Jibao Gu",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-03-17",
+    "@key": "homepages/31/6654",
+    "author": "Mike Jensen",
+    "title": "Home Page",
+    "url": "https://www.internethalloffame.org/inductees/mike-jensen"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6798",
+    "author": "F. B. Drane",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "homepages/31/9312",
+    "author": "Felix de Jong",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5994",
+    "author": "Ivan Dal Bono",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2802",
+    "author": "Maurice W. Benson",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-27",
+    "@key": "homepages/31/10937",
+    "author": "S. Talebzadeh",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-01-05",
+    "@key": "homepages/31/7684",
+    "author": "X. Bao",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-05",
+    "@key": "homepages/31/10845",
+    "author": "Changbai Xiao",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-07-07",
+    "@key": "homepages/31/9848",
+    "author": "Chryssoula Kalamara",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-11-13",
+    "@key": "homepages/31/10447",
+    "author": "Jessica S. Faruque",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4161",
+    "author": "Davis K. Cope",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1183",
+    "author": "Raffaele Cappelli",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-07-08",
+    "@key": "homepages/31/7136",
+    "author": "Alexandre Wetzel",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3380",
+    "author": "Richard Peter Weistroffer",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5783",
+    "author": "A. Schmid",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6880",
+    "author": "Takeo Matsuki",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-05-19",
+    "@key": "homepages/31/11373",
+    "author": "Ajiboye S. Osunleke",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-01-03",
+    "@key": "homepages/31/10683",
+    "author": "Alina Haack",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5007",
+    "author": "Behnam Sharif",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6830",
+    "author": "Partha Sampath",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6061",
+    "author": "Christian Grimm",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/498",
+    "author": "Sebastiana Minore",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-12-04",
+    "@key": "homepages/31/8789",
+    "author": "Takashi Ohe",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2412",
+    "author": "Yoshikatsu Fujita",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4140",
+    "author": "Albaha Barqawi",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-09-30",
+    "@key": "homepages/31/10256",
+    "author": "Daniel Gidoin",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1051",
+    "author": "Andrew G. Salinger",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2488",
+    "author": "Douglas T. Ross",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-05-01",
+    "@key": "homepages/31/11264",
+    "author": "Sebastian Lohse",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-09-03",
+    "@key": "homepages/31/891-2",
+    "author": "Peng Cui 0002",
+    "title": "Home Page",
+    "note": [
+        {
+            "@type": "uname",
+            "#text": "\u5d14\u8283"
+        },
+        {
+            "@type": "affiliation",
+            "#text": "Northwestern Polytechnical University, School of Marine Science and Technology, Xi'an, China"
+        }
+    ],
+    "url": "https://orcid.org/0000-0001-9168-170X"
+},{
+    "@mdate": "2012-01-09",
+    "@key": "homepages/31/10710",
+    "author": "Michiel van Elzakker",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-05-06",
+    "@key": "homepages/31/8056",
+    "author": "Hank Liao",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/710",
+    "author": "Batrice Fuchs",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-09-14",
+    "@key": "homepages/31/10116",
+    "author": "Houng-Yi Li",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5412",
+    "author": "Roland Jesse",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1848",
+    "author": "Jianglong Xu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1346",
+    "author": "Eirik rsand",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-03-10",
+    "@key": "homepages/31/7903",
+    "author": "Steven Bleisten",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-11",
+    "@key": "homepages/31/9258",
+    "author": "Mark Langley",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-16",
+    "@key": "homepages/31/9283",
+    "author": "Changchen Guo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6405",
+    "author": "David Prill",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-12-23",
+    "@key": "homepages/31/8883",
+    "author": "Jonathan H. Newman",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/914",
+    "author": "James D. Disbrow",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6035",
+    "author": "Laurence Rideau",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-06-01",
+    "@key": "homepages/31/11474",
+    "author": "Hojat Dehnavi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4296",
+    "author": "C. J. McInnes",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/647",
+    "author": "Marcia Zangrilli",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-05-16",
+    "@key": "homepages/31/9573",
+    "author": "Paul Dardeau",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-01-01",
+    "@key": "homepages/31/7660",
+    "author": "G. SriRamGanesh",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1961",
+    "author": "Chyi-Tian Chiou",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6382",
+    "author": "G. Neu",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-22",
+    "@key": "homepages/31/9776",
+    "author": "Ashish Tapdiya",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1086",
+    "author": "Kum Kum Dewan",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-02-15",
+    "@key": "homepages/31/5809",
+    "author": "Wilhelm Schfer",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of Paderborn, Heinz Nixdorf Institut, Germany"
+    },
+    "url": [
+        "https://mathgenealogy.org/id.php?id=26061",
+        "https://www.wikidata.org/entity/Q2575046",
+        "https://id.loc.gov/authorities/names/n91052588",
+        "https://d-nb.info/gnd/122222776"
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2843",
+    "author": "Seungjun Shin",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6793",
+    "author": "Evgeni P. Gusev",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3028",
+    "author": "N. Rajarathnam",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6468",
+    "author": "Shairaj Shaik",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6425",
+    "author": "Ulf Sundin",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-11-28",
+    "@key": "homepages/31/10528",
+    "author": "Lih-Heng Chan",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-08-04",
+    "@key": "homepages/31/9896",
+    "author": [
+        "William Philpot",
+        "William D. Philpot"
+    ],
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Cornell University, Department of Civil and Environmental Engineering, Ithaca, NY, USA"
+    },
+    "url": [
+        "https://scholar.google.com/citations?user=LK9ltUkAAAAJ",
+        "https://orcid.org/0000-0002-5283-4774",
+        "https://www.wikidata.org/entity/Q83898949"
+    ]
+},{
+    "@mdate": "2011-02-14",
+    "@key": "homepages/31/9119",
+    "author": "Amit Kumar Maity",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-09-23",
+    "@key": "homepages/31/10190",
+    "author": "Gaowa",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1697",
+    "author": "Vesna Dragcevic",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-03-22",
+    "@key": "homepages/31/11103",
+    "author": "Andrew Ziegler",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-08",
+    "@key": "homepages/31/31",
+    "author": "Georg Georgakos",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-14",
+    "@key": "homepages/31/9727",
+    "author": "Anthony L. Clapes",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4831",
+    "author": "Jochen Kirschner",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-01-18",
+    "@key": "homepages/31/7747",
+    "author": "John Kua",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-01-08",
+    "@key": "homepages/31/7704",
+    "author": "Shanchao Yang",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5440",
+    "author": "Esa Tuomaala",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-10-21",
+    "@key": "homepages/31/9297",
+    "author": "Concepcin Arenas",
+    "title": "Home Page",
+    "url": [
+        "https://mathgenealogy.org/id.php?id=94474",
+        "https://orcid.org/0000-0002-6489-4934",
+        "https://www.wikidata.org/entity/Q41581645",
+        "https://www.researcherid.com/rid/H-5579-2015"
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/360",
+    "author": "Georg Duftschmid",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1641",
+    "author": "Shinzo Doi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2121",
+    "author": "Werner Born",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-18",
+    "@key": "homepages/31/11160",
+    "author": "Fabien Sartor",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4589",
+    "author": "Anne C. Morel",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6014",
+    "author": "Nigel J. T. Thomas",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-09-02",
+    "@key": "homepages/31/8407",
+    "author": "Jianxin Xing",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-10-19",
+    "@key": "homepages/31/10286",
+    "author": "Anant Singh",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-02-27",
+    "@key": "homepages/31/9211",
+    "author": "Giovanni Molica Bisci",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3011",
+    "author": "Tapan Khopkar",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3452",
+    "author": "Katsuyuki Tanaka",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2033",
+    "author": "K. J. Scott",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3893",
+    "author": "L. Tong",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3486",
+    "author": "Rose Mary Juliano Longo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6406",
+    "author": "Changwook Yoon",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-10-18",
+    "@key": "homepages/31/5403",
+    "author": "Miguel A. Vilar",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-07-01",
+    "@key": "homepages/31/8244",
+    "author": "Phillip Heidegger",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2982",
+    "author": "Oyindamola Abass",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1092",
+    "author": "Ambuj Mahanti",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-08-20",
+    "@key": "homepages/31/7220",
+    "author": "Tobias Hann",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1800",
+    "author": "K. Huang",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-02-24",
+    "@key": "homepages/31/10122",
+    "author": [
+        "Manmath Narayan Sahoo",
+        "Manmath Narayanan Sahoo"
+    ],
+    "title": "Home Page",
+    "url": [
+        "https://www.nitrkl.ac.in/FProfile.aspx?sahoom",
+        "https://orcid.org/0000-0003-2502-1767"
+    ]
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6285",
+    "author": "Akihisa Ohta",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2447",
+    "author": "Josef Sprinzak",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-04-12",
+    "@key": "homepages/31/9419",
+    "author": "Jochen Laser",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1599",
+    "author": "Menzo Windhouwer",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2831",
+    "author": "Christos J. Emmanouilides",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5203",
+    "author": "Hamed Peyravi",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-09-04",
+    "@key": "homepages/31/4484-7",
+    "author": "Sachin Kumar 0007",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of Maryland, College Park, MD, USA"
+    }
+},{
+    "@mdate": "2020-08-04",
+    "@key": "homepages/31/8452",
+    "author": "Hannes Schlieter",
+    "title": "Home Page",
+    "url": [
+        "https://orcid.org/0000-0002-6513-9017",
+        "https://www.wikidata.org/entity/Q90412118"
+    ]
+},{
+    "@mdate": "2012-05-25",
+    "@key": "homepages/31/11434",
+    "author": "Carl Dale",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3362",
+    "author": "Gerhard Mitterlechner",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-08-19",
+    "@key": "homepages/31/7854",
+    "author": "Etienne Emmrich",
+    "title": "Home Page",
+    "url": "https://www.wikidata.org/entity/Q102267571"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4301",
+    "author": "Bahador Nooraei B.",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4508",
+    "author": "Elaine Larson",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5680",
+    "author": "Doug Josephson",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/497",
+    "author": "Patrick Neukomm",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4631",
+    "author": "Mohammad Nejad Sedaghat",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5646",
+    "author": "Ben Suter",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-07-02",
+    "@key": "homepages/31/7122",
+    "author": "Maryam Nastar",
+    "title": "Home Page"
+},{
+    "@mdate": "2016-11-16",
+    "@key": "homepages/31/442-1",
+    "author": "Christopher P. Lee 0001",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Georgia Institute of Technology, Atlanta, GA, USA"
+    }
+},{
+    "@mdate": "2012-01-05",
+    "@key": "homepages/31/10702",
+    "author": "Stefano Saladino",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5452",
+    "author": "Seung-Hye Jang",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-11-09",
+    "@key": "homepages/31/10413",
+    "author": "Saumyakant Padhee",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-09-23",
+    "@key": "homepages/31/7373",
+    "author": "Katsuhiro Tashiro",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-07-06",
+    "@key": "homepages/31/9053",
+    "author": "Michael D. Makowsky",
+    "title": "Home Page",
+    "url": [
+        "http://www.michaelmakowsky.com/",
+        "https://twitter.com/mikemakowsky"
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2515",
+    "author": "Tongxiao \"Catherine\" Zhang",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1454",
+    "author": "Philippe Naveau",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5334",
+    "author": "Yoshitaka Tsukiji",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5481",
+    "author": "Abd. Aziz bin K. Abdul Hamid",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-01-16",
+    "@key": "homepages/31/8994",
+    "author": "Songxue Cui",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/932",
+    "author": "Luis Marco Cceres Alvarez",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-01-16",
+    "@key": "homepages/31/8990",
+    "author": "Eric J. Jensen",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-04-27",
+    "@key": "homepages/31/6847",
+    "@publtype": "disambiguation",
+    "author": "Quang Nguyen",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-03-03",
+    "@key": "homepages/31/7873",
+    "author": "C. Pinho",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-08-21",
+    "@key": "homepages/31/7234",
+    "author": "Takako Mochizuki",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-10-02",
+    "@key": "homepages/31/7412",
+    "author": "Catalin Anghel",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3678",
+    "author": "Mohaddeseh Nosratighods",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-11-04",
+    "@key": "homepages/31/10384",
+    "author": "Guillaume Lajoie",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-27",
+    "@key": "homepages/31/11252",
+    "author": "Adrian Duong",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1316",
+    "author": "Shangyu Ye",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6246",
+    "author": "I. Soner Yildirim",
+    "title": "Home Page"
+},{
+    "@mdate": "2019-11-08",
+    "@key": "homepages/31/5055",
+    "author": "Jules M. Pieters",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3439",
+    "author": "Shigeo Wada",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5065",
+    "author": "Chris McNorgan",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-01-20",
+    "@key": "homepages/31/4175",
+    "author": [
+        "Alexander A. Morgan",
+        "Alex Morgan 0001"
+    ],
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Stanford University, CA, USA"
+    }
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/747",
+    "author": "Deepak Bandyopadhyay",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6026",
+    "author": "Steffen Iredi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3289",
+    "author": "D. Glozic",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-05-06",
+    "@key": "homepages/31/8055",
+    "author": "Abdelkader Oukaci",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-08-19",
+    "@key": "homepages/31/8353",
+    "author": "Wenbin Zuo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5544",
+    "author": "Suhas Nayak",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4189",
+    "author": "Dominic Sterland",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-01-28",
+    "@key": "homepages/31/2088-16",
+    "author": "Lu Liu 0016",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Center for Assessment and Development Research of Real Estate, Shenzhen, China"
+    },
+    "url": "https://orcid.org/0000-0003-0145-4189"
+},{
+    "@mdate": "2012-05-16",
+    "@key": "homepages/31/11360",
+    "author": "Sven Christiani",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-03-10",
+    "@key": "homepages/31/3623",
+    "author": "Lasse Lensu",
+    "title": "Home Page",
+    "url": "https://orcid.org/0000-0002-7691-121X"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5109",
+    "author": "Abu Ahmed Ferdaus",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2801",
+    "author": "Rita Mannss",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-02-22",
+    "@key": "homepages/31/9178",
+    "author": "Dolores Muoz",
+    "title": "Home Page"
+},{
+    "@mdate": "2019-05-23",
+    "@key": "homepages/31/4705",
+    "author": [
+        "Dace Apshvalka",
+        "Dace Apsvalka"
+    ],
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of Cambridge, UK"
+    },
+    "url": [
+        "https://orcid.org/0000-0002-5618-8108",
+        "https://www.wikidata.org/entity/Q63931096"
+    ]
+},{
+    "@mdate": "2012-01-30",
+    "@key": "homepages/31/10817",
+    "author": "Sava Stakic",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-08-11",
+    "@key": "homepages/31/8323",
+    "author": "Sebastian Boppel",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-08-05",
+    "@key": "homepages/31/9913",
+    "author": "Claire Maraldi",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-02-09",
+    "@key": "homepages/31/9093",
+    "author": "Agustin A. Irizarry-Rivera",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5047",
+    "author": "Oscar Solano Jimenez",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5795",
+    "author": "Alair Dias Jr.",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-05-09",
+    "@key": "homepages/31/11325",
+    "author": "Sascha Alpers",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-10-22",
+    "@key": "homepages/31/1970-1",
+    "author": "Yan Ma 0001",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Chinese Academy of Sciences, Institute of Remote Sensing and Digital Earth, China"
+    }
+},{
+    "@mdate": "2009-12-06",
+    "@key": "homepages/31/7585",
+    "author": "Kedar Aras",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1368",
+    "author": "Yijiang Chen",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-02",
+    "@key": "homepages/31/10834",
+    "author": "Wenjun Lin",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-04-15",
+    "@key": "homepages/31/4876",
+    "author": "Robin Langerak",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-04-06",
+    "@key": "homepages/31/1689",
+    "author": "Chellury Ram Sastry",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4376",
+    "author": "Gary Delp",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4126",
+    "author": "Karsten Ottenberg",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3035",
+    "author": "Fengjie Li",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-01-09",
+    "@key": "homepages/31/10709",
+    "author": "S. V. Sinitsyn",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-11-16",
+    "@key": "homepages/31/7533",
+    "author": "Deepak Iyengar",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-06-22",
+    "@key": "homepages/31/3603",
+    "author": [
+        "Sisira Weeratunga",
+        "Sisira K. Weeratunga"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2012-05-30",
+    "@key": "homepages/31/11448",
+    "author": "Nadiya Omelchenko",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3720",
+    "author": "C. Vasconcelos",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5637",
+    "author": "Guoqian Sun",
+    "title": "Home Page"
+},{
+    "@mdate": "2017-02-24",
+    "@key": "homepages/31/6149-3",
+    "author": "Eunkyung Kim 0003",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of Wisconsin-Madison, USA"
+    }
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3463",
+    "author": "Ernest Jordan",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2358",
+    "author": "Jos M. Bravo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6259",
+    "author": "Robert Collier",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-01-15",
+    "@key": "homepages/31/3845-3",
+    "author": "Yinghui Zhang 0003",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Inner Mongolia University, Hohhot, China"
+    },
+    "url": [
+        "https://orcid.org/0000-0002-7295-3738",
+        "https://orcid.org/0000-0002-6105-0664",
+        "https://orcid.org/0000-0003-4752-9692"
+    ]
+},{
+    "@mdate": "2012-03-23",
+    "@key": "homepages/31/11106",
+    "author": "Jason T. Parker",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/572",
+    "author": "Xianyi Zeng",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-11-27",
+    "@key": "homepages/31/10523",
+    "author": "Dezheng Liu",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-11-02",
+    "@key": "homepages/31/8653",
+    "author": "Domagoj Vrgoc",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3920",
+    "author": "Rex Kho",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-09-03",
+    "@key": "homepages/31/7955",
+    "author": "Tae-Sub Kim",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4522",
+    "author": "Heekyoung Seo",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-01",
+    "@key": "homepages/31/10830",
+    "author": "Giovanni Scrofani",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3113",
+    "author": "Elvia Martinez Viveros",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-05-17",
+    "@key": "homepages/31/8083",
+    "author": "Miaobo Dong",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4087",
+    "author": "Sara Franks",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-04-20",
+    "@key": "homepages/31/7995",
+    "author": "Anjan K. Chandra",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6899",
+    "author": "Tatiana Glotova",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-12-08",
+    "@key": "homepages/31/10582",
+    "author": "Che-Ting Kuo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4712",
+    "author": "Choong Yong Ung",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-11-17",
+    "@key": "homepages/31/8716",
+    "author": "Saskia Trump",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4054",
+    "author": "Miguel Moreira",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3492",
+    "author": "Koo-Chul Lee",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-09",
+    "@key": "homepages/31/2993",
+    "author": [
+        "Nimbe L. Ewald",
+        "Nimbe L. Ewald-Arostegui"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-08",
+    "@key": "homepages/31/134",
+    "author": "D. Stuart Ritchie",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2263",
+    "author": "Matteo Pugassi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/544",
+    "author": "Ezzat Shaddad",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-08",
+    "@key": "homepages/31/171",
+    "author": "Mitchell S. Cohen",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5155",
+    "author": "Nobuhiro Kondoh",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-09-22",
+    "@key": "homepages/31/8498",
+    "author": "Chunfang Kong",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1107",
+    "author": "Hiroyasu Kamo",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-23",
+    "@key": "homepages/31/11214",
+    "author": "Zhang Guofan",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1694",
+    "author": "Wayne B. Bradford",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3328",
+    "author": "Jorge Belenguer",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-06-09",
+    "@key": "homepages/31/8177",
+    "author": "Giovanni Manca",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-20",
+    "@key": "homepages/31/9756",
+    "author": "Paolo Valentini",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1132",
+    "author": "Garrett B. Stanley",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4674",
+    "author": "Jian-Chin Huang",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-05-08",
+    "@key": "homepages/31/11307",
+    "author": "Alice Peterson-Hart",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6863",
+    "author": "Pawan R. Vora",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1467",
+    "author": "Luca Casartelli",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-05-16",
+    "@key": "homepages/31/9576",
+    "author": "Katrina M. MacLeod",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5198",
+    "author": "Yakov I. Fet",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-27",
+    "@key": "homepages/31/10938",
+    "author": "Ryan Park",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1826",
+    "author": "Urs Anliker",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5784",
+    "author": "Sarah Rigsbee",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-04-23",
+    "@key": "homepages/31/8005",
+    "author": "Yongwei Nie",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/680",
+    "author": "David L. Majette",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-11-20",
+    "@key": "homepages/31/7550",
+    "author": "Jeff Bach",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6424",
+    "author": "Esbold Unurkhaan",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5570",
+    "author": "Cheol Park",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-10",
+    "@key": "homepages/31/10879",
+    "author": "Andreas Soyland",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-03-09",
+    "@key": "homepages/31/11047",
+    "author": "Fredrik Wahlberg",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-08-05",
+    "@key": "homepages/31/9904",
+    "author": "Karan Jumani",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2202",
+    "author": "Walter Schfer",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1558",
+    "author": "Peter McWilliams",
+    "title": "Home Page"
+},{
+    "@mdate": "2016-04-08",
+    "@key": "homepages/31/8315",
+    "author": [
+        "Abhradeep Thakurta",
+        "Abhradeep Guha Thakurta"
+    ],
+    "title": "Home Page",
+    "url": "https://sites.google.com/site/guhathakurtaabhradeep/",
+    "note": [
+        {
+            "@type": "affiliation",
+            "#text": "Microsoft Research Silicon Valley"
+        },
+        {
+            "@type": "affiliation",
+            "#text": "Pennsylvania State University, Computer Science and Engineering Department"
+        }
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/323",
+    "author": "Staffan Brege",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5988",
+    "author": "Thyagaraj Thanalapati",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2981",
+    "author": "Sameer Prabhu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1615",
+    "author": "Markus Wlchli",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1018",
+    "author": "Alexander Broersen",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-05-31",
+    "@key": "homepages/31/11454",
+    "author": "Katerina Mavrou",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4921",
+    "author": "Frdric Servais",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-09-09",
+    "@key": "homepages/31/7294",
+    "author": "Yi-Ning Yu",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-02-04",
+    "@key": "homepages/31/9073",
+    "author": "Pedro Miguel Romero-Fernndez",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6474",
+    "author": "Linda M. Ottenstein",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/733",
+    "author": "Xiangsheng Fu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5027",
+    "author": "Gert Gromann",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4532",
+    "author": "Thomas Klapiscak",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-02-16",
+    "@key": "homepages/31/7838",
+    "author": "Fu Mei-chen",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-09-28",
+    "@key": "homepages/31/8556",
+    "author": "Carsten Jentsch",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3853",
+    "author": "Huann-Sheng Chen",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2590",
+    "author": "Mahito Fujii",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-08",
+    "@key": "homepages/31/143",
+    "author": "Kouhei Asano",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2401",
+    "author": "Magdalena Turowska",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-17",
+    "@key": "homepages/31/5307",
+    "author": "Marta Anna Krajewska",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-01-16",
+    "@key": "homepages/31/9410",
+    "author": [
+        "Ani Shabri",
+        "Ani Shabri Ilman"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/930",
+    "author": "Hartmut Stolte",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-01-24",
+    "@key": "homepages/31/7780",
+    "author": "Haitao Na",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-12-20",
+    "@key": "homepages/31/10645",
+    "author": "Haiming Zhou",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1441",
+    "author": "DeePak Nager",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5174",
+    "author": "Matthew C. Schnaidt",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5232",
+    "author": "Michal Andrlk",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-07-24",
+    "@key": "homepages/31/6374",
+    "author": "Gabor Kecskemeti",
+    "title": "Home Page",
+    "url": [
+        "https://dl.acm.org/profile/81344492820",
+        "https://orcid.org/0000-0001-5716-8857",
+        "https://www.wikidata.org/entity/Q58809411"
+    ]
+},{
+    "@mdate": "2012-03-01",
+    "@key": "homepages/31/10967",
+    "author": "Alexander Guralnik",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4928",
+    "author": "Lucia Fraboni",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-12-18",
+    "@key": "homepages/31/7626",
+    "author": "Jun Chang",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6378",
+    "author": "Xin-Lun Zhou",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4112",
+    "author": "Wu Liu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2467",
+    "author": "SungWoo Kang",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-05-27",
+    "@key": "homepages/31/129",
+    "author": "Vladimr Smutn",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Czech Technical University in Prague, Czech Republic"
+    },
+    "url": [
+        "https://orcid.org/0000-0002-9692-8908",
+        "https://www.wikidata.org/entity/Q95084919"
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3187",
+    "author": "Bruno Barroso",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-08",
+    "@key": "homepages/31/17",
+    "author": "Geetha Manjunath",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-03-24",
+    "@key": "homepages/31/7963",
+    "author": "Michael Urmann",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-04-28",
+    "@key": "homepages/31/10762",
+    "author": "Hasan Shahid Ferdous",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of Melbourne, School of Computing and Information Systems, Australia"
+    },
+    "url": [
+        "http://www.hsferdous.net/",
+        "https://scholar.google.com/citations?user=4qAaOGIAAAAJ",
+        "https://dl.acm.org/profile/81467669958"
+    ]
+},{
+    "@mdate": "2012-01-02",
+    "@key": "homepages/31/10681",
+    "author": "Nancy Hayes",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4475",
+    "author": "Kevin Shendo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/482",
+    "author": "Cosmin Mihai",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-08-19",
+    "@key": "homepages/31/8348",
+    "author": "Dadong Guo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2767",
+    "author": "Moritz Steiner",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5591",
+    "author": "A. M. Romanov",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/376",
+    "author": "Timothy P. Allen",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3321",
+    "author": "N. N. Vasiliev",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-16",
+    "@key": "homepages/31/11147",
+    "author": "Kiyokazu Takagi",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-11-11",
+    "@key": "homepages/31/10436",
+    "author": "Kila Joffres",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6728",
+    "author": "Milan Fort",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5649",
+    "author": "Jiaya Jia",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-03-25",
+    "@key": "homepages/31/3668-5",
+    "author": "Geng Sun 0005",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Central South University, School of Geosciences and Info-Physics, Changsha, China"
+    }
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5897",
+    "author": "Hitoshi Kitano",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-07-12",
+    "@key": "homepages/31/9866",
+    "author": "Nguyen Tien Yet",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-06-05",
+    "@key": "homepages/31/6006",
+    "author": [
+        "Wilson W. L. Fung",
+        "Wilson Wai Lun Fung"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3865",
+    "author": "Roshan Kulkarni",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-24",
+    "@key": "homepages/31/7076",
+    "author": "Yongxi Zhang",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-05-15",
+    "@key": "homepages/31/11353",
+    "author": "Alireza Amini",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-05-06",
+    "@key": "homepages/31/6411",
+    "author": "James A. Sethian",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of California, Berkeley, USA"
+    },
+    "url": [
+        "https://math.berkeley.edu/~sethian/",
+        "https://zbmath.org/authors/?q=ai:sethian.james-a",
+        "https://mathgenealogy.org/id.php?id=31564",
+        "https://en.wikipedia.org/wiki/James_Sethian",
+        "https://www.wikidata.org/entity/Q252977",
+        "http://isni.org/isni/000000011628320X",
+        "https://viaf.org/viaf/41918816",
+        "https://id.loc.gov/authorities/names/n85804209"
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1003",
+    "author": "Patrick Fry",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-07",
+    "@key": "homepages/31/10866",
+    "author": "Arnold H. Nevis",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-29",
+    "@key": "homepages/31/10955",
+    "author": "Mageri Filali Maltouf",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5929",
+    "author": "Tarcisio Lima",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-10",
+    "@key": "homepages/31/9716",
+    "author": "Mark H. Palmer",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5611",
+    "author": "H. Gregersen",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-05-20",
+    "@key": "homepages/31/9221",
+    "author": "Joseph T. Case",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-05-20",
+    "@key": "homepages/31/4443",
+    "author": "Silvano Squizzato",
+    "title": "Home Page",
+    "url": [
+        "https://orcid.org/0000-0001-7433-0991",
+        "https://www.wikidata.org/entity/Q43088460"
+    ]
+},{
+    "@mdate": "2020-12-02",
+    "@key": "homepages/31/7978",
+    "@publtype": "disambiguation",
+    "author": "Benjamin Meyer",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-03-17",
+    "@key": "homepages/31/3137",
+    "@publtype": "disambiguation",
+    "author": [
+        "You Chen",
+        "Chen You"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2049",
+    "author": "Fumiyasu Utsunomiya",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-09-29",
+    "@key": "homepages/31/7397",
+    "author": "Mohamed Louizi",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-08-30",
+    "@key": "homepages/31/10027",
+    "author": "Mikael Bjrkbom",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-01-11",
+    "@key": "homepages/31/7707",
+    "author": "Buhle Mbambo",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-05-20",
+    "@key": "homepages/31/4951-2",
+    "author": "Cristian Martn 0002",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of Mlaga, Department of Languages and Computer Science, Spain"
+    },
+    "url": [
+        "http://www.lcc.uma.es/~cmf/",
+        "https://scholar.google.com/citations?user=ZqCrYqoAAAAJ",
+        "https://github.com/cmfuma",
+        "https://orcid.org/0000-0003-0988-591X",
+        "https://www.wikidata.org/entity/Q88492386"
+    ]
+},{
+    "@mdate": "2010-10-28",
+    "@key": "homepages/31/8643",
+    "author": "Julian Hrst",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-09-29",
+    "@key": "homepages/31/8560",
+    "author": "Amir Abbas Rafati",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5026",
+    "author": "Marleen H. Schut",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/609",
+    "author": "P. J. Kearney",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-02-15",
+    "@key": "homepages/31/739",
+    "author": "Louis-Philippe Morency",
+    "title": "Home Page",
+    "url": [
+        "https://www.cs.cmu.edu/~morency/",
+        "https://scholar.google.com/citations?user=APgaFK0AAAAJ",
+        "https://mathgenealogy.org/id.php?id=259459",
+        "https://en.wikipedia.org/wiki/Louis-Philippe_Morency",
+        "https://orcid.org/0000-0001-6376-7696",
+        "https://www.wikidata.org/entity/Q6686513"
+    ],
+    "note": {
+        "@type": "affiliation",
+        "#text": "Carnegie Mellon University"
+    }
+},{
+    "@mdate": "2011-06-17",
+    "@key": "homepages/31/9742",
+    "author": "Reza F. Mostafavi",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-03-01",
+    "@key": "homepages/31/9965",
+    "@publtype": "disambiguation",
+    "author": [
+        "HongZhe Jin",
+        "Hongzhe Jin"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2010-03-08",
+    "@key": "homepages/31/7896",
+    "author": "Girish Mallapragada",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-20",
+    "@key": "homepages/31/11195",
+    "author": "Jorge Afonso Cardoso Landeck",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4051",
+    "author": "Vasile Gaburici",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-04-04",
+    "@key": "homepages/31/9371",
+    "author": "Binyuan Chen",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-24",
+    "@key": "homepages/31/10934",
+    "author": "Kenneth G. Crowther",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5236",
+    "author": "Marcel Kunze",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-20",
+    "@key": "homepages/31/9767",
+    "author": "Nidheesh Melethadathil",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6626",
+    "author": "Yehia M. Enab",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1358",
+    "author": "Jean Olivier Caron",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1001",
+    "author": "Girish Chavan",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-03-06",
+    "@key": "homepages/31/11012",
+    "author": "Gordon Botha",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-03-24",
+    "@key": "homepages/31/10992",
+    "author": "Maurizio De Pitt",
+    "title": "Home Page",
+    "url": [
+        "https://scholar.google.com/citations?user=Co2I2V0AAAAJ",
+        "https://twitter.com/m_depitta",
+        "https://orcid.org/0000-0001-5799-5182",
+        "https://www.wikidata.org/entity/Q41049147"
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/770",
+    "author": "Sebastiano Russo",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-08-10",
+    "@key": "homepages/31/9935",
+    "author": "Simon Speich",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-04-05",
+    "@key": "homepages/31/9382",
+    "author": "Daniel Siddiqi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3753",
+    "author": "Iris Hser",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2912",
+    "author": "Hairong Jin",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-25",
+    "@key": "homepages/31/11231",
+    "author": "Frank Kutyna",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-01-13",
+    "@key": "homepages/31/10740",
+    "author": "Christina Schilling",
+    "title": "Home Page"
+},{
+    "@mdate": "2021-11-11",
+    "@key": "homepages/31/9622",
+    "author": "Thomas Leduc",
+    "title": "Home Page",
+    "url": "https://orcid.org/0000-0002-5728-9787"
+},{
+    "@mdate": "2019-11-22",
+    "@key": "homepages/31/4398",
+    "author": "Lus M. B. Lopes",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University of Porto, Portugal"
+    },
+    "url": [
+        "http://www.dcc.fc.up.pt/~lblopes/",
+        "https://orcid.org/0000-0001-8273-1357",
+        "https://www.wikidata.org/entity/Q60395059"
+    ]
+},{
+    "@mdate": "2011-06-06",
+    "@key": "homepages/31/9683",
+    "author": "Elizabeth Ellcessor",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/857",
+    "author": "S. M. Kutsenko",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-01-19",
+    "@key": "homepages/31/10773",
+    "author": "Laurent Issertial",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6841",
+    "author": "Fred W. Giesin Jr.",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2153",
+    "author": "Phil Seaver",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3366",
+    "author": "Mauricio Radovan",
+    "title": "Home Page"
+},{
+    "@mdate": "2013-12-29",
+    "@key": "homepages/31/11396",
+    "author": "Alexandra Reichenbach",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-03-29",
+    "@key": "homepages/31/8155",
+    "author": "Francesca D'Errico",
+    "title": "Home Page",
+    "url": [
+        "https://scholar.google.com/citations?user=7C-FC20AAAAJ",
+        "https://orcid.org/0000-0002-8957-665X",
+        "https://www.wikidata.org/entity/Q47974443"
+    ]
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1991",
+    "author": "Alison U. Smart",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3746",
+    "author": "Chao-Jun Lu",
+    "title": "Home Page"
+},{
+    "@mdate": "2019-08-10",
+    "@key": "homepages/31/11041",
+    "@publtype": "disambiguation",
+    "author": "Xiaolin Zhu",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-02",
+    "@key": "homepages/31/9236",
+    "author": "Maeva Garnier",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5249",
+    "author": "Shigeru Yoshida",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/383",
+    "author": "Erich Reimberg",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-02-10",
+    "@key": "homepages/31/7827",
+    "author": "Pitch Sajjipanon",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-05-13",
+    "@key": "homepages/31/9563",
+    "author": "Livio Gianfrani",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1983",
+    "author": "Manohar Rajan",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/661",
+    "author": "Alejandro Vega Salinas",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-03-06",
+    "@key": "homepages/31/11024",
+    "author": "Y.-C. Joo",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3560",
+    "author": "Youcef Rahal",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1517",
+    "author": "Philippe Poinot",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4108",
+    "author": "J. P. Huot",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5091",
+    "author": "Georg Enislidis",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5056",
+    "author": "Jess Ayala Corts",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-09-24",
+    "@key": "homepages/31/8516",
+    "author": "G. Gobsch",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-18",
+    "@key": "homepages/31/11184",
+    "author": "Yasuhiro Nakajima",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1520",
+    "author": "Renato C. Torres",
+    "title": "Home Page"
+},{
+    "@mdate": "2015-11-15",
+    "@key": "homepages/31/5691",
+    "author": [
+        "H. Donald Gage",
+        "Howard D. Gage",
+        "Howard Donald Gage"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6926",
+    "author": "Brad Smith",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-12-21",
+    "@key": "homepages/31/7635",
+    "author": "Yu Ke Guang",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-30",
+    "@key": "homepages/31/9357",
+    "author": "Ximena Cerda",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6173",
+    "author": "Bozena Swirska",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/508",
+    "author": "Robert Neumayer",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6622",
+    "author": "Judi Thomson",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1416",
+    "author": "Chiun-Li Chin",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-12-23",
+    "@key": "homepages/31/10652",
+    "author": "William Mallett",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3594",
+    "author": "Michael Sengpiel",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-09-14",
+    "@key": "homepages/31/10112",
+    "author": "Jia-Yuan Gu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6780",
+    "author": "John Lakoumentas",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6619",
+    "author": "Chaiban G. Nasr",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4154",
+    "author": "John Wagster",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-07-06",
+    "@key": "homepages/31/9841",
+    "author": "Aldo Cassola",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-04-23",
+    "@key": "homepages/31/9720",
+    "author": "Navid Izady",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-10-12",
+    "@key": "homepages/31/7433",
+    "author": "Yuxiang Mao",
+    "title": "Home Page"
+},{
+    "@mdate": "2016-09-27",
+    "@key": "homepages/31/3680",
+    "author": "Jean-Marc Vanden-Broeck",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "University College London, UK"
+    },
+    "url": "https://iris.ucl.ac.uk/iris/browse/profile?upi=JVAND65"
+},{
+    "@mdate": "2011-06-29",
+    "@key": "homepages/31/9815",
+    "author": "L. C. Ruspini",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-03-04",
+    "@key": "homepages/31/7884",
+    "author": "Pushkar Gupta",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2211",
+    "author": "George Sandison",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6809",
+    "author": "Phi-Hung Pham",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3043",
+    "author": "P. Zdenek",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3103",
+    "author": "Daqi Li",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6297",
+    "author": "Pradip Bepari",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6430",
+    "author": "Frantisek Denk",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/423",
+    "author": "Peter Rappelsberger",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-06-08",
+    "@key": "homepages/31/8176",
+    "author": "Chien-Chih Chan",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-10-30",
+    "@key": "homepages/31/7473",
+    "author": "Ashish Nandan Lal",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5952",
+    "author": "Karl F. Freed",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4989",
+    "author": "Emerson C. Colin",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1147",
+    "author": "Sharath Rajasekar",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-05-02",
+    "@key": "homepages/31/9507",
+    "author": "Sara Ahmadian",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-08",
+    "@key": "homepages/31/44",
+    "author": "Emmitt R. Jolly",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-02-15",
+    "@key": "homepages/31/6647",
+    "author": "Susan L. Graham",
+    "title": "Home Page",
+    "url": [
+        "https://people.eecs.berkeley.edu/~graham/",
+        "https://dl.acm.org/profile/81452606376",
+        "https://zbmath.org/authors/?q=ai:graham.susan-l",
+        "https://mathgenealogy.org/id.php?id=22787",
+        "https://en.wikipedia.org/wiki/Susan_L._Graham",
+        "https://www.wikidata.org/entity/Q11612",
+        "http://isni.org/isni/0000000084244272",
+        "https://viaf.org/viaf/8775523",
+        "https://id.loc.gov/authorities/names/n84003232",
+        "https://d-nb.info/gnd/1202849318",
+        "http://awards.acm.org/award_winners/graham_1043579"
+    ],
+    "note": [
+        {
+            "@type": "affiliation",
+            "#text": "University of California at Berkeley"
+        },
+        {
+            "@label": "2009",
+            "@type": "award",
+            "#text": "IEEE John von Neumann Medal"
+        },
+        {
+            "@label": "2006",
+            "@type": "award",
+            "#text": "ACM Distinguished Service Award"
+        }
+    ]
+},{
+    "@mdate": "2011-02-17",
+    "@key": "homepages/31/9137",
+    "author": "Christian Dahlstrand",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5543",
+    "author": "R. Lerch",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4103",
+    "author": "R. Bartalesi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1771",
+    "author": "Chun-Ping Chang",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-02-02",
+    "@key": "homepages/31/10837",
+    "author": "Minshun Wu",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-14",
+    "@key": "homepages/31/9273",
+    "author": "Birgit Wllbrink",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5590",
+    "author": "Vu Anh Nguyen",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3285",
+    "author": "Richard Faerber",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-10-27",
+    "@key": "homepages/31/8634",
+    "author": "Mahmood Deypir",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4003",
+    "author": "Julio C. D. Conway",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2743",
+    "author": "Ira R. Forman",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-01-14",
+    "@key": "homepages/31/7732",
+    "author": "Francisco J. Quiros",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5081",
+    "author": "Thomas W. Fox",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4881",
+    "author": "Chi-Hsien Liu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3861",
+    "author": "Manas Srivastava",
+    "title": "Home Page"
+},{
+    "@mdate": "2013-06-03",
+    "@key": "homepages/31/1885",
+    "author": [
+        "Andrs Ortiz",
+        "Andrs Ortiz Garca"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1371",
+    "author": "Ljubomir Perkovic",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3936",
+    "author": "Andrew Leung",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2004",
+    "author": "Ping Zhuang",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-12-13",
+    "@key": "homepages/31/8832",
+    "author": "Kathy L. Phillips",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-12-23",
+    "@key": "homepages/31/10653",
+    "author": "George D. O'Clock",
+    "title": "Home Page"
+},{
+    "@mdate": "2019-06-30",
+    "@key": "homepages/31/3478",
+    "@publtype": "disambiguation",
+    "author": "M. Wagner",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/7041",
+    "author": "Kok Seng Chua",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-12-13",
+    "@key": "homepages/31/8838",
+    "author": "Gourav Sarkar",
+    "title": "Home Page"
+},{
+    "@mdate": "2015-06-26",
+    "@key": "homepages/31/6412",
+    "author": [
+        "Xue Zhong Wang",
+        "Xue Z. Wang"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3007",
+    "author": "Daniel Stern",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6003",
+    "author": "Tae-Gun Jeong",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-08-07",
+    "@key": "homepages/31/4238",
+    "author": [
+        "Dimitris Geneiatakis",
+        "Dimitrios Geneiatakis"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4976",
+    "author": "C. Quagliariello",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-16",
+    "@key": "homepages/31/9287",
+    "author": "An Zhou",
+    "title": "Home Page"
+},{
+    "@mdate": "2020-05-20",
+    "@key": "homepages/31/334-6",
+    "author": "Qiang Ye 0006",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "Nanjing Sport Institute, Department of Sport and Health Science, China"
+    },
+    "url": [
+        "https://orcid.org/0000-0003-3027-6932",
+        "https://www.wikidata.org/entity/Q86590309",
+        "https://www.scopus.com/authid/detail.uri?authorId=56658236900"
+    ]
+},{
+    "@mdate": "2011-10-24",
+    "@key": "homepages/31/10312",
+    "author": "Shang-Chun Lu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/880",
+    "author": "David A. Liedman",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/452",
+    "author": "Mouna Rachidi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1408",
+    "author": "Huyen Tue Dao",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-09-21",
+    "@key": "homepages/31/8479",
+    "author": "Lori Sokoll",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6336",
+    "author": "Jos Luis Pino",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-03-28",
+    "@key": "homepages/31/9336",
+    "author": "Paola Ridolfi",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-07-11",
+    "@key": "homepages/31/10646",
+    "author": "Andra Lutu",
+    "title": "Home Page",
+    "url": [
+        "https://www.simula.no/people/andra",
+        "https://scholar.google.com/citations?user=aui5i30AAAAJ"
+    ]
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3731",
+    "author": "J. P. Guerveno",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-22",
+    "@key": "homepages/31/9778",
+    "author": "Martin Stierle",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4343",
+    "author": "Holger Lang",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6343",
+    "author": "Ruby Lim",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2309",
+    "author": "Takayuki Kotani",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6034",
+    "author": "Shava Smallen",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-05-05",
+    "@key": "homepages/31/9524",
+    "author": "Fanghua Lin",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2639",
+    "author": "Roland Gasser",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/4918",
+    "author": "Yuanping Zhu",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/2296",
+    "author": "Martti Forsell",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-05-30",
+    "@key": "homepages/31/8134",
+    "author": "Benjamin James Ohran",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-06-05",
+    "@key": "homepages/31/11484",
+    "author": "P. C. S. Devara",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-04-27",
+    "@key": "homepages/31/8015",
+    "author": "Qiaozhe An",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-09-18",
+    "@key": "homepages/31/7351",
+    "author": "Joseph M. Piwowar",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-09-28",
+    "@key": "homepages/31/10217",
+    "author": "Fengyao Zhao",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6633",
+    "author": "D. K. Barclay",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-21",
+    "@key": "homepages/31/9771",
+    "author": "Moses Adebowale Akanbi",
+    "title": "Home Page"
+},{
+    "@mdate": "2010-02-26",
+    "@key": "homepages/31/7861",
+    "author": "Leila Ben Saad",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/831",
+    "author": "Satomi Kawaguchi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6874",
+    "author": "Benjamin Hoffmann",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/3530",
+    "author": "Marianne Blanco",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/6516",
+    "author": "L. K. Quinones",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-01-30",
+    "@key": "homepages/31/10819",
+    "author": "J. W. Heal",
+    "title": "Home Page"
+},{
+    "@mdate": "2013-09-27",
+    "@key": "homepages/31/10785",
+    "author": "Chris Kitts",
+    "title": "Home Page",
+    "note": {
+        "@type": "affiliation",
+        "#text": "California Polytechnic State University, San Luis Obispo, CA, USA"
+    }
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5651",
+    "author": "Matthew Jacobsen",
+    "title": "Home Page"
+},{
+    "@mdate": "2011-06-01",
+    "@key": "homepages/31/9673",
+    "author": "Maria Hnel",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-02-07",
+    "@key": "homepages/31/2741",
+    "author": "Michael J. Weise",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/1831",
+    "author": "Sua Yen Nee",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-12-14",
+    "@key": "homepages/31/7608",
+    "author": "Yuen May Chan",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-10",
+    "@key": "homepages/31/5380",
+    "author": "Tae-hyung Kim",
+    "title": "Home Page"
+},{
+    "@mdate": "2018-10-22",
+    "@key": "homepages/31/2034",
+    "author": [
+        "Aixiang Chen",
+        "Aixiang Andy Chen"
+    ],
+    "title": "Home Page"
+},{
+    "@mdate": "2009-06-09",
+    "@key": "homepages/31/3041",
+    "author": "D. Jggi",
+    "title": "Home Page"
+},{
+    "@mdate": "2009-11-04",
+    "@key": "homepages/31/7504",
+    "author": "Dexin Ding",
+    "title": "Home Page"
+},{
+    "@mdate": "2022-02-15",
+    "@key": "homepages/31/6208",
+    "author": [
+        "Anthony J. Jakeman",
+        "Tony Jakeman"
+    ],
+    "title": "Home Page",
+    "url": [
+        "http://icam.anu.edu.au/researchppl.html",
+        "https://zbmath.org/authors/?q=ai:jakeman.anthony-j",
+        "https://orcid.org/0000-0001-5282-2215",
+        "https://www.wikidata.org/entity/Q58327839",
+        "https://www.researcherid.com/rid/P-6786-2014",
+        "https://id.loc.gov/authorities/names/n93077477"
+    ],
+    "note": {
+        "@type": "affiliation",
+        "#text": "Australian National University"
+    }
+},{
+    "@mdate": "2011-02-21",
+    "@key": "homepages/31/9165",
+    "author": "Andrew Pope",
+    "title": "Home Page"
+},{
+    "@mdate": "2012-06-09",
+    "@key": "homepages/31/11500",
+    "author": "Nathan C. Dean",
+    "title": "Home Page"
+}

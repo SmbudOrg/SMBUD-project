@@ -1,0 +1,5345 @@
+{
+    "@mdate": "2021-07-17",
+    "@key": "series/faia/2005-148",
+    "author": "Kristian Kersting",
+    "title": "An Inductive Logic Programming Approach to Statistical Relational Learning",
+    "year": "2005",
+    "pages": "1-228",
+    "publisher": "IOS Press",
+    "series": {
+        "@href": "db/series/faia/index.html",
+        "#text": "Frontiers in Artificial Intelligence and Applications"
+    },
+    "volume": "148",
+    "school": "University of Freiburg, Germany",
+    "isbn": "978-1-58603-674-4",
+    "ee": [
+        "http://www.booksonline.iospress.nl/Content/View.aspx?piid=96",
+        "https://d-nb.info/983957975"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "series/ssw/Vougiouklis20",
+    "author": "Pavlos Vougiouklis",
+    "title": "Neural Generation of Textual Summaries from Knowledge Base Triples",
+    "publisher": "IOS Press",
+    "year": "2020",
+    "series": {
+        "@href": "db/series/ssw/index.html",
+        "#text": "Studies on the Semantic Web"
+    },
+    "volume": "45",
+    "pages": "1-152",
+    "school": "University of Southampton, UK",
+    "isbn": [
+        "978-1-64368-066-8",
+        "978-1-64368-067-5"
+    ],
+    "ee": [
+        "https://doi.org/10.3233/SSW200006-mono",
+        "https://d-nb.info/1210734702"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "series/lnbip/Weber09",
+    "author": {
+        "@orcid": "0000-0002-4833-5921",
+        "#text": "Ingo M. Weber"
+    },
+    "title": "Semantic Methods for Execution-level Business Process Modeling - Modeling Support Through Process Verification and Service Composition",
+    "volume": "40",
+    "year": "2009",
+    "pages": "3-231",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "publisher": "Springer",
+    "series": {
+        "@href": "db/series/lnbip/index.html",
+        "#text": "Lecture Notes in Business Information Processing"
+    },
+    "isbn": [
+        "978-3-642-05084-8",
+        "978-3-642-05085-5"
+    ],
+    "ee": [
+        "https://doi.org/10.1007/978-3-642-05085-5",
+        "https://nbn-resolving.org/urn:nbn:de:1111-20091214234",
+        "https://d-nb.info/998030961",
+        "https://d-nb.info/999067885",
+        "https://www.wikidata.org/entity/Q58196259"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0068994",
+    "author": "Ulrich Junker",
+    "title": "Relationships between assumptions.",
+    "pages": "I-VI, 1-187",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/930724283"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069997",
+    "author": "Johannes Reichardt",
+    "title": "Invarianz der Parsingeigenschaft unter Grammatikmorphismen.",
+    "pages": "1-120",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1985",
+    "ee": "https://d-nb.info/860953998"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0073843",
+    "author": "Joachim Steinbach",
+    "title": "Termination of rewriting - extensions, comparison and automatic generation of simplification orderings.",
+    "pages": "I-VIII, 1-288",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1994",
+    "ee": [
+        "http://kbibmp3.ub.uni-kl.de/Preprint_Informatik/PS/dissertation_1.ps",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:386-kluedo-712",
+        "https://d-nb.info/941908453",
+        "https://d-nb.info/956319327"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012771",
+    "author": "Robert Cori",
+    "title": "Un code pour les graphes planaires et ses applications.",
+    "school": "Univ. Paris VII",
+    "year": "1973"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0098648",
+    "author": "Christiane Stutz",
+    "title": "Anwendungsspezifische Fuzzy-Clustermethoden.",
+    "pages": "I-XII, 1-148",
+    "publisher": "Infix",
+    "school": "Technical University Munich, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "210",
+    "isbn": "978-3-89601-210-4",
+    "ee": "https://d-nb.info/957279612"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0091856",
+    "author": "Christian Scheideler",
+    "title": "Universal routing strategies.",
+    "pages": "I-X, 1-202",
+    "year": "1996",
+    "school": "University of Paderborn, Germany",
+    "ee": "https://d-nb.info/953115151"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0069992",
+    "author": "Klaus Gims",
+    "title": "Messung empirischer Verteilungen der Zwischenankunftszeit bei Seitenwechselvorgngen.",
+    "pages": "1-56",
+    "school": "TH Darmstadt",
+    "year": "1977"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0018044",
+    "author": "Stefan Kral",
+    "title": "FFT specific compilation in IBM blue gene.",
+    "pages": "1-166",
+    "school": "Technische Universitt Wien",
+    "year": "2006"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0097143",
+    "author": "Jakob Rehof",
+    "title": "The complexity of simple subtyping systems.",
+    "school": "University of Copenhagen, Denmark",
+    "year": "1998",
+    "series": "Technical report / University of Copenhagen / Datalogisk institut",
+    "volume": "98/19"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008628",
+    "author": "Ralf Hinze",
+    "title": "Projection-based strictness analysis - theoretical and practical aspects.",
+    "pages": "I-X, 1-227",
+    "school": "University of Bonn, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/946714290"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0080400",
+    "author": "Thomas Hoppe 0003",
+    "title": "Incremental partial deduction.",
+    "pages": "I-XI, 1-190",
+    "publisher": "Infix",
+    "school": "Technical University of Dortmund, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "97",
+    "isbn": "978-3-89601-097-1",
+    "ee": "https://d-nb.info/945155980"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0087091",
+    "author": "Daniel Curatolo",
+    "title": "Wissensbasierte Methoden zur effizienten Simulation fluidtechnischer Systeme.",
+    "pages": "1-140",
+    "school": "University of Paderborn, Germany",
+    "year": "1996",
+    "ee": "https://d-nb.info/950072656"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0020508",
+    "author": "Esther Kaufmann",
+    "title": "Talking to the semantic web - natural language query interfaces for casual end-users.",
+    "school": "Universitt Zurich",
+    "year": "2007"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0084473",
+    "author": "Detlef Plump",
+    "title": "Evaluation of functional expressions by hypergraph rewriting.",
+    "pages": "I-VI, 1-119",
+    "school": "University of Bremen, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/940423774"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0084322",
+    "author": "David W. Opitz",
+    "title": "An anytime approach to connectionist theory refinement - refining the topologies of knowledge-based neural networks.",
+    "pages": "I-IX, 1-137",
+    "school": "University of Wisconsin-Madison, WI, USA",
+    "year": "1995",
+    "series": "Technical Report / University of Wisconsin, Madison / Computer Sciences Department",
+    "volume": "1281"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008591",
+    "author": "Christoph Brzoska",
+    "title": "Temporal-logisches Programmieren.",
+    "pages": "I-VI, 1-172",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/943154901"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069932",
+    "author": "Hans-Detlef Schulz",
+    "title": "Zellularautomaten zur Bearbeitung der Lokal-Global-Problematik.",
+    "pages": "1-130",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1981",
+    "ee": "https://d-nb.info/830115196"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0092879",
+    "author": "Stefan Schrdl",
+    "title": "Negation as failure in explanation-based generalization.",
+    "pages": "I-XI, 1-173",
+    "publisher": "Infix",
+    "school": "University of Freiburg, Freiburg im Breisgau, Germany",
+    "year": "1998",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "181",
+    "isbn": "978-3-89601-181-7",
+    "ee": "https://d-nb.info/95328350X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0077539",
+    "author": "Bernhard Josef Kleinjohann",
+    "title": "Synthese von zeitinvarianten Hardware-Modulen.",
+    "pages": "I-V, 1-256",
+    "school": "University of Paderborn, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/943852064"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0082671",
+    "author": "Jan Depenau",
+    "title": "Automated design of neural network architecture for classification.",
+    "school": "Aarhus University, Denmark",
+    "year": "1995",
+    "series": "DAIMI PB",
+    "volume": "500"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0091611",
+    "author": "John Maraist",
+    "title": "Comparing reduction strategies in resource-conscious lambda calculi.",
+    "pages": "I-XII, 1-210",
+    "school": "Universitt Karlsruhe",
+    "year": "1997"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0071592",
+    "author": "Michael O'Docherty",
+    "title": "Multimedia information system with automatic content retrieval.",
+    "school": "University of Manchester, UK",
+    "year": "1993",
+    "series": "Technical report series",
+    "volume": "93-2-2"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081797",
+    "author": "Harald Bayer",
+    "title": "ber die Anwendung selbstorganisierender Karten.",
+    "pages": "1-269",
+    "school": "University of Stuttgart, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/946510806"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0027440",
+    "author": "Jochen Schlosser",
+    "title": "Structure-Based Virtual Screening Using Index Technology.",
+    "pages": "I-VI, 1-170",
+    "school": "University of Hamburg",
+    "year": "2010",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:101:1-201601032930",
+        "https://d-nb.info/1080764321"
+    ]
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0001594",
+    "author": "Arne John Glenstrup",
+    "title": "Terminator II - stopping partial evaluatin of fully recursive programs.",
+    "pages": "1-258",
+    "school": "University of Copenhagen, Denmark",
+    "year": "1999",
+    "series": "Technical report / University of Copenhagen / Datalogisk institut",
+    "volume": "99/8"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0033455",
+    "author": "Sascha Klement",
+    "title": "The support feature machine - an odyssey in high-dimensional spaces.",
+    "pages": "I-XI, 1-159",
+    "school": "Universitt Lbeck",
+    "year": "2013",
+    "ee": [
+        "http://www.students.informatik.uni-luebeck.de/zhb/ediss1330.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:gbv:841-20131202300",
+        "https://d-nb.info/1046751751"
+    ]
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0097073",
+    "author": "Chhandomay Mandal",
+    "title": "A dynamic framework for subdivision surfaces.",
+    "school": "University of Florida, Gainesville, FL, USA",
+    "year": "1998",
+    "series": "Technical reports / University of Florida / Department of Computer and Information Science and Engineering / CISE",
+    "volume": "98-022"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0091666",
+    "author": "Christian Mossin",
+    "title": "Flow analysis of typed higher-order programs.",
+    "school": "University of Copenhagen, Denmark",
+    "year": "1997",
+    "series": "Technical report / University of Copenhagen / Datalogisk institut",
+    "volume": "97/1"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008855",
+    "author": "Karl Josef Jacquemain",
+    "title": "Effiziente Datenstrukturen und Algorithmen fr ausgewhlte mehrdimensionale Suchprobleme.",
+    "pages": "1-156",
+    "school": "RWTH Aachen University, Germany",
+    "year": "1982",
+    "ee": "https://d-nb.info/830945636"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0084326",
+    "author": "Petronella J. van Haaften",
+    "title": "Distributed optimisation algorithms for network problems.",
+    "pages": "I-III, 1-241",
+    "school": "University Utrecht",
+    "year": "1994"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0020550",
+    "author": "Alexander Schlaefer",
+    "title": "Computer assisted planning for robotic radiosurgery.",
+    "pages": "I-X, 1-161",
+    "school": "Universitt Lbeck",
+    "year": "2007"
+},{
+    "@mdate": "2011-11-09",
+    "@key": "books/daglib/0025493",
+    "author": "Silvania Avelar",
+    "title": "Schematic Maps on Demand - Design, Modeling and Visualization.",
+    "pages": "I-X, 1-130",
+    "school": "ETH Zrich",
+    "year": "2002",
+    "ee": "http://e-collection.ethbib.ethz.ch/view/eth:25916"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012759",
+    "author": "Michle Soria",
+    "title": "Langages quasideterministes.",
+    "pages": "1-89",
+    "school": "Univ. Paris VII",
+    "year": "1978"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0072847",
+    "author": "Thomas Schreiber",
+    "title": "Analyse und Approximation von unstrukturierten Daten und Freiformflchen.",
+    "pages": "1-117",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/941050033"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0097894",
+    "author": "Stefan K. T. Kriebel",
+    "title": "A combined parametric and nonparametric approach to time series analysis - motivated by coastal upwelling prediction.",
+    "pages": "I-XII, 1-121",
+    "publisher": "Infix",
+    "school": "Technical University Munich, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "222",
+    "isbn": "978-3-89601-222-7",
+    "ee": "https://d-nb.info/956678459"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0010717",
+    "author": "Boris Hemkemeier",
+    "title": "Algorithmische Konstruktionen von Gittern.",
+    "pages": "I-III, 1-59",
+    "school": "Universitt Dortmund",
+    "year": "2003"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012756",
+    "author": "Jacques Sakarovitch",
+    "title": "Monoides syntactiques et langages algebriques.",
+    "pages": "I-XV, 1-165",
+    "school": "Univ. Paris VII",
+    "year": "1976"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0007302",
+    "author": "Christoph Peylo",
+    "title": "Wissen und Wissensvermittlung im Kontext von internetbasierten intelligenten Lehr- und Lernumgebungen.",
+    "pages": "I-XVI, 1-233",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "University of Osnabrck, Germany",
+    "year": "2002",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "257",
+    "isbn": "978-3-89838-257-1",
+    "ee": "https://d-nb.info/965303632"
+},{
+    "@mdate": "2017-03-23",
+    "@key": "books/daglib/0071527",
+    "author": "Ding-Zhu Du",
+    "title": "Generalized complexity cores and levelability of intractable sets.",
+    "pages": "I-X, 1-120",
+    "school": "University of California, Santa Barbara, CA, USA",
+    "year": "1985"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0082689",
+    "author": "Emil Sekerinski",
+    "title": "Verfeinerung in der objektorientierten Programmkonstruktion.",
+    "pages": "1-149",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/946128065"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070087",
+    "author": "Christina Liebelt",
+    "title": "Untersttzung des Entwurfs konsistenzerhaltender Datenbankanwendungsprogramme.",
+    "pages": "1-184",
+    "school": "University of Stuttgart, Germany",
+    "year": "1991",
+    "ee": "https://d-nb.info/920346626"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0070050",
+    "author": "Michael Kunze",
+    "title": "Lineare Parallelrechner.",
+    "pages": "1-223",
+    "school": "TH Darmstadt",
+    "year": "1982"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070066",
+    "author": "Bernd Schwinn",
+    "title": "RAPiD - ein Datenflumodell zur Realisierung von UND-Parallelitt und intelligentem Backtracking in Hornklausel-Programmen.",
+    "pages": "I-IV, 1-191",
+    "school": "University of Stuttgart, Germany",
+    "year": "1988",
+    "ee": "https://d-nb.info/890248664"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0084821",
+    "author": "Montserrat Hermo Huguet",
+    "title": "Nonuniform complexity classes with sub-linear advice functions.",
+    "pages": "1-156",
+    "school": "Universitt Barcelona",
+    "year": "1996"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0074893",
+    "author": "Koen Langendoen",
+    "title": "Graph reduction on shared-memory multiprocessors.",
+    "pages": "I-VII, 1-160",
+    "school": "University Amsterdam",
+    "year": "1993"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0093536",
+    "author": "Brigitte Wirtz",
+    "title": "Segmentorientierte Analyse und nichtlineare Auswertung fr die dynamische Unterschriftsverifikation.",
+    "pages": "1-102",
+    "publisher": "Infix",
+    "school": "Technical University Munich, Germany",
+    "year": "1998",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "182",
+    "isbn": "978-3-89601-182-4",
+    "ee": [
+        "https://d-nb.info/95355144X",
+        "https://d-nb.info/953868656"
+    ]
+},{
+    "@mdate": "2014-11-05",
+    "@key": "books/daglib/0034140",
+    "author": "Christian Scheffer",
+    "title": "Approximation algorithms for geometrical distance problems that are not solvable exactly.",
+    "pages": "I-X, 1-149",
+    "school": "Universitt Mnster",
+    "year": "2014"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070161",
+    "author": "Detlev Ruland",
+    "title": "Modifications and acyclic decompositions of relational database schemes.",
+    "pages": "1-133",
+    "school": "Julius Maximilians University Wrzburg, Germany",
+    "year": "1985",
+    "ee": "https://d-nb.info/850967643"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0029119",
+    "author": "Torsten Stber",
+    "title": "Multioperator Weighted Monadic Datalog.",
+    "pages": "I-VI, 1-212",
+    "school": "Universitt Dresden",
+    "year": "2011",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-68116",
+        "https://d-nb.info/1020389486",
+        "https://d-nb.info/1067188630"
+    ]
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0002644",
+    "author": "Thomas Dierkes",
+    "title": "Rekonstruktionsverfahren zur optischen Tomographie.",
+    "pages": "1-91",
+    "school": "University of Mnster, Germany",
+    "year": "2000",
+    "series": "Preprints Angewandte Mathematik und Informatik / Universitt Mnster / Angewandte Mathematik und Informatik",
+    "volume": "16/00"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069950",
+    "author": "Hinrich Brning",
+    "title": "Dynamische objektorientierte Interaktion und ihre Implementierung im Rahmen eines Schnittstellenverwaltungssystems.",
+    "pages": "1-108",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/910827796"
+},{
+    "@mdate": "2019-03-13",
+    "@key": "books/daglib/0086509",
+    "author": "Thomas Hbner 0002",
+    "title": "Exzeptionelle Vektorbndel und Reflektionen an Kippgarben ber projektiven gewichteten Kurven.",
+    "pages": "1-100",
+    "school": "Universitt Paderborn",
+    "year": "1996"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0091922",
+    "author": "Thomas Ernst 0004",
+    "title": "Das Traveling Salesman Problem unter disjunktiven Zusatzrestriktionen.",
+    "pages": "1-133",
+    "school": "Universitt Kaiserslautern",
+    "year": "1997",
+    "ee": "https://d-nb.info/952440709"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0098639",
+    "author": "Gerhard Pews",
+    "title": "Flexible Untersttzung fr Entwurfsprozesse im Kontext von Verwaltungsaufgaben.",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "pages": "I-IV, 1-158",
+    "year": "1999",
+    "ee": "https://d-nb.info/957507224"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0022848",
+    "author": "Jesper Larsson Trff",
+    "title": "Distributed and parallel graph algorithms - models and experiments.",
+    "pages": "1-263",
+    "school": "University Kopenhagen",
+    "year": "1995"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0080395",
+    "author": "Dieter Landes",
+    "title": "Die Entwurfsphase in MIKE - Methode und Beschreibungssprache.",
+    "pages": "1-304",
+    "publisher": "Infix",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "84",
+    "isbn": "978-3-929037-84-5",
+    "ee": "https://d-nb.info/945157665"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070130",
+    "author": "Manfred Kerber",
+    "title": "On the representation of mathematical concepts and their translation into first-order logic.",
+    "pages": "1-131",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/920724094"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0073950",
+    "author": "Wolfgang Glunz",
+    "title": "Hardware-Entwurf auf abstrakten Ebenen unter Verwendung von Methoden aus dem Software-Entwurf.",
+    "pages": "I-VII, 1-156",
+    "school": "University of Paderborn, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/942334442"
+},{
+    "@mdate": "2011-03-24",
+    "@key": "books/daglib/0070053",
+    "author": "Markus H. Gross",
+    "title": "Sichtbarkeit von Freileitungen - erster Einsatz der graphischen Datenverarbeitung und Bildanalyse.",
+    "pages": "I-V, 1-180",
+    "school": "Universitt Saarbrcken",
+    "year": "1989"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0085115",
+    "author": "Norman Hendrich",
+    "title": "Mustererkennung mit neuronalen Assoziativspeichernetzen.",
+    "pages": "I-XV, 1-166",
+    "publisher": "Infix",
+    "school": "University of Hamburg, Germany",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "137",
+    "isbn": "978-3-89601-137-4",
+    "ee": "https://d-nb.info/948838051"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0002956",
+    "author": "Jens-Steffen Gutmann",
+    "title": "Robuste Navigation autonomer mobiler Systeme.",
+    "pages": "1-191",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "University of Freiburg, Freiburg im Breisgau, Germany",
+    "year": "2000",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "241",
+    "isbn": "978-3-89838-241-0",
+    "ee": "https://d-nb.info/960303715"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070124",
+    "author": "Andrea Wodtko",
+    "title": "On the automatic generation of test patterns from mixed-level hardware descriptions.",
+    "pages": "1-256",
+    "school": "Universitt Kaiserslautern",
+    "year": "1989",
+    "ee": "https://d-nb.info/891583874"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0010382",
+    "author": "Holger Wache",
+    "title": "Semantische Mediation fr heterogene Informationsquellen.",
+    "school": "University of Bremen, Germany",
+    "pages": "I-XVIII, 1-308",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "year": "2003",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "261",
+    "isbn": "978-3-89838-261-8",
+    "ee": "https://d-nb.info/96790529X"
+},{
+    "@mdate": "2012-06-01",
+    "@key": "books/daglib/0029113",
+    "author": "Nora C. Toussaint",
+    "title": "New approaches to in silico design of epitope-based vaccines.",
+    "pages": "I-XII, 1-126",
+    "school": "Universitt Tbingen",
+    "year": "2011"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001379",
+    "author": "Karin Sobottka",
+    "title": "Analysis of low-resolution range image sequences.",
+    "pages": "1-239",
+    "publisher": "Infix",
+    "school": "University of Bern, Switzerland",
+    "year": "2000",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "226",
+    "isbn": "978-3-89838-226-7",
+    "ee": "https://d-nb.info/958746710"
+},{
+    "@mdate": "2011-03-24",
+    "@key": "books/daglib/0093525",
+    "author": "Michiel H. M. Smid",
+    "title": "Dynamic data structures on multiple storage media.",
+    "pages": "1-197",
+    "school": "University Amsterdam",
+    "year": "1989"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0075541",
+    "author": "Markus A. Thies",
+    "title": "Planbasierte Hilfeverfahren fr direkt-manipulative Systeme - Erkennung, Vervollstndigung und Visualisierung von Interaktionsplnen.",
+    "pages": "1-239",
+    "publisher": "Infix",
+    "school": "University of Stuttgart, Germany",
+    "year": "1994",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "67",
+    "isbn": "978-3-929037-67-8",
+    "ee": "https://d-nb.info/941212033"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0072893",
+    "author": "Per sterling",
+    "title": "Symbolic modelling of the dynamic environments of autonomous agents.",
+    "pages": "I-VI, 1-105",
+    "school": "Linkping University, Sweden",
+    "year": "1993",
+    "series": "Linkping studies in science and technology thesis",
+    "volume": "386"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070163",
+    "author": "Thomas Huckle",
+    "title": "Analysis dynamischer Datenstrukturen mittels Kettenbrchen.",
+    "pages": "1-82",
+    "school": "Julius Maximilians University Wrzburg, Germany",
+    "year": "1985",
+    "ee": "https://d-nb.info/850967597"
+},{
+    "@mdate": "2016-07-12",
+    "@key": "books/daglib/0070090",
+    "author": "Serge Miguet",
+    "title": "Programmation dynamique et traitement d'images sur machines parallles  mmoire distribue. (Dynamic programming and image processing on distributed memory computers).",
+    "pages": "1-160",
+    "school": "Grenoble Institute of Technology, France",
+    "year": "1990",
+    "ee": "https://tel.archives-ouvertes.fr/tel-00338396"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076772",
+    "author": "Konstadinos Tzeras",
+    "title": "Interaktive wissensbasierte Indexierung.",
+    "pages": "I-IV, 1-147",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/943539102"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0024686",
+    "author": "Nico Pranke",
+    "title": "Skalierbares und flexibles Live-Video Streaming mit der Media Internet Streaming Toolbox.",
+    "year": "2009",
+    "school": "Freiberg University of Mining and Technology, Saxony, Germany",
+    "isbn": "978-3-8325-2732-7",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:bsz:105-qucosa-26652",
+        "https://d-nb.info/99900378X",
+        "https://d-nb.info/1008559911",
+        "https://d-nb.info/100949757X"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0089701",
+    "author": "Joachim Denzler",
+    "title": "Aktives Sehen zur Echtzeitobjektverfolgung.",
+    "pages": "I-XVI, 1-231",
+    "publisher": "Infix",
+    "year": "1997",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "163",
+    "isbn": "978-3-89601-163-3",
+    "school": "University of Erlangen-Nuremberg",
+    "ee": "https://d-nb.info/950968455"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083713",
+    "author": "Maria-Dolores Soriano-Lopez",
+    "title": "Vergleichende Bewertung konnektionistischer Modelle mit klassischen statistischen Klassifikationsverfahren.",
+    "pages": "1-245",
+    "publisher": "Infix",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "121",
+    "school": "RWTH Aachen University, Germany",
+    "isbn": "978-3-89601-121-3",
+    "ee": "https://d-nb.info/947381228"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0071867",
+    "author": "Jrg Walter 0002",
+    "title": "Parallele Abarbeitung logischer Programme auf einem Multi-Transputer-System.",
+    "pages": "1-221",
+    "school": "University of Stuttgart, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/931748550"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0080374",
+    "author": "Marcos Veloso Peixoto",
+    "title": "Automates a contraintes arithmetiques et procedures d'evaluation ascendante de programmes logiques.",
+    "pages": "1-225",
+    "school": "Universit Paris",
+    "year": "1994"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0081208",
+    "author": "Joachim Glck",
+    "title": "Mit a-Si:H-Dnnschichttransistoren angesteuerte flache Flssigkristall-Bildschirme fr Direktsicht und Projektion.",
+    "pages": "1-171",
+    "school": "Universitt Stuttgart",
+    "year": "1995"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0022697",
+    "author": "Franz Weitl",
+    "title": "Document verification with temporal description logics.",
+    "pages": "1-313",
+    "school": "University of Passau, Germany",
+    "year": "2007",
+    "ee": [
+        "http://www.opus-bayern.de/uni-passau/volltexte/2008/1252/",
+        "https://nbn-resolving.org/urn:nbn:de:bvb:739-opus-12528",
+        "https://d-nb.info/991022327"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0017109",
+    "author": "Ingo Schellhammer",
+    "title": "Structure-based molecule indexing for sublinear virtual screening.",
+    "pages": "I-XII, 1-178",
+    "school": "Universitt Hamburg",
+    "year": "2005"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0007887",
+    "author": "Gunter Grieser",
+    "title": "Selbsteinschtzende Lernverfahren - Mglichkeiten und Grenzen.",
+    "pages": "I-XIII, 1-186",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "2002",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "259",
+    "isbn": "978-3-89838-259-5",
+    "ee": "https://d-nb.info/966226135"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083907",
+    "author": "Christian Fahrner",
+    "title": "Schematransformationen in Datenbanken.",
+    "pages": "I-VI, 1-301",
+    "school": "Universitt Mnster",
+    "year": "1996",
+    "ee": "https://d-nb.info/949147486"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0009822",
+    "author": "Reinhard Braumandl",
+    "title": "Quality of Service and Optimization in Data Integration Systems.",
+    "pages": "I-III, 1-142",
+    "school": "University of Passau, Germany",
+    "year": "2002",
+    "ee": [
+        "http://elib.ub.uni-passau.de/opus/volltexte/2002/27/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bvb:739-opus-279",
+        "https://d-nb.info/965210782"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0083736",
+    "author": "Dirk Reichardt",
+    "title": "Kontinuierliche Verhaltenssteuerung eines autonomen Fahrzeugs in dynamischer Umgebung.",
+    "pages": "I-XII",
+    "school": "Universitt Kaiserslautern",
+    "year": "1996"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0020506",
+    "author": "Jrgen Kuster",
+    "title": "Providing decision support in the operative management of process disruptions.",
+    "pages": "I-IV, 1-134",
+    "school": "Universitt Klagenfurt",
+    "year": "2007"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069989",
+    "author": "Martin Gbel",
+    "title": "Analyse und Bewertung der Konfigurierung von graphischen Systemen auf Mehrprozessor-Architekturen.",
+    "pages": "I-V, 1-193",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/910312192"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0098214",
+    "author": "Dieter Fox",
+    "title": "Markov localization - a probabilistic framework for mobile robot localization and navigation.",
+    "pages": "1-146",
+    "school": "Universitt Bonn",
+    "year": "1998"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0094810",
+    "author": "Zohar Levy",
+    "title": "A rate allocation protocol using competitive pricing for improving performance of multicast sessions.",
+    "pages": "1-104",
+    "school": "University of Jerusalem, Israel",
+    "year": "1997",
+    "series": "Technical report",
+    "volume": "97-13"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0070054",
+    "author": "Hans Christoph Zeidler",
+    "title": "Funktionsorientierte Hardware zur Lsung des Suchproblems - Entwicklung und Mglichkeiten.",
+    "pages": "I-III, 1-162",
+    "school": "TU Braunschweig, Germany",
+    "year": "1987",
+    "volume": "87-08"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0091418",
+    "author": "Bengt Ahlgren",
+    "title": "Improving computer communication performance by reducing memory bandwidth consumption.",
+    "pages": "1-151",
+    "school": "Uppsala University, Sweden",
+    "year": "1997",
+    "series": "SICS dissertation series",
+    "volume": "24"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0005310",
+    "author": "Marc Erich Latoschik",
+    "title": "Multimodale Interaktion in virtueller Realitt am Beispiel der virtuellen Konstruktion.",
+    "pages": "I-XVI, 1-192",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "Bielefeld University, Germany",
+    "year": "2001",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "251",
+    "isbn": "978-3-89838-251-9",
+    "ee": "https://d-nb.info/962369632"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0096920",
+    "author": "Peter Neuhaus",
+    "title": "Nebenlufiges Parsing - ein lexikalisch verteiltes Verfahren zur performanzgrammatischen Analyse beim Textverstehen.",
+    "pages": "I-XIV, 1-280",
+    "publisher": "Infix",
+    "school": "University of Freiburg, Freiburg im Breisgau, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "194",
+    "isbn": "978-3-89601-194-7",
+    "ee": "https://d-nb.info/95602615X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008637",
+    "author": "Bernd Klauer",
+    "title": "Assoziative Methoden zur Mustererkennung.",
+    "pages": "1-171",
+    "school": "Goethe University Frankfurt, Frankfurt am Main, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/945024517"
+},{
+    "@mdate": "2018-08-15",
+    "@key": "books/daglib/0069115",
+    "author": "Wei Zhou 0016",
+    "title": "Beitrge zum mobilen Empfang von Satellitensignalen mit adaptiven Antennen spezieller Bauformen.",
+    "pages": "1-113",
+    "school": "Universitt Paderborn",
+    "year": "1992"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0083472",
+    "author": "Ivan Bretan",
+    "title": "Natural language in model world interfaces.",
+    "school": "Swedish Institute of Computer Science, Kista, Sweden",
+    "year": "1995",
+    "series": "SICS research report",
+    "volume": "95/03"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008856",
+    "author": "Antonius Klingler",
+    "title": "Datenparallele Auswertung rekursiver logischer Programme.",
+    "pages": "I-II, 1-152",
+    "school": "RWTH Aachen University, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/94177029X"
+},{
+    "@mdate": "2011-02-09",
+    "@key": "books/daglib/0024689",
+    "author": "Caroline Christina Friedel",
+    "title": "Analysis of high throughput data - protein protein interactions, protein complexes and RNA half life.",
+    "pages": "I-XII, 1-193",
+    "school": "Universitt Mnchen",
+    "year": "2008"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070028",
+    "author": "Gerhard Halinger",
+    "title": "Nherungsverfahren nach dem Prinzip der maximalen Entropie fr Warteschlangen-Verteilungen in geschlossenen Netzwerken.",
+    "pages": "1-63",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1986",
+    "ee": "https://d-nb.info/871529017"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0097310",
+    "author": "Andreas Fordan",
+    "title": "Projection in constraint logic programming.",
+    "pages": "I-XIV, 1-145",
+    "publisher": "Infix",
+    "school": "Technical University of Berlin, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "199",
+    "isbn": "978-3-89601-199-2",
+    "ee": "https://d-nb.info/956339387"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0082685",
+    "author": "Markus Weiler",
+    "title": "Betriebsmittelbereitstellung fr flexible Fertigungssysteme.",
+    "pages": "I-III, 1-141",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/945982690"
+},{
+    "@mdate": "2012-06-01",
+    "@key": "books/daglib/0029115",
+    "author": "Thomas Wrthinger",
+    "title": "Dynamic Code Evolution for Java.",
+    "pages": "I-V, 1-124",
+    "school": "Universitt Linz",
+    "year": "2011"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0008589",
+    "author": "Georg Bareth",
+    "title": "Emissionen klimarelevanter Gase aus der Landwirtschaft - regionale Darstellung und Abschtzung unter Nutzung von GIS am Beispiel des wrttembergischen Allgus.",
+    "pages": "I-IX, 1-208",
+    "school": "Universitt Hohenheim",
+    "year": "1999"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001363",
+    "author": "Jonathan Karges",
+    "title": "Abstract resource language ARL - eine Sprache zur Spezifikation und Kontrolle von Biocomputing Experimenten.",
+    "pages": "I-XI, 1-318",
+    "school": "University of Mnster, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/95962953X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070134",
+    "author": "Christoph Hbel",
+    "title": "Ein Verarbeitungsmodell fr datenbankgesttzte Ingenieuranwendungen in einer arbeitsplatzrechnerorientierten Ablaufumgebung.",
+    "pages": "I-VI, 1-233",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/920926878"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069977",
+    "author": "Heinz-Dieter Olsowski",
+    "title": "Verwaltung heterogener Informationen auf optischen Speicherplatten an graphisch-interaktiven Arbeitspltzen.",
+    "pages": "I-III, 1-158",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1987",
+    "ee": "https://d-nb.info/890291268"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081363",
+    "author": "Sonja Schlegelmilch-Hanneken",
+    "title": "Ein wissensbasiertes System zur Modellbildung und Analyse industrieller Handhabungssysteme.",
+    "pages": "1-129",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/946039984"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0084293",
+    "author": "Todd M. Austin",
+    "title": "Hardware and software mechanisms for reducing load latency.",
+    "pages": "I-VIII, 1-145",
+    "school": "University of Wisconsin-Madison, WI, USA",
+    "year": "1996",
+    "series": "Technical Report / University of Wisconsin, Madison / Computer Sciences Department",
+    "volume": "1311"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083194",
+    "author": "Jrgen Kopp",
+    "title": "Konstruktion von Wissensreprsentationssprachen durch Nutzen und Erweitern objektorientierter Sprachmittel.",
+    "pages": "I-XX, 1-197",
+    "publisher": "Infix",
+    "school": "Bielefeld University, Germany",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "113",
+    "isbn": "978-3-89601-113-8",
+    "ee": "https://d-nb.info/946711720"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076469",
+    "author": "Jrg R. J. Schirra",
+    "title": "Bildbeschreibung als Verbindung von visuellem und sprachlichem Raum - eine interdisziplinre Untersuchung von Bildvorstellungen in einem Hrermodell.",
+    "pages": "I-XII, 1-446",
+    "publisher": "Infix",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "1994",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "71",
+    "isbn": "978-3-929037-71-5",
+    "ee": "https://d-nb.info/942643615"
+},{
+    "@mdate": "2012-06-01",
+    "@key": "books/daglib/0029122",
+    "author": "Dominik Karch",
+    "title": "Quantitative Analyse der Spontanmotorik von Suglingen fr die Prognose der infantilen Cerebralparese.",
+    "pages": "I-XI, 1-103",
+    "school": "Universitt Heidelberg",
+    "year": "2011"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0081585",
+    "author": "Birgit Reinert",
+    "title": "On Grbner bases in monoid and group rings.",
+    "pages": "1-228",
+    "school": "Universitt Kaiserslautern",
+    "year": "1995"
+},{
+    "@mdate": "2011-03-24",
+    "@key": "books/daglib/0070112",
+    "author": "Vronique Terrier",
+    "title": "Decidabilite en arithmetiques faibles temps reel sur automates cellulaires.",
+    "pages": "1-88",
+    "school": "Universit Lyon",
+    "year": "1991"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069984",
+    "author": "Walter F. Klos",
+    "title": "Software-Werkzeuge fr graphisch-interaktive Anwendungen im technischen Bereich.",
+    "pages": "1-186",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1981",
+    "ee": "https://d-nb.info/830058648"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0086896",
+    "author": "Matthew J. Morley",
+    "title": "Safety assurance in interlocking design.",
+    "pages": "I-VI, 1-217",
+    "school": "University of Edinburgh, UK",
+    "year": "1996",
+    "series": "CST",
+    "volume": "129"
+},{
+    "@mdate": "2021-06-17",
+    "@key": "books/daglib/0073924",
+    "author": "John D. Bunda",
+    "title": "Instruction-processing optimization techniques for VLSI microprocessors.",
+    "pages": "I-XIX, 1-174",
+    "school": "University of Austin, TX, USA",
+    "year": "1993",
+    "series": "UTCS publications",
+    "volume": "93-19"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083732",
+    "author": "Reinhard Blasig",
+    "title": "Neuronale Netze und die Induktion symbolischer Klassifikationsregeln.",
+    "pages": "I-VII, 1-119",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/948184396"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070043",
+    "author": "Jrgen Schfer",
+    "title": "Antirationale Transduktionen und ihre Sprachfamilien.",
+    "pages": "1-251",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1991",
+    "ee": "https://d-nb.info/910569517"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0078955",
+    "author": "Michael Thielscher",
+    "title": "Automatisiertes Schlieen ber Kausalbeziehungen mit SLDENDF-Resolution.",
+    "pages": "I-XIV, 1-218",
+    "publisher": "Infix",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "76",
+    "isbn": "978-3-929037-76-0",
+    "ee": "https://d-nb.info/94324207X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0035678",
+    "author": "Tobias Distler",
+    "title": "Resource-efficient fault and intrusion tolerance.",
+    "pages": "I-XII, 1-182",
+    "school": "Universitt Erlangen-Nrnberg",
+    "year": "2014",
+    "ee": [
+        "https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/4880",
+        "https://nbn-resolving.org/urn:nbn:de:bvb:29-opus4-48803",
+        "https://d-nb.info/1075744954"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0085108",
+    "author": "Barbara Messing",
+    "title": "Darstellung und Integration von Wissen in verbandsbasierten signierten Logikprogrammen.",
+    "pages": "I-V, 1-146",
+    "publisher": "Infix",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "132",
+    "isbn": "978-3-89601-132-9",
+    "ee": "https://d-nb.info/948837691"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0018739",
+    "author": "Julian Seward",
+    "title": "Towards a strictness analyser for Haskell - putting theory into practice.",
+    "pages": "1-123",
+    "school": "University of Manchester, UK",
+    "year": "1991",
+    "series": "Technical report series : UMCS",
+    "volume": "92-2-2"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008662",
+    "author": "Stephan Schfer",
+    "title": "Efficient object-based hierarchical radiosity methods.",
+    "pages": "I-VII, 1-121",
+    "school": "Braunschweig University of Technology, Germany",
+    "year": "2000",
+    "ee": [
+        "http://www.biblio.tu-bs.de/ediss/data/20000602a/20000602a.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:gbv:084-120077",
+        "https://d-nb.info/95923036X",
+        "https://d-nb.info/959599010"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0033462",
+    "author": "Folke Mitzlaff",
+    "title": "Relatedness in evidence networks.",
+    "pages": "I-XVII, 1-235",
+    "school": "Universitt Kassel",
+    "year": "2013",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hebis:34-2014101046111",
+        "https://d-nb.info/1060575418"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0067266",
+    "author": "Detlef Krmker",
+    "title": "Visualisierungssysteme - Strukturen, Analysen und Verfahren zur Leistungssteigerung durch einen zum Strukturspeicher erweiterten Bildspeicher.",
+    "pages": "I-X, 1-220",
+    "publisher": "Springer",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1992",
+    "isbn": "978-3-540-55052-5",
+    "ee": "https://d-nb.info/920259480"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0037286",
+    "author": "Thomas Vierjahn",
+    "title": "Online Surfface Reconstruction from Unorganized Point Clouds with Integrated Texture Mapping.",
+    "pages": "I-XX, 1-167",
+    "school": "University of Mnster, Germany",
+    "year": "2015",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hbz:6-77259613790",
+        "https://d-nb.info/1139642898"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0072672",
+    "author": "Lutz Zacharias",
+    "title": "Applikation und Implementation neuartiger Algorithmen zur digitalen Lagesteuerung elektrohydraulischer Antriebssysteme.",
+    "pages": "1-128",
+    "school": "TU Chemnitz",
+    "year": "1992"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0096018",
+    "author": "Michaela Huhn",
+    "title": "On the hierarchical design of distributed systems.",
+    "pages": "I-XII, 1-277",
+    "school": "Universitt Hildesheim",
+    "year": "1997",
+    "ee": "https://d-nb.info/955628946"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0098640",
+    "author": "Axel He",
+    "title": "Abschtzungstoleranzen im hierarchischen VLSI-Entwurf.",
+    "pages": "I-VI, 1-208",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/957694083"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069980",
+    "author": "Wolfgang Rlling",
+    "title": "Informationsbertragung in L-Systemen.",
+    "pages": "1-142",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1983",
+    "ee": "https://d-nb.info/840328826"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070126",
+    "author": "Norbert Kratz",
+    "title": "Architektur eines wissensbasierten Systems zur Untersttzung der Konzeptionsphase in der Konstruktion.",
+    "pages": "1-121",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1991",
+    "ee": "https://d-nb.info/911413251"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0072685",
+    "author": "Uwe Hbner",
+    "title": "Partitionierung und Analyse statischer, digitaler CMOS-Schaltungen auf der Schalterebene einer Mixed-Level Testgenerierung.",
+    "pages": "1-167",
+    "publisher": "Oldenbourg",
+    "school": "University of Paderborn, Germany",
+    "year": "1994",
+    "isbn": "978-3-486-22926-4",
+    "ee": "https://d-nb.info/940182629"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001123",
+    "author": "Gerik Scheuermann",
+    "title": "Topological vector field visualization with Clifford algebra.",
+    "pages": "1-177",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/95840545X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069985",
+    "author": "Werner Kern",
+    "title": "Untersuchungen ber mathematische Maschinen und Simulationen - ein Charakterisierungssatz fr die Existenz minimaler Makroauflsungen mathematischer Maschinen.",
+    "pages": "1-254",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1981",
+    "ee": "https://d-nb.info/820435864"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0086142",
+    "author": "Rainer Kirchhbel",
+    "title": "Das Schlerinteresse am Computer und seine Bercksichtigung bei der didaktisch-methodischen Gestaltung des informationstechnischen Unterrichtes.",
+    "pages": "1-223",
+    "school": "Chemnitz University of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/947930744"
+},{
+    "@mdate": "2011-03-15",
+    "@key": "books/daglib/0024644",
+    "author": "Stefan Rass",
+    "title": "On Information-Theoretic Security - Contemporary Problems and Solutions.",
+    "pages": "1-194",
+    "school": "epubli GmbH",
+    "year": "2009"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076507",
+    "author": "Michael Buro",
+    "title": "Techniken fr die Bewertung von Spielsituationen anhand von Beispielen.",
+    "pages": "I-VI, 1-87",
+    "school": "University of Paderborn, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/943382904"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0072687",
+    "author": "Sabine Schmitgen",
+    "title": "Rumliche Fragestellungen bei der Konfigurierung.",
+    "pages": "1-206",
+    "school": "Universitt Paderborn",
+    "year": "1993"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0080857",
+    "author": "Reinhold Heckmann",
+    "title": "Power domain constructions.",
+    "pages": "I-VII, 1-285",
+    "school": "Universitt Saarbrcken",
+    "year": "1990",
+    "ee": [
+        "http://scidok.sulb.uni-saarland.de/volltexte/2004/188/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:291-scidok-1887",
+        "https://d-nb.info/972341765"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0079807",
+    "author": "Rainer Hoch",
+    "title": "READLEX - ein wrterbuchbasierter Ansatz fr die Erkennung und Analyse von Text in strukturierten Dokumenten.",
+    "pages": "I-XII, 1-226",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "91",
+    "isbn": "978-3-89601-091-9",
+    "ee": "https://d-nb.info/944685110"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0092294",
+    "author": "Andreas Mahling",
+    "title": "Computergesttztes Komponieren - wissensbasierte Werkzeuge zur Manipulation musikalischer Gestalten.",
+    "pages": "I-VII, 1-141",
+    "school": "University of Stuttgart, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/940616564"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0017111",
+    "author": "Arne Wiebalck",
+    "title": "ClusterRAID - architecture and prototype of a distributed fault-tolerant mass storage system for clusters.",
+    "pages": "1-173",
+    "school": "University of Heidelberg, Germany",
+    "year": "2005",
+    "ee": [
+        "http://archiv.ub.uni-heidelberg.de/volltextserver/volltexte/2005/5624/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:16-opus-56248",
+        "https://d-nb.info/975599631",
+        "https://d-nb.info/975757032"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070255",
+    "author": "Waldemar Preilowski",
+    "title": "Parallele Algorithmen fr geometrische Probleme im R3.",
+    "pages": "1-145",
+    "school": "University of Paderborn, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/931682266"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0073617",
+    "author": "Ethel Jane Comiskey",
+    "title": "Data-parallel implementations of map analysis and animal movement for landscape ecology models.",
+    "school": "University of Knoxville, TN, USA",
+    "year": "1993",
+    "series": "CS / Technical report / Knoxville / University of Tennessee / Computer Science Department",
+    "volume": "93-207"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0081788",
+    "author": "Jrgen Rodenkirchen",
+    "title": "On optimum convergence rates of the Crank-Nicholson scheme to the stokes initial value problem in higher order function spaces using realistic data.",
+    "pages": "1-102",
+    "school": "Universitt Paderborn",
+    "year": "1995"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0070113",
+    "author": "Rolf Neuser",
+    "title": "Fastkonvergenz, Faktorfolgen und fastkonvergentes Wirkfeld von Matrixverfahren.",
+    "pages": "1-107",
+    "school": "Fernuniversitt Hagen",
+    "year": "1980"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0082666",
+    "author": "Henrik Esbensen",
+    "title": "Placement and global routing of VLSI Macro-cell layouts using genetic algorithms.",
+    "school": "Aarhus University, Denmark",
+    "year": "1994",
+    "series": "DAIMI PB",
+    "volume": "491"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0072840",
+    "author": "Mauricio Ayala-Rincn",
+    "title": "Expressiveness of conditional equational systems with built-in predicates.",
+    "pages": "1-154",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/940369672"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020555",
+    "author": "Olaf Ronneberger",
+    "title": "3D invariants for automated pollen recognition.",
+    "pages": "1-271",
+    "school": "University of Freiburg, Freiburg im Breisgau, Germany",
+    "year": "2007",
+    "ee": [
+        "http://www.freidok.uni-freiburg.de/volltexte/3394/",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:25-opus-33942",
+        "https://d-nb.info/986425931"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001126",
+    "author": "Gerald Christmann",
+    "title": "Hllflchen-Diagnose am Beispiel der Radbewegung.",
+    "pages": "1-157",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/958961808"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0012338",
+    "author": "Peter Baeumle-Courth",
+    "title": "Approximation, Reduktion und Regelextraktion - Semantikbeschreibung fr Neuronale Netze.",
+    "pages": "1-201",
+    "school": "University of Mnster, Germany",
+    "year": "2004",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hbz:6-47639543013",
+        "https://d-nb.info/973525479",
+        "https://d-nb.info/973616253"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0069001",
+    "author": "Antoni Lozano i Bojados",
+    "title": "Computational complexity versus structural simplicity.",
+    "pages": "I-XII, 1-100",
+    "school": "University Barcelona",
+    "year": "1992"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0079417",
+    "author": "Michael Wu",
+    "title": "The architecture of eNVy, a non-volatile, main memory storage system.",
+    "school": "University of Houston, TX, USA",
+    "year": "1994",
+    "series": "Rice COMP TR",
+    "volume": "94-229"
+},{
+    "@mdate": "2014-06-02",
+    "@key": "books/daglib/0033460",
+    "author": "Heinz Hofbauer",
+    "title": "Visual evaluation, scaling and transport of secure videos.",
+    "pages": "I-VIII, 1-129",
+    "school": "Universitt Salzburg",
+    "year": "2013",
+    "ee": "http://permalink.obvsg.at/AC10775427"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0094779",
+    "author": "Jochen Nessel",
+    "title": "Zum Lernen mit guten Beispielen.",
+    "pages": "1-147",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1998",
+    "ee": "https://d-nb.info/954832302"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0016495",
+    "author": "Stefan Milius",
+    "title": "Coalgebras, monads and semantics.",
+    "school": "Braunschweig University of Technology, Germany",
+    "year": "2005",
+    "ee": "https://d-nb.info/979988985"
+},{
+    "@mdate": "2017-03-23",
+    "@key": "books/daglib/0071661",
+    "author": "David A. Russo",
+    "title": "Structural properties of complexity classes.",
+    "pages": "I-VIII, 1-143",
+    "school": "University of California, Santa Barbara, CA, USA",
+    "year": "1985",
+    "series": "Research in computer science"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0072686",
+    "author": "Martin Mundhenk",
+    "title": "Hausdorff-Reduktionen zu Mengen mit geringem Informationsgehalt.",
+    "pages": "1-87",
+    "school": "University of Ulm, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/930719867"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0093030",
+    "author": "Abdelaziz Guerrouat",
+    "title": "Eine wissensbasierte Technik zur Testfallauswahl im Konformittstest von Protokollen.",
+    "pages": "1-133",
+    "school": "Universitt Magdeburg",
+    "year": "1997",
+    "ee": "https://d-nb.info/950688606"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0097851",
+    "author": "Harald Hanke",
+    "title": "Qualittsmanagement bei Softwarewettbewerben - empirische Untersuchungen und weiterfhrende Konzepte.",
+    "pages": "1-287",
+    "school": "Universitt Karlsruhe",
+    "year": "1998"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0068066",
+    "author": "Wolfgang Hbner 0002",
+    "title": "Entwurf graphischer Benutzerschnittstellen - ein objektorientiertes Interaktionsmodell zur Spezifikation graphischer Dialoge.",
+    "pages": "1-324",
+    "school": "Technische Hochschule Darmstadt, Germany",
+    "publisher": "Springer",
+    "year": "1990",
+    "series": "Beitrge zur graphischen Datenverarbeitung",
+    "isbn": "978-3-540-53438-9",
+    "ee": "https://d-nb.info/901497444"
+},{
+    "@mdate": "2020-03-16",
+    "@key": "books/daglib/0069976",
+    "author": "Rolf Lindner 0002",
+    "title": "Rasterdisplay-Prozessoren - ihre Bedeutung, Konzepte und Verfahren.",
+    "pages": "I-V, 1-229",
+    "school": "TH Darmstadt",
+    "year": "1979"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0088023",
+    "author": "Simon Crosby",
+    "title": "Performance management in ATM networks.",
+    "pages": "I-XV, 1-215",
+    "school": "University of Cambridge, UK",
+    "year": "1996",
+    "series": "Technical Report / University of Cambridge / Computer Laboratory",
+    "volume": "393"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0020524",
+    "author": "Florian Frhauf",
+    "title": "Binary recovery methods for inverse problems.",
+    "pages": "I, 1-113",
+    "school": "Universitt Innsbruck",
+    "year": "2007"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0035669",
+    "author": "Florian Lemmerich",
+    "title": "Novel Techniques for Efficient and Effective Subgroup Discovery.",
+    "pages": "I-IX, 1-238",
+    "school": "Julius Maximilians University Wrzburg, Germany",
+    "year": "2014",
+    "ee": [
+        "https://opus.bibliothek.uni-wuerzburg.de/frontdoor/index/index/docId/9781",
+        "https://nbn-resolving.org/urn:nbn:de:bvb:20-opus-97812",
+        "https://d-nb.info/1076285589",
+        "https://d-nb.info/110878075X"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008860",
+    "author": "Herbert Kuchen",
+    "title": "Parallele Implementierung einer funktionalen Programmiersprache auf einem OCCAM-Transputer-System unter besonderer Bercksichtigung applikativer Datenstrukturen.",
+    "pages": "1-252",
+    "school": "RWTH Aachen University, Germany",
+    "year": "1989",
+    "ee": "https://d-nb.info/901028479"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0091918",
+    "author": "Panagiotis Tsarchopoulos",
+    "title": "Global analysis and optimizing compilation of constraint solving algorithms in constraint logic programming.",
+    "pages": "I-II, 1-105",
+    "school": "Universitt Kaiserslautern",
+    "year": "1997",
+    "ee": "https://d-nb.info/95273298X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0094780",
+    "author": "Hctor Muoz-Avila",
+    "title": "Integrating twofold case retrieval and complete decision replay in CAPlan/CBC.",
+    "pages": "1-198",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1998",
+    "ee": [
+        "http://kbibmp3.ub.uni-kl.de/Preprint_Informatik/PS/dissertation_3.ps",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:386-kluedo-731",
+        "https://d-nb.info/95484968X",
+        "https://d-nb.info/956328873"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081583",
+    "author": "Robert Marek",
+    "title": "Parallele Anfrageausfhrung in Shared-Nothing Datenbanksystemen - Architektur, Leistungsanalyse und -optimierung.",
+    "pages": "1-247",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/94521619X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069949",
+    "author": "Frank Bomarius",
+    "title": "System fr die Programmierung verteilter objektorientierter Applikationen.",
+    "pages": "I-V, 1-155",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/920162444"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0091559",
+    "author": "Thorsten Schulze",
+    "title": "Interaktonen und Solitonwechselwirkungen in der komplexen Ebene.",
+    "pages": "I-IV, 1-136",
+    "school": "Universitt Paderborn",
+    "year": "1997"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0003845",
+    "author": "Holger Giese",
+    "title": "Object-oriented design and architecture of distributed systems.",
+    "pages": "I-VII, 1-451",
+    "publisher": "Shaker",
+    "school": "University of Mnster, Germany",
+    "year": "2001",
+    "isbn": "978-3-8265-8634-7",
+    "ee": "https://d-nb.info/961133570"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0001592",
+    "author": "Martin Elsman",
+    "title": "Program modules, separate compilation, and intermodule optimisation.",
+    "pages": "I-X, 1-215",
+    "school": "University of Copenhagen, Denmark",
+    "year": "1999",
+    "series": "Technical report / University of Copenhagen / Datalogisk institut",
+    "volume": "99/3"
+},{
+    "@mdate": "2013-10-14",
+    "@key": "books/daglib/0031228",
+    "author": "Wolfgang Dvork",
+    "title": "Computational Aspects of Abstract Argumentation.",
+    "pages": "I-X, 1-143",
+    "school": "Technische Universitt Wien",
+    "year": "2012",
+    "ee": "http://permalink.obvsg.at/AC07812708"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012775",
+    "author": "Sylviane R. Schwer",
+    "title": "Decidabilite de l'algebricite de langages associes aux reseaux de Petri.",
+    "school": "Univ. Paris VII",
+    "year": "1985"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081791",
+    "author": "Daniel Mri",
+    "title": "Automatische Erkennung und Ausfhrung von Korrekturanweisungen in Textdokumenten.",
+    "publisher": "Infix",
+    "school": "University of Bern, Switzerland",
+    "year": "1995",
+    "pages": "1-150",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "107",
+    "isbn": "978-3-89601-107-7",
+    "ee": "https://d-nb.info/946326231"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0099117",
+    "author": "Peter Geibel",
+    "title": "Induktive Konstruktion von merkmalsbasierten und logischen Klassifikatoren fr relationale Strukturen.",
+    "pages": "I-XIII, 1-187",
+    "publisher": "Infix",
+    "school": "Technical University of Berlin, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "212",
+    "isbn": "978-3-89601-212-8",
+    "ee": "https://d-nb.info/957771789"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0016500",
+    "author": "Birgit Elbl",
+    "title": "Deklarative Semantik von Logikprogrammen mit Prologs Auswertungsstrategie.",
+    "pages": "1-102",
+    "school": "Bundeswehr University Munich, Neubiberg (Munich), Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/94459252X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0024756",
+    "author": "Jrg Mensmann",
+    "title": "Exploiting Spatial and Temporal Coherence in GPU-based Volume Rendering.",
+    "pages": "I-VIII, 1-128",
+    "year": "2010",
+    "school": "University of Mnster",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hbz:6-67429536927",
+        "https://d-nb.info/1007721634"
+    ]
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0096465",
+    "author": "Henri Casanova",
+    "title": "Stochastic models for performance analyses of iterative algorithms in distributed environments.",
+    "school": "University of Tennessee, Knoxville, TN, USA",
+    "year": "1998",
+    "series": "CS / Technical report / Knoxville / University of Tennessee / Computer Science Department",
+    "volume": "98-386"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0096015",
+    "author": "Kai Rannenberg",
+    "title": "Kriterien und Zertifizierung mehrseitiger IT-Sicherheit - eine Untersuchung der technischen Grundlagen und der organisatorischen Rahmenbedingungen.",
+    "pages": "I-XVI, 1-192",
+    "school": "Universitt Freiburg",
+    "year": "1997"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0019269",
+    "author": "Andrs Bruhn",
+    "title": "Variationelle optische Flussberechnung - przise Modellierung und effziente Numerik.",
+    "pages": "I-XVIII, 1-194",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "2006",
+    "ee": [
+        "http://scidok.sulb.uni-saarland.de/volltexte/2007/1199/",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:291-scidok-11998",
+        "https://d-nb.info/985159766"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069973",
+    "author": "Gregor Snelting",
+    "title": "Inkrementelle semantische Analyse in unvollstndigen Programmfragmenten mit Kontextrelationen.",
+    "pages": "I-II, 1-203",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1986",
+    "ee": "https://d-nb.info/880012013"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0088409",
+    "author": "Rajeev M. Vokkarne",
+    "title": "Distributed execution environments for the CODE 2.0 parallel programming system.",
+    "pages": "1-74",
+    "school": "University of Austin, TX, USA",
+    "year": "1994",
+    "series": "UTCS publications",
+    "volume": "94-32"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0022692",
+    "author": "Marcus Dittrich",
+    "title": "Assembly of the interactome, characterization of functional modules and novel approaches to the analysis of signaling networks in human platelets.",
+    "pages": "1-169",
+    "school": "Universitt Wrzburg",
+    "year": "2008"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069675",
+    "author": "Thomas Gauweiler",
+    "title": "MOSKITO - ein Betriebssystem-Kern fr verteilte Echtzeitanwendungen.",
+    "pages": "I-VIII, 1-158",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/931416248"
+},{
+    "@mdate": "2011-02-09",
+    "@key": "books/daglib/0018070",
+    "author": "Yahav Nussbaum",
+    "title": "Recognition of circular-arc graphs and some subclasses.",
+    "pages": "I-IV, 1-88",
+    "school": "University of Tel-Aviv",
+    "year": "2007"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081594",
+    "author": "Gernot A. Fink",
+    "title": "Integration von Spracherkennung und Sprachverstehen.",
+    "pages": "1-126",
+    "publisher": "Infix",
+    "school": "Bielefeld University, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "103",
+    "isbn": "978-3-89601-103-9",
+    "ee": "https://d-nb.info/946060967"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0070149",
+    "author": "Wolfgang Micus",
+    "title": "Zur formalen quivalenz von ebenen algebroiden Kurven in beliebiger Charakteristik.",
+    "pages": "I-III, 1-131",
+    "school": "Universitt Paderborn",
+    "year": "1987"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0073627",
+    "author": "Karen S. Minser",
+    "title": "Parallel map analysis on the CM-5 for landscape ecology models.",
+    "school": "University of Knoxville, TN, USA",
+    "year": "1993",
+    "series": "CS / Technical report / Knoxville / University of Tennessee / Computer Science Department",
+    "volume": "93-197"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0075096",
+    "author": "Peter Mysliwietz",
+    "title": "Konstruktion und Optimierung von Bewertungsfunktionen beim Schach.",
+    "school": "University of Paderborn, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/941507750"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0083321",
+    "author": "Ulrich Arnold",
+    "title": "CoMPaS - ein computergesttztes multimediales System zur Erstellung und Verwaltung von Patientenakten.",
+    "pages": "I-VIII, 1-351",
+    "school": "Universitt Stuttgart",
+    "year": "1996"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069951",
+    "author": "Ulrike Brandt",
+    "title": "Charakterisierung von identifizierbaren Mengen partiell rekursiver Funktionen.",
+    "pages": "1-102",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1982",
+    "ee": "https://d-nb.info/840317174"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076017",
+    "author": "Ursula Schwolle",
+    "title": "Parallele Bilderkennung mit hierarchischen Formprimitiven auf Transputernetzen.",
+    "pages": "1-219",
+    "school": "University of Paderborn, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/943029589"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070146",
+    "author": "Andreas Henrich",
+    "title": "Der LSD-Baum - eine mehrdimensionale Zugriffsstruktur und ihre Einsatzmglichkeiten in Datenbanksystemen.",
+    "pages": "I-IV, 1-319",
+    "school": "University of Hagen, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/910296634"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083716",
+    "author": "Stefan Wess",
+    "title": "Fallbasiertes Problemlsen in wissensbaiserten Systemen zur Entscheidungsuntersttzung und Diagnostik - Grundlagen, Systeme und Anwendungen.",
+    "pages": "I-X, 1-271",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "126",
+    "isbn": "978-3-89601-126-8",
+    "ee": "https://d-nb.info/947776605"
+},{
+    "@mdate": "2011-12-15",
+    "@key": "books/daglib/0069002",
+    "author": "Ricard Gavald",
+    "title": "Kolmogorov randomness and its applications to structural complexity theory.",
+    "pages": "I-V, 1-91",
+    "school": "University Barcelona",
+    "year": "1992"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0092074",
+    "author": "Jrgen Rahmel",
+    "title": "Topology preserving neural networks - connectionist learning of structured knowledge.",
+    "pages": "I-XVII, 1-191",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1998",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "178",
+    "isbn": "978-3-89601-178-7",
+    "ee": "https://d-nb.info/952597403"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008858",
+    "author": "Marita Mller",
+    "title": "Ein Ebenenmodell wissensbasierter Konsultationen - Untersttzung fr Wissensakquisition und Erklrungsfhigkeit.",
+    "pages": "I-III, 1-112",
+    "school": "RWTH Aachen University, Germany",
+    "year": "1989",
+    "ee": [
+        "https://d-nb.info/900208635",
+        "https://d-nb.info/911081887"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0096012",
+    "author": "Gnter Knittel",
+    "title": "Verfahren und Schaltungseinheiten fr Hochleistungsgraphik und Visualisierung.",
+    "pages": "I-IV, 1-147",
+    "school": "Universitt Tbingen",
+    "year": "1997",
+    "ee": "https://d-nb.info/951669982"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0007084",
+    "author": "Birgit Geppert",
+    "title": "The SDL pattern approach - a reuse-driven SDL methodology for designing communication software systems.",
+    "pages": "1-291",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "2001",
+    "ee": "https://d-nb.info/965010899"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0097893",
+    "author": "Volker Klingspor",
+    "title": "Reaktives Planen mit gelernten Begriffen.",
+    "pages": "I-XIV, 1-205",
+    "publisher": "Infix",
+    "school": "Technical University of Dortmund, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "208",
+    "isbn": "978-3-89601-208-1",
+    "ee": "https://d-nb.info/956677746"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0001589",
+    "author": "Michael Florentin Nielsen",
+    "title": "Modal logic and the Curry-Howard isomorphism.",
+    "school": "University of Copenhagen, Denmark",
+    "year": "1999",
+    "series": "Technical report / University of Copenhagen / Datalogisk institut",
+    "volume": "99/10"
+},{
+    "@mdate": "2011-03-15",
+    "@key": "books/daglib/0012770",
+    "author": "Luc Boasson",
+    "title": "Paires iterantes et langages algebriques.",
+    "pages": "I-VII, 1-164",
+    "school": "Univ. Paris VII",
+    "year": "1974"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0084304",
+    "author": "Harish Patil",
+    "title": "Efficient program monitoring techniques.",
+    "pages": "I-VIII, 1-66",
+    "school": "University of Wisconsin-Madison, WI, USA",
+    "year": "1996",
+    "series": "Technical Report / University of Wisconsin, Madison / Computer Sciences Department",
+    "volume": "1320"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0018754",
+    "author": "Michael Griebel",
+    "title": "Zur Lsung von Finite-Differenzen-und Finite-Element-Gleichungen mittels der Hierarchischen-Transformations-Mehrgitter-Methode - Sonderforschungsbericht 342: Methoden und Werkzeuge fr die Nutzung paralleler Rechnerarchitekturen.",
+    "pages": "1-123",
+    "school": "Technical University Munich, Germany",
+    "year": "1990",
+    "series": "TUM-I",
+    "volume": "9007"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083735",
+    "author": "Stefan Bergdoll",
+    "title": "Vergleich der Leistungsfhigkeit von artifiziellen neuronalen Netzen und biologischen neuronalen Netzen am Beispiel bekannter Lernmechanismen.",
+    "pages": "I-IV, 1-127",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1996",
+    "ee": "https://d-nb.info/948204931"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020128",
+    "author": "Raphael Volz",
+    "title": "Web ontology reasoning with logic databases.",
+    "pages": "I-XVI, 1-471",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "2004",
+    "ee": [
+        "http://digbib.ubka.uni-karlsruhe.de/volltexte/162004",
+        "http://www.lulu.com/content/746147",
+        "https://nbn-resolving.org/urn:nbn:de:swb:90-AAA1620040",
+        "https://d-nb.info/970387792",
+        "https://d-nb.info/1005262691"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0035666",
+    "author": "Andrej Gisbrecht",
+    "title": "Advances in dissimilarity-based data visualisation.",
+    "pages": "I-VIII, 1-153",
+    "school": "Universitt Bielefeld",
+    "year": "2015",
+    "ee": [
+        "http://pub.uni-bielefeld.de/publication/2722974",
+        "https://nbn-resolving.org/urn:nbn:de:hbz:361-27229742",
+        "https://d-nb.info/1068621729"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0010385",
+    "author": "Jens Woch",
+    "title": "Integrated natural language generation with Schema-TAGs.",
+    "pages": "I-XX, 1-159",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "University of Koblenz-Landau, Germany",
+    "year": "2003",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "264",
+    "isbn": "978-3-89838-264-9",
+    "ee": "https://d-nb.info/967663520"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0071574",
+    "author": "Barry K. Rosen",
+    "title": "Subtree replacement systems.",
+    "school": "Harvard University",
+    "year": "1971",
+    "series": "TR",
+    "volume": "2-71"
+},{
+    "@mdate": "2019-06-19",
+    "@key": "books/daglib/0010618",
+    "author": "Dirk M. Ebert",
+    "title": "Bildbasierte Erzeugung kollisionsfreier Transferbewegungen fr Industrieroboter.",
+    "pages": "I-VII, 1-131",
+    "school": "University of Kaiserslautern, Germany",
+    "year": "2003",
+    "series": "Schriftenreihe / Fachbereich Informatik, Universitt Kaiserslautern",
+    "volume": "12",
+    "isbn": "978-3-936890-23-5"
+},{
+    "@mdate": "2019-09-18",
+    "@key": "books/daglib/0002348",
+    "author": "Peter Amthor 0002",
+    "title": "Structural decomposition of hybrid systems.",
+    "pages": "I-III, 1-165",
+    "school": "University of Bremen, Germany",
+    "year": "2000",
+    "series": "BISS monographs",
+    "volume": "13"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0033456",
+    "author": "Ulrike Fischer",
+    "title": "Forecasting in database systems.",
+    "pages": "I-IX, 1-179",
+    "school": "Universitt Dresden",
+    "year": "2014",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-133281",
+        "https://d-nb.info/1048705366",
+        "https://d-nb.info/1068445122"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0090362",
+    "author": "Reinhard Lling",
+    "title": "Lastverteilungsverfahren zur effizienten Nutzung paralleler Systeme.",
+    "pages": "I-IV, 1-208",
+    "school": "Universitt Paderborn",
+    "year": "1996",
+    "ee": "https://d-nb.info/951404180"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0072845",
+    "author": "Philipp Hanschke",
+    "title": "A declarative integration of teminological, constraint-based, data-driven, and goal-directed reasoning.",
+    "pages": "1-82",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1993",
+    "ee": [
+        "https://d-nb.info/940154951",
+        "https://d-nb.info/941398161"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0074266",
+    "author": "Kurt Schmid",
+    "title": "Komplexe interaktive Systeme in der anwendungsorientierten Informatik - interdisziplinre Analyse-, Entwicklungs- und Gestaltungsmethoden.",
+    "pages": "1-206",
+    "school": "University of Stuttgart, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/942365208"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008583",
+    "author": "Markus Hannebauer",
+    "title": "Autonomous dynamic reconfiguration in collaborative problem solving.",
+    "pages": "I-XXIV, 1-279",
+    "school": "Technical University of Berlin, Germany",
+    "year": "2001",
+    "ee": [
+        "http://edocs.tu-berlin.de/diss/2001/hannebauer_markus.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:kobv:83-opus-2749",
+        "https://d-nb.info/963481711"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0096014",
+    "author": "Christoph Weidenbach",
+    "title": "Computational aspects of a first-order logic with sorts.",
+    "pages": "I-XIII, 1-183",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "1996",
+    "ee": "https://d-nb.info/950483729"
+},{
+    "@mdate": "2022-08-04",
+    "@key": "books/daglib/0035616",
+    "author": "Farhan Tauheed",
+    "title": "Scalable exploration of spatial data in large-scale scientific simulations.",
+    "pages": "I-XIV, 1-139",
+    "school": "Ecole Polytechnique Federale de Lausanne",
+    "year": "2014",
+    "ee": [
+        "https://doi.org/10.5075/epfl-thesis-6125",
+        "https://infoscience.epfl.ch/record/199427"
+    ]
+},{
+    "@mdate": "2020-06-04",
+    "@key": "books/daglib/0071590",
+    "author": "Michael F. P. O'Boyle",
+    "title": "Program and data transformations for efficient execution on distributed memory architectures.",
+    "school": "University of Manchester, UK",
+    "year": "1993",
+    "series": "Technical report series",
+    "volume": "93-1-6"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0079811",
+    "author": "Alexander Linden",
+    "title": "SESAME - ein objekt- und datenfluorientierter Simulator fr Modelle der Neuroinformatik und angrenzender Gebiete.",
+    "pages": "I-VI, 1-172",
+    "publisher": "Infix",
+    "school": "Bielefeld University, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "93",
+    "isbn": "978-3-89601-093-3",
+    "ee": [
+        "https://d-nb.info/944685269",
+        "https://d-nb.info/945209185"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0096832",
+    "author": "Wolfgang Reissenberger",
+    "title": "CDL - eine Logik fr unendliche nebenlufige Systeme.",
+    "pages": "1-114",
+    "school": "University of Stuttgart, Germany",
+    "year": "1998",
+    "ee": "https://d-nb.info/955686571"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008643",
+    "author": "Stefan Mller 0002",
+    "title": "Simulation von Kunst- und Tageslicht mit dem Radiosity-Verfahren.",
+    "pages": "I-XI, 1-294",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1996",
+    "ee": "https://d-nb.info/952896974"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0084294",
+    "author": "Dionisios N. Pnevmatikatos",
+    "title": "Incorporating guarded execution into existing instruction sets.",
+    "pages": "I-IX, 1-115",
+    "school": "University of Wisconsin-Madison, WI, USA",
+    "year": "1996",
+    "series": "Technical Report / University of Wisconsin, Madison / Computer Sciences Department",
+    "volume": "1312"
+},{
+    "@mdate": "2011-02-09",
+    "@key": "books/daglib/0022217",
+    "author": "Mohammad Dawood",
+    "title": "Respiratory motion correction on 3D positron emission tomography images.",
+    "pages": "1-142",
+    "school": "Universitt Mnster",
+    "year": "2008"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069672",
+    "author": "Torsten Schaub",
+    "title": "Considerations on default logics.",
+    "pages": "1-159",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1992",
+    "ee": [
+        "https://d-nb.info/931142741",
+        "https://d-nb.info/931298008"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0013897",
+    "author": "Ingo Wald",
+    "title": "Realtime ray tracing and interactive global illumination.",
+    "pages": "I-XIV, 1-297",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "2004",
+    "ee": [
+        "http://scidok.sulb.uni-saarland.de/volltexte/2004/319/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:291-scidok-3194",
+        "https://d-nb.info/972316752"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008863",
+    "author": "Christoph F. Eick",
+    "title": "Methoden und rechnergesttzte Werkzeuge fr den logischen Datenbankentwurf.",
+    "pages": "1-163",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1984",
+    "ee": "https://d-nb.info/860112624"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0019253",
+    "author": "Andreas Schfer 0001",
+    "title": "Specification and verification of mobile real-time systems.",
+    "pages": "I-XVI, 1-233",
+    "school": "University of Oldenburg, Germany",
+    "year": "2006",
+    "ee": "https://d-nb.info/983533695"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0013896",
+    "author": "Jrgen Reiner",
+    "title": "Effective / efficient IT transformation decision processes.",
+    "pages": "1-214",
+    "school": "Universitt Wien",
+    "year": "2004"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0079262",
+    "author": "Subir K. Biswas",
+    "title": "Handling realtime traffic in mobile networks.",
+    "school": "Cambridge University, UK",
+    "year": "1994",
+    "series": "Technical Report / University of Cambridge / Computer Laboratory",
+    "volume": "351"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0082150",
+    "author": "Bernd Burkert",
+    "title": "Ein Framework generischer objekt-orientierter Basiskonzepte zur Werkzeug-Integration in unterschiedliche konzeptionelle Datenmodelle.",
+    "pages": "I-VII, 1-269",
+    "school": "University of Paderborn, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/946949050"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0068993",
+    "author": "Ralf Agne",
+    "title": "Globale zyklische Schedulingstrategie - ein Ansatz zur Garantie der harten Zeitbedingungen inverteilten Echtzeitsystemen.",
+    "pages": "1-337",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/930724291"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0098212",
+    "author": "Holger H. Hoos",
+    "title": "Stochastic local search - methods, models, applications.",
+    "pages": "I-VI, 1-218",
+    "school": "TU Darmstadt",
+    "year": "1998"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081587",
+    "author": "Heike Marquardt",
+    "title": "Intensionale Updates in deduktiven Datenbanken.",
+    "pages": "1-216",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/945543336"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008008",
+    "author": "Frank Unglauben",
+    "title": "Architekturen und Modellierung von verteilten Systemen zur Bildverteilung mit Schwerpunkt in der Medizin.",
+    "pages": "I-V, 1-256",
+    "publisher": "dissertation.de",
+    "school": "University of Mnster, Germany",
+    "year": "2002",
+    "isbn": "978-3-89825-535-6",
+    "ee": "https://d-nb.info/965924084"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0080063",
+    "author": "Benno Stein 0001",
+    "title": "Functional models in configuration systems.",
+    "pages": "I-XI, 1-145",
+    "school": "University of Paderborn, Germany",
+    "year": "1995",
+    "ee": [
+        "http://ubdata.uni-paderborn.de/ediss/17/1995/stein/disserta.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:hbz:466-1995010116",
+        "https://d-nb.info/945707142",
+        "https://d-nb.info/975239856"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0069968",
+    "author": "Hans-Georg Stork",
+    "title": "Zur Seitenwechselkomplexitt einfacher Referenzstrukturen.",
+    "pages": "1-140",
+    "school": "TH Darmstadt",
+    "year": "1975"
+},{
+    "@mdate": "2016-11-04",
+    "@key": "books/daglib/0017108",
+    "author": "Roland M. Mller",
+    "title": "Knowledge sharing and trading on electronic marketplaces.",
+    "pages": "1-234",
+    "school": "Free University of Berlin, Germany",
+    "year": "2005"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069957",
+    "author": "Ayse Erben",
+    "title": "Ein wissensbasiertes natrlichsprachliches Dialogsystem mit Syntax-Semantik-Interaktion auf der Grundlage der Lexical-Functional-Theorie.",
+    "pages": "I-III, 1-224",
+    "school": "University of Stuttgart, Germany",
+    "year": "1988",
+    "ee": "https://d-nb.info/890812195"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008857",
+    "author": "Gottfried Vossen",
+    "title": "Entwurf und Bearbeitung von Datenbanken im Universalrelationen-Datenmodell.",
+    "pages": "I-VI, 1-186",
+    "school": "RWTH Aachen University, Germany",
+    "year": "1986",
+    "ee": "https://d-nb.info/870399691"
+},{
+    "@mdate": "2015-06-11",
+    "@key": "books/daglib/0035681",
+    "author": "Michael J. Ziller",
+    "title": "Dissecting cellular states and cell state transitions through integrative analysis of epigenetic dynamics.",
+    "pages": "I-XXI, 1-179",
+    "school": "Universitt Tbingen",
+    "year": "2014"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001382",
+    "author": "Dirk Fuchs",
+    "title": "Cooperation in heterogeneous theorem prover networks.",
+    "pages": "1-262",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "2000",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "231",
+    "isbn": "978-3-89838-231-1",
+    "ee": "https://d-nb.info/958744947"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0035665",
+    "author": "Kai Lawonn",
+    "title": "Illustrative visualization of medical data sets.",
+    "pages": "I-XI, 1-216",
+    "school": "Universitt Magdeburg",
+    "year": "2014",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:gbv:ma9:1-5507",
+        "https://d-nb.info/1059440547",
+        "https://d-nb.info/1063503329"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0024111",
+    "author": "Michel Alessandrini",
+    "title": "Intelligent-Service-System - von der Vereinheitlichung von Neuro-Fuzzysystemen fr SOA bis zur Realisierung einer intelligenten dynamischen Service-Rekonfiguration.",
+    "pages": "I-XXII, 1-204",
+    "school": "University of Mnster, Germany",
+    "year": "2009",
+    "ee": "https://d-nb.info/995694419"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0078329",
+    "author": "Jrgen Hermann",
+    "title": "Rechnergesttzte Wissensakquisition fr Werkzeuge zum Entwurf integrierter Schaltungen.",
+    "school": "University of Dortmund, Germany",
+    "year": "1989",
+    "series": "Forschungsberichte",
+    "volume": "299"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008671",
+    "author": "Uta Strl",
+    "title": "Backup und Recovery in Datenbanksystemen - Verfahren, Klassifikation, Implementierung und Bewertung.",
+    "pages": "I-V, 1-185",
+    "school": "University of Jena, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/958231001"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0010390",
+    "author": "Detlef Kpper",
+    "title": "Benutzermodellierung fr benutzerspezifische Plangenerierung und -prsentation.",
+    "pages": "I-XIX, 1-346",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "University of Duisburg-Essen, Germany",
+    "year": "2003",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "269",
+    "isbn": "978-3-89838-269-4",
+    "ee": [
+        "http://miless.uni-essen.de/servlets/DerivateServlet/Derivate-11790/Diss-DKuepper.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:hbz:465-miless-011053-5",
+        "https://d-nb.info/968762263",
+        "https://d-nb.info/968800165"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069673",
+    "author": "Jrg Denzinger",
+    "title": "Teamwork - eine Methode zum Entwurf verteilter, wissensbasierter Theorembeweiser.",
+    "pages": "1-214",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/931314674"
+},{
+    "@mdate": "2011-02-09",
+    "@key": "books/daglib/0022694",
+    "author": "Dominik Engel",
+    "title": "Media encryption for still visual data - an analysis of selected techniques for natural images and fingerprint data in the spatial and wavelet domain.",
+    "pages": "I-XXII, 1-214",
+    "school": "Universitt Salzburg",
+    "year": "2008"
+},{
+    "@mdate": "2019-03-14",
+    "@key": "books/daglib/0078509",
+    "author": "Stephan Hartmann 0004",
+    "title": "Gewinnung effektiver Relevanzbeschreibungen und Indexierungsfunktionen fr die automatische Indexierung.",
+    "pages": "I-II, 1-141",
+    "school": "TH Darmstadt",
+    "year": "1994"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0069987",
+    "author": "Ioannis Keklikoglou",
+    "title": "Verallgemeinerte kommutative Sprachen.",
+    "pages": "1-50",
+    "school": "TH Darmstadt",
+    "year": "1980"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0035671",
+    "author": "David Rohr",
+    "title": "On development, feasibility, and limits of highly efficient CPU and GPU programs in several fields - fast parallel SIMDized GPU-accelerated reed-solomon encoding, heterogeneous linpack benchmark, and event reconstruction for the ALICE experiment.",
+    "pages": "1-254",
+    "school": "Universitt Frankfurt a. M.",
+    "year": "2013",
+    "ee": [
+        {
+            "@type": "oa",
+            "#text": "http://publikationen.ub.uni-frankfurt.de/files/34377/dissertation_david_rohr.pdf"
+        },
+        "https://nbn-resolving.org/urn:nbn:de:hebis:30:3-343772",
+        "https://d-nb.info/105346827X",
+        "https://d-nb.info/1053807953"
+    ]
+},{
+    "@mdate": "2016-07-03",
+    "@key": "books/daglib/0012794",
+    "author": "Jacques Chauch",
+    "title": "Transduction d'arborescences - application aux manipulations de formules sur ordinateur.",
+    "school": "Joseph Fourier University, Grenoble, France",
+    "year": "1971",
+    "ee": "https://tel.archives-ouvertes.fr/tel-00282884"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0018037",
+    "author": "Daniel Keysers",
+    "title": "Modeling of image variability for recognition.",
+    "pages": "I, 1-214",
+    "school": "Technische Hochschule Aachen",
+    "year": "2006"
+},{
+    "@mdate": "2013-05-31",
+    "@key": "books/daglib/0031220",
+    "author": "Teodoro Solis-Escalante",
+    "title": "The Asynchronous Graz Brain Switch.",
+    "pages": "I-XIII, 1-90",
+    "school": "Universitt Graz",
+    "year": "2012"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0035330",
+    "author": "Benjamin Bolte",
+    "title": "Decoupling Vision from Action - Redirected Walking and Rehabilitaiton in Immersive Virtual Environments.",
+    "pages": "I-XIV, 1-120",
+    "school": "Universitt Mnster",
+    "year": "2014",
+    "ee": "https://d-nb.info/1067674950"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0029120",
+    "author": {
+        "@orcid": "0000-0002-4981-3227",
+        "#text": "Carola Winzen"
+    },
+    "title": "Toward a complexity theory for randomized search heuristics.",
+    "pages": "1-171",
+    "school": "Universitt Saarbrcken",
+    "year": "2011",
+    "ee": [
+        "http://scidok.sulb.uni-saarland.de/volltexte/2011/4534/",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:291-scidok-45345",
+        "https://d-nb.info/1051432596"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0073768",
+    "author": "Rudolf Wilhelm",
+    "title": "Stand und Perspektiven informatischer Berufsethik.",
+    "pages": "1-245",
+    "school": "Technical University of Berlin, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/941977145"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001789",
+    "author": "Gregor Meyer",
+    "title": "On types and type consistency in logic programming.",
+    "pages": "I-VI, 1-176",
+    "publisher": "Infix",
+    "school": "University of Hagen, Germany",
+    "year": "2000",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "235",
+    "isbn": "978-3-89838-235-9",
+    "ee": "https://d-nb.info/959142762"
+},{
+    "@mdate": "2011-03-24",
+    "@key": "books/daglib/0070111",
+    "author": "Pierre Fraigniaud",
+    "title": "Communications intensives dans les architectures a memoire distribuee et algorithmes paralleles pour la recherche de racines de polynomes.",
+    "pages": "I-VIII",
+    "school": "Ecole Normale Superieure de Lyon",
+    "year": "1990"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0086140",
+    "author": "Hans-Jrg Starkloff",
+    "title": "ber Zufallselemente in mebaren Vektorrumen und einige Fragen der Approximation von Zufallselementen und Zufallsprozessen.",
+    "pages": "1-98",
+    "school": "TU Chemnitz",
+    "year": "1995"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0022224",
+    "author": "Andreas Kornstdt",
+    "title": "Ein Einschubsystem fr die musikwissenschaftliche Analyse - basierend auf einem Ansatz zur bruchlosen Modellierung von Anwendungsfamilien mit Rahmenwerken und Komponenten.",
+    "school": "University of Hamburg, Germany",
+    "year": "2002",
+    "ee": [
+        "http://www.sub.uni-hamburg.de/disse/639/dissertation.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:gbv:18-6396",
+        "https://d-nb.info/964401193",
+        "https://d-nb.info/96443332X"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083530",
+    "author": "Christian Elm",
+    "title": "Einsatz flagorientierter assoziativer Konzepte zur Beschleunigung deterministischer Funktionstests in Schreib-/Lesespeichern.",
+    "pages": "I-XII, 1-165",
+    "school": "University of Hagen, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/947004335"
+},{
+    "@mdate": "2022-06-23",
+    "@key": "books/daglib/0069982",
+    "author": {
+        "@orcid": "0000-0002-4304-4092",
+        "#text": "Marc H. Scholl"
+    },
+    "title": "Modell geschachtelter Relationen - Effiziente Untersttzung einer relationalen Datenbankschnittstelle.",
+    "pages": "1-264",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1988",
+    "ee": "https://d-nb.info/941807592"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0016518",
+    "author": "Wolfgang Thomas",
+    "title": "Das Entscheidungsproblem fr einige Erweiterungen der Nachfolger-Arithmetik.",
+    "pages": "1-103",
+    "school": "Universitt Freiburg",
+    "year": "1975"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0018043",
+    "author": "Tobias Frank",
+    "title": "Advanced visualization and modeling of tetrahedral meshes.",
+    "pages": "I-X, 1-121",
+    "school": "Technische Universitt Freiberg",
+    "year": "2006"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083662",
+    "author": "Andreas Kemper",
+    "title": "Mehrdimensionale Fast Rule Filterautomaten.",
+    "pages": "1-141",
+    "school": "University of Paderborn, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/948084758"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0079309",
+    "author": "Richard S. Crouch",
+    "title": "The temporal properties of english conditionals and modals.",
+    "school": "University Cambridge",
+    "year": "1994",
+    "series": "Technical Report / University of Cambridge / Computer Laboratory",
+    "volume": "325"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0097891",
+    "author": "Christoph Goller",
+    "title": "A connectionist approach for learning search-control heuristics for automated deduction systems.",
+    "pages": "I-XIII, 1-136",
+    "publisher": "Infix",
+    "school": "Technical University Munich, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "206",
+    "isbn": "978-3-89601-206-7",
+    "ee": [
+        "https://d-nb.info/952709236",
+        "https://d-nb.info/956677630"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0030416",
+    "author": "Remigius Lucas Franek",
+    "title": "Ensemble algorithms with applications to clustering and image segmentation.",
+    "pages": "I-V, 1-253",
+    "school": "Universitt Mnster",
+    "year": "2012",
+    "ee": "https://d-nb.info/1026013615"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069933",
+    "author": "Wolfgang Schramm",
+    "title": "Objektorientiertes Metamodell fr die Software-Entwicklung.",
+    "pages": "1-200",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1991",
+    "ee": "https://d-nb.info/920190790"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0097841",
+    "author": "Mihai Prunescu",
+    "title": "A structural approach to diophantine definability.",
+    "pages": "I-IX, 1-69",
+    "school": "University of Konstanz, Germany",
+    "year": "1999",
+    "series": "Konstanzer Schriften in Mathematik und Informatik / Universitt Konstanz / Fakultt fr Mathematik und Informatik",
+    "volume": "87"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0079493",
+    "author": "Dieter Hutter",
+    "title": "Mustergesteuerte Strategien fr das Beweisen von Gleichungen.",
+    "pages": "1-129",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1991",
+    "ee": [
+        "https://d-nb.info/944690459",
+        "https://d-nb.info/944757774"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0010927",
+    "author": "Alke Martens",
+    "title": "Ein Tutoring Prozess Modell fr fallbasierte intelligente Tutoring Systeme.",
+    "pages": "I-XIX, 1-243",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "University of Rostock, Germany",
+    "year": "2004",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "281",
+    "isbn": "978-3-89838-281-6",
+    "ee": "https://d-nb.info/970855206"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0093026",
+    "author": "Thomas Pundt",
+    "title": "Optimierung funktionaler Programme mittels abstrakter Programm-Interpretation.",
+    "pages": "I-II, 1-115",
+    "school": "Universitt Mnster",
+    "year": "1997",
+    "ee": "https://d-nb.info/954170601"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0093580",
+    "author": "Nicole Ro",
+    "title": "H2-Konvergenz der Rothe-Approximationen fr das Navier-Stokessche Anfangs-Randwertproblem in Auengebieten.",
+    "pages": "1-94",
+    "school": "Universitt Paderborn",
+    "year": "1998"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0034139",
+    "author": "Klaus Broelemann",
+    "title": "Automatic offline understanding of hand-drawn sketch maps.",
+    "pages": "1-145",
+    "school": "Universitt Mnster",
+    "year": "2014",
+    "ee": "https://d-nb.info/1055024077"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070158",
+    "author": "Thomas Spindler",
+    "title": "Konzeption von bildgenerierenden Systemen in einer integrierten CAD-Arbeitsplatzumgebung und deren Realisierung.",
+    "pages": "1-94",
+    "school": "Julius Maximilians University Wrzburg, Germany",
+    "year": "1988",
+    "ee": "https://d-nb.info/890986762"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081601",
+    "author": "Urs Andelfinger",
+    "title": "Diskursive Anforderungsanalyse und Validierung - ein Beitrag zum Reduktionsproblem bei Systementwicklungen in der Informatik.",
+    "pages": "I-V, 1-231",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1995",
+    "isbn": "3-631-30676-8",
+    "ee": [
+        "https://d-nb.info/946867496",
+        "https://d-nb.info/948771593"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070034",
+    "author": "Joachim Lenzer",
+    "title": "Formale Beschreibung von Rechnerarchitekturen und Programmsprachen - Implementierung und Anwendung in einem erzeugenden System fr Codegeneratoren.",
+    "pages": "1-121",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1981",
+    "ee": "https://d-nb.info/820450464"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008867",
+    "author": "Andreas Heuer 0001",
+    "title": "Exakte Charakterisierung eines semantischen Datenmodells und seiner Operationen durch relationale Konzepte.",
+    "pages": "1-258",
+    "school": "Clausthal University of Technology, Clausthal-Zellerfeld, Lower Saxony, Germany",
+    "year": "1988",
+    "ee": "https://d-nb.info/890811830"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0010386",
+    "author": "Stefan Kopp",
+    "title": "Synthese und Koordination von Sprache und Gestik fr virtuelle multimodale Agenten.",
+    "pages": "I-XIV, 1-260",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "Bielefeld University, Germany",
+    "year": "2003",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "265",
+    "isbn": "978-3-89838-265-6",
+    "ee": "https://d-nb.info/967882451"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0084814",
+    "author": "Olaf Munkelt",
+    "title": "Erkennung von Objekten in Einzelvideobildern mittels Aspektbumen.",
+    "publisher": "Infix",
+    "school": "Technical University Munich, Germany",
+    "year": "1996",
+    "pages": "1-133",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "125",
+    "isbn": "978-3-89601-125-1",
+    "ee": [
+        "https://d-nb.info/941726347",
+        "https://d-nb.info/948524618"
+    ]
+},{
+    "@mdate": "2017-03-23",
+    "@key": "books/daglib/0071482",
+    "author": "Jean H. Gallier",
+    "title": "Semantics and correctness of classes of deterministic and nondeterministic recursive programs.",
+    "pages": "1-237",
+    "school": "University of California, Santa Barbara, CA, USA",
+    "year": "1978"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0027444",
+    "author": "Paula Herber",
+    "title": "A Framework for Automated HW/SW Co-Verification of SystemC Designs Using Timed Automata.",
+    "pages": "1-147",
+    "publisher": "Logos",
+    "school": "Berlin Institute of Technology",
+    "isbn": "978-3-8325-2511-8",
+    "year": "2010",
+    "ee": [
+        "http://opus.kobv.de/tuberlin/volltexte/2010/2636/",
+        "https://nbn-resolving.org/urn:nbn:de:kobv:83-opus-26364",
+        "https://d-nb.info/1003635261",
+        "https://d-nb.info/1004208499"
+    ]
+},{
+    "@mdate": "2019-09-19",
+    "@key": "books/daglib/0090509",
+    "author": "Richard Hayton",
+    "title": "OASIS - an open architecture for secure interworking services.",
+    "pages": "I-XVIII, 1-102",
+    "school": "University Cambridge",
+    "year": "1996",
+    "series": "Technical Report / University of Cambridge / Computer Laboratory",
+    "volume": "399"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083982",
+    "author": "Wolfgang Becker",
+    "title": "Dynamische adaptive Lastbalancierung fr groe, heterogen konkurrierende Anwendungen.",
+    "pages": "1-133",
+    "school": "University of Stuttgart, Germany",
+    "year": "1995",
+    "ee": [
+        "http://elib.uni-stuttgart.de/opus/volltexte/1999/5/pdf/5.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:93-opus-59",
+        "https://d-nb.info/948327294",
+        "https://d-nb.info/95692509X"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012778",
+    "author": "Jacques Sakarovitch",
+    "title": "Syntaxe des langages de Chomsky - essai sur le determinisme.",
+    "pages": "1-175",
+    "school": "Univ. Paris VII",
+    "year": "1979"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0088049",
+    "author": "Walter Heijenga",
+    "title": "Strukturbasierte Sichtdefinition in objektorientierten Datenbanksystemen.",
+    "pages": "I-XII, 1-254",
+    "school": "Universitt Paderborn",
+    "year": "1997",
+    "ee": "https://d-nb.info/950942405"
+},{
+    "@mdate": "2011-03-15",
+    "@key": "books/daglib/0024687",
+    "author": "Jana Hertel",
+    "title": "Structured non-coding RNAs - prediction, comparison, annotation.",
+    "school": "Universitt Leipzig",
+    "year": "2009"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0091919",
+    "author": "Peter Knauber",
+    "title": "Ein System fr die Konstruktion objektorientierter bersetzer.",
+    "pages": "I-VIII, 1-148",
+    "school": "Universitt Kaiserslautern",
+    "year": "1997",
+    "ee": "https://d-nb.info/951970569"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0015337",
+    "author": "Anthony M. L. Liekens",
+    "title": "Evolution of finite populations in dynamic environments.",
+    "pages": "I-VI, 1-176",
+    "school": "University Eindhoven",
+    "year": "2005"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012776",
+    "author": "Serge Dulucq",
+    "title": "quations avec oprateurs - un outil combinatoire.",
+    "school": "Univ. Talence",
+    "year": "1981"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070154",
+    "author": "Uwe Willecke-Klemme",
+    "title": "Klassen von Sprachen fairer endlicher Automaten.",
+    "pages": "1-65",
+    "school": "University of Paderborn, Germany",
+    "year": "1988",
+    "ee": "https://d-nb.info/890515840"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0071011",
+    "author": "Jie-Ming J. Wang",
+    "title": "Visual logic - a visual source code animation system for teaching computer science at school.",
+    "pages": "I-XI, 1-169",
+    "school": "TH Darmstadt",
+    "year": "1993"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0086143",
+    "author": "Armin Nckel",
+    "title": "Automatische Generierung von Schaltkreisen durch strukturelle Analyse algebraischer Systeme.",
+    "pages": "1-133",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1996",
+    "ee": "https://d-nb.info/949384739"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083203",
+    "author": "Joachim Weisbrod",
+    "title": "Unscharfes Schlieen.",
+    "pages": "1-138",
+    "publisher": "Infix",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "117",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "isbn": "978-3-89601-117-6",
+    "ee": "https://d-nb.info/94670807X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070151",
+    "author": "Jrgen Lehmann",
+    "title": "Das Bausteinkonzept - Anwendung auf die Programmierung von Logikalgorithmen.",
+    "pages": "1-138",
+    "school": "University of Paderborn, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/921168101"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070052",
+    "author": "Krzysztof T. Malowaniec",
+    "title": "Dynamische Leitungsvermittlungsnetz fr verteilte Systeme.",
+    "pages": "1-122",
+    "school": "Saarland University, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/901198420"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0095991",
+    "author": "Peter Frhlich 0001",
+    "title": "DRUM-II - efficient model-based diagnosis of technical systems.",
+    "pages": "I-XI, 1-151",
+    "publisher": "Infix",
+    "school": "University of Hanover, Hannover, Germany",
+    "year": "1998",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "192",
+    "isbn": "978-3-89601-192-3",
+    "ee": [
+        {
+            "@type": "oa",
+            "#text": "http://edok01.tib.uni-hannover.de/edoks/e002/244073643.pdf"
+        },
+        "https://nbn-resolving.org/urn:nbn:de:gbv:089-2440736435",
+        "https://d-nb.info/954458850",
+        "https://d-nb.info/954895592",
+        "https://d-nb.info/955998174"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069990",
+    "author": "Klaus Guntermann 0002",
+    "title": "Ansatz zur automatischen Erzeugung von Ausgabetreibern fr die Ansteuerung von Zeichendruckern durch Textformatierer.",
+    "pages": "1-87",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1984",
+    "ee": "https://d-nb.info/850790085"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0078960",
+    "author": "Henner Kollnig",
+    "title": "Ermittlung von Verkehrsgeschehen durch Bildfolgenauswertung.",
+    "pages": "I-VIII, 1-187",
+    "publisher": "Infix",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "88",
+    "isbn": "978-3-929037-88-3",
+    "ee": "https://d-nb.info/944181074"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0008651",
+    "author": "Stephanie Springer",
+    "title": "Virtuelle Wanderarbeit - das internationale Arbeits- und Sozialversicherungsrecht der grenzberschreitenden Telearbeit.",
+    "pages": "I-XIX, 1-339",
+    "school": "Universitt Hannover",
+    "year": "2001"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0018036",
+    "author": "Kilian A. Foth",
+    "title": "Hybrid methods of natural language analysis.",
+    "pages": "I-XVI, 1-191",
+    "publisher": "Shaker",
+    "school": "University of Hamburg, Germany",
+    "year": "2006",
+    "isbn": "978-3-8322-5977-8",
+    "ee": "https://d-nb.info/983537887"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070452",
+    "author": "Michael Spenke",
+    "title": "PERPLEX - ein graphisch-interaktives System zur Untersttzung der logischen Programmierung.",
+    "pages": "1-123",
+    "publisher": "Oldenbourg",
+    "school": "Universitt Stuttgart",
+    "year": "1993",
+    "isbn": "978-3-486-22579-2",
+    "ee": [
+        "https://d-nb.info/930356020",
+        "https://d-nb.info/930961870"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0008641",
+    "author": "Lars Kruse",
+    "title": "Estimating and optimizing power consumption of integrated macro blocks at the behavioral level.",
+    "pages": "I-VII, 1-263",
+    "school": "Universitt Oldenburg",
+    "year": "2001"
+},{
+    "@mdate": "2019-06-19",
+    "@key": "books/daglib/0008829",
+    "author": "Ursula Hilgers",
+    "title": "Dienstgteuntersttzung in Weitverkehrsnetzen.",
+    "school": "University of Erlangen, Germany",
+    "year": "2002",
+    "series": "Arbeitsberichte des Department Informatik / Friedrich-Alexander-Universitt Erlangen-Nrnberg",
+    "volume": "35,6"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020505",
+    "author": "Jens Mller-Iden",
+    "title": "Replication-based scalable parallelisation of virtual environments.",
+    "pages": "I-V, 1-200",
+    "school": "University of Mnster, Germany",
+    "year": "2007",
+    "ee": "https://d-nb.info/985642548"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069934",
+    "author": "Vijay R. Bandekar",
+    "title": "Integrated problem solving framework as an intelligent aid for analyzing and synthesizing technical systems.",
+    "pages": "1-113",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1989",
+    "ee": "https://d-nb.info/900452463"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0097850",
+    "author": "Gnter Schfer",
+    "title": "Effiziente Authentisierung und Schlsselverwaltung in Hochleistungsnetzen.",
+    "pages": "I-VI, 1-236",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1998",
+    "ee": "https://d-nb.info/955697638"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070166",
+    "author": "Eckhard Lange",
+    "title": "Graph-Grammatiken zur Formalisierung von Modell- und Methodenbanksystemen und als Grundlage fr eine Implementation.",
+    "pages": "1-117",
+    "school": "Julius Maximilians University Wrzburg, Germany",
+    "year": "1983",
+    "ee": "https://d-nb.info/840779224"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0098208",
+    "author": "Michael Sobirey",
+    "title": "Datenschutzorientierte Audit-basierte Erkennung von IT-Sicherheitsverletzungen.",
+    "pages": "I-XVIII, 1-134",
+    "school": "BTU Cottbus",
+    "year": "1998"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0016503",
+    "author": "Erich Grdel",
+    "title": "The complexity of subclasses of logical theories.",
+    "pages": "1-67",
+    "school": "Univ. Basel",
+    "year": "1987"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0020527",
+    "author": "Verena Broy",
+    "title": "Benutzerzentrierte, graphische Interaktionsmetaphern fr Fahrerinformationssysteme.",
+    "pages": "I-XIII, 1-302",
+    "school": "Universitt Mnchen",
+    "year": "2007"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0018390",
+    "author": "Sally Floyd",
+    "title": "On space-bounded learning and the Vapnik-Chervonenkis dimension.",
+    "pages": "I-II, 1-157",
+    "school": "University Berkeley",
+    "year": "1989",
+    "series": "TR ICSI - International Computer Science Institute / Berkeley",
+    "volume": "89-061"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0069042",
+    "author": "Dieter Bothe",
+    "title": "Multivalued differential equations on graphs and applications.",
+    "pages": "1-102",
+    "school": "Universitt Paderborn",
+    "year": "1992"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0079937",
+    "author": "Reinhard von Hanxleden",
+    "title": "Compiler support for machine-independent parallelization of irregular problems.",
+    "school": "University of Houston, TX, USA",
+    "year": "1994",
+    "series": "Rice COMP TR",
+    "volume": "94-243"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008859",
+    "author": "Ulrich Finke",
+    "title": "Algorithmen fr Verschneidungsoperationen.",
+    "pages": "I-VIII, 1-148",
+    "school": "University of Siegen, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/94287031X"
+},{
+    "@mdate": "2013-08-30",
+    "@key": "books/daglib/0031767",
+    "author": "Daniel Tenbrinck",
+    "title": "Variational Methods for Medical Ultrasound Imaging.",
+    "pages": "I-IX, 1-277",
+    "school": "Universitt Mnster",
+    "year": "2013"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0031224",
+    "author": "Paul Drews",
+    "title": "Branchenspezifische IT-Innovationssysteme - von der Analyse zur Intervention: am Beispiel des IT-Innovationssystems fr Krankenhuser in Deutschland.",
+    "pages": "I-XXI, 1-349",
+    "school": "Universitt Hamburg",
+    "year": "2011",
+    "ee": [
+        "http://ediss.sub.uni-hamburg.de/volltexte/2012/5539/",
+        "https://nbn-resolving.org/urn:nbn:de:gbv:18-55396",
+        "https://d-nb.info/1021499684"
+    ]
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0079941",
+    "author": "Douglas M. Monk",
+    "title": "An empirical evaluation of dependence analysis in parallel program comprehension.",
+    "school": "University of Houston, TX, USA",
+    "year": "1995",
+    "series": "Rice COMP TR",
+    "volume": "95-249"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0031770",
+    "author": "Arno Pasternak",
+    "title": "Fach- und bildungswissenschaftliche Grundlagen fr den Informatikunterricht in der Sekundarstufe I.",
+    "pages": "1-478",
+    "school": "University of Mnster, Germany",
+    "year": "2013",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hbz:6-94379439372",
+        "https://d-nb.info/1037357973",
+        "https://d-nb.info/1138281247"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0008631",
+    "author": "Guido Ipsen",
+    "title": "HybridHyperSigns - semiotische Parameter von Skriptstrukturen WWW-gebundener Hypertexte.",
+    "pages": "I-VII, 1-380",
+    "school": "Univ./GHS Kassel",
+    "year": "2001"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070110",
+    "author": "Michael Mhring",
+    "title": "MIMOSE - eine funktionale Sprache zur Beschreibung und Simulation individuellen Verhaltens in interagierenden Populationen.",
+    "pages": "I-V, 1-138",
+    "school": "Erziehungswissenschaftliche Hochschule Rheinland-Pfalz, Mainz, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/941920461"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069999",
+    "author": "Jrg-Martin Pflger",
+    "title": "Grammatikalische Funktoren und quivalenz.",
+    "pages": "1-152",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1982",
+    "ee": "https://d-nb.info/830124985"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0006416",
+    "author": "Andrea Schalk",
+    "title": "Algebras for generalized power constructions.",
+    "pages": "1-166",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/932017894"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070152",
+    "author": "Walter Unger",
+    "title": "Frbung von Kreissehnengraphen.",
+    "pages": "1-175",
+    "school": "University of Paderborn, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/920881181"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081598",
+    "author": "Christian B. Suttner",
+    "title": "Parallelization of search-based systems by static partitioning with slackness.",
+    "pages": "1-191",
+    "publisher": "Infix",
+    "school": "Technical University Munich, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "101",
+    "isbn": "978-3-89601-101-5",
+    "ee": [
+        "https://d-nb.info/944822681",
+        "https://d-nb.info/946060592"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008657",
+    "author": "J. Joachim Quantz",
+    "title": "Preferential disambiguation in natural language processing.",
+    "pages": "I-VI, 1-188",
+    "school": "Technical University of Berlin, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/94718516X"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012761",
+    "author": "Khyra Gerardin",
+    "title": "Quelques proprietes des series formelles en variables non commutatives.",
+    "pages": "1-97",
+    "school": "Univ. Paris VII",
+    "year": "1979"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0084812",
+    "author": "Oksana Arnold",
+    "title": "Die Therapiesteuerungskomponente einer wissensbasierten Systemarchitektur fr Aufgaben der Prozefhrung.",
+    "pages": "I-XXVIII, 1-346",
+    "publisher": "Infix",
+    "school": "Technische Hochschule Leipzig, Germany",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "130",
+    "isbn": "978-3-89601-130-5",
+    "ee": "https://d-nb.info/948524987"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0088045",
+    "author": "Steven Pope",
+    "title": "Application support for mobile computing.",
+    "pages": "I-XIV, 1-145",
+    "school": "University of Cambridge, UK",
+    "year": "1997",
+    "series": "Technical Report / University of Cambridge / Computer Laboratory",
+    "volume": "415"
+},{
+    "@mdate": "2011-03-24",
+    "@key": "books/daglib/0070029",
+    "author": "Walter Hohberg",
+    "title": "Zerlegung von Graphen - ein allgemeines, sequentielles und paralleles Lsungsverfahren fr Graphenprobleme.",
+    "pages": "1-66",
+    "school": "TH Darmstadt",
+    "year": "1989"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0077164",
+    "author": "Enno Littmann",
+    "title": "Strukturierung neuronaler Netze zwischen Biologie und Anwendung - biologische Modellierung, Kaskadierung und hybrider Ansatz.",
+    "pages": "I-XII, 1-252",
+    "publisher": "Infix",
+    "school": "Bielefeld University, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "78",
+    "isbn": "978-3-929037-78-4",
+    "ee": "https://d-nb.info/943241553"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0024646",
+    "author": "Joachim Keinert",
+    "title": "Data Flow Based System Level Modeling, Analysis, and Synthesis of High-Performance Streaming Image Processing Applications.",
+    "pages": "I-XXI, 1-363",
+    "year": "2009",
+    "school": "University of Erlangen-Nuremberg",
+    "ee": "https://d-nb.info/1004910673"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0031223",
+    "author": "Bastian Kennel",
+    "title": "A unified framework for multi-level modeling.",
+    "pages": "1-267",
+    "school": "Universitt Mannheim",
+    "year": "2012",
+    "ee": [
+        "https://ub-madoc.bib.uni-mannheim.de/31906",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:180-madoc-319067",
+        "https://d-nb.info/1025700902",
+        "https://d-nb.info/1034315374"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0019601",
+    "author": "Elena Popovici",
+    "title": "An analysis of two-population coevolutionary computation.",
+    "pages": "I-X, 1-188",
+    "school": "Universitt Virginia",
+    "year": "2006"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020522",
+    "author": "Peer Stelldinger",
+    "title": "Image digitization and its influence on shape properties in finite dimensions.",
+    "pages": "I-XVII, 1-212",
+    "publisher": "IOS Press",
+    "school": "University of Hamburg, Germany",
+    "year": "2007",
+    "isbn": "978-3-89838-312-7",
+    "ee": "https://d-nb.info/987640054"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0088238",
+    "author": "Bernhard Jung 0001",
+    "title": "Wissensverarbeitung fr Montageaufgaben in virtuellen und realen Umgebungen.",
+    "pages": "1-197",
+    "school": "Bielefeld University, Germany",
+    "publisher": "Infix",
+    "year": "1997",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "157",
+    "isbn": "978-3-89601-157-2",
+    "ee": "https://d-nb.info/950752185"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0068992",
+    "author": "Helga Behmke",
+    "title": "Grundlagen der Typ-2-berechenbaren Analysis unter besonderer Bercksichtigung der komplexen Zahlen.",
+    "pages": "1-135",
+    "school": "FernUniv. Hagen",
+    "year": "1992"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070119",
+    "author": "Ralf Hartmut Gting",
+    "title": "Conquering contours - efficient algorithms for computational geometry.",
+    "pages": "1-179",
+    "school": "Technical University of Dortmund, Germany",
+    "year": "1983",
+    "ee": "https://d-nb.info/840124880"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001787",
+    "author": "Thomas Linke",
+    "title": "New foundations for automation of default reasoning.",
+    "pages": "I-VII, 1-182",
+    "publisher": "Infix",
+    "school": "Bielefeld University, Germany",
+    "year": "2000",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "237",
+    "isbn": "978-3-89838-237-3",
+    "ee": "https://d-nb.info/959143874"
+},{
+    "@mdate": "2015-06-11",
+    "@key": "books/daglib/0035664",
+    "author": "Gnter Klambauer",
+    "title": "Machine Learning Techniques for the Analysis of High-Throughput DNA and RNA Sequencing Data.",
+    "pages": "I-XXII, 1-184",
+    "school": "Universitt Linz",
+    "year": "2014"
+},{
+    "@mdate": "2017-05-03",
+    "@key": "books/daglib/0012769",
+    "author": "Eva-Maria Mckstein Wotschke",
+    "title": "Ordered grammars with equivalence classes - some formal and linguistic aspects.",
+    "pages": "I-IX, 1-169",
+    "school": "University of California, Los Angeles, USA",
+    "year": "1975"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0018045",
+    "author": "Daniel Reidenbach",
+    "title": "The ambiguity of morphisms in free monoids and its impact on algorithmic properties of pattern languages.",
+    "pages": "I-VII, 1-165",
+    "publisher": "Logos-Verlag",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "2006",
+    "isbn": "978-3-8325-1449-5",
+    "ee": "https://d-nb.info/982940645"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0092881",
+    "author": "Britta Lenzmann",
+    "title": "Benutzeradaptive und multimodale Interface-Agenten.",
+    "pages": "I-X, 1-189",
+    "publisher": "Infix",
+    "school": "Bielefeld University, Germany",
+    "year": "1998",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "184",
+    "isbn": "978-3-89601-184-8",
+    "ee": "https://d-nb.info/95328302X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069946",
+    "author": "Jrgen R. Bergmann",
+    "title": "Strukturgebundener Software-Entwurf auf relationaler Basis- Ein integrierender Ansatz.",
+    "pages": "I-V, 1-218",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1989",
+    "ee": "https://d-nb.info/891641599"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069979",
+    "author": "Helmut Rohde",
+    "title": "Analyse geschlossener Warteschlangennetzwerke unter Verwendung von lastabhngigen Knoten.",
+    "pages": "1-61",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1985",
+    "ee": "https://d-nb.info/860954080"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0073656",
+    "author": "Christoph Klauck",
+    "title": "Eine Graphgrammatik zur Reprsentation und Erkennung von Features in CAD/CAM.",
+    "pages": "1-161",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1994",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "66",
+    "isbn": "978-3-929037-66-1",
+    "ee": "https://d-nb.info/941151182"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070256",
+    "author": "Thomas Berlage",
+    "title": "Using command objects to implement user interfaces.",
+    "pages": "I-VI, 1-126",
+    "school": "University of Paderborn, Germany",
+    "publisher": "Oldenbourg",
+    "year": "1993",
+    "isbn": "978-3-486-22835-9",
+    "ee": [
+        "https://d-nb.info/931658497",
+        "https://d-nb.info/932018254"
+    ]
+},{
+    "@mdate": "2020-03-12",
+    "@key": "books/daglib/0083853",
+    "author": "Dana Ron",
+    "title": "Automata learning and its applications.",
+    "pages": "1-150",
+    "school": "University of Jerusalem, Israel",
+    "year": "1995",
+    "series": "Technical report",
+    "volume": "95-14",
+    "ee": {
+        "@type": "oa",
+        "#text": "http://www.cs.huji.ac.il/labs/learning/Theses/Dana_Ron_PhD.pdf"
+    }
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0093538",
+    "author": "Soenke Ziesche",
+    "title": "Perspektivierungsprozesse bei der Sprachproduktion - Spezifikation und Modellierung der Abbildung von konzeptuellen Strukturen auf semantische Reprsentationen.",
+    "pages": "I-XIII, 1-240",
+    "publisher": "Infix",
+    "school": "University of Hamburg, Germany",
+    "year": "1998",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "186",
+    "isbn": "978-3-89601-186-2",
+    "ee": "https://d-nb.info/953868370"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070044",
+    "author": "Shin-Ting Wu",
+    "title": "Topologie von hybriden Objekten.",
+    "pages": "1-194",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1991",
+    "ee": "https://d-nb.info/911233601"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020554",
+    "author": "Ansgar Grne",
+    "title": "Geometric dilation and halving distance.",
+    "pages": "I-VIII, 1-214",
+    "school": "University of Bonn, Germany",
+    "year": "2006",
+    "ee": [
+        "http://hss.ulb.uni-bonn.de/diss_online/math_nat_fak/2008/gruene_ansgar/",
+        "http://web.informatik.uni-bonn.de/I/publications/g-gdhd-06.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:hbz:5N-13045",
+        "https://d-nb.info/987445154",
+        "https://d-nb.info/987942980"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0022216",
+    "author": "Daniel Dahl",
+    "title": "Integration von Lernobjekten auf Metadatenebene - Ein Web 2.0-geprgter Ansatz.",
+    "pages": "I-III, 1-173",
+    "school": "University of Mnster, Germany",
+    "year": "2008",
+    "volume": "98",
+    "publisher": "Aka Akademische Verlagsgesellschaft Aka GmbH, Berlin",
+    "series": {
+        "@href": "db/series/disdbis/index.html",
+        "#text": "DISDBIS"
+    },
+    "isbn": "978-3-89838-498-8",
+    "ee": [
+        "https://d-nb.info/98994090X",
+        "https://d-nb.info/989973239"
+    ]
+},{
+    "@mdate": "2011-05-06",
+    "@key": "books/daglib/0003400",
+    "author": "Bostjan Likar",
+    "title": "Registration and restoration of medical images.",
+    "school": "Universiteit Utrecht",
+    "pages": "I-VIII, 1-136",
+    "year": "2000",
+    "isbn": "978-961-236-059-7"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0012527",
+    "author": "Jacco van Ossenbruggen",
+    "title": "Processing structured hypermedia - a matter of style.",
+    "pages": "I-VII, 1-270",
+    "school": "University of Amsterdam, The Netherlands",
+    "year": "2001",
+    "series": "SIKS dissertation series",
+    "volume": "2001-5",
+    "isbn": "978-9-06-196502-2"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0018034",
+    "author": "Sven Overhage",
+    "title": "Vereinheitlichte Spezifikation von Komponenten - Grundlagen, UNSCOM Spezifikationsrahmen und Anwendung.",
+    "pages": "I-XI, 1-314",
+    "school": "University of Augsburg, Germany",
+    "year": "2006",
+    "ee": [
+        "http://www.opus-bayern.de/uni-augsburg/volltexte/2007/545/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bvb:384-opus-5455",
+        "https://d-nb.info/983172935",
+        "https://d-nb.info/984057137"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0020523",
+    "author": "Martina Seidl",
+    "title": "A solver for quantified Boolean formulas in negation normal form.",
+    "pages": "I-XII, 1-128",
+    "school": "Universitt Wien",
+    "year": "2007"
+},{
+    "@mdate": "2015-03-23",
+    "@key": "books/daglib/0034593",
+    "author": "Fabian Gigengack",
+    "title": "Mass preserving motion correction and multimodal image segmentation in positron emission tomography.",
+    "pages": "I-XVI, 1-228",
+    "school": "Universitt Mnster",
+    "year": "2013"
+},{
+    "@mdate": "2011-03-24",
+    "@key": "books/daglib/0069000",
+    "author": "Anneke A. Schoone",
+    "title": "Assertional verification in distributed computing.",
+    "pages": "I-V, 1-191",
+    "school": "University Utrecht",
+    "year": "1991"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0016516",
+    "author": "Stefan Lttringhaus-Kappel",
+    "title": "Laziness in logic programming.",
+    "pages": "I-VII, 1-162",
+    "school": "University of Bonn, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/921559852"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0024647",
+    "author": "Thorsten Holz",
+    "title": "Tracking and Mitigation of Malicious Remote Control Networks.",
+    "pages": "I-XIII, 1-138",
+    "school": "University of Mannheim, Germany",
+    "year": "2009",
+    "ee": [
+        "http://madoc.bib.uni-mannheim.de/madoc/volltexte/2009/2330/pdf/dissertation-holz.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:180-madoc-23306",
+        "https://d-nb.info/994515456",
+        "https://d-nb.info/994621701"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0010393",
+    "author": "Ji-Young Lim",
+    "title": "Discrete scale-space formulation and multiscale edge extraction toward higher dimensions.",
+    "pages": "I-XIII, 1-202",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "University of Hamburg, Germany",
+    "year": "2003",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "272",
+    "isbn": "978-3-89838-272-4",
+    "ee": "https://d-nb.info/968877788"
+},{
+    "@mdate": "2017-05-03",
+    "@key": "books/daglib/0069965",
+    "author": "Mark G. J. van den Brand",
+    "title": "PREGMATIC - a generator for incremental programming environments.",
+    "pages": "1-187",
+    "school": "Radboud University Nijmegen",
+    "year": "1992"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0033465",
+    "author": "Dang Vinh Pham",
+    "title": "Towards practical and fundamental limits of anonymity protection.",
+    "pages": "I-XVIII, 1-207",
+    "school": "University of Regensburg, Germany",
+    "year": "2013",
+    "ee": [
+        "http://epub.uni-regensburg.de/28944",
+        "https://nbn-resolving.org/urn:nbn:de:bvb:355-epub-289446",
+        "https://d-nb.info/1044754125",
+        "https://d-nb.info/1046433792"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070057",
+    "author": "Jung Sun Lie",
+    "title": "Analytische Bewertung relationaler Datenbankmaschinen.",
+    "pages": "1-127",
+    "school": "Braunschweig University of Technology, Germany",
+    "year": "1987",
+    "ee": "https://d-nb.info/880408332"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0094536",
+    "author": "Charlotte Kerler",
+    "title": "Differenzierbarkeit im Bild und Abbildungseigenschaften verallgemeinerter Fouriertransformationen bei variablen Koeffizienten im Auengebiet und Anwendungen auf Gleichungen im Kirchhoff-Typ.",
+    "school": "University of Konstanz, Germany",
+    "year": "1998",
+    "series": "Konstanzer Schriften in Mathematik und Informatik / Universitt Konstanz / Fakultt fr Mathematik und Informatik",
+    "volume": "67"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0017104",
+    "author": "Andrey Rybalchenko",
+    "title": "Temporal verification with transition invariants.",
+    "pages": "I-XII, 1-89",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "2005",
+    "ee": [
+        "http://scidok.sulb.uni-saarland.de/volltexte/2007/1280/",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:291-scidok-12809",
+        "https://d-nb.info/985656085"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0027445",
+    "author": "Jens Keilwagen",
+    "title": "Predicting DNA binding sites using generative, discriminative, and hybrid learning principles.",
+    "pages": "1-131",
+    "year": "2010",
+    "school": "Martin Luther University of Halle-Wittenberg",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:gbv:3:4-3105",
+        "https://d-nb.info/1024976939"
+    ]
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0008861",
+    "author": "Thomas Deil",
+    "title": "Darstellungen und Berechenbarkeit reeller Zahlen.",
+    "pages": "1-131",
+    "school": "University of Hagen, Germany",
+    "year": "1983"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008584",
+    "author": "Torsten Grust",
+    "title": "Comprehending queries.",
+    "pages": "I-VIII, 1-161",
+    "school": "University of Konstanz, Germany",
+    "year": "1999",
+    "ee": [
+        "http://www.ub.uni-konstanz.de/kops/volltexte/1999/312/312_1.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:352-opus-3120",
+        "https://d-nb.info/957714041"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083710",
+    "author": "Thomas Wengerek",
+    "title": "Reinforcement-Lernen in der Robotik.",
+    "pages": "I-VI, 1-143",
+    "publisher": "Infix",
+    "school": "Bielefeld University",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "119",
+    "isbn": "978-3-89601-119-0",
+    "ee": "https://d-nb.info/947638458"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0027793",
+    "author": "Patrick Meuth",
+    "title": "Thalamic neurons in silico.",
+    "school": "Universitt Mnster",
+    "year": "2011",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hbz:6-92489445678",
+        "https://d-nb.info/1027017827"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020526",
+    "author": "Thorsten Grosch",
+    "title": "Augmentierte Bildsynthese.",
+    "pages": "1-244",
+    "publisher": "Der Andere Verlag",
+    "school": "University of Koblenz and Landau, Germany",
+    "year": "2007",
+    "isbn": "978-3-89959-710-3",
+    "ee": "https://d-nb.info/987675710"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0019257",
+    "author": "Stefan Martin Frenz",
+    "title": "Zuverlssiger verteilter Speicher mit transaktionaler Konsistenz.",
+    "pages": "1-120",
+    "school": "University of Ulm, Germany",
+    "year": "2006",
+    "ee": [
+        "http://vts.uni-ulm.de/docs/2006/5615/vts_5615_7391.pdf",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:289-vts-56155",
+        "https://d-nb.info/980533015",
+        "https://d-nb.info/995352380"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0003047",
+    "author": "Rainer Koschke",
+    "title": "Atomic architectural component recovery for program understanding and evolution - evaluation of atuomatic re-modelarization techniques and their integration in a semi-automatic method.",
+    "pages": "1-412",
+    "school": "University of Stuttgart, Germany",
+    "year": "2000",
+    "ee": [
+        "http://elib.uni-stuttgart.de/opus/volltexte/2000/669/pdf/Koschke.Thesis.PDF",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:93-opus-6693",
+        "https://d-nb.info/959812121",
+        "https://d-nb.info/959885048"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083734",
+    "author": "Wolfgang Hebgen",
+    "title": "Netzlngenbasierte Abschtzung des Zeitverhaltens in einem top-down VLSI-Entwurfsystem.",
+    "pages": "I-IV, 1-270",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/946699895"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0079798",
+    "author": "Knut Hinkelmann",
+    "title": "Transformation von Hornklausel-Wissensbasen - Verarbeitung gleichen Wissens durch verschiedene Inferenzen.",
+    "pages": "1-215",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "81",
+    "isbn": "978-3-929037-81-4",
+    "ee": "https://d-nb.info/944684246"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0002236",
+    "author": "Stephan Schmitt",
+    "title": "Proof reconstruction in classical and non-classical logics.",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "2000",
+    "pages": "I-XII, 1-216",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "239",
+    "isbn": "978-3-89838-239-7",
+    "ee": "https://d-nb.info/959848444"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0096019",
+    "author": "Bernhard A. Kerscher",
+    "title": "Telekommunikation im Bankgeschft - ein ganzheitliches Gestaltungskonzept fr innovative Telekommunikationssysteme im elektronischen Bankgeschft.",
+    "pages": "I-XXIV, 1-248",
+    "school": "University of Regensburg, Germany",
+    "year": "1996",
+    "ee": "https://d-nb.info/95010910X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0072842",
+    "author": "Carlos Lora-Senz",
+    "title": "A theoretical framework for reasoning about program construction based on extensions of rewrite systems.",
+    "pages": "1-213",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/940369524"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0098162",
+    "author": "Ute Masermann",
+    "title": "Schema-unabhngige Anfragesprachen fr relationale Datenbanken.",
+    "pages": "I-IV, 1-175",
+    "school": "Universitt Mnster",
+    "year": "1999"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0071701",
+    "author": "Peter Sturm 0001",
+    "title": "Entwurfsuntersttzung fr graphische Bedienungsoberflchen.",
+    "pages": "1-224",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/931883997"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0013700",
+    "author": "Ulrich Sprekelmeyer",
+    "title": "Positiv reprsentierende Klassifikationsnetze - die Entwicklung eines neuartigen Klassifikationsnetzes fr ein berwachtes Training whrend der Klassifikation.",
+    "year": "2004",
+    "school": "University of Mnster, Germany",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hbz:6-24629544040",
+        "https://d-nb.info/976770059",
+        "https://d-nb.info/993083137"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0085113",
+    "author": "Karl Schfer",
+    "title": "Unscharfe zeitlogische Modellierung von Situationen und Handlungen in Bildfolgenauswertung und Robotik.",
+    "pages": "1-363",
+    "publisher": "Infix",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "135",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "isbn": "978-3-89601-135-0",
+    "ee": "https://d-nb.info/948837357"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008864",
+    "author": "Stefan Brass",
+    "title": "Defaults in deduktiven Datenbanken.",
+    "pages": "I-VI, 1-197",
+    "school": "University of Hanover, Hannover, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/930235665"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070953",
+    "author": "Hartmut Gilg",
+    "title": "Benutzermodellierung fr ein adaptives intelligentes Lernsystem.",
+    "pages": "I-VI, 1-153",
+    "school": "University of Stuttgart, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/931664705"
+},{
+    "@mdate": "2017-05-03",
+    "@key": "books/daglib/0011842",
+    "author": "Hanan Samet",
+    "title": "Automatically proving the correctness of translations involving optimized code - research sponsored by Advanced Research Projects Agency, ARPA order no. 2494.",
+    "pages": "I-VI, 1-214",
+    "school": "Stanford University",
+    "year": "1975",
+    "series": "Stanford Artificial Intelligence Laboratory: Memo AIM",
+    "volume": "259"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0022688",
+    "author": "Christoph-Matthias Bockisch",
+    "title": "An efficient and flexible implementation of aspect-oriented languages.",
+    "pages": "I-XX, 1-181",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "2009",
+    "ee": [
+        "http://tuprints.ulb.tu-darmstadt.de/1314/",
+        "https://nbn-resolving.org/urn:nbn:de:tuda-tuprints-13147",
+        "https://d-nb.info/993640249",
+        "https://d-nb.info/993975917",
+        "https://www.base-search.net/Record/98696ac1868ed37881432e46f81b2ef77002a1aa4d0bae773eb1cb5a4d993a20",
+        "https://www.base-search.net/Record/9f542089f3b7ef1c92f16f66b3a3218c5f6a443de11083f0cfe07b6bdfe0c89f"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070125",
+    "author": "Ernst Siepmann",
+    "title": "Entwurfstheorie und Entwurfsdatenmodellierung fr CAD-Frameworks.",
+    "pages": "1-194",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1991",
+    "ee": "https://d-nb.info/920231551"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012780",
+    "author": "Franois Rodriguez",
+    "title": "Contribution a l'etude des operations sur les langages et des operateurs sur les familles de langages.",
+    "pages": "I-XII, 1-214",
+    "school": "Univ. Toulouse",
+    "year": "1979"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020511",
+    "author": "Christian Fleischer 0001",
+    "title": "Controlling exoskeletons with EMG signals and a biomechanical body model.",
+    "pages": "I-XVI, 1-161",
+    "school": "Technical University of Berlin, Germany",
+    "year": "2007",
+    "ee": [
+        "http://opus.kobv.de/tuberlin/volltexte/2007/1629/",
+        "https://nbn-resolving.org/urn:nbn:de:kobv:83-opus-16295",
+        "https://d-nb.info/985694149"
+    ]
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0088396",
+    "author": "Kenneth S. Murray",
+    "title": "Learning as knowledge integration.",
+    "pages": "1-300",
+    "school": "University of Austin, TX, USA",
+    "year": "1995",
+    "series": "UTCS publications",
+    "volume": "95-41"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0092072",
+    "author": "Sabine Borndorff-Eccarius",
+    "title": "Rechnergesttzte Wissensakquisition fr wissensbasierte Diagnosesysteme im Bereich dynamischer technischer Systeme.",
+    "pages": "1-165",
+    "publisher": "Infix",
+    "school": "University of Kassel, Germany",
+    "year": "1998",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "176",
+    "isbn": "978-3-89601-176-3",
+    "ee": "https://d-nb.info/952596040"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069532",
+    "author": "Annegret Habel",
+    "title": "Hyperedge replacement - grammars and languages.",
+    "pages": "1-193",
+    "school": "University of Bremen, Germany",
+    "year": "1989",
+    "ee": "https://d-nb.info/891552170"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0088237",
+    "author": "Stefan Klingenbeck",
+    "title": "Counter examples in semantic tableaux.",
+    "pages": "1-180",
+    "publisher": "Infix",
+    "year": "1997",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "156",
+    "school": "Karlsruhe Institute of Technology",
+    "isbn": "978-3-89601-156-5",
+    "ee": "https://d-nb.info/950552445"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0009919",
+    "author": "Alexandre David",
+    "title": "Hierarchical modeling and analysis of timed systems.",
+    "pages": "I-VIII, 1-178",
+    "school": "Universitet Uppsala",
+    "year": "2003"
+},{
+    "@mdate": "2019-06-19",
+    "@key": "books/daglib/0009724",
+    "author": "Falko Dressler",
+    "title": "Monitoring of multicast networks for time-synchronous communication.",
+    "pages": "1-240",
+    "school": "University of Erlangen-Nuremberg, Germany",
+    "year": "2003",
+    "series": "Arbeitsberichte des Department Informatik / Friedrich-Alexander-Universitt Erlangen-Nrnberg",
+    "volume": "36,4"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081789",
+    "author": "Volkmar Pflug",
+    "title": "Graphembasierte On-line-Erkennung flieender Handschrift.",
+    "pages": "1-117",
+    "publisher": "Infix",
+    "school": "Technical University Munich, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "105",
+    "isbn": "978-3-89601-105-3",
+    "ee": [
+        "https://d-nb.info/945915063",
+        "https://d-nb.info/946326711"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0080305",
+    "author": "Jrgen Herczeg",
+    "title": "Methoden und Werkzeuge zur visuellen objektorientierten Programmierung.",
+    "pages": "I-VIII, 1-218",
+    "school": "University of Stuttgart, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/945426852"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001124",
+    "author": "Jrg Rahmer",
+    "title": "Exploratives Konfigurieren - ber die Untersttzung des Benutzers bei computergesttzten explorativen Ttigkeiten.",
+    "pages": "1-190",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/958174288"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069362",
+    "author": "Christoph Krll",
+    "title": "Digitale symmetrische gedchtnisbehaftete bertragungskanle.",
+    "pages": "I-VI, 1-88",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1992",
+    "ee": "https://d-nb.info/930375440"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0097890",
+    "author": "Rainer Holve",
+    "title": "Automatische Musterklassifikation mit hierarchischen Fuzzy-Regelbasen.",
+    "pages": "1-134",
+    "publisher": "Infix",
+    "school": "University of Erlangen-Nuremberg, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "205",
+    "isbn": "978-3-89601-205-0",
+    "ee": "https://d-nb.info/956677754"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0018394",
+    "author": "Sveinn Sveinsson",
+    "title": "A massively parallel numerical ordinary differential equation solver.",
+    "pages": "I-V, 1-29",
+    "school": "University of Boston, MA, USA",
+    "year": "1989",
+    "series": "BU-CS TR",
+    "volume": "89-007"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0000572",
+    "author": "Jens von Berg",
+    "title": "Kortikale Karten und prattentive Wahrnehmung - ber Segmentierungsleistungen und die Geometrie der Reizreprsentation.",
+    "pages": "I-XIV, 1-211",
+    "publisher": "Infix",
+    "school": "University of Hamburg, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "223",
+    "isbn": "978-3-89601-223-4",
+    "ee": "https://d-nb.info/958114935"
+},{
+    "@mdate": "2022-04-07",
+    "@key": "books/daglib/0031251",
+    "author": "Sascha Klppelholz",
+    "title": "Verification of Branching-Time and Alternating-Time Properties for Exogenous Coordination Models.",
+    "pages": "I-VIII, 1-164",
+    "school": "Dresden University of Technology",
+    "year": "2012",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-86211",
+        "https://d-nb.info/1033871370",
+        "https://d-nb.info/1068443006"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0083570",
+    "author": "Peter Damaschke",
+    "title": "Berechnungskomplexitt der Erkennung der semantischen Unabhngigkeit von Relationen.",
+    "pages": "1-35",
+    "school": "FernUniv. Hagen",
+    "year": "1994"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0069953",
+    "author": "Norbert Cullmann",
+    "title": "Optimierte Software-Verteilung in graphischen Rechnerverbundsystemen.",
+    "pages": "1-137",
+    "school": "TH Darmstadt",
+    "year": "1980"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0024108",
+    "author": "Marcel Shirvanian",
+    "title": "Optimierung von Datenbanksystemen zur Verwaltung von Fuzzy-Daten.",
+    "pages": "I-XXI, 1-367",
+    "school": "Universitt Mnster",
+    "year": "2009",
+    "ee": [
+        "http://www.dr.hut-verlag.de/978-3-86853-334-7.html",
+        "https://nbn-resolving.org/urn:nbn:de:101:1-20100222418",
+        "https://d-nb.info/1000373592"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070063",
+    "author": "Gerhard Weber 0002",
+    "title": "Interaktive Dialogtechniken fr blinde Rechnerbenutzer.",
+    "pages": "1-151",
+    "school": "University of Stuttgart, Germany",
+    "year": "1989",
+    "ee": "https://d-nb.info/900137975"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001184",
+    "author": "Joachim F. Schreiber",
+    "title": "Ein fr Hornklauselmengen lineares, allgemeines aussagenlogisches Beweisverfahren.",
+    "pages": "1-163",
+    "publisher": "Utz",
+    "school": "Bundeswehr University Munich, Neubiberg (Munich), Germany",
+    "year": "1996",
+    "isbn": "978-3-931327-47-7",
+    "ee": "https://d-nb.info/947134301"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0017103",
+    "author": "Mohamed Ibrahim Abouelhoda",
+    "title": "Algorithms and a software system for comparative genome analysis.",
+    "pages": "I-IV, 1-191",
+    "school": "Universitt Ulm",
+    "year": "2005"
+},{
+    "@mdate": "2011-08-25",
+    "@key": "books/daglib/0027449",
+    "author": "Stefan Oppl",
+    "title": "Untersttzung expliziter Articulation Work - Interaktive Externalisierung und Abstimmung mentaler Modelle.",
+    "pages": "I-XXIX, 1-603",
+    "school": "Universitt Wien",
+    "year": "2010"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0070041",
+    "author": "H.-Bernhard Paul",
+    "title": "DAS Datenbank-Kernsystem fr Standard- und Nicht-Standard-Anwendungen - Architektur, Implementierung, Anwendungen.",
+    "pages": "1-245",
+    "school": "TH Darmstadt",
+    "year": "1988"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081586",
+    "author": "Frank Hnes",
+    "title": "Analyse von binren Dokumentbildern.",
+    "pages": "1-216",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/945215533"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0008706",
+    "author": "Michal Koutek",
+    "title": "Scientific visualization in virtual reality - interaction techniques and application development.",
+    "pages": "I-IX, 1-251",
+    "school": "TU Delft",
+    "year": "2003",
+    "series": "ASCI dissertation",
+    "volume": "85"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081207",
+    "author": "Irene Stahl",
+    "title": "Das Einfhren neuer Prdikate in der induktiven logischen Programmierung.",
+    "pages": "1-204",
+    "school": "University of Stuttgart, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/946125414"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081597",
+    "author": "Erich Rome",
+    "title": "Simulierte Gestalt-Erkennung in Prsentationsgrafiken.",
+    "pages": "I-XXIV, 1-254",
+    "publisher": "Infix",
+    "school": "University of Bremen, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "99",
+    "isbn": "978-3-89601-099-5",
+    "ee": "https://d-nb.info/94606024X"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0000573",
+    "author": "Christian Drewniok",
+    "title": "Objektlokalisation durch Adaption parametrischer Grauwertmodelle und ihre Anwendung in der Luftbildauswertung.",
+    "pages": "I-XX, 1-253",
+    "publisher": "Infix",
+    "school": "University of Hamburg, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "224",
+    "isbn": "978-3-89601-224-1",
+    "ee": "https://d-nb.info/958115222"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0079806",
+    "author": "Andreas Winzen",
+    "title": "Automatische Erzeugung dreidimensionaler Modelle fr Bildanalysesysteme.",
+    "pages": "1-225",
+    "publisher": "Infix",
+    "school": "University of Erlangen-Nuremberg, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "89",
+    "isbn": "978-3-929037-89-0",
+    "ee": "https://d-nb.info/944682022"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0076783",
+    "author": "Carlos Camarao de Figueiredo",
+    "title": "A proof system for a sequential object-based language.",
+    "school": "University of Manchester, UK",
+    "year": "1995",
+    "series": "Technical report series",
+    "volume": "95-1-1"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0084004",
+    "author": "Stefan Fuchs",
+    "title": "Prozessorzuteilung unter harten Realzeitanforderungen in dedizierten Systemen.",
+    "pages": "I-X, 1-196",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/947417869"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0072952",
+    "author": "Kees G. W. Goossens",
+    "title": "Embedding hardware description languages in proof systems.",
+    "pages": "I-VIII, 1-291",
+    "school": "University of Edinburgh, UK",
+    "year": "1993",
+    "series": "CST",
+    "volume": "100"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0072689",
+    "author": "Stephan Naundorf",
+    "title": "Die Multiplikatoralgebra einer Banachalgebra mit approximativer Eins.",
+    "pages": "1-129",
+    "school": "Universitt Paderborn",
+    "year": "1993"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0089722",
+    "author": "Andrea Sattler-Klein",
+    "title": "A systematic study of infinite canonical systems generated by Knuth-Bendix completion and related problems.",
+    "pages": "1-344",
+    "school": "Universitt Kaiserslautern",
+    "year": "1996"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008642",
+    "author": "Daniel Krning",
+    "title": "Formal verification of pipelined microprocessors.",
+    "pages": "I-XIV, 1-348",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "2001",
+    "ee": [
+        "http://scidok.sulb.uni-saarland.de/volltexte/2004/198/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:291-scidok-1985",
+        "https://d-nb.info/964287560",
+        "https://d-nb.info/972324968"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0008664",
+    "author": "Bernhard Sick",
+    "title": "Signalinterpretation mit neuronalen Netzen unter Nutzung von modellbasiertem Nebenwissen am Beispiel der Verschleiberwachung von Werkzeugen in CNC-Drehmaschinen.",
+    "pages": "I-X, 1-340",
+    "school": "Universitt Passau",
+    "year": "1999"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0079247",
+    "author": "Philip Jacob",
+    "title": "Raytracing mit BSP-Volumen - ein globales, physikalisch-basiertes Beleuchtungsmodell.",
+    "pages": "1-106",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/944233244"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001786",
+    "author": "Ulrich Khler",
+    "title": "A tactic-based inductive theorem prover for data types with partial operations.",
+    "pages": "I-XIV, 1-261",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "2000",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "238",
+    "isbn": "978-3-89838-238-0",
+    "ee": "https://d-nb.info/959144013"
+},{
+    "@mdate": "2017-05-03",
+    "@key": "books/daglib/0012809",
+    "author": "J. M. Cadiou",
+    "title": "Recursive definitions of partial functions and their computations.",
+    "pages": "I-V, 1-157",
+    "school": "Stanford University",
+    "year": "1972"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0029567",
+    "author": "Christine Krner",
+    "title": "Modeling Visit Potential of Geographic Locations Based on Mobility Data.",
+    "pages": "I-XVIII, 1-260",
+    "school": "Universitt Bonn",
+    "year": "2012",
+    "ee": [
+        "http://hss.ulb.uni-bonn.de/2012/2811/2811.htm",
+        "https://nbn-resolving.org/urn:nbn:de:hbz:5n-28110",
+        "https://d-nb.info/104391109X"
+    ]
+},{
+    "@mdate": "2014-03-11",
+    "@key": "books/daglib/0032972",
+    "author": "Jan Roters",
+    "title": "Incremental multi view 3D reconstruction with application to disaster management.",
+    "pages": "I-VIII, 1-157",
+    "school": "Universitt Mnster",
+    "year": "2013"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070075",
+    "author": "Michael Jonas",
+    "title": "Rechneruntersttzung fr die Software-Entwicklung in maschinennahen Programmiersprachen.",
+    "pages": "1-116",
+    "school": "University of Stuttgart, Germany",
+    "year": "1987",
+    "ee": "https://d-nb.info/890024588"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0093033",
+    "author": "Peter Buhrmann",
+    "title": "Die virtuelle Universitt - Konzept und Architektur am Beispiel der FernUniversitt Hagen.",
+    "pages": "I-VII, 1-156",
+    "school": "Fernuniversitt Hagen",
+    "year": "1997",
+    "ee": "https://d-nb.info/953589188"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0033454",
+    "author": "Stephan Salinger",
+    "title": "Ein Rahmenwerk fr die qualitative Analyse der Paarprogrammierung.",
+    "pages": "1-534",
+    "school": "Universitt Berlin",
+    "year": "2013",
+    "ee": [
+        "http://www.diss.fu-berlin.de/diss/receive/FUDISS_thesis_000000094430",
+        "https://nbn-resolving.org/urn:nbn:de:kobv:188-fudissthesis000000094430-7",
+        "https://d-nb.info/1036638294",
+        "https://d-nb.info/1042381046"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0013923",
+    "author": "Christian Bachmaier",
+    "title": "Circle planarity of level graphs.",
+    "pages": "I-VI, 1-140",
+    "school": "University of Passau, Germany",
+    "year": "2004",
+    "ee": [
+        "http://www.opus-bayern.de/uni-passau/volltexte/2004/38/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bvb:739-opus-385",
+        "https://d-nb.info/973953985"
+    ]
+},{
+    "@mdate": "2011-02-09",
+    "@key": "books/daglib/0022696",
+    "author": "Andreas Henschel",
+    "title": "A structural classification of protein-protein interactions for detection of convergently evolved motifs and for prediction of protein binding sites on sequence level.",
+    "pages": "I-XII, 1-219",
+    "school": "Universitt Dresden",
+    "year": "2008"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0022689",
+    "author": "Ilias Michalarias",
+    "title": "Multidimensional data management in mobile environments.",
+    "pages": "I-XVIII, 1-171",
+    "school": "Free University of Berlin, Dahlem, Germany",
+    "year": "2007",
+    "ee": [
+        "http://www.diss.fu-berlin.de/2007/861/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:kobv:188-fudissthesis000000003318-7",
+        "https://d-nb.info/988131943",
+        "https://d-nb.info/988879093"
+    ]
+},{
+    "@mdate": "2014-10-10",
+    "@key": "books/daglib/0071530",
+    "author": "Osamu Watanabe 0001",
+    "title": "On the structure of interactable complexity classes.",
+    "pages": "I-IV, 1-115",
+    "school": "Tokyo Inst. of Techn.",
+    "year": "1987"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008240",
+    "author": "Jochen Messner",
+    "title": "On the simulation order of proof systems.",
+    "pages": "I-II, 1-110",
+    "school": "University of Ulm, Germany",
+    "year": "2001",
+    "ee": [
+        "https://d-nb.info/96535959X",
+        "https://d-nb.info/965359646"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0016519",
+    "author": "Hendrik Pieter Barendregt",
+    "title": "Some extensional term models for combinatory logics and l - calculi.",
+    "pages": "I-XXI, 1-140",
+    "school": "Univ. Utrecht",
+    "year": "1971"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0088005",
+    "author": "Uwe Michael Nimscheck",
+    "title": "Rendering for free form deformations.",
+    "school": "University of Cambridge, UK",
+    "year": "1995",
+    "series": "Technical Report / University of Cambridge / Computer Laboratory",
+    "volume": "381"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0086557",
+    "author": "Morten Kyng",
+    "title": "Users and computers - a contextual approach to design of computer artifacts.",
+    "pages": "1-48",
+    "school": "Aarhus University, Denmark",
+    "year": "1996",
+    "series": "DAIMI PB",
+    "volume": "507"
+},{
+    "@mdate": "2011-02-04",
+    "@key": "books/daglib/0024643",
+    "author": "Werner Michael Dietl",
+    "title": "Universe Types - Topology, Encapsulation, Genericity, and Tools.",
+    "pages": "I-XII, 1-196",
+    "school": "Universitt Zrich",
+    "year": "2009"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0097309",
+    "author": "Bettina Berendt",
+    "title": "Representation and processing of knowledge about distances in environmental spaces - a computational model of inferred route distances investigating their qualitative and quantitative determinants.",
+    "pages": "I-VII, 1-260",
+    "publisher": "Infix",
+    "school": "University of Hamburg, Germany",
+    "year": "1999",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "197",
+    "isbn": "978-3-89601-197-8",
+    "ee": "https://d-nb.info/956026222"
+},{
+    "@mdate": "2019-06-18",
+    "@key": "books/daglib/0016517",
+    "author": "Mats Carlsson",
+    "title": "Design and implementation of an or-parallel Prolog engine.",
+    "school": "Royal Institute of Technology, Stockholm, Sweden",
+    "year": "1990",
+    "series": "RIT / KTH / TRITA-CS",
+    "volume": "9003"
+},{
+    "@mdate": "2011-03-24",
+    "@key": "books/daglib/0069935",
+    "author": "Stefan Bier",
+    "title": "Optimierung eines Mesystems zur Bestimmung der Oberflchendichte.",
+    "pages": "I-III, 1-116",
+    "school": "Universitt Kaiserslautern",
+    "year": "1991"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0017759",
+    "author": "Henrik Blunck",
+    "title": "Modelle und Algorithmen fr mobile Datenobjekte und Umgebungen.",
+    "pages": "I-VII, 1-193",
+    "school": "University of Mnster, Germany",
+    "year": "2006",
+    "ee": [
+        "https://nbn-resolving.org/urn:nbn:de:hbz:6-20689454101",
+        "https://d-nb.info/982090374",
+        "https://d-nb.info/990527875"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0074454",
+    "author": "Wolfgang Meyer 0002",
+    "title": "Hierarchische Mehr-Ebenen-Fehlersimulation mit Modellen der Schalter-Ebene.",
+    "pages": "1-141",
+    "publisher": "Oldenbourg",
+    "school": "University of Paderborn, Germany",
+    "year": "1994",
+    "isbn": "978-3-486-23214-1",
+    "ee": [
+        "https://d-nb.info/942624378",
+        "https://d-nb.info/942850041"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0075993",
+    "author": "Thomas Kunz",
+    "title": "Abstract behaviour of distributed executions with applications to visualization.",
+    "pages": "I-XXII, 1-180",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/941530167"
+},{
+    "@mdate": "2019-06-25",
+    "@key": "books/daglib/0019595",
+    "author": "Hong Chen 0008",
+    "title": "Individual mobile communication services and tariffs.",
+    "pages": "I-XVI, 1-210",
+    "school": "University of Rotterdam, The Netherlands",
+    "year": "2008",
+    "series": "Erasmus research institute of management : ERIM",
+    "isbn": "978-90-5892-158-1"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0083714",
+    "author": "Rainer Sprengel",
+    "title": "Entwurf und Analyse nichtlinearer Diffusionsverfahren fr die Bildverarbeitung.",
+    "pages": "I-VII, 1-221",
+    "publisher": "Infix",
+    "school": "University of Hamburg, Germany",
+    "year": "1996",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "123",
+    "isbn": "978-3-89601-123-7",
+    "ee": "https://d-nb.info/947370684"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076157",
+    "author": "Klaus Reinhardt",
+    "title": "Priorittszhlerautomaten und die Synchronisation von Halbspursprachen.",
+    "pages": "1-77",
+    "school": "University of Stuttgart, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/942815718"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070688",
+    "author": "Andreas Flgel",
+    "title": "Resolution fr quantifizierte Bool'sche Formeln.",
+    "pages": "1-144",
+    "school": "University of Paderborn, Germany",
+    "year": "1993",
+    "ee": "https://d-nb.info/932017312"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0098213",
+    "author": "Harald Hempel",
+    "title": "Boolean hierarchies - on collapse properties and query order.",
+    "pages": "I-VIII, 1-114",
+    "school": "University of Jena, Germany",
+    "year": "1998",
+    "ee": "https://d-nb.info/955357306"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0004705",
+    "author": "Meng Gan",
+    "title": "Design of congestion avoidance mechanisms for communication systems using computational-intelligence-based methods.",
+    "pages": "I-XIII, 1-182",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "2001",
+    "ee": "https://d-nb.info/962218022"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0091614",
+    "author": "Markus Vo 0001",
+    "title": "Systemobjektorientierte strukturierte Analyse und dienstorientierter Entwurf als Konstruktionsmethodik im Rahmen einer Informatiksystemtechnik.",
+    "pages": "1-221",
+    "school": "Universitt Karlsruhe",
+    "year": "1997",
+    "ee": "https://d-nb.info/951545051"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0002174",
+    "author": "Michael A. Bender",
+    "title": "A functional framework for efficient web-based scientific visualization systems.",
+    "pages": "1-119",
+    "school": "Universitt Kaiserslautern",
+    "year": "2000"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0094910",
+    "author": "N. Asokan",
+    "title": "Fairness in electronic commerce.",
+    "pages": "I-XIII, 1-145",
+    "school": "IBM",
+    "year": "1998",
+    "series": "Research report / RZ / IBM / IBM Research Division / Zrich Research Laboratory",
+    "volume": "3027"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0000492",
+    "author": "Michael Jaedicke",
+    "title": "New Concepts for Parallel Object-Relational Query Processing.",
+    "pages": "1-184",
+    "school": "University of Stuttgart, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/958406758"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0098641",
+    "author": "Achim Weigel",
+    "title": "Lexikalische Nachverarbeitung bei der computergesttzten Erkennung von Wrtern.",
+    "pages": "1-167",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/957513429"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070145",
+    "author": "Rdiger Schuster",
+    "title": "Graphgrammatiken und Grapheinbettungen - Algorithmen und Komplexitt.",
+    "pages": "1-134",
+    "school": "University of Passau, Germany",
+    "year": "1987",
+    "ee": "https://d-nb.info/871450674"
+},{
+    "@mdate": "2019-07-10",
+    "@key": "books/daglib/0086894",
+    "author": "Pietro Cenciarelli",
+    "title": "Computational applications of calculi based on monads.",
+    "pages": "I-VI, 1-275",
+    "school": "University of Edinburgh, UK",
+    "year": "1996",
+    "series": "CST",
+    "volume": "127"
+},{
+    "@mdate": "2019-06-25",
+    "@key": "books/daglib/0084437",
+    "author": "Dietmar Janetzko",
+    "title": "Knowledge tracking - a method to analyze cognitive structures.",
+    "pages": "1-240",
+    "school": "University of Freiburg, Germany",
+    "year": "1996",
+    "series": "IIG-Berichte / Institut fr Informatik und Gesellschaft der Albert-Ludwigs-Universitt Freiburg i. Br.",
+    "volume": "2/96"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0005004",
+    "author": "Alexander Krner",
+    "title": "Adaptive layout of dynamic web pages.",
+    "pages": "I-XXII, 1-238",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "2001",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "248",
+    "isbn": "978-3-89838-248-9",
+    "ee": [
+        "https://d-nb.info/961007966",
+        "https://d-nb.info/962073644"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020528",
+    "author": "Sven Apel",
+    "title": "The role of features and aspects in software development: similarities, differences, and synergetic potential.",
+    "pages": "I-XVII, 1-147",
+    "school": "Otto-von-Guericke University Magdeburg, Germany",
+    "year": "2007",
+    "isbn": "978-3-8364-3344-0",
+    "ee": [
+        "http://diglib.uni-magdeburg.de/Dissertationen/2007/sveapel.htm",
+        "https://nbn-resolving.org/urn:nbn:de:101:1-201010181543",
+        "https://d-nb.info/983822743",
+        "https://d-nb.info/984206388",
+        "https://d-nb.info/986656755"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0087663",
+    "author": "Philipp Snderhauf",
+    "title": "Discrete approximation of spaces - a uniform approach to topologically structured datatypes and their function spaces.",
+    "pages": "I-II, 1-89",
+    "school": "TH Darmstadt",
+    "year": "1994"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0068987",
+    "author": "Thomas Worsch",
+    "title": "Komplexittstheoretische Untersuchungen an myopischen Polyautomaten.",
+    "pages": "I-V, 1-173",
+    "school": "Braunschweig University of Technology, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/910936293"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0077822",
+    "author": "Birgit Tausend",
+    "title": "Beschrnkungen der Hypothesensprache und ihre Reprsentation in der induktiven logischen Programmierung.",
+    "pages": "1-226",
+    "school": "University of Stuttgart, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/943843588"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076468",
+    "author": "Ute Schmid",
+    "title": "Erwerb rekursiver Programmiertechniken als Induktion von Konzepten und Regeln - ein kognitionswissenschaftlicher Zugang zum Erwerb kognitiver Fertigkeiten.",
+    "pages": "1-165",
+    "publisher": "Infix",
+    "school": "Technical University of Berlin, Germany",
+    "year": "1994",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "70",
+    "isbn": "978-3-929037-70-8",
+    "ee": [
+        "https://d-nb.info/942715241",
+        "https://d-nb.info/942941373"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0093028",
+    "author": "Thomas Kretzberg",
+    "title": "Spezifikation und Generierung anwendungsspezifischer Programmierschnittstellen in der STEP-Produktdatentechnologie.",
+    "pages": "1-218",
+    "school": "Fernuniversitt Hagen",
+    "year": "1997",
+    "ee": "https://d-nb.info/951571397"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0019252",
+    "author": "Grschwin Fey",
+    "title": "Increasing robustness and usability of circuit design tools by using formal techniques.",
+    "pages": "I-VIII, 1-164",
+    "school": "Universitt Bremen",
+    "year": "2006"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008636",
+    "author": "Alexander Knapp",
+    "title": "A formal approach to object-oriented software engineering.",
+    "pages": "I-X, 1-180",
+    "publisher": "Shaker",
+    "school": "Ludwig Maximilian University of Munich, Germany",
+    "year": "2000",
+    "isbn": "978-3-8265-8575-3",
+    "ee": "https://d-nb.info/960956042"
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0071525",
+    "author": "Annette Markfort",
+    "title": "Die Konjugationsdarstellung lokalkompakter Gruppen.",
+    "pages": "1-90",
+    "school": "Universitt Paderborn",
+    "year": "1993"
+},{
+    "@mdate": "2019-07-09",
+    "@key": "books/daglib/0071604",
+    "author": "Clare Dixon",
+    "title": "A graph-based appproach to resolution in temporal logic.",
+    "school": "University of Manchester, UK",
+    "year": "1993",
+    "series": "Technical report series",
+    "volume": "93-9-2"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0093027",
+    "author": "Andreas Voigtmann",
+    "title": "An object-oriented database Kernel for spatio-temporal geo-applications.",
+    "pages": "I-IX, 1-260",
+    "school": "Universitt Mnster",
+    "year": "1997",
+    "ee": "https://d-nb.info/953213943"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0081364",
+    "author": "Thomas Mller 0012",
+    "title": "Effiziente Verfahren zur Befehlsanordnung.",
+    "pages": "1-129",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1995",
+    "ee": "https://d-nb.info/944891322"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0001362",
+    "author": "Jan Vahrenhold",
+    "title": "External memory algorithms for geographic information systems.",
+    "pages": "I-IX, 1-165",
+    "school": "University of Mnster, Germany",
+    "year": "1999",
+    "ee": "https://d-nb.info/958408076"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070051",
+    "author": "Dieter Maurer",
+    "title": "Relevanzanalyse - eine Kombination von Striktheits- und Datenfluanalyse zur effizienten Auswertung funktionaler Programme.",
+    "pages": "I-II, 1-240",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "1987",
+    "ee": "https://d-nb.info/890106924"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069937",
+    "author": "Rolf Bahlke",
+    "title": "Effiziente Implementierung einer funktionalen Sprache zur Definition ausfhrbarer denotationaler Semantik.",
+    "pages": "1-145",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1990",
+    "ee": "https://d-nb.info/901297690"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008872",
+    "author": "Jrgen Fuchs",
+    "title": "Klassische und objektorientierte Speicherungsorganisationen und Zugriffspfade fr ein semantisches Datenbankmodell.",
+    "pages": "1-239",
+    "school": "Clausthal University of Technology, Clausthal-Zellerfeld, Lower Saxony, Germany",
+    "year": "1989",
+    "ee": "https://d-nb.info/891429123"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0020551",
+    "author": "Jrgen Krmer",
+    "title": "Continuous queries over data stream - semantics and implementation.",
+    "pages": "I-XXII, 1-291",
+    "school": "University of Marburg, Germany",
+    "year": "2007",
+    "ee": [
+        "http://archiv.ub.uni-marburg.de/diss/z2007/0671/",
+        "https://nbn-resolving.org/urn:nbn:de:hebis:04-z2007-06717",
+        "https://d-nb.info/986091545",
+        "https://d-nb.info/986373060"
+    ]
+},{
+    "@mdate": "2011-03-23",
+    "@key": "books/daglib/0012766",
+    "author": "Franois Rodriguez",
+    "title": "Cones d'accepteurs application a l'etude d'une hierarchie infinie de cones rationnels de langages d'accepteurs verificateurs.",
+    "pages": "I-V, 1-101",
+    "school": "Univ. Toulouse",
+    "year": "1973"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0006120",
+    "author": "Matthias Wulf",
+    "title": "On modeling the spatiotemporal processing characteristics of the retina.",
+    "pages": "I-XXXVI, 1-316",
+    "publisher": "Infix Akademische Verlagsgesellschaft",
+    "school": "University of Hamburg, Germany",
+    "year": "2002",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "254",
+    "isbn": "978-3-89838-254-0",
+    "ee": "https://d-nb.info/963734547"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008865",
+    "author": "Martin Glinz",
+    "title": "Eine datengesteuerte Datenbankmaschine auf der Grundlage eines funktionalen Datenbankmodells.",
+    "pages": "I-V, 1-85",
+    "school": "RWTH Aachen University, Germany",
+    "year": "1982",
+    "ee": "https://d-nb.info/830929126"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0009852",
+    "author": "Olaf Spinczyk",
+    "title": "Aspektorientierung und Programmfamilien im Betriebssystembau.",
+    "pages": "I-X, 1-196",
+    "school": "Otto-von-Guericke University Magdeburg, Germany",
+    "year": "2002",
+    "ee": [
+        "http://diglib.uni-magdeburg.de/Dissertationen/2003/olaspinczyk.htm",
+        "https://nbn-resolving.org/urn:nbn:de:101:1-201010122567",
+        "https://d-nb.info/966610970",
+        "https://d-nb.info/967095743"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076478",
+    "author": "Ralf Treinen",
+    "title": "Modulare Datentypdefinitionen und ihre Beziehungen zur Logik erster Stufe.",
+    "pages": "1-161",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "1991",
+    "ee": [
+        "http://scidok.sulb.uni-saarland.de/volltexte/2004/318/index.html",
+        "https://nbn-resolving.org/urn:nbn:de:bsz:291-scidok-3188",
+        "https://d-nb.info/920654312",
+        "https://d-nb.info/972341528"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0080396",
+    "author": "Gabriele Schmidt",
+    "title": "Modellbasierte, interaktive Wissensakquisition und Dokumentation von Domnenwissen (MIKADO).",
+    "pages": "I-XI, 1-241",
+    "publisher": "Infix",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "90",
+    "isbn": "978-3-89601-090-2",
+    "ee": "https://d-nb.info/945157096"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070165",
+    "author": "Wolfgang Dolezol",
+    "title": "Analyse des quivalenzbegriffs von CIRCAL im Hinblick auf die Implementierung eines Verifikationssystems.",
+    "pages": "1-101",
+    "school": "Julius Maximilians University Wrzburg, Germany",
+    "year": "1989",
+    "ee": "https://d-nb.info/891403116"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0027443",
+    "author": "Sven Lahde",
+    "title": "Dynamic Network Selection for Optimized Use of Mobile Internet.",
+    "pages": "I-XVI, 1-292",
+    "school": "University of Braunschweig - Institute of Technology",
+    "year": "2010",
+    "isbn": "978-3-8325-2767-9",
+    "ee": "https://d-nb.info/1009698311"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0069993",
+    "author": "Werner Filip",
+    "title": "Analyse von Rechensystemen mit zwei Auftragsklassen und beliebigen Bedienungszeiten.",
+    "pages": "1-66",
+    "school": "Darmstadt University of Technology, Germany",
+    "year": "1986",
+    "ee": "https://d-nb.info/871528312"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0070160",
+    "author": "Matthias Reichling",
+    "title": "Entdeckung eines gemeinsamen Schnitts von k konvexen Objekten.",
+    "pages": "1-71",
+    "school": "Julius Maximilians University Wrzburg, Germany",
+    "year": "1988",
+    "ee": "https://d-nb.info/881298107"
+},{
+    "@mdate": "2022-05-12",
+    "@key": "books/daglib/0013922",
+    "author": "Marcus Apel",
+    "title": "A 3d geoscience information system framework.",
+    "pages": "I-VIII, 1-94",
+    "school": "TU Freiberg",
+    "year": "2004",
+    "ee": "https://hal.archives-ouvertes.fr/tel-01750010"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0076672",
+    "author": "Paolo Santarelli",
+    "title": "Glttungskriterien und Algorithmen zum Modellieren von Kurven und Oberflchen.",
+    "pages": "1-98",
+    "school": "Kaiserslautern University of Technology, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/942157710"
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0078957",
+    "author": "Dominik Henrich",
+    "title": "Lastverteilung fr feinkrnig parallelisiertes Branch-and-Bound.",
+    "pages": "1-124",
+    "publisher": "Infix",
+    "school": "Karlsruhe Institute of Technology, Germany",
+    "year": "1995",
+    "series": {
+        "@href": "db/series/diski/index.html",
+        "#text": "DISKI"
+    },
+    "volume": "83",
+    "isbn": "978-3-929037-83-8",
+    "ee": [
+        "http://digbib.ubka.uni-karlsruhe.de/volltexte/42395",
+        "https://nbn-resolving.org/urn:nbn:de:swb:90-AAA423956",
+        "https://d-nb.info/944180833",
+        "https://d-nb.info/1007877960"
+    ]
+},{
+    "@mdate": "2021-07-17",
+    "@key": "books/daglib/0008653",
+    "author": "Werner Nutt-Wahlmann",
+    "title": "Algorithms for constraints in deduction and knowledge representation.",
+    "pages": "I-XVI, 1-193",
+    "school": "Saarland University, Saarbrcken, Germany",
+    "year": "1994",
+    "ee": "https://d-nb.info/942644883"
+},{
+    "@mdate": "2019-06-19",
+    "@key": "books/daglib/0008291",
+    "author": "Thomas Wischgoll",
+    "title": "Closed streamlines in flow visualization.",
+    "school": "University of Kaiserslautern, Germany",
+    "year": "2002",
+    "series": "Schriftenreihe / Fachbereich Informatik, Universitt Kaiserslautern",
+    "volume": "8"
+}
