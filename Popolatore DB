@@ -1,0 +1,16 @@
+CALL apoc.load.xml("file:///tiprego.xml")
+YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'article'] AS article_s,
+     [x in foo WHERE x._type = 'inproceedings'] AS inproceedings_s,
+     [x in foo WHERE x._type = 'proceedings'] AS proceedings_s,
+     [x in foo WHERE x._type = 'book'] AS book_s,
+     [x in foo WHERE x._type = 'incollection'] AS incollection_s,
+     [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s,
+     [x in foo WHERE x._type = 'mastersthesis'] AS mastersthesis_s,
+     [x in foo WHERE x._type = 'www'] AS www_s,
+     [x in foo WHERE x._type = 'person'] AS person_s,
+     [x in foo WHERE x._type = 'data'] AS data_s
+
+
+RETURN count(article_s), count(inproceedings_s), count(proceedings_s),count(book_s), count(incollection_s), count(phdthesis_s), count(mastersthesis_s), count(www_s), count(person_s), count(data_s)
