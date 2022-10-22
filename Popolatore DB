@@ -12,5 +12,67 @@ WITH [x in foo WHERE x._type = 'article'] AS article_s,
      [x in foo WHERE x._type = 'person'] AS person_s,
      [x in foo WHERE x._type = 'data'] AS data_s
 
+UNWIND article_s AS article
+WITH article.key AS articleKEY,
+     article.mdate AS mdate,
+     article.publtype AS publtype,
+     article.reviewid AS reviewid,
+     article.rating AS rating,
+     article.cdate AS cdate,
+     [item in article._children WHERE item._type = "author"] AS author_s,
+     [item in article._children WHERE item._type = "editor "] AS editor_s,
+     [item in article._children WHERE item._type = "title"][0] AS title,
+     [item in article._children WHERE item._type = "booktitle"][0] AS booktitle,
+     [item in article._children WHERE item._type = "pages"][0] AS pages,
+     [item in article._children WHERE item._type = "year"][0] AS year,
+     [item in article._children WHERE item._type = "address"][0] AS address,
+     [item in article._children WHERE item._type = "journal"][0] AS journal,
+     [item in article._children WHERE item._type = "volume"][0] AS volume,
+     [item in article._children WHERE item._type = "number"][0] AS number,
+     [item in article._children WHERE item._type = "month"][0] AS month,
+     [item in article._children WHERE item._type = "url"][0] AS url,
+     [item in article._children WHERE item._type = "ee"][0] AS ee,
+     [item in article._children WHERE item._type = "cdrom"][0] AS cdrom,
+     [item in article._children WHERE item._type = "cite"][0] AS cite,
+     [item in article._children WHERE item._type = "publisher"] AS publisher_s,
+     [item in article._children WHERE item._type = "note"][0] AS note,
+     [item in article._children WHERE item._type = "crossref"][0] AS crossref,
+     [item in article._children WHERE item._type = "isbn"][0] AS isbn,
+     [item in article._children WHERE item._type = "series"][0] AS series,
+     [item in article._children WHERE item._type = "school"][0] AS school,
+     [item in article._children WHERE item._type = "chapter"][0] AS chapter,
+     [item in article._children WHERE item._type = "publnr"][0] AS publnr
 
-RETURN count(article_s), count(inproceedings_s), count(proceedings_s),count(book_s), count(incollection_s), count(phdthesis_s), count(mastersthesis_s), count(www_s), count(person_s), count(data_s)
+
+MERGE (a:Article {key: articleKEY})
+SET 
+    a.mdate = mdate,
+    a.publtype = publtype,
+    a.reviewid = reviewid,
+    a.rating = rating,
+    a.cdate = cdate,
+    a.title = title._text,
+    a.booktitle = booktitle._text,
+    a.pages = pages._text,
+    a.year = year._text,
+    a.address = address._text,
+    a.journal = journal._text,
+    a.volume = volume._text,
+    a.number = number._text,
+    a.month = month._text,
+    a.url = url._text,
+    a.ee = ee._text,
+    a.cdrom = cdrom._text,
+    a.cite = cite._text,
+    a.note = note._text,
+    a.crossref = crossref._text,
+    a.isbn = isbn._text,
+    a.school = school._text,
+    a.chapter = chapter._text,
+    a.publnr = publnr._text
+
+
+WITH a, author_s
+UNWIND author_s AS author
+MERGE (auth:Author {name:author._text})
+MERGE (auth)-[:WROTE]->(a);
