@@ -15,7 +15,6 @@ replacetext = [["&Agrave;", "a"], ["&Aacute;", "A"], ["&Acirc;", "A"], ["&Atilde
   ["&oslash", "o"], ["&ugrave;", "u"], ["&uacute;", "u"], ["&ucirc", "u"], ["&uuml;", "u"],
   ["&yacute;", "y"], ["&thorn;", "th"], ["&yuml;", "y"]]
 
-#adding the encoding when the file is opened and written is needed to avoid a charmap error
 with open(inputfile, encoding="utf8") as input:
   with open(outputfile, "w") as output:
     while True:
