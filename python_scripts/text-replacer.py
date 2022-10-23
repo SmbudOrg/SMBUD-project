@@ -1,6 +1,8 @@
-inputfile = "prova.xml"
-outputfile = "database.xml"
+#file di input e output
+inputfile = "dblp.xml"
+outputfile = "dblp-corretto.xml"
 
+#codici dei caratteri speciali e replacement
 replacetext = [["&Agrave;", "a"], ["&Aacute;", "A"], ["&Acirc;", "A"], ["&Atilde;", "A"], 
   ["&Auml;", "A"], ["&Aring;", "A"], ["&AElig;", "AE"], ["&Ccedil;", "C"], ["&Egrave;", "E"], 
   ["&Eacute;", "E"], ["&Ecirc;", "E"], ["&Euml;", "E"], ["&Igrave;", "I"], ["&Iacute;", "I"], 
@@ -22,6 +24,10 @@ with open(inputfile, encoding="utf8") as input:
       line = input.readline()
       if(len(line) == 0):
         break
+        
+      #comment out per non rimuovere il riferimento al file dtp
+      if "DOCTYPE" in line:
+        line = ""
 
       for i in range(0, len(replacetext)):
         try:
