@@ -1,5 +1,5 @@
-//Load Article nodes
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+//Load article nodes
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
@@ -29,7 +29,7 @@ WITH article.key AS articleKEY,
      [item in article._children WHERE item._type = "chapter"][0] AS chapter,
      [item in article._children WHERE item._type = "publnr"][0] AS publnr
 
-MERGE (a:Article {key: articleKEY})
+MERGE (a:article {key: articleKEY})
 SET 
     a.mdate = articleMDATE,
     a.publtype = articlePUBLTYPE,
@@ -59,7 +59,7 @@ RETURN count(a);
 
 
 //Load Author nodes
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
@@ -68,19 +68,19 @@ UNWIND author_s AS author
 MERGE (auth:Author {name:author._text})
 RETURN count(auth);
 // create relationships :WRITTEN_BY
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
 WITH article.key AS articleKEY, [item in article._children WHERE item._type = "author"] AS author_s
 UNWIND author_s AS author
-MATCH (a:Article {key: articleKEY})
+MATCH (a:article {key: articleKEY})
 MATCH (auth:Author {name:author._text})
 MERGE (a)-[:WRITTEN_BY]->(auth)
 RETURN *;
 
 //Load Editor nodes
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
@@ -89,19 +89,19 @@ UNWIND editor_s AS editor
 MERGE (edit:Editor {name:editor._text})
 RETURN count(edit);
 // create relationships :EDIT_BY
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
 WITH article.key AS articleKEY, [item in article._children WHERE item._type = "editor "] AS editor_s
 UNWIND editor_s AS editor
-MATCH (a:Article {key: articleKEY})
+MATCH (a:article {key: articleKEY})
 MATCH (edit:Editor {name:editor._text})
 MERGE (a)-[:EDIT_BY]->(edit)
 RETURN *;
 
 //Load Year nodes
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
@@ -110,18 +110,18 @@ WHERE year IS NOT NULL
 MERGE (y:Year {year:year._text})
 RETURN count(y);
 // create relationships :PUBLISHED_IN
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
 WITH article.key AS articleKEY, [item in article._children WHERE item._type = "year"][0] AS year
-MATCH (a:Article {key: articleKEY})
+MATCH (a:article {key: articleKEY})
 MATCH (y:Year {year:year._text})
 MERGE (a)-[:PUBLISHED_IN]->(y)
 RETURN *;
 
 //Load Publisher nodes
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
@@ -130,13 +130,13 @@ UNWIND publisher_s AS publisher
 MERGE (publ:Publisher {name:publisher._text})
 RETURN count(publ);
 // create relationships :PUBLISHED_BY
-CALL apoc.load.xml("file:///dblp.xml") YIELD value
+CALL apoc.load.xml("file:///d-article.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
 WITH article.key AS articleKEY, [item in article._children WHERE item._type = "publisher"] AS publisher_s
 UNWIND publisher_s AS publisher
-MATCH (a:Article {key: articleKEY})
+MATCH (a:article {key: articleKEY})
 MATCH (publ:Publisher {name:publisher._text})
 MERGE (a)-[:PUBLISHED_BY]->(publ)
 RETURN *;
