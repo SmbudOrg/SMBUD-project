@@ -1,6 +1,3 @@
-import lxml.etree as ET
-#using lxml instead of xml preserved the comments
-
 inputfile = "prova.xml"
 outputfile = "database.xml"
 
