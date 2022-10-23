@@ -1,5 +1,5 @@
 //Load data nodes
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -59,7 +59,7 @@ RETURN count(a);
 
 
 //Load Author nodes
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -68,7 +68,7 @@ UNWIND author_s AS author
 MERGE (auth:Author {name:author._text})
 RETURN count(auth);
 // create relationships :WRITTEN_BY
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -80,7 +80,7 @@ MERGE (a)-[:WRITTEN_BY]->(auth)
 RETURN *;
 
 //Load Editor nodes
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -89,7 +89,7 @@ UNWIND editor_s AS editor
 MERGE (edit:Editor {name:editor._text})
 RETURN count(edit);
 // create relationships :EDIT_BY
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -101,7 +101,7 @@ MERGE (a)-[:EDIT_BY]->(edit)
 RETURN *;
 
 //Load Year nodes
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -110,7 +110,7 @@ WHERE year IS NOT NULL
 MERGE (y:Year {year:year._text})
 RETURN count(y);
 // create relationships :PUBLISHED_IN
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -121,7 +121,7 @@ MERGE (a)-[:PUBLISHED_IN]->(y)
 RETURN *;
 
 //Load Publisher nodes
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
@@ -130,7 +130,7 @@ UNWIND publisher_s AS publisher
 MERGE (publ:Publisher {name:publisher._text})
 RETURN count(publ);
 // create relationships :PUBLISHED_BY
-CALL apoc.load.xml("file:///tiprego.xml") YIELD value
+CALL apoc.load.xml("file:///dblp.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'data'] AS data_s
 UNWIND data_s AS data
