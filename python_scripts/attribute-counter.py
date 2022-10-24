@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 #file di input (nella stessa directory del file python)
-inputfile = "book-oneorcid.xml"
+inputfile = "database.xml"
 
 #elenco di attributi da controllare
 tags = ["author", "editor", "title", "booktitle","pages","year","address","journal","volume",
@@ -10,6 +10,7 @@ tags = ["author", "editor", "title", "booktitle","pages","year","address","journ
 
 n = [0 for i in range(0, len(tags))]
 m = [0 for i in range(0, len(tags))]
+t = 0
 
 with open(inputfile) as input:
     print("File opened")
@@ -18,6 +19,7 @@ with open(inputfile) as input:
     input_root = input_tree.getroot()
     
     for element in list(input_root):
+        t = t+1
         for i in range(0, len(tags)):
             a = element.findall(tags[i])
             if(len(a) > 0):
@@ -25,6 +27,6 @@ with open(inputfile) as input:
             if(len(a) > 1):
                 m[i] = m[i]+1
 
+print("TOTAL ELEMENTS: ", t)
 for i in range(0, len(tags)):
     print(tags[i] + ": ", n[i], "(multiple: ", m[i], ")")
-
