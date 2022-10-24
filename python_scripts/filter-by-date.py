@@ -6,6 +6,8 @@ outputfile = "prova.xml"
 
 #anno minimo (incluso)
 minyear = 1980
+#anno massimo (incluso)
+maxyear = 2020
 #set to True per tenere i record che non hanno specificato l'anno
 keepunknown = True
 
@@ -24,7 +26,7 @@ with open(inputfile) as input:
             output_root.append(child)
         if (year is not None):
             year = int(year.text)
-            if(year >= minyear):
+            if(year >= minyear and year <= maxyear):
                 output_root.append(child)
         
 output_tree = ET.ElementTree(output_root)
