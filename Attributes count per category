@@ -56,6 +56,35 @@ publnr:  0 (multiple:  0
 
 ----------------------------------------------
 
+BOOKS:
+
+TOTAL ELEMENTS:  19547
+author:  17144 (multiple:  6952 )
+editor:  2303 (multiple:  1934 )
+title:  19547 (multiple:  0 )
+booktitle:  2028 (multiple:  0 )
+pages:  13528 (multiple:  2 )
+year:  19547 (multiple:  0 )
+address:  0 (multiple:  0 )
+journal:  0 (multiple:  0 )
+volume:  4026 (multiple:  0 )
+number:  0 (multiple:  0 )
+month:  1 (multiple:  0 )
+url:  2426 (multiple:  0 )
+ee:  12816 (multiple:  899 )
+cdrom:  1 (multiple:  0 )
+cite:  10 (multiple:  10 )
+publisher:  17947 (multiple:  0 )
+note:  15 (multiple:  0 )
+crossref:  71 (multiple:  0 )
+isbn:  16651 (multiple:  2982 )
+series:  8678 (multiple:  0 )
+school:  1969 (multiple:  79 )
+chapter:  0 (multiple:  0 )
+publnr:  0 (multiple:  0 )
+
+-----------------------------------------------------------------
+
 INCOLLECTION:
 
 TOTAL ELEMENTS:  68690
