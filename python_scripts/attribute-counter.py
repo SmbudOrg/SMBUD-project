@@ -1,16 +1,21 @@
 import xml.etree.ElementTree as ET
 
 #file di input (nella stessa directory del file python)
-inputfile = "database.xml"
+inputfile = "book-db.xml"
 
-#elenco di attributi da controllare
-tags = ["author", "editor", "title", "booktitle","pages","year","address","journal","volume",
+#elenco di sottoelementi da contare
+elements = ["author", "editor", "title", "booktitle","pages","year","address","journal","volume",
     "number","month","url","ee","cdrom","cite","publisher","note","crossref", "isbn","series",
     "school","chapter","publnr"]
 
-n = [0 for i in range(0, len(tags))]
-m = [0 for i in range(0, len(tags))]
+#elenco di attributi da contare
+attributes = ["key", "mdate", "publtype", "cdate"]
+
+n = [0 for i in range(0, len(elements))]
+m = [0 for i in range(0, len(elements))]
+p = [0 for i in range(0, len(attributes))]
 t = 0
+
 
 with open(inputfile) as input:
     print("File opened")
@@ -20,13 +25,19 @@ with open(inputfile) as input:
     
     for element in list(input_root):
         t = t+1
-        for i in range(0, len(tags)):
-            a = element.findall(tags[i])
+        for i in range(0, len(elements)):
+            a = element.findall(elements[i])
             if(len(a) > 0):
                 n[i] = n[i]+1
             if(len(a) > 1):
                 m[i] = m[i]+1
+        for j in range(0, len(attributes)):
+            if (attributes[j] in element.attrib):
+                p[j] = p[j] + 1
 
 print("TOTAL ELEMENTS: ", t)
-for i in range(0, len(tags)):
-    print(tags[i] + ": ", n[i], "(multiple: ", m[i], ")")
+for j in range(0, len(attributes)):
+    print(attributes[j] + ": ", p[j])
+for i in range(0, len(elements)):
+    print(elements[i] + ": ", n[i], "(multiple: ", m[i], ")")
+
