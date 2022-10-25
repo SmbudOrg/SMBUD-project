@@ -140,3 +140,90 @@ series:  0 (multiple:  0 )
 school:  0 (multiple:  0 )
 chapter:  0 (multiple:  0 )
 publnr:  0 (multiple:  0 )
+
+-----------------------------------------
+
+INPROCEEDINGS:
+
+TOTAL ELEMENTS:  3109603
+author:  3104800 (multiple:  2753712 )
+editor:  10 (multiple:  7 )
+title:  3109603 (multiple:  0 )
+booktitle:  3109603 (multiple:  0 ): Fornisce un nome breve della conference o del workshop 	
+pages:  2951198 (multiple:  0 ) 
+year:  3109603 (multiple:  0 )
+address:  0 (multiple:  0 )
+journal:  0 (multiple:  0 )
+volume:  21 (multiple:  0 )
+number:  354 (multiple:  0 )
+month:  1 (multiple:  0 )
+url:  3109603 (multiple:  0 )
+ee:  2974280 (multiple:  613816 )
+cdrom:  8482 (multiple:  408 ) 
+cite:  6370 (multiple:  6329 ) : lista di chiavi di papers citati 
+publisher:  0 (multiple:  0 )
+note:  323 (multiple:  0 )
+crossref:  3108936 (multiple:  1 ) : Reference al proceedings	
+isbn:  0 (multiple:  0 )
+series:  0 (multiple:  0 )
+school:  0 (multiple:  0 )
+chapter:  0 (multiple:  0 )
+publnr:  0 (multiple:  0 )
+
+-----------------------------------------
+
+PROCEEDINGS:
+
+TOTAL ELEMENTS:  52069
+author:  7 (multiple:  2 )
+editor:  39041 (multiple:  34286 )
+title:  52069 (multiple:  0 )
+booktitle:  51547 (multiple:  0 )
+pages:  9 (multiple:  0 )
+year:  52069 (multiple:  0 )
+address:  3 (multiple:  0 )
+journal:  4 (multiple:  0 )
+volume:  22782 (multiple:  0 )
+number:  69 (multiple:  0 )
+month:  0 (multiple:  0 )
+url:  52018 (multiple:  1 )
+ee:  46439 (multiple:  12389 )
+cdrom:  0 (multiple:  0 )
+cite:  1 (multiple:  1 )
+publisher:  50450 (multiple:  2 )
+note:  287 (multiple:  7 )
+crossref:  0 (multiple:  0 )
+isbn:  43617 (multiple:  6073 )
+series:  23200 (multiple:  1 )
+school:  1 (multiple:  0 )
+chapter:  0 (multiple:  0 )
+publnr:  0 (multiple:  0 )
+
+-----------------------------------------
+
+ARTICLE:
+
+TOTAL ELEMENTS:  2971780
+author:  2955542 (multiple:  2469402 )
+editor:  15 (multiple:  12 )
+title:  2971780 (multiple:  0 )
+booktitle:  2 (multiple:  0 )
+pages:  2419831 (multiple:  0 )
+year:  2971777 (multiple:  0 )
+address:  0 (multiple:  0 )
+journal:  2971775 (multiple:  0 )
+volume:  2971713 (multiple:  0 )
+number:  2049457 (multiple:  0 )
+month:  11560 (multiple:  0 )
+url:  2971229 (multiple:  2 )
+ee:  2947914 (multiple:  480913 )
+cdrom:  4001 (multiple:  0 )
+cite:  1840 (multiple:  1685 )
+publisher:  228 (multiple:  0 )
+note:  1361 (multiple:  61 )
+crossref:  2159 (multiple:  0 )
+isbn:  0 (multiple:  0 )
+series:  0 (multiple:  0 )
+school:  0 (multiple:  0 )
+chapter:  0 (multiple:  0 )
+publnr:  3995 (multiple:  0 )
