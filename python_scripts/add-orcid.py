@@ -19,7 +19,7 @@ with open(inputfile) as input:
                 a.set("orcid", a.text)
         for e in editor:
             if("orcid" not in e.attrib):
-                a.set("orcid", e.text)
+                e.set("orcid", e.text)
         
 
 input_tree.write(outputfile)
