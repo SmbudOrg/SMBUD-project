@@ -1,0 +1,143 @@
+
+//Load phd thesis nodes
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis.key AS phdthesisKEY,
+     [item in phdthesis._children WHERE item._type = "title"][0] AS title,
+     [item in phdthesis._children WHERE item._type = "ee"] AS ee_s,
+     [item in phdthesis._children WHERE item._type = "isbn"] AS isbn_s,
+     [item in phdthesis._children WHERE item._type = "pages"][0] AS pages
+
+MERGE (t:Phdthesis:Publication{key:phdthesisKEY})
+SET
+          t.title = title._text,
+          t.ee=[ee IN ee_s| ee._text],
+          t.isbn=[isbn IN isbn_s| isbn._text],
+          t.pages=toInteger(pages._text)
+RETURN count(t);
+
+
+//Load Author nodes
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis,[item in phdthesis._children WHERE item._type = "author"] AS author_s
+UNWIND author_s AS author
+WITH author.orcid AS _orcid, author._text AS _name
+MERGE (auth:Person {orcid:_orcid})
+SET auth.name = _name,
+auth.orcid = _orcid
+RETURN count(auth);
+// create relationships :AUTHOR_OF
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis.key AS phdthesisKEY,
+     [item in phdthesis._children WHERE item._type = "author"] AS author_s
+UNWIND author_s AS author
+WITH phdthesisKEY, author.orcid AS _orcid
+MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (auth:Person {orcid:_orcid})
+MERGE (auth)-[r:AUTHOR_OF]->(t)
+RETURN count(r);
+
+
+
+
+//Load Year nodes
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis,[item in phdthesis._children WHERE item._type = "year"][0] AS year
+WHERE year IS NOT NULL
+MERGE (y:Year {year:toInteger(year._text)})
+RETURN count(y);
+// create relationships :PUBLISHED_IN
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "year"][0] AS year
+MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (y:Year {year:toInteger(year._text)})
+MERGE (t)-[:PUBLISHED_IN]->(y)
+RETURN *;
+
+
+//Load School nodes
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis,[item in phdthesis._children WHERE item._type = "school"] AS school_s
+UNWIND school_s as school
+MERGE (s:School {school:school._text})
+SET s.school=school._text
+RETURN count(s);
+// create relationships :PRODUCED_BY
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "school"][0] AS school
+MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (s:School {school:school._text})
+MERGE (t)-[:PRODUCED_BY]->(y)
+RETURN *;
+
+//Load Series nodes
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = "phdthesis"] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis,
+	[item in phdthesis._children WHERE item._type = "series"][0] AS series_s,
+	[item in phdthesis._children WHERE item._type = "volume"][0] AS volume
+UNWIND series_s AS series
+MERGE (s:Series {name:series._text})
+RETURN count(s);
+// create relationships :CONTAINS
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "series"][0] AS series,
+	[item in phdthesis._children WHERE item._type = "volume"][0] AS volume
+MATCH (t:phdthesis{key: phdthesisKEY})
+MATCH (s:Series {name:series._text})
+MERGE (s)-[r:CONTAINS]->(t)
+SET r.volume = toInteger(volume._text)
+RETURN *;
+
+//Load Publisher nodes
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis, [item in phdthesis._children WHERE item._type = "publisher"] AS publisher_s
+UNWIND publisher_s AS publisher
+MERGE (publ:Publisher {name:publisher._text})
+RETURN count(publ);
+// create relationships :PUBLISHED_BY
+CALL apoc.load.xml("file:///phdthesis-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
+UNWIND phdthesis_s AS phdthesis
+WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "publisher"] AS publisher_s
+UNWIND publisher_s AS publisher
+MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (publ:Publisher {name:publisher._text})
+MERGE (t)-[:PUBLISHED_BY]->(publ)
+RETURN *;
+
+
+
+
+
+
+
