@@ -11,12 +11,12 @@ WITH book.key AS bookKEY,
      [item in book._children WHERE item._type = "isbn"] AS isbn_s 
 
 
-MERGE (a:Book {key: bookKEY})
+MERGE (a:Publication:Book {key: bookKEY})
 SET 
     a.title = title._text,
-    a.pages = pages._text,
+    a.pages = toInteger(pages._text),
     a.url = url._text,
-    a.citations = citations._text,
+    a.citations = toInteger(citations._text),
     a.ee = [ee IN ee_s | ee._text],
     a.isbn = [isbn IN isbn_s | isbn._text]
 RETURN count(a);
@@ -113,7 +113,7 @@ WITH book.key AS bookKEY, [item in book._children WHERE item._type = "series"][0
 MATCH (a:Book {key: bookKEY})
 MATCH (s:Series {name:series._text})
 MERGE (s)-[r:CONTAINS]->(a)
-SET r.volume = volume._text
+SET r.volume = toInteger(volume._text)
 RETURN *;
 
 
@@ -124,7 +124,7 @@ WITH [x in foo WHERE x._type = 'book'] AS book_s
 UNWIND book_s AS book
 WITH book, [item in book._children WHERE item._type = "year"][0] AS year
 WHERE year IS NOT NULL
-MERGE (y:Year {year:year._text})
+MERGE (y:Year {year:toInteger(year._text)})
 RETURN count(y);
 // create relationships :PUBLISHED_IN
 CALL apoc.load.xml("file:///book-db.xml") YIELD value
@@ -133,7 +133,7 @@ WITH [x in foo WHERE x._type = 'book'] AS book_s
 UNWIND book_s AS book
 WITH book.key AS bookKEY, [item in book._children WHERE item._type = "year"][0] AS year
 MATCH (a:Book {key: bookKEY})
-MATCH (y:Year {year:year._text})
+MATCH (y:Year {year:toInteger(year._text)})
 MERGE (a)-[:PUBLISHED_IN]->(y)
 RETURN *;
 
