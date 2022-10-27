@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 
 #file di input e output (nella stessa directory del file python)
-inputfile = "database.xml"
-outputfile = "prova.xml"
+inputfile = "inproceedings-db.xml"
+outputfile = "inproceedings-db1.xml"
 
 with open(inputfile) as input:
     print("File opened")
