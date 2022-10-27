@@ -15,8 +15,8 @@ SET
     a.title = title._text,
     a.note = [note IN note_s | note._text],
     a.ee = [ee IN ee_s | ee._text],
-    a.cite = [cite IN cite_s | cite._text]
-    a.pages = toInteger(pages._text)
+    a.cite = [cite IN cite_s | cite._text],
+    a.pages = toInteger(pages._text),
     a.citations = toInteger(citations._text)
 RETURN count(a);
 
