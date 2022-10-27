@@ -1,5 +1,4 @@
 //Load Proceedings nodes
-
 CALL apoc.load.xml("file:///proceedings-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'proceedings'] AS proceedings_s
@@ -8,24 +7,24 @@ WITH proceedings.key AS proceedingsKEY,
      proceedings.mdate AS proceedingsMDATE,
      [item in proceedings._children WHERE item._type = "title"][0] AS title,
      [item in proceedings._children WHERE item._type = "note"] AS note_s,
-     [item in proceedings._children WHERE item._type = "ee"] AS ee_s,
-MERGE (p:proceedings {key: proceedingsKEY})
+     [item in proceedings._children WHERE item._type = "ee"] AS ee_s
+MERGE (p:Proceedings {key: proceedingsKEY})
 SET 
     p.mdate = proceedingsMDATE,
     p.title = title._text,
     p.note = [note IN note_s | note._text],
-    p.ee = [ee IN ee_s | ee._text],
+    p.ee = [ee IN ee_s | ee._text]
 RETURN count(p);
 
-//Load editor nodes
 
+//Load editor nodes
 CALL apoc.load.xml("file:///proceedings-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'proceedings'] AS proceedings_s
 UNWIND proceedings_s AS proceedings
 WITH [item in proceedings._children WHERE item._type = "editor"] AS editor_s
 UNWIND editor_s AS editor
-MERGE (ed:editor {name:editor._text})
+MERGE (ed:Person {orcid:editor._text})
 SET ed.orcid = editor.orcid
 RETURN count(ed);
 
@@ -115,7 +114,7 @@ WITH proceedings.key AS proceedingsKEY,
 UNWIND series_s AS series
 WITH article.key AS articleKEY,
      [item in article._children WHERE item._type = "volume"][0] AS volume,
-     [item in article._children WHERE item._type = "number"][0] AS number,
+     [item in article._children WHERE item._type = "number"][0] AS number
 MATCH (p:proceedings {key: proceedingsKEY})
 MATCH (se:series {series_name:series._text})
 MERGE (p)-[r:PART_OF]->(se)
