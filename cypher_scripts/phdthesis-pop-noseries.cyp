@@ -41,7 +41,7 @@ WITH phdthesis.key AS phdthesisKEY,
      [item in phdthesis._children WHERE item._type = "author"] AS author_s
 UNWIND author_s AS author
 WITH phdthesisKEY, author.orcid AS _orcid
-MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (t:Phdthesis {key: phdthesisKEY})
 MATCH (auth:Person {orcid:_orcid})
 MERGE (auth)-[r:AUTHOR_OF]->(t)
 RETURN count(r);
@@ -64,7 +64,7 @@ UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
 UNWIND phdthesis_s AS phdthesis
 WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "year"][0] AS year
-MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (t:Phdthesis {key: phdthesisKEY})
 MATCH (y:Year {year:toInteger(year._text)})
 MERGE (t)-[:PUBLISHED_IN]->(y)
 RETURN *;
@@ -88,7 +88,7 @@ UNWIND phdthesis_s AS phdthesis
 WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "school"][0] AS school_s
 UNWIND school_s as school
 WITH phdthesisKEY, school
-MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (t:Phdthesis {key: phdthesisKEY})
 MATCH (s:University {name:school._text})
 MERGE (t)-[:PRODUCED_BY]->(y)
 RETURN *;
@@ -110,7 +110,7 @@ WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
 UNWIND phdthesis_s AS phdthesis
 WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "publisher"] AS publisher_s
 UNWIND publisher_s AS publisher
-MATCH (t:phdthesis {key: phdthesisKEY})
+MATCH (t:Phdthesis {key: phdthesisKEY})
 MATCH (publ:Publisher {name:publisher._text})
 MERGE (t)-[:PUBLISHED_BY]->(publ)
 RETURN *;

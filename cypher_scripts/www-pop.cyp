@@ -1,4 +1,3 @@
-
 //Load dei www
 CALL apoc.load.xml("www-db.xml") YIELD value
 UNWIND value._children AS foo
