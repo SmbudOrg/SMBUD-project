@@ -10,13 +10,13 @@
 <url>db/reference/genetic/genetic2015.html</url>
 </proceedings><proceedings mdate="2007-12-10" key="conf/cikm/2007">
 <title>Proceedings of the Sixteenth ACM Conference on Information and Knowledge Management, CIKM 2007, Lisbon, Portugal, November 6-10, 2007</title>
-<editor>Mario J. Silva</editor>
-<editor>Alberto H. F. Laender</editor>
-<editor>Ricardo A. Baeza-Yates</editor>
-<editor>Deborah L. McGuinness</editor>
-<editor>Bjo;rn Olstad</editor>
-<editor>Oystein Haug Olsen</editor>
-<editor>Andre O. Falcao</editor>
+<editor orcid="Mario J. Silva">Mario J. Silva</editor>
+<editor orcid="Alberto H. F. Laender">Alberto H. F. Laender</editor>
+<editor orcid="Ricardo A. Baeza-Yates">Ricardo A. Baeza-Yates</editor>
+<editor orcid="Deborah L. McGuinness">Deborah L. McGuinness</editor>
+<editor orcid="Bjo;rn Olstad">Bjo;rn Olstad</editor>
+<editor orcid="Oystein Haug Olsen">Oystein Haug Olsen</editor>
+<editor orcid="Andre O. Falcao">Andre O. Falcao</editor>
 <isbn>978-1-59593-803-9</isbn>
 <booktitle>CIKM</booktitle>
 <publisher>ACM</publisher>
@@ -45,17 +45,17 @@
 </proceedings>
 
 <proceedings mdate="2013-12-02" key="conf/lpe/1997">
-<editor>Anthony J. Kusalik</editor>
-<editor>Mireille Ducasse</editor>
-<editor>Ulrich Neumerkel</editor>
+<editor orcid="Anthony J. Kusalik">Anthony J. Kusalik</editor>
+<editor orcid="Mireille Ducasse">Mireille Ducasse</editor>
+<editor orcid="Ulrich Neumerkel">Ulrich Neumerkel</editor>
 <title>Proceedings of the 8th Workshop on Logic Programming Environments, LPE '97, post-conference workshop at ICLP 1997, Leuven, Belgium, July 11, 1997</title>
 <booktitle>LPE</booktitle>
 <year>1997</year>
 <url>db/conf/lpe/lpe97.html</url>
 </proceedings>
 <proceedings mdate="2019-05-14" key="conf/fpl/1998">
-<editor>Reiner W. Hartenstein</editor>
-<editor>Andres Keevallik</editor>
+<editor orcid="Reiner W. Hartenstein">Reiner W. Hartenstein</editor>
+<editor orcid="Andres Keevallik">Andres Keevallik</editor>
 <title>Field-Programmable Logic and Applications, From FPGAs to Computing Paradigm, 8th International Workshop, FPL'98, Tallinn, Estonia, August 31 - September 3, 1998, Proceedings</title>
 <booktitle>FPL</booktitle>
 <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
@@ -75,8 +75,8 @@
 <ee type="oa">https://aclanthology.org/volumes/P12-1/</ee>
 <ee type="oa">https://aclanthology.org/P12-1000/</ee>
 </proceedings><proceedings mdate="2019-05-14" key="conf/sss/2012">
-<editor>Andrea W. Richa</editor>
-<editor>Christian Scheideler</editor>
+<editor orcid="Andrea W. Richa">Andrea W. Richa</editor>
+<editor orcid="Christian Scheideler">Christian Scheideler</editor>
 <title>Stabilization, Safety, and Security of Distributed Systems - 14th International Symposium, SSS 2012, Toronto, Canada, October 1-4, 2012. Proceedings</title>
 <volume>7596</volume>
 <year>2012</year>
@@ -88,9 +88,9 @@
 <url>db/conf/sss/sss2012.html</url>
 </proceedings><proceedings mdate="2020-03-27" key="conf/icserv/2015">
 <editor orcid="0000-0003-4921-3966">Yuriko Sawatani</editor>
-<editor>James C. Spohrer</editor>
-<editor>Stephen K. Kwan</editor>
-<editor>Takeshi Takenaka</editor>
+<editor orcid="James C. Spohrer">James C. Spohrer</editor>
+<editor orcid="Stephen K. Kwan">Stephen K. Kwan</editor>
+<editor orcid="Takeshi Takenaka">Takeshi Takenaka</editor>
 <title>Serviceology for Smart Service System, Selected papers of the 3rd International Conference of Serviceology, ICServ 2015, San Jose, CA, USA, 7-9 July 2015.</title>
 <booktitle>ICServ</booktitle>
 <publisher>Springer</publisher>
@@ -100,10 +100,10 @@
 <ee>https://doi.org/10.1007/978-4-431-56074-6</ee>
 <url>db/conf/icserv/icserv2015.html</url>
 </proceedings><proceedings mdate="2021-08-09" key="conf/icinco/2015-2">
-<editor>Joaquim Filipe</editor>
-<editor>Kurosh Madani</editor>
-<editor>Oleg Yu. Gusikhin</editor>
-<editor>Jurek Z. Sasiadek</editor>
+<editor orcid="Joaquim Filipe">Joaquim Filipe</editor>
+<editor orcid="Kurosh Madani">Kurosh Madani</editor>
+<editor orcid="Oleg Yu. Gusikhin">Oleg Yu. Gusikhin</editor>
+<editor orcid="Jurek Z. Sasiadek">Jurek Z. Sasiadek</editor>
 <title>ICINCO 2015 - Proceedings of the 12th International Conference on Informatics in Control, Automation and Robotics, Volume 2, Colmar, Alsace, France, 21-23 July, 2015.</title>
 <isbn>978-989-758-123-6</isbn>
 <booktitle>ICINCO (2)</booktitle>
@@ -112,8 +112,8 @@
 <ee>https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7347718</ee>
 <url>db/conf/icinco/icinco2015-2.html</url>
 </proceedings><proceedings mdate="2020-07-02" key="conf/eurographics/2014stars">
-<editor>Sylvain Lefebvre 0001</editor>
-<editor>Michela Spagnuolo</editor>
+<editor orcid="Sylvain Lefebvre 0001">Sylvain Lefebvre 0001</editor>
+<editor orcid="Michela Spagnuolo">Michela Spagnuolo</editor>
 <title>35th Annual Conference of the European Association for Computer Graphics, Eurographics 2014 - State of the Art Reports, Strasbourg, France, April 7-11, 2014</title>
 <year>2014</year>
 <publisher>Eurographics Association</publisher>
@@ -122,10 +122,10 @@
 <url>db/conf/eurographics/eg-stars2014.html</url>
 </proceedings>
 <proceedings mdate="2019-06-02" key="conf/iconip/2015-4">
-<editor>Sabri Arik</editor>
-<editor>Tingwen Huang</editor>
-<editor>Weng Kin Lai</editor>
-<editor>Qingshan Liu 0002</editor>
+<editor orcid="Sabri Arik">Sabri Arik</editor>
+<editor orcid="Tingwen Huang">Tingwen Huang</editor>
+<editor orcid="Weng Kin Lai">Weng Kin Lai</editor>
+<editor orcid="Qingshan Liu 0002">Qingshan Liu 0002</editor>
 <title>Neural Information Processing - 22nd International Conference, ICONIP 2015, Istanbul, Turkey, November 9-12, 2015, Proceedings, Part IV</title>
 <booktitle>ICONIP (4)</booktitle>
 <publisher>Springer</publisher>
@@ -146,9 +146,9 @@
 <ee>http://www.computer.org/csdl/proceedings/mmm/1998/8911/00/index.html</ee>
 <url>db/conf/mmm/mmm1998.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/icws2/2018">
-<editor>Hai Jin 0001</editor>
-<editor>Qingyang Wang</editor>
-<editor>Liang-Jie Zhang</editor>
+<editor orcid="Hai Jin 0001">Hai Jin 0001</editor>
+<editor orcid="Qingyang Wang">Qingyang Wang</editor>
+<editor orcid="Liang-Jie Zhang">Liang-Jie Zhang</editor>
 <title>Web Services - ICWS 2018 - 25th International Conference, Held as Part of the Services Conference Federation, SCF 2018, Seattle, WA, USA, June 25-30, 2018, Proceedings</title>
 <booktitle>ICWS</booktitle>
 <publisher>Springer</publisher>
@@ -160,10 +160,10 @@
 <ee>https://doi.org/10.1007/978-3-319-94289-6</ee>
 <url>db/conf/icws2/icws2018.html</url>
 </proceedings><proceedings mdate="2019-05-06" key="conf/nato/2007">
-<editor>Francoise Fogelman-Soulie</editor>
-<editor>Domenico Perrotta</editor>
-<editor>Jakub Piskorski</editor>
-<editor>Ralf Steinberger</editor>
+<editor orcid="Francoise Fogelman-Soulie">Francoise Fogelman-Soulie</editor>
+<editor orcid="Domenico Perrotta">Domenico Perrotta</editor>
+<editor orcid="Jakub Piskorski">Jakub Piskorski</editor>
+<editor orcid="Ralf Steinberger">Ralf Steinberger</editor>
 <title>Mining Massive Data Sets for Security - Advances in Data Mining, Search, Social Networks and Text Mining, and their Applications to Security, Proceedings of the NATO Advanced Study Institute on Mining Massive Data Sets for Security, Gazzada (Varese), Italy, 10-21 September 2007</title>
 <year>2008</year>
 <publisher>IOS Press</publisher>
@@ -177,10 +177,10 @@
 
 <proceedings mdate="2021-04-29" key="conf/recosoc/2010">
 <title>Proceedings of the 5th International Workshop on Reconfigurable Communication-centric Systems on Chip, ReCoSoC 2010, Karlsruhe, Germany, May 17-19, 2010</title>
-<editor>Michael Hubner 0001</editor>
-<editor>Loic Lagadec</editor>
-<editor>Oliver Sander</editor>
-<editor>Jurgen Becker 0001</editor>
+<editor orcid="Michael Hubner 0001">Michael Hubner 0001</editor>
+<editor orcid="Loic Lagadec">Loic Lagadec</editor>
+<editor orcid="Oliver Sander">Oliver Sander</editor>
+<editor orcid="Jurgen Becker 0001">Jurgen Becker 0001</editor>
 <booktitle>ReCoSoC</booktitle>
 <year>2010</year>
 <series>KIT Scientific Reports</series>
@@ -202,10 +202,10 @@
 </proceedings>
 
 <proceedings mdate="2020-04-03" key="conf/icgec/2019">
-<editor>Jeng-Shyang Pan 0001</editor>
-<editor>Jerry Chun-Wei Lin</editor>
-<editor>Yongquan Liang</editor>
-<editor>Shu-Chuan Chu</editor>
+<editor orcid="Jeng-Shyang Pan 0001">Jeng-Shyang Pan 0001</editor>
+<editor orcid="Jerry Chun-Wei Lin">Jerry Chun-Wei Lin</editor>
+<editor orcid="Yongquan Liang">Yongquan Liang</editor>
+<editor orcid="Shu-Chuan Chu">Shu-Chuan Chu</editor>
 <title>Genetic and Evolutionary Computing - Proceedings of the Thirteenth International Conference on Genetic and Evolutionary Computing, ICGEC 2019, November 1-3, 2019, Qingdao, China</title>
 <booktitle>ICGEC</booktitle>
 <publisher>Springer</publisher>
@@ -218,10 +218,10 @@
 <url>db/conf/icgec/icgec2019.html</url>
 </proceedings>
 <proceedings mdate="2019-07-16" key="conf/dimacs/dimacs24">
-<editor>Louis J. Billera</editor>
-<editor>Curtis Greene</editor>
-<editor>Rodica Simion</editor>
-<editor>Richard P. Stanley</editor>
+<editor orcid="Louis J. Billera">Louis J. Billera</editor>
+<editor orcid="Curtis Greene">Curtis Greene</editor>
+<editor orcid="Rodica Simion">Rodica Simion</editor>
+<editor orcid="Richard P. Stanley">Richard P. Stanley</editor>
 <title>Formal Power Series and Algebraic Combinatorics, Proceedings of a DIMACS Workshop, USA, May 23-27, 1994</title>
 <booktitle>Formal Power Series and Algebraic Combinatorics</booktitle>
 <year>1996</year>
@@ -234,9 +234,9 @@
 <url>db/conf/dimacs/dimacs24.html</url>
 </proceedings>
 <proceedings mdate="2019-05-14" key="conf/iccvw/1999">
-<editor>Bill Triggs</editor>
-<editor>Andrew Zisserman</editor>
-<editor>Richard Szeliski</editor>
+<editor orcid="Bill Triggs">Bill Triggs</editor>
+<editor orcid="Andrew Zisserman">Andrew Zisserman</editor>
+<editor orcid="Richard Szeliski">Richard Szeliski</editor>
 <title>Vision Algorithms: Theory and Practice, International Workshop on Vision Algorithms, held during ICCV '99, Corfu, Greece, September 21-22, 1999, Proceedings</title>
 <booktitle>Workshop on Vision Algorithms</booktitle>
 <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
@@ -254,9 +254,9 @@
 <ee type="archive">http://ppig.org/workshops/ppig-2009-21st-annual-workshop</ee>
 <url>db/conf/ppig/ppig2009.html</url>
 </proceedings><proceedings mdate="2017-05-24" key="conf/mobilware/2011">
-<editor>Nalini Venkatasubramanian</editor>
-<editor>Vladimir Getov</editor>
-<editor>Stephan Steglich</editor>
+<editor orcid="Nalini Venkatasubramanian">Nalini Venkatasubramanian</editor>
+<editor orcid="Vladimir Getov">Vladimir Getov</editor>
+<editor orcid="Stephan Steglich">Stephan Steglich</editor>
 <title>Mobile Wireless Middleware, Operating Systems, and Applications - 4th International ICST Conference, Mobilware 2011, London, UK, June 22-24, 2011, Revised Selected Papers</title>
 <volume>93</volume>
 <year>2012</year>
@@ -268,10 +268,10 @@
 <booktitle>MOBILWARE</booktitle>
 <url>db/conf/mobilware/mobilware2011.html</url>
 </proceedings><proceedings mdate="2020-10-24" key="conf/esem/2020">
-<editor>Maria Teresa Baldassarre</editor>
-<editor>Filippo Lanubile</editor>
-<editor>Marcos Kalinowski</editor>
-<editor>Federica Sarro</editor>
+<editor orcid="Maria Teresa Baldassarre">Maria Teresa Baldassarre</editor>
+<editor orcid="Filippo Lanubile">Filippo Lanubile</editor>
+<editor orcid="Marcos Kalinowski">Marcos Kalinowski</editor>
+<editor orcid="Federica Sarro">Federica Sarro</editor>
 <title>ESEM '20: ACM / IEEE International Symposium on Empirical Software Engineering and Measurement, Bari, Italy, October 5-7, 2020</title>
 <publisher>ACM</publisher>
 <booktitle>ESEM</booktitle>
@@ -282,8 +282,8 @@
 </proceedings>
 
 <proceedings mdate="2022-06-01" key="conf/ntcir/2004">
-<editor>Noriko Kando</editor>
-<editor>Haruko Ishikawa</editor>
+<editor orcid="Noriko Kando">Noriko Kando</editor>
+<editor orcid="Haruko Ishikawa">Haruko Ishikawa</editor>
 <title>Proceedings of the Fourth NTCIR Workshop on Research in Information Access Technologies Information Retrieval, Question Answering and Summarization, NTCIR-4, National Center of Sciences, Tokyo, Japan, June 2-4, 2004</title>
 <booktitle>NTCIR</booktitle>
 <publisher>National Institute of Informatics (NII)</publisher>
@@ -293,8 +293,8 @@
 <url>db/conf/ntcir/ntcir2004.html</url>
 </proceedings><proceedings mdate="2020-12-29" key="conf/cbse/2010">
 <editor orcid="0000-0002-8747-3745">Lars Grunske</editor>
-<editor>Ralf H. Reussner</editor>
-<editor>Frantisek Plasil</editor>
+<editor orcid="Ralf H. Reussner">Ralf H. Reussner</editor>
+<editor orcid="Frantisek Plasil">Frantisek Plasil</editor>
 <title>Component-Based Software Engineering, 13th International Symposium, CBSE 2010, Prague, Czech Republic, June 23-25, 2010. Proceedings</title>
 <volume>6092</volume>
 <year>2010</year>
@@ -305,9 +305,9 @@
 <publisher>Springer</publisher>
 <url>db/conf/cbse/cbse2010.html</url>
 </proceedings><proceedings mdate="2019-10-10" key="conf/eoolt/2008">
-<editor>Peter Fritzson</editor>
-<editor>Francois E. Cellier</editor>
-<editor>David Broman</editor>
+<editor orcid="Peter Fritzson">Peter Fritzson</editor>
+<editor orcid="Francois E. Cellier">Francois E. Cellier</editor>
+<editor orcid="David Broman">David Broman</editor>
 <title>Proceedings of the 2nd International Workshop on Equation-Based Object-Oriented Languages and Tools, EOOLT 2008, Paphos, Cyprus, July 8, 2008</title>
 <booktitle>EOOLT</booktitle>
 <publisher>Linkoping University Electronic Press</publisher>
@@ -317,8 +317,8 @@
 <ee type="oa">http://www.ep.liu.se/ecp/contents.asp?issue=29</ee>
 <url>db/conf/eoolt/eoolt2008.html</url>
 </proceedings><proceedings mdate="2019-10-16" key="conf/samos/2015">
-<editor>Dimitrios Soudris</editor>
-<editor>Luigi Carro</editor>
+<editor orcid="Dimitrios Soudris">Dimitrios Soudris</editor>
+<editor orcid="Luigi Carro">Luigi Carro</editor>
 <title>2015 International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation, SAMOS 2015, Samos, Greece, July 19-23, 2015</title>
 <booktitle>SAMOS</booktitle>
 <publisher>IEEE</publisher>
@@ -334,7 +334,7 @@
 <ee type="oa">http://cidrdb.org/cidr2009/index.html</ee>
 <url>db/conf/cidr/cidr2009.html</url>
 </proceedings><proceedings mdate="2004-09-21" key="conf/adcog/2004">
-<editor>Cyril Tse Ning</editor>
+<editor orcid="Cyril Tse Ning">Cyril Tse Ning</editor>
 <title>3rd International Conference on Application and Development of Computer Games (ADCOG 2004) held on 26-27 April 2004 in City University of Hong Kong, HKSAR, China</title>
 <booktitle>ADCOG</booktitle>
 <year>2004</year>
@@ -344,11 +344,11 @@
 </proceedings>
 
 <proceedings mdate="2019-05-14" key="conf/socrob/2015">
-<editor>Adriana Tapus</editor>
-<editor>Elisabeth Andre</editor>
-<editor>Jean-Claude Martin</editor>
-<editor>Francois Ferland</editor>
-<editor>Mehdi Ammi</editor>
+<editor orcid="Adriana Tapus">Adriana Tapus</editor>
+<editor orcid="Elisabeth Andre">Elisabeth Andre</editor>
+<editor orcid="Jean-Claude Martin">Jean-Claude Martin</editor>
+<editor orcid="Francois Ferland">Francois Ferland</editor>
+<editor orcid="Mehdi Ammi">Mehdi Ammi</editor>
 <title>Social Robotics - 7th International Conference, ICSR 2015, Paris, France, October 26-30, 2015, Proceedings</title>
 <booktitle>ICSR</booktitle>
 <publisher>Springer</publisher>
@@ -359,10 +359,10 @@
 <ee>https://doi.org/10.1007/978-3-319-25554-5</ee>
 <url>db/conf/socrob/icsr2015.html</url>
 </proceedings><proceedings mdate="2021-01-04" key="conf/sigecom/2020">
-<editor>Peter Biro</editor>
-<editor>Jason D. Hartline</editor>
-<editor>Michael Ostrovsky</editor>
-<editor>Ariel D. Procaccia</editor>
+<editor orcid="Peter Biro">Peter Biro</editor>
+<editor orcid="Jason D. Hartline">Jason D. Hartline</editor>
+<editor orcid="Michael Ostrovsky">Michael Ostrovsky</editor>
+<editor orcid="Ariel D. Procaccia">Ariel D. Procaccia</editor>
 <title>EC '20: The 21st ACM Conference on Economics and Computation, Virtual Event, Hungary, July 13-17, 2020</title>
 <publisher>ACM</publisher>
 <booktitle>EC</booktitle>
@@ -372,12 +372,12 @@
 <url>db/conf/sigecom/sigecom2020.html</url>
 </proceedings>
 <proceedings mdate="2019-05-28" key="conf/eics/2011med">
-<editor>Ann Blandford</editor>
-<editor>Giuseppe De Pietro</editor>
-<editor>Luigi Gallo</editor>
-<editor>Andy Gimblett</editor>
-<editor>Patrick Oladimeji</editor>
-<editor>Harold W. Thimbleby</editor>
+<editor orcid="Ann Blandford">Ann Blandford</editor>
+<editor orcid="Giuseppe De Pietro">Giuseppe De Pietro</editor>
+<editor orcid="Luigi Gallo">Luigi Gallo</editor>
+<editor orcid="Andy Gimblett">Andy Gimblett</editor>
+<editor orcid="Patrick Oladimeji">Patrick Oladimeji</editor>
+<editor orcid="Harold W. Thimbleby">Harold W. Thimbleby</editor>
 <title>Proceedings of the 1st International Workshop on Engineering Interactive Computing Systems for Medicine and Health Care (EICS4Med 2011), Pisa, Italy, June 13, 2011</title>
 <booktitle>EICS4Med</booktitle>
 <publisher>CEUR-WS.org</publisher>
@@ -387,9 +387,9 @@
 <ee type="oa">http://ceur-ws.org/Vol-727</ee>
 <url>db/conf/eics/eics4med2011.html</url>
 </proceedings><proceedings mdate="2008-04-30" key="conf/elpub/2002">
-<editor>Joao Alvaro Carvalho</editor>
-<editor>Arved C. Hubler</editor>
-<editor>Ana Alice Baptista</editor>
+<editor orcid="Joao Alvaro Carvalho">Joao Alvaro Carvalho</editor>
+<editor orcid="Arved C. Hubler">Arved C. Hubler</editor>
+<editor orcid="Ana Alice Baptista">Ana Alice Baptista</editor>
 <title>Technology Interactions, 6th International ICCC/IFIP Conference on Electronic Publishing held in Karlovy Vary - ELPUB 2002, Karlovy Vary, Czech Republic, November 6-8, 2002. Proceedings</title>
 <booktitle>ELPUB</booktitle>
 <year>2002</year>
@@ -399,8 +399,8 @@
 </proceedings>
 
 <proceedings mdate="2018-11-14" key="conf/ic2it/2014">
-<editor>Sirapat Boonkrong</editor>
-<editor>Herwig Unger</editor>
+<editor orcid="Sirapat Boonkrong">Sirapat Boonkrong</editor>
+<editor orcid="Herwig Unger">Herwig Unger</editor>
 <editor orcid="0000-0002-3742-6457">Phayung Meesad</editor>
 <title>Recent Advances in Information and Communication Technology - Proceedings of the 10th International Conference on Computing and Information Technology, IC2IT 2014, Angsana Laguna, Phuket, Thailand, 8-9 May, 2014</title>
 <year>2014</year>
@@ -413,16 +413,16 @@
 <booktitle>IC2IT</booktitle>
 <url>db/conf/ic2it/ic2it2014.html</url>
 </proceedings><proceedings mdate="2021-08-06" key="conf/coling/2018eventstory">
-<editor>Tommaso Caselli</editor>
-<editor>Ben Miller</editor>
-<editor>Marieke van Erp</editor>
-<editor>Piek Vossen</editor>
-<editor>Martha Palmer</editor>
-<editor>Eduard H. Hovy</editor>
-<editor>Teruko Mitamura</editor>
-<editor>David Caswell</editor>
-<editor>Susan Windisch Brown</editor>
-<editor>Claire Bonial</editor>
+<editor orcid="Tommaso Caselli">Tommaso Caselli</editor>
+<editor orcid="Ben Miller">Ben Miller</editor>
+<editor orcid="Marieke van Erp">Marieke van Erp</editor>
+<editor orcid="Piek Vossen">Piek Vossen</editor>
+<editor orcid="Martha Palmer">Martha Palmer</editor>
+<editor orcid="Eduard H. Hovy">Eduard H. Hovy</editor>
+<editor orcid="Teruko Mitamura">Teruko Mitamura</editor>
+<editor orcid="David Caswell">David Caswell</editor>
+<editor orcid="Susan Windisch Brown">Susan Windisch Brown</editor>
+<editor orcid="Claire Bonial">Claire Bonial</editor>
 <title>Proceedings of the Workshop Events and Stories in the News, EventStory@Coling 2018, Santa Fe, New Mexico, USA, August 20, 2018</title>
 <booktitle>EventStory@Coling</booktitle>
 <publisher>Association for Computational Linguistics</publisher>
@@ -432,11 +432,11 @@
 <ee type="oa">https://aclanthology.org/W18-4300/</ee>
 <url>db/conf/coling/eventstory2018.html</url>
 </proceedings><proceedings mdate="2018-07-27" key="conf/tabletop/2009">
-<editor>Gerald Morrison</editor>
-<editor>Sriram Subramanian</editor>
-<editor>Sheelagh Carpendale</editor>
-<editor>Michael Haller</editor>
-<editor>Stacey D. Scott</editor>
+<editor orcid="Gerald Morrison">Gerald Morrison</editor>
+<editor orcid="Sriram Subramanian">Sriram Subramanian</editor>
+<editor orcid="Sheelagh Carpendale">Sheelagh Carpendale</editor>
+<editor orcid="Michael Haller">Michael Haller</editor>
+<editor orcid="Stacey D. Scott">Stacey D. Scott</editor>
 <title>ACM International Conference on Interactive Tabletops and Surfaces, ITS 2009, Banff / Calgary, Alberta, Canada, November 23-25, 2009</title>
 <booktitle>ITS</booktitle>
 <publisher>ACM</publisher>
@@ -445,8 +445,8 @@
 <url>db/conf/tabletop/its2009.html</url>
 </proceedings>
 <proceedings mdate="2013-05-05" key="conf/wmcsa/2013">
-<editor>Sharad Agarwal</editor>
-<editor>Alexander Varshavsky</editor>
+<editor orcid="Sharad Agarwal">Sharad Agarwal</editor>
+<editor orcid="Alexander Varshavsky">Alexander Varshavsky</editor>
 <title>14th Workshop on Mobile Computing Systems and Applications, HotMobile '13, Jekyll Island, GA, USA, February 26-27, 2013</title>
 <publisher>ACM</publisher>
 <booktitle>HotMobile</booktitle>
@@ -457,8 +457,8 @@
 </proceedings>
 
 <proceedings mdate="2020-06-15" key="conf/mig/2016">
-<editor>Michael Neff</editor>
-<editor>Roland Geraerts</editor>
+<editor orcid="Michael Neff">Michael Neff</editor>
+<editor orcid="Roland Geraerts">Roland Geraerts</editor>
 <editor orcid="0000-0001-5651-6039">Hubert P. H. Shum</editor>
 <title>Proceedings of the 9th International Conference on Motion in Games, MIG 2016, Burlingame, California, USA, October 10-12, 2016</title>
 <booktitle>MIG</booktitle>
@@ -477,10 +477,10 @@
 <ee>https://www.computer.org/csdl/proceedings/e-science/2017/2686/00/index.html</ee>
 <url>db/conf/eScience/eScience2017.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/emmcvpr/2009">
-<editor>Daniel Cremers</editor>
-<editor>Yuri Boykov</editor>
-<editor>Andrew Blake 0001</editor>
-<editor>Frank R. Schmidt</editor>
+<editor orcid="Daniel Cremers">Daniel Cremers</editor>
+<editor orcid="Yuri Boykov">Yuri Boykov</editor>
+<editor orcid="Andrew Blake 0001">Andrew Blake 0001</editor>
+<editor orcid="Frank R. Schmidt">Frank R. Schmidt</editor>
 <title>Energy Minimization Methods in Computer Vision and Pattern Recognition, 7th International Conference, EMMCVPR 2009, Bonn, Germany, August 24-27, 2009. Proceedings</title>
 <volume>5681</volume>
 <year>2009</year>
@@ -499,11 +499,11 @@
 <ee>https://ieeexplore.ieee.org/xpl/conhome/9115/proceeding</ee>
 <url>db/conf/ipccc/ipccc2004.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/sspr/2006">
-<editor>Dit-Yan Yeung</editor>
-<editor>James T. Kwok</editor>
-<editor>Ana L. N. Fred</editor>
-<editor>Fabio Roli</editor>
-<editor>Dick de Ridder</editor>
+<editor orcid="Dit-Yan Yeung">Dit-Yan Yeung</editor>
+<editor orcid="James T. Kwok">James T. Kwok</editor>
+<editor orcid="Ana L. N. Fred">Ana L. N. Fred</editor>
+<editor orcid="Fabio Roli">Fabio Roli</editor>
+<editor orcid="Dick de Ridder">Dick de Ridder</editor>
 <title>Structural, Syntactic, and Statistical Pattern Recognition, Joint IAPR International Workshops, SSPR 2006 and SPR 2006, Hong Kong, China, August 17-19, 2006, Proceedings</title>
 <volume>4109</volume>
 <year>2006</year>
@@ -535,9 +535,9 @@
 <booktitle>ICETE (Selected Papers)</booktitle>
 <url>db/conf/icete/icete2011.html</url>
 </proceedings><proceedings mdate="2016-03-17" key="conf/iui/2016emovis">
-<editor>Andreas Kerren</editor>
-<editor>Daniel Cernea</editor>
-<editor>Margit Pohl</editor>
+<editor orcid="Andreas Kerren">Andreas Kerren</editor>
+<editor orcid="Daniel Cernea">Daniel Cernea</editor>
+<editor orcid="Margit Pohl">Margit Pohl</editor>
 <title>Proceedings of ACM IUI 2016 Workshop on Emotion and Visualization, EmoVis 2016, Sonoma, CA, USA, March 10, 2016.</title>
 <booktitle>EmoVis@IUI</booktitle>
 <year>2016</year>
@@ -549,10 +549,10 @@
 <url>db/conf/iui/emovis2016.html</url>
 </proceedings>
 <proceedings mdate="2020-02-12" key="conf/esws/2014profiles">
-<editor>Elena Demidova</editor>
-<editor>Stefan Dietze</editor>
-<editor>Julian Szymanski</editor>
-<editor>John G. Breslin</editor>
+<editor orcid="Elena Demidova">Elena Demidova</editor>
+<editor orcid="Stefan Dietze">Stefan Dietze</editor>
+<editor orcid="Julian Szymanski">Julian Szymanski</editor>
+<editor orcid="John G. Breslin">John G. Breslin</editor>
 <title>Proceedings of the 1st International Workshop on Dataset PROFIling &amp; fEderated Search for Linked Data co-located with the 11th Extended Semantic Web Conference, PROFILES@ESWC 2014, Anissaras, Crete, Greece, May 26, 2014.</title>
 <booktitle>PROFILES@ESWC</booktitle>
 <publisher>CEUR-WS.org</publisher>
@@ -564,7 +564,7 @@
 <url>db/conf/esws/profiles2014.html</url>
 </proceedings><proceedings mdate="2020-05-11" key="conf/sfp/2019">
 <editor orcid="0000-0002-6402-4840">William J. Bowman</editor>
-<editor>Ronald Garcia</editor>
+<editor orcid="Ronald Garcia">Ronald Garcia</editor>
 <title>Trends in Functional Programming - 20th International Symposium, TFP 2019, Vancouver, BC, Canada, June 12-14, 2019, Revised Selected Papers</title>
 <booktitle>TFP</booktitle>
 <publisher>Springer</publisher>
@@ -578,8 +578,8 @@
 </proceedings>
 
 <proceedings mdate="2012-05-16" key="conf/issac/1990">
-<editor>Shunro Watanabe</editor>
-<editor>Morio Nagata</editor>
+<editor orcid="Shunro Watanabe">Shunro Watanabe</editor>
+<editor orcid="Morio Nagata">Morio Nagata</editor>
 <title>Proceedings of the International Symposium on Symbolic and Algebraic Computation, ISSAC '90, Tokyo, Japan, August 20-24, 1990</title>
 <booktitle>ISSAC</booktitle>
 <publisher>ACM</publisher>
@@ -589,10 +589,10 @@
 <ee>http://dl.acm.org/citation.cfm?id=96877</ee>
 </proceedings>
 <proceedings mdate="2021-08-06" key="conf/ijcnlp/2011wlr">
-<editor>Nicoletta Calzolari</editor>
-<editor>Toru Ishida 0001</editor>
-<editor>Stelios Piperidis</editor>
-<editor>Virach Sornlertlamvanich</editor>
+<editor orcid="Nicoletta Calzolari">Nicoletta Calzolari</editor>
+<editor orcid="Toru Ishida 0001">Toru Ishida 0001</editor>
+<editor orcid="Stelios Piperidis">Stelios Piperidis</editor>
+<editor orcid="Virach Sornlertlamvanich">Virach Sornlertlamvanich</editor>
 <title>Proceedings of the Workshop on Language Resources, Technology and Services in the Sharing Paradigm@IJCNLP 2011, Chiang Mai, Thailand, November 12, 2011</title>
 <booktitle>Workshop on Language Resources@IJCNLP</booktitle>
 <publisher>Asian Federation of Natural Language Processing</publisher>
@@ -611,7 +611,7 @@
 <ee>http://dl.acm.org/citation.cfm?id=1105760</ee>
 <url>db/conf/sc/sc2005.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/bifoa/1973">
-<editor>Paul Schmitz</editor>
+<editor orcid="Paul Schmitz">Paul Schmitz</editor>
 <title>GI-BIFOA, Internationale Fachtagung: Informationszentren in Wirtschaft und Verwaltung, Koln, 17./18. September 1973</title>
 <booktitle>GI-BIFOA</booktitle>
 <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
@@ -622,10 +622,10 @@
 <ee>https://doi.org/10.1007/BFb0019330</ee>
 <url>db/conf/bifoa/bifoa1973.html</url>
 </proceedings><proceedings mdate="2019-06-02" key="conf/chi/2019">
-<editor>Stephen A. Brewster</editor>
-<editor>Geraldine Fitzpatrick</editor>
-<editor>Anna L. Cox</editor>
-<editor>Vassilis Kostakos</editor>
+<editor orcid="Stephen A. Brewster">Stephen A. Brewster</editor>
+<editor orcid="Geraldine Fitzpatrick">Geraldine Fitzpatrick</editor>
+<editor orcid="Anna L. Cox">Anna L. Cox</editor>
+<editor orcid="Vassilis Kostakos">Vassilis Kostakos</editor>
 <title>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, CHI 2019, Glasgow, Scotland, UK, May 04-09, 2019</title>
 <publisher>ACM</publisher>
 <booktitle>CHI</booktitle>
@@ -635,9 +635,9 @@
 <ee>https://www.wikidata.org/entity/Q63525194</ee>
 <url>db/conf/chi/chi2019.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/aciids/2011-1">
-<editor>Ngoc Thanh Nguyen</editor>
-<editor>Chonggun Kim</editor>
-<editor>Adam Janiak</editor>
+<editor orcid="Ngoc Thanh Nguyen">Ngoc Thanh Nguyen</editor>
+<editor orcid="Chonggun Kim">Chonggun Kim</editor>
+<editor orcid="Adam Janiak">Adam Janiak</editor>
 <title>Intelligent Information and Database Systems - Third International Conference, ACIIDS 2011, Daegu, Korea, April 20-22, 2011, Proceedings, Part I</title>
 <volume>6591</volume>
 <year>2011</year>
@@ -658,8 +658,8 @@
 </proceedings>
 
 <proceedings mdate="2021-05-28" key="conf/csedu/2021-2">
-<editor>Beno Csapo</editor>
-<editor>James Uhomoibhi</editor>
+<editor orcid="Beno Csapo">Beno Csapo</editor>
+<editor orcid="James Uhomoibhi">James Uhomoibhi</editor>
 <title>Proceedings of the 13th International Conference on Computer Supported Education, CSEDU 2021, Online Streaming, April 23-25, 2021, Volume 2.</title>
 <booktitle>CSEDU (2)</booktitle>
 <publisher>SCITEPRESS</publisher>
@@ -668,9 +668,9 @@
 <url>db/conf/csedu/csedu2021-2.html</url>
 </proceedings>
 <proceedings mdate="2021-06-22" key="conf/vee/2010">
-<editor>Marc E. Fiuczynski</editor>
-<editor>Emery D. Berger</editor>
-<editor>Andrew Warfield</editor>
+<editor orcid="Marc E. Fiuczynski">Marc E. Fiuczynski</editor>
+<editor orcid="Emery D. Berger">Emery D. Berger</editor>
+<editor orcid="Andrew Warfield">Andrew Warfield</editor>
 <title>Proceedings of the 6th International Conference on Virtual Execution Environments, VEE 2010, Pittsburgh, Pennsylvania, USA, March 17-19, 2010</title>
 <booktitle>VEE</booktitle>
 <publisher>ACM</publisher>
@@ -682,7 +682,7 @@
 </proceedings>
 
 <proceedings mdate="2019-10-19" key="conf/enase/2016s">
-<editor>Leszek A. Maciaszek</editor>
+<editor orcid="Leszek A. Maciaszek">Leszek A. Maciaszek</editor>
 <editor orcid="0000-0002-5961-6606">Joaquim Filipe</editor>
 <title>Evaluation of Novel Approaches to Software Engineering - 11th International Conference, ENASE 2016, Rome, Italy, April 27-28, 2016, Revised Selected Papers</title>
 <booktitle>ENASE (Selected Papers)</booktitle>
@@ -697,10 +697,10 @@
 <url>db/conf/enase/enase2016s.html</url>
 </proceedings><proceedings mdate="2019-06-02" key="conf/visapp/2013-s">
 <editor orcid="0000-0001-6127-2470">Sebastiano Battiato</editor>
-<editor>Sabine Coquillart</editor>
+<editor orcid="Sabine Coquillart">Sabine Coquillart</editor>
 <editor orcid="0000-0002-3874-6145">Robert S. Laramee</editor>
-<editor>Andreas Kerren</editor>
-<editor>Jose Braz</editor>
+<editor orcid="Andreas Kerren">Andreas Kerren</editor>
+<editor orcid="Jose Braz">Jose Braz</editor>
 <title>Computer Vision, Imaging and Computer Graphics - Theory and Applications - International Joint Conference, VISIGRAPP 2013, Barcelona, Spain, February 21-24, 2013, Revised Selected Papers</title>
 <booktitle>VISIGRAPP (Selected Papers)</booktitle>
 <publisher>Springer</publisher>
@@ -712,8 +712,8 @@
 <ee>https://www.wikidata.org/entity/Q57823723</ee>
 <url>db/conf/visapp/visigrapp2013.html</url>
 </proceedings><proceedings mdate="2018-05-14" key="conf/micad/2010">
-<editor>Nico Karssemeijer</editor>
-<editor>Ronald M. Summers</editor>
+<editor orcid="Nico Karssemeijer">Nico Karssemeijer</editor>
+<editor orcid="Ronald M. Summers">Ronald M. Summers</editor>
 <title>Medical Imaging 2010: Computer-Aided Diagnosis, San Diego, California, United States, 13-18 February 2010</title>
 <booktitle>Medical Imaging: Computer-Aided Diagnosis</booktitle>
 <series>SPIE Proceedings</series>
@@ -726,9 +726,9 @@
 </proceedings>
 
 <proceedings mdate="2019-05-14" key="conf/ida/2018">
-<editor>Wouter Duivesteijn</editor>
-<editor>Arno Siebes</editor>
-<editor>Antti Ukkonen</editor>
+<editor orcid="Wouter Duivesteijn">Wouter Duivesteijn</editor>
+<editor orcid="Arno Siebes">Arno Siebes</editor>
+<editor orcid="Antti Ukkonen">Antti Ukkonen</editor>
 <title>Advances in Intelligent Data Analysis XVII - 17th International Symposium, IDA 2018, 's-Hertogenbosch, The Netherlands, October 24-26, 2018, Proceedings</title>
 <booktitle>IDA</booktitle>
 <publisher>Springer</publisher>
@@ -740,9 +740,9 @@
 <ee>https://doi.org/10.1007/978-3-030-01768-2</ee>
 <url>db/conf/ida/ida2018.html</url>
 </proceedings><proceedings mdate="2012-02-02" key="conf/chinz/2011">
-<editor>Sally Jo Cunningham</editor>
-<editor>Masood Masoodian</editor>
-<editor>Bill Rogers</editor>
+<editor orcid="Sally Jo Cunningham">Sally Jo Cunningham</editor>
+<editor orcid="Masood Masoodian">Masood Masoodian</editor>
+<editor orcid="Bill Rogers">Bill Rogers</editor>
 <title>Proceedings of the 12th ACM SIGCHI New Zealand Chapter's International Conference on Computer-Human Interaction, CHINZ 2011, Hamilton, New Zealand, July 4-5, 2011</title>
 <booktitle>CHINZ</booktitle>
 <publisher>ACM</publisher>
@@ -752,9 +752,9 @@
 </proceedings>
 
 <proceedings mdate="2019-05-14" key="conf/ssd/2007">
-<editor>Dimitris Papadias</editor>
-<editor>Donghui Zhang</editor>
-<editor>George Kollios</editor>
+<editor orcid="Dimitris Papadias">Dimitris Papadias</editor>
+<editor orcid="Donghui Zhang">Donghui Zhang</editor>
+<editor orcid="George Kollios">George Kollios</editor>
 <title>Advances in Spatial and Temporal Databases, 10th International Symposium, SSTD 2007, Boston, MA, USA, July 16-18, 2007, Proceedings</title>
 <booktitle>SSTD</booktitle>
 <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
@@ -765,9 +765,9 @@
 <ee>https://doi.org/10.1007/978-3-540-73540-3</ee>
 <url>db/conf/ssd/sstd2007.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/wisa/2013">
-<editor>Yongdae Kim</editor>
-<editor>Heejo Lee</editor>
-<editor>Adrian Perrig</editor>
+<editor orcid="Yongdae Kim">Yongdae Kim</editor>
+<editor orcid="Heejo Lee">Heejo Lee</editor>
+<editor orcid="Adrian Perrig">Adrian Perrig</editor>
 <title>Information Security Applications - 14th International Workshop, WISA 2013, Jeju Island, Korea, August 19-21, 2013, Revised Selected Papers</title>
 <year>2014</year>
 <publisher>Springer</publisher>
@@ -778,9 +778,9 @@
 <booktitle>WISA</booktitle>
 <url>db/conf/wisa/wisa2013.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/birthday/2013abramsky">
-<editor>Bob Coecke</editor>
+<editor orcid="Bob Coecke">Bob Coecke</editor>
 <editor orcid="0000-0001-7509-680X">Luke Ong</editor>
-<editor>Prakash Panangaden</editor>
+<editor orcid="Prakash Panangaden">Prakash Panangaden</editor>
 <title>Computation, Logic, Games, and Quantum Foundations. The Many Facets of Samson Abramsky - Essays Dedicated to Samson Abramsky on the Occasion of His 60th Birthday</title>
 <year>2013</year>
 <publisher>Springer</publisher>
@@ -791,8 +791,8 @@
 <booktitle>Computation, Logic, Games, and Quantum Foundations</booktitle>
 <url>db/conf/birthday/abramsky2013.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/fmics/2008">
-<editor>Darren D. Cofer</editor>
-<editor>Alessandro Fantechi</editor>
+<editor orcid="Darren D. Cofer">Darren D. Cofer</editor>
+<editor orcid="Alessandro Fantechi">Alessandro Fantechi</editor>
 <title>Formal Methods for Industrial Critical Systems, 13th International Workshop, FMICS 2008, L'Aquila, Italy, September 15-16, 2008, Revised Selected Papers</title>
 <volume>5596</volume>
 <year>2009</year>
@@ -803,11 +803,11 @@
 <publisher>Springer</publisher>
 <url>db/conf/fmics/fmics2008.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/emoocs/2017">
-<editor>Carlos Delgado Kloos</editor>
-<editor>Patrick Jermann</editor>
-<editor>Mar Perez-Sanagustin</editor>
-<editor>Daniel T. Seaton</editor>
-<editor>Su White</editor>
+<editor orcid="Carlos Delgado Kloos">Carlos Delgado Kloos</editor>
+<editor orcid="Patrick Jermann">Patrick Jermann</editor>
+<editor orcid="Mar Perez-Sanagustin">Mar Perez-Sanagustin</editor>
+<editor orcid="Daniel T. Seaton">Daniel T. Seaton</editor>
+<editor orcid="Su White">Su White</editor>
 <title>Digital Education: Out to the World and Back to the Campus - 5th European MOOCs Stakeholders Summit, EMOOCs 2017, Madrid, Spain, May 22-26, 2017, Proceedings</title>
 <booktitle>EMOOCs</booktitle>
 <publisher>Springer</publisher>
@@ -819,17 +819,17 @@
 <ee>https://doi.org/10.1007/978-3-319-59044-8</ee>
 <url>db/conf/emoocs/emoocs2017.html</url>
 </proceedings><proceedings mdate="2021-07-15" key="conf/bigcomp/2021">
-<editor>Herwig Unger</editor>
-<editor>Jinho Kim</editor>
-<editor>U Kang</editor>
-<editor>Chakchai So-In</editor>
-<editor>Junping Du</editor>
-<editor>Walid Saad</editor>
-<editor>Young-Guk Ha</editor>
-<editor>Christian Wagner 0002</editor>
-<editor>Julien Bourgeois</editor>
-<editor>Chanboon Sathitwiriyawong</editor>
-<editor>Hyuk-Yoon Kwon</editor>
+<editor orcid="Herwig Unger">Herwig Unger</editor>
+<editor orcid="Jinho Kim">Jinho Kim</editor>
+<editor orcid="U Kang">U Kang</editor>
+<editor orcid="Chakchai So-In">Chakchai So-In</editor>
+<editor orcid="Junping Du">Junping Du</editor>
+<editor orcid="Walid Saad">Walid Saad</editor>
+<editor orcid="Young-Guk Ha">Young-Guk Ha</editor>
+<editor orcid="Christian Wagner 0002">Christian Wagner 0002</editor>
+<editor orcid="Julien Bourgeois">Julien Bourgeois</editor>
+<editor orcid="Chanboon Sathitwiriyawong">Chanboon Sathitwiriyawong</editor>
+<editor orcid="Hyuk-Yoon Kwon">Hyuk-Yoon Kwon</editor>
 <editor orcid="0000-0002-7541-9127">Carson K. Leung</editor>
 <title>IEEE International Conference on Big Data and Smart Computing, BigComp 2021, Jeju Island, South Korea, January 17-20, 2021</title>
 <booktitle>BigComp</booktitle>
@@ -863,8 +863,8 @@
 </proceedings>
 
 <proceedings mdate="2017-08-16" key="conf/spin/2017">
-<editor>Hakan Erdogmus</editor>
-<editor>Klaus Havelund</editor>
+<editor orcid="Hakan Erdogmus">Hakan Erdogmus</editor>
+<editor orcid="Klaus Havelund">Klaus Havelund</editor>
 <title>Proceedings of the 24th ACM SIGSOFT International SPIN Symposium on Model Checking of Software, Santa Barbara, CA, USA, July 10-14, 2017</title>
 <booktitle>SPIN</booktitle>
 <publisher>ACM</publisher>
@@ -874,9 +874,9 @@
 <url>db/conf/spin/spin2017.html</url>
 </proceedings>
 <proceedings mdate="2021-03-11" key="conf/acmidc/2013">
-<editor>Nitin "Nick" Sawhney</editor>
-<editor>Emily Reardon</editor>
-<editor>Juan Pablo Hourcade</editor>
+<editor orcid="Nitin &quot;Nick&quot; Sawhney">Nitin "Nick" Sawhney</editor>
+<editor orcid="Emily Reardon">Emily Reardon</editor>
+<editor orcid="Juan Pablo Hourcade">Juan Pablo Hourcade</editor>
 <title>Interaction Design and Children 2013, IDC '13, New York, NY, USA - June 24 - 27, 2013</title>
 <publisher>ACM</publisher>
 <booktitle>IDC</booktitle>
@@ -894,8 +894,8 @@
 <url>db/conf/robio/robio2008.html</url>
 </proceedings><proceedings mdate="2020-04-06" key="conf/bic-ta/2019-2">
 <editor orcid="0000-0002-4554-455X">Linqiang Pan</editor>
-<editor>Jing Liang 0005</editor>
-<editor>Boyang Qu</editor>
+<editor orcid="Jing Liang 0005">Jing Liang 0005</editor>
+<editor orcid="Boyang Qu">Boyang Qu</editor>
 <title>Bio-inspired Computing: Theories and Applications - 14th International Conference, BIC-TA 2019, Zhengzhou, China, November 22-25, 2019, Revised Selected Papers, Part II</title>
 <booktitle>BIC-TA (2)</booktitle>
 <publisher>Springer</publisher>
@@ -909,11 +909,11 @@
 </proceedings>
 
 <proceedings mdate="2019-10-16" key="conf/nabic/2010">
-<editor>Hideyuki Takagi</editor>
-<editor>Ajith Abraham</editor>
-<editor>Mario Koppen</editor>
-<editor>Kaori Yoshida</editor>
-<editor>Andre C. P. L. F. de Carvalho</editor>
+<editor orcid="Hideyuki Takagi">Hideyuki Takagi</editor>
+<editor orcid="Ajith Abraham">Ajith Abraham</editor>
+<editor orcid="Mario Koppen">Mario Koppen</editor>
+<editor orcid="Kaori Yoshida">Kaori Yoshida</editor>
+<editor orcid="Andre C. P. L. F. de Carvalho">Andre C. P. L. F. de Carvalho</editor>
 <title>Second World Congress on Nature &amp; Biologically Inspired Computing, NaBIC 2010, 15-17 December 2010, Kitakyushu, Japan</title>
 <booktitle>NaBIC</booktitle>
 <publisher>IEEE</publisher>
@@ -922,10 +922,10 @@
 <ee>https://ieeexplore.ieee.org/xpl/conhome/5710537/proceeding</ee>
 <url>db/conf/nabic/nabic2010.html</url>
 </proceedings><proceedings mdate="2020-11-10" key="conf/ccs/2009stc">
-<editor>Shouhuai Xu</editor>
-<editor>N. Asokan</editor>
-<editor>Cristina Nita-Rotaru</editor>
-<editor>Jean-Pierre Seifert</editor>
+<editor orcid="Shouhuai Xu">Shouhuai Xu</editor>
+<editor orcid="N. Asokan">N. Asokan</editor>
+<editor orcid="Cristina Nita-Rotaru">Cristina Nita-Rotaru</editor>
+<editor orcid="Jean-Pierre Seifert">Jean-Pierre Seifert</editor>
 <title>Proceedings of the 4th ACM Workshop on Scalable Trusted Computing, STC 2009, Chicago, Illinois, USA, November 13, 2009</title>
 <booktitle>STC</booktitle>
 <publisher>ACM</publisher>
@@ -935,8 +935,8 @@
 </proceedings>
 
 <proceedings mdate="2020-09-22" key="conf/kolicalling/2019">
-<editor>Petri Ihantola</editor>
-<editor>Nick Falkner</editor>
+<editor orcid="Petri Ihantola">Petri Ihantola</editor>
+<editor orcid="Nick Falkner">Nick Falkner</editor>
 <title>Koli Calling '19: 19th Koli Calling International Conference on Computing Education Research, Koli, Finland, November 21-24, 2019</title>
 <publisher>ACM</publisher>
 <booktitle>Koli Calling</booktitle>
@@ -957,8 +957,8 @@
 </proceedings>
 
 <proceedings mdate="2021-08-06" key="conf/conll/2008">
-<editor>Alexander Clark</editor>
-<editor>Kristina Toutanova</editor>
+<editor orcid="Alexander Clark">Alexander Clark</editor>
+<editor orcid="Kristina Toutanova">Kristina Toutanova</editor>
 <title>Proceedings of the Twelfth Conference on Computational Natural Language Learning, CoNLL 2008, Manchester, UK, August 16-17, 2008</title>
 <booktitle>CoNLL</booktitle>
 <year>2008</year>
@@ -968,7 +968,7 @@
 <ee type="oa">https://aclanthology.org/W08-2100/</ee>
 <url>db/conf/conll/conll2008.html</url>
 </proceedings><proceedings mdate="2012-06-15" key="conf/icdt/2012">
-<editor>Alin Deutsch</editor>
+<editor orcid="Alin Deutsch">Alin Deutsch</editor>
 <title>15th International Conference on Database Theory, ICDT '12, Berlin, Germany, March 26-29, 2012</title>
 <publisher>ACM</publisher>
 <booktitle>ICDT</booktitle>
@@ -979,9 +979,9 @@
 </proceedings>
 
 <proceedings mdate="2021-01-12" key="conf/delfi/2005">
-<editor>Jorg M. Haake</editor>
-<editor>Ulrike Lucke</editor>
-<editor>Djamshid Tavangarian</editor>
+<editor orcid="Jorg M. Haake">Jorg M. Haake</editor>
+<editor orcid="Ulrike Lucke">Ulrike Lucke</editor>
+<editor orcid="Djamshid Tavangarian">Djamshid Tavangarian</editor>
 <title>DeLFI 2005: 3. Deutsche e-Learning Fachtagung Informatik, der Gesellschaft fur Informatik e.V. (GI) 13.-16. September 2005 in Rostock</title>
 <booktitle>DeLFI</booktitle>
 <series href="db/series/lni/index.html">LNI</series>
@@ -993,8 +993,8 @@
 <url>db/conf/delfi/delfi2005.html</url>
 </proceedings>
 <proceedings mdate="2006-01-31" key="conf/serp/2005-2">
-<editor>Hamid R. Arabnia</editor>
-<editor>Hassan Reza</editor>
+<editor orcid="Hamid R. Arabnia">Hamid R. Arabnia</editor>
+<editor orcid="Hassan Reza">Hassan Reza</editor>
 <title>Proceedings of the International Conference on Software Engineering Research and Practice, SERP 2005, Las Vegas, Nevada, USA, June 27-29, 2005, Volume 2</title>
 <year>2005</year>
 <isbn>1-932415-50-5</isbn>
@@ -1004,7 +1004,7 @@
 </proceedings>
 
 <proceedings mdate="2019-05-14" key="conf/asiacrypt/2009">
-<editor>Mitsuru Matsui</editor>
+<editor orcid="Mitsuru Matsui">Mitsuru Matsui</editor>
 <title>Advances in Cryptology - ASIACRYPT 2009, 15th International Conference on the Theory and Application of Cryptology and Information Security, Tokyo, Japan, December 6-10, 2009. Proceedings</title>
 <volume>5912</volume>
 <year>2009</year>
@@ -1023,8 +1023,8 @@
 <ee>https://ieeexplore.ieee.org/xpl/conhome/8026122/proceeding</ee>
 <url>db/conf/embc/embc2017.html</url>
 </proceedings><proceedings mdate="2021-08-13" key="conf/teletraffic/2017">
-<editor>Raffaele Bolla</editor>
-<editor>Florin Ciucu</editor>
+<editor orcid="Raffaele Bolla">Raffaele Bolla</editor>
+<editor orcid="Florin Ciucu">Florin Ciucu</editor>
 <title>29th International Teletraffic Congress, ITC 2017, Genoa, Italy, September 4-8, 2017</title>
 <booktitle>ITC</booktitle>
 <publisher>IEEE</publisher>
@@ -1041,11 +1041,11 @@
 <booktitle>NORCHIP</booktitle>
 <url>db/conf/norchip/norchip2011.html</url>
 </proceedings><proceedings mdate="2020-09-29" key="conf/iotbd/2018">
-<editor>Victor Mendez Munoz</editor>
-<editor>Gary B. Wills</editor>
-<editor>Robert John Walters</editor>
-<editor>Farshad Firouzi</editor>
-<editor>Victor Chang 0001</editor>
+<editor orcid="Victor Mendez Munoz">Victor Mendez Munoz</editor>
+<editor orcid="Gary B. Wills">Gary B. Wills</editor>
+<editor orcid="Robert John Walters">Robert John Walters</editor>
+<editor orcid="Farshad Firouzi">Farshad Firouzi</editor>
+<editor orcid="Victor Chang 0001">Victor Chang 0001</editor>
 <title>Proceedings of the 3rd International Conference on Internet of Things, Big Data and Security, IoTBDS 2018, Funchal, Madeira, Portugal, March 19-21, 2018.</title>
 <booktitle>IoTBDS</booktitle>
 <publisher>SciTePress</publisher>
@@ -1054,8 +1054,8 @@
 <url>db/conf/iotbd/iotbd2018.html</url>
 </proceedings>
 <proceedings mdate="2019-05-14" key="conf/sbmf/2014">
-<editor>Christiano Braga</editor>
-<editor>Narciso Marti-Oliet</editor>
+<editor orcid="Christiano Braga">Christiano Braga</editor>
+<editor orcid="Narciso Marti-Oliet">Narciso Marti-Oliet</editor>
 <title>Formal Methods: Foundations and Applications - 17th Brazilian Symposium, SBMF 2014, Maceio, AL, Brazil, September 29-October 1, 2014. Proceedings</title>
 <year>2015</year>
 <publisher>Springer</publisher>
@@ -1066,11 +1066,11 @@
 <booktitle>SBMF</booktitle>
 <url>db/conf/sbmf/sbmf2014.html</url>
 </proceedings><proceedings mdate="2019-07-12" key="conf/kdd/2018cd">
-<editor>Thuc Duy Le</editor>
-<editor>Kun Zhang 0001</editor>
-<editor>Emre Kiciman</editor>
-<editor>Aapo Hyvarinen</editor>
-<editor>Lin Liu 0003</editor>
+<editor orcid="Thuc Duy Le">Thuc Duy Le</editor>
+<editor orcid="Kun Zhang 0001">Kun Zhang 0001</editor>
+<editor orcid="Emre Kiciman">Emre Kiciman</editor>
+<editor orcid="Aapo Hyvarinen">Aapo Hyvarinen</editor>
+<editor orcid="Lin Liu 0003">Lin Liu 0003</editor>
 <title>Proceedings of 2018 ACM SIGKDD Workshop on Causal Discovery, CD@KDD 2018, London, UK, 20 August 2018.</title>
 <booktitle>CD@KDD</booktitle>
 <year>2018</year>
@@ -1080,7 +1080,7 @@
 <ee type="oa">http://proceedings.mlr.press/v92/</ee>
 <url>db/conf/kdd/cd2018.html</url>
 </proceedings><proceedings mdate="2020-02-12" key="conf/cpsschool/2019phd">
-<editor>Luca Pulina</editor>
+<editor orcid="Luca Pulina">Luca Pulina</editor>
 <title>Proceedings of the Cyber-Physical Systems PhD Workshop 2019, an event held within the CPS Summer School "Designing Cyber-Physical Systems - From concepts to implementation", Alghero, Italy, September 23, 2019.</title>
 <booktitle>CPS Summer School, PhD Workshop</booktitle>
 <publisher>CEUR-WS.org</publisher>
@@ -1091,9 +1091,9 @@
 <ee>https://nbn-resolving.org/urn:nbn:de:0074-2457-8</ee>
 <url>db/conf/cpsschool/phd2019.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/ac/2000tacs">
-<editor>Gholamreza B. Khosrovshahi</editor>
-<editor>Ali Shokoufandeh</editor>
-<editor>Mohammad Amin Shokrollahi</editor>
+<editor orcid="Gholamreza B. Khosrovshahi">Gholamreza B. Khosrovshahi</editor>
+<editor orcid="Ali Shokoufandeh">Ali Shokoufandeh</editor>
+<editor orcid="Mohammad Amin Shokrollahi">Mohammad Amin Shokrollahi</editor>
 <title>Theoretical Aspects of Computer Science, Advanced Lectures (First Summer School on Theoretical Aspects of Computer Science, Tehran, Iran, July 2000)</title>
 <booktitle>Theoretical Aspects of Computer Science</booktitle>
 <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
@@ -1104,8 +1104,8 @@
 <ee>https://doi.org/10.1007/3-540-45878-6</ee>
 <url>db/conf/ac/tacs2000.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/dagstuhl/2007sensor">
-<editor>Dorothea Wagner</editor>
-<editor>Roger Wattenhofer</editor>
+<editor orcid="Dorothea Wagner">Dorothea Wagner</editor>
+<editor orcid="Roger Wattenhofer">Roger Wattenhofer</editor>
 <title>Algorithms for Sensor and Ad Hoc Networks, Advanced Lectures [result from a Dagstuhl seminar].</title>
 <booktitle>Algorithms for Sensor and Ad Hoc Networks</booktitle>
 <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
@@ -1116,9 +1116,9 @@
 <ee>https://doi.org/10.1007/978-3-540-74991-2</ee>
 <url>db/conf/dagstuhl/sensor2007.html</url>
 </proceedings><proceedings mdate="2018-11-06" key="conf/enc/2016">
-<editor>Karina Caro</editor>
-<editor>Karina Figueroa</editor>
-<editor>Marcela D. Rodriguez</editor>
+<editor orcid="Karina Caro">Karina Caro</editor>
+<editor orcid="Karina Figueroa">Karina Figueroa</editor>
+<editor orcid="Marcela D. Rodriguez">Marcela D. Rodriguez</editor>
 <title>Proceedings of the Sixteenth Mexican International Conference on Computer Science, ENC 2016, Chihuahua, Mexico, November 14 - 16, 2016</title>
 <booktitle>ENC</booktitle>
 <publisher>ACM</publisher>
@@ -1127,10 +1127,10 @@
 <ee>https://doi.org/10.1145/3149235</ee>
 <url>db/conf/enc/enc2016.html</url>
 </proceedings><proceedings mdate="2021-08-30" key="conf/sigsoft/2021atest">
-<editor>Sinem Getir Yaman</editor>
-<editor>Rui Prada</editor>
-<editor>Fitsum Meshesha Kifetew</editor>
-<editor>Nicolas Cardozo</editor>
+<editor orcid="Sinem Getir Yaman">Sinem Getir Yaman</editor>
+<editor orcid="Rui Prada">Rui Prada</editor>
+<editor orcid="Fitsum Meshesha Kifetew">Fitsum Meshesha Kifetew</editor>
+<editor orcid="Nicolas Cardozo">Nicolas Cardozo</editor>
 <title>A-TEST 2021: Proceedings of the 12th International Workshop on Automating TEST Case Design, Selection, and Evaluation, A-TEST@ESEC/SIGSOFT FSE 2021, Athens, Greece, August 23-24, 2021</title>
 <publisher>ACM</publisher>
 <booktitle>A-TEST@ESEC/SIGSOFT FSE</booktitle>
@@ -1149,12 +1149,12 @@
 <booktitle>CASE</booktitle>
 <url>db/conf/case/case2008.html</url>
 </proceedings><proceedings mdate="2017-11-09" key="conf/icmi/2017mie">
-<editor>Gualtiero Volpe</editor>
-<editor>Monica Gori</editor>
-<editor>Nadia Bianchi-Berthouze</editor>
-<editor>Gabriel Baud-Bovy</editor>
-<editor>Paolo Alborno</editor>
-<editor>Erica Volta</editor>
+<editor orcid="Gualtiero Volpe">Gualtiero Volpe</editor>
+<editor orcid="Monica Gori">Monica Gori</editor>
+<editor orcid="Nadia Bianchi-Berthouze">Nadia Bianchi-Berthouze</editor>
+<editor orcid="Gabriel Baud-Bovy">Gabriel Baud-Bovy</editor>
+<editor orcid="Paolo Alborno">Paolo Alborno</editor>
+<editor orcid="Erica Volta">Erica Volta</editor>
 <title>Proceedings of the 1st ACM SIGCHI International Workshop on Multimodal Interaction for Education, MIE@ICMI 2017, Glasgow, United Kingdom, November 13, 2017</title>
 <booktitle>MIE@ICMI</booktitle>
 <publisher>ACM</publisher>
@@ -1164,8 +1164,8 @@
 <url>db/conf/icmi/mie2017.html</url>
 </proceedings>
 <proceedings mdate="2017-05-19" key="conf/ifip3/2010">
-<editor>Nicholas Reynolds</editor>
-<editor>Marta Turcsanyi-Szabo</editor>
+<editor orcid="Nicholas Reynolds">Nicholas Reynolds</editor>
+<editor orcid="Marta Turcsanyi-Szabo">Marta Turcsanyi-Szabo</editor>
 <title>Key Competencies in the Knowledge Society - IFIP TC 3 International Conference, KCKS 2010, Held as Part of WCC 2010, Brisbane, Australia, September 20-23, 2010. Proceedings</title>
 <ee>https://doi.org/10.1007/978-3-642-15378-5</ee>
 <publisher>Springer</publisher>
@@ -1188,7 +1188,7 @@
 <editor orcid="0000-0002-0737-7375">Anja Hennemuth</editor>
 <editor orcid="0000-0002-1961-3179">Leonid Goubergrits</editor>
 <editor orcid="0000-0003-0317-7154">Matthias Ivantsits</editor>
-<editor>Jan-Martin Kuhnigk</editor>
+<editor orcid="Jan-Martin Kuhnigk">Jan-Martin Kuhnigk</editor>
 <title>Cerebral Aneurysm Detection - First Challenge, CADA 2020, Held in Conjunction with MICCAI 2020, Lima, Peru, October 8, 2020, Proceedings</title>
 <booktitle>CADA@MICCAI</booktitle>
 <publisher>Springer</publisher>
@@ -1209,8 +1209,8 @@
 <ee>https://www.computer.org/csdl/proceedings/acsd/2017/2867/00/index.html</ee>
 <url>db/conf/acsd/acsd2017.html</url>
 </proceedings><proceedings mdate="2019-05-14" key="conf/mmns/2002">
-<editor>Kevin C. Almeroth</editor>
-<editor>Masum Z. Hasan</editor>
+<editor orcid="Kevin C. Almeroth">Kevin C. Almeroth</editor>
+<editor orcid="Masum Z. Hasan">Masum Z. Hasan</editor>
 <title>Management of Multimedia on the Internet, 5th IFIP/IEEE International Conference on Management of Multimedia Networks and Services, MMNS 2002, Santa Barbara, CA, USA, October 6-9, 2002, Proceedings</title>
 <booktitle>MMNS</booktitle>
 <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
@@ -1221,9 +1221,9 @@
 <ee>https://doi.org/10.1007/3-540-45812-3</ee>
 <url>db/conf/mmns/mmns2002.html</url>
 </proceedings><proceedings mdate="2019-10-16" key="conf/icse/2003">
-<editor>Lori A. Clarke</editor>
-<editor>Laurie Dillon</editor>
-<editor>Walter F. Tichy</editor>
+<editor orcid="Lori A. Clarke">Lori A. Clarke</editor>
+<editor orcid="Laurie Dillon">Laurie Dillon</editor>
+<editor orcid="Walter F. Tichy">Walter F. Tichy</editor>
 <title>Proceedings of the 25th International Conference on Software Engineering, May 3-10, 2003, Portland, Oregon, USA</title>
 <booktitle>ICSE</booktitle>
 <publisher>IEEE Computer Society</publisher>
@@ -1234,10 +1234,10 @@
 <ee>https://www.computer.org/csdl/proceedings/icse/2003/1877/00/index.html</ee>
 <ee>http://dl.acm.org/citation.cfm?id=776816</ee>
 </proceedings><proceedings mdate="2020-07-28" key="journals/tcos/2020-37">
-<editor>Marina L. Gavrilova</editor>
-<editor>C. J. Kenneth Tan</editor>
+<editor orcid="Marina L. Gavrilova">Marina L. Gavrilova</editor>
+<editor orcid="C. J. Kenneth Tan">C. J. Kenneth Tan</editor>
 <editor orcid="0000-0003-4118-147X">Jian Chang</editor>
-<editor>Nadia Magnenat-Thalmann</editor>
+<editor orcid="Nadia Magnenat-Thalmann">Nadia Magnenat-Thalmann</editor>
 <title>Transactions on Computational Science XXXVII - Special Issue on Computer Graphics</title>
 <booktitle>Trans. Comput. Sci.</booktitle>
 <publisher>Springer</publisher>
@@ -1251,9 +1251,9 @@
 </proceedings>
 
 <proceedings mdate="2021-03-02" key="journals/topnoc/2021-15">
-<editor>Maciej Koutny</editor>
+<editor orcid="Maciej Koutny">Maciej Koutny</editor>
 <editor orcid="0000-0002-5626-828X">Fabrice Kordon</editor>
-<editor>Lucia Pomello</editor>
+<editor orcid="Lucia Pomello">Lucia Pomello</editor>
 <title>Transactions on Petri Nets and Other Models of Concurrency XV</title>
 <booktitle>Trans. Petri Nets and Other Models of Concurrency</booktitle>
 <publisher>Springer</publisher>

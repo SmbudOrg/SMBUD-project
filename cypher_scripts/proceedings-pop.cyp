@@ -49,7 +49,7 @@ UNWIND proceedings_s AS proceedings
 WITH [item in proceedings._children WHERE item._type = "year"][0] AS year
 MERGE (y:Year {year:toInteger(year._text)})
 RETURN count(y);
-// create relationships : PUBLISHED_IN
+// create relationships : HELD_IN
 CALL apoc.load.xml("file:///proceedings-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'proceedings'] AS proceedings_s
@@ -58,7 +58,7 @@ WITH proceedings.key AS proceedingsKEY,
      [item in proceedings._children WHERE item._type = "year"][0] AS year
 MATCH (p:Proceedings {key: proceedingsKEY})
 MATCH (y:Year {year:toInteger(year._text)})
-MERGE (p)-[r:PUBLISHED_IN]->(y)
+MERGE (p)-[r:HELD_IN]->(y)
 RETURN count(r);
 
 
