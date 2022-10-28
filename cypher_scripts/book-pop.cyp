@@ -1,3 +1,4 @@
+//Load Book nodes
 CALL apoc.load.xml("file:///book-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'book'] AS book_s
