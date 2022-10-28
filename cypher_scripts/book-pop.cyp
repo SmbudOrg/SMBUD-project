@@ -5,7 +5,6 @@ UNWIND book_s AS book
 WITH book.key AS bookKEY,
      [item in book._children WHERE item._type = "title"][0] AS title,
      [item in book._children WHERE item._type = "pages"][0] AS pages,
-     [item in book._children WHERE item._type = "url"][0] AS url,
      [item in book._children WHERE item._type = "citations"][0] AS citations,
      [item in book._children WHERE item._type = "ee"] AS ee_s, 
      [item in book._children WHERE item._type = "isbn"] AS isbn_s 
@@ -15,7 +14,6 @@ MERGE (a:Publication:Book {key: bookKEY})
 SET 
     a.title = title._text,
     a.pages = toInteger(pages._text),
-    a.url = url._text,
     a.citations = toInteger(citations._text),
     a.ee = [ee IN ee_s | ee._text],
     a.isbn = [isbn IN isbn_s | isbn._text]
