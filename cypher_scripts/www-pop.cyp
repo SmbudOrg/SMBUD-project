@@ -34,7 +34,7 @@ UNWIND www_s AS www
 WITH www.key AS wwwKEY, [item in www._children WHERE item._type = "author"] AS author_s
 UNWIND author_s AS author
 WITH wwwKEY, author.orcid AS _orcid
-MATCH (a:www {key: wwwKEY})
+MATCH (a:Website {key: wwwKEY})
 MATCH (auth:Person {orcid:_orcid})
 MERGE (a)-[:HOMEPAGE_OF]->(auth)
 RETURN *;
@@ -55,7 +55,7 @@ WITH [x in foo WHERE x._type = 'www'] AS www_s
 UNWIND www_s AS www
 WITH www.key AS wwwKEY, [item in www._children WHERE item._type = "note"] AS note_s
 UNWIND note_s AS note
-MATCH (a:www {key: wwwKEY})
+MATCH (a:Website {key: wwwKEY})
 MATCH (Uni:University {name:note._text})
 MERGE (a)-[:AFFILIATED_TO]->(Uni)
 RETURN *;
