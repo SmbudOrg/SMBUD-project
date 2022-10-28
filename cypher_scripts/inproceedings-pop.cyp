@@ -17,6 +17,20 @@ SET
 RETURN count(p);
 
 
+//Dopo aver caricato i nodi proceedings: Load delle cross-ref tra inproceedings e proceedings
+
+CALL apoc.load.xml("file:///inproceedings-db.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'inproceedings'] AS inproceedings_s
+UNWIND inproceedings_s AS inproceedings
+WITH inproceedings.key AS inproceedingsKEY,
+     [item in inproceedings._children WHERE item._type = "crossref"] AS crossref_s
+UNWIND crossref_s AS crossref
+WITH inproceedingsKEY, crossref._text AS cross
+MATCH (a:Inproceedings {key: inproceedingsKEY})
+MATCH (p:Proceedings {key: cross})
+MERGE (a)-[:CROSSREF]->(p)
+RETURN count(*);
 
 //Load Author nodes
 CALL apoc.load.xml("file:///inproceedings-db.xml") YIELD value
