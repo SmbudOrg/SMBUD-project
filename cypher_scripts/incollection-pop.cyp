@@ -78,3 +78,31 @@ MATCH (a:Incollection {key: incollectionKEY})
 MATCH (o:Publication {key: cite._text})
 MERGE (a)-[r:CITES]->(o)
 RETURN *;
+
+
+
+//Load Keyword nodes
+CALL apoc.load.xml("file:///incollection-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'incollection'] AS incollection_s
+UNWIND incollection_s AS incollection
+WITH [item in incollection._children WHERE item._type = "keyword"] AS keyword_s
+UNWIND keyword_s AS keyword
+MERGE (k:Keyword {keyword: keyword._text})
+SET k.keyword = keyword._text
+RETURN count(k);
+
+// create relationships :ABOUT
+CALL apoc.load.xml("file:///incollection-volume.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'incollection'] AS incollection_s
+UNWIND incollection_s AS incollection
+WITH incollection.key AS incollectionKEY,
+     [item in incollection._children WHERE item._type = "keyword"] AS keyword_s
+UNWIND keyword_s AS keyword
+WITH incollectionKEY, keyword
+MATCH (a:Incollection {key: incollectionKEY})
+MATCH (k:Keyword{keyword: keyword._text})
+MERGE (a)-[:ABOUT]->(k)
+RETURN *;
+
