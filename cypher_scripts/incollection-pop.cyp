@@ -45,10 +45,7 @@ MATCH (auth:Person {orcid:_orcid})
 MERGE (auth)-[r:AUTHOR_OF]->(a)
 RETURN count(r);
 
-
-
-
-// create relationships :PART_OF
+// create relationships :COLLECTED_IN
 CALL apoc.load.xml("file:///incollection-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'incollection'] AS incollection_s
@@ -82,7 +79,7 @@ RETURN *;
 
 
 //Load Keyword nodes
-CALL apoc.load.xml("file:///incollection-volume.xml") YIELD value
+CALL apoc.load.xml("file:///incollection-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'incollection'] AS incollection_s
 UNWIND incollection_s AS incollection
@@ -93,7 +90,7 @@ SET k.keyword = keyword._text
 RETURN count(k);
 
 // create relationships :ABOUT
-CALL apoc.load.xml("file:///incollection-volume.xml") YIELD value
+CALL apoc.load.xml("file:///incollection-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'incollection'] AS incollection_s
 UNWIND incollection_s AS incollection
