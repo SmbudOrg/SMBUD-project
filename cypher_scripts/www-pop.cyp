@@ -36,7 +36,7 @@ WITH www.key AS wwwKEY, [item in www._children WHERE item._type = "author"] AS a
 UNWIND author_s AS author
 WITH wwwKEY, author.orcid AS _orcid
 MATCH (a:www {key: wwwKEY})
-MATCH (auth:Author {orcid:_orcid})
+MATCH (auth:Person {orcid:_orcid})
 MERGE (a)-[:HOMEPAGE_OF]->(auth)
 RETURN *;
 
