@@ -111,3 +111,27 @@ MERGE (p)-[r:PART_OF]->(se)
 SET r.number = number._text,
     r.volume = volume._text
 RETURN count(r);
+
+//Load Booktitle nodes
+CALL apoc.load.xml("file:///proceedings-db.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'proceedings'] AS proceedings_s
+UNWIND proceedings_s AS proceedings
+WITH [item in proceedings._children WHERE item._type = "booktitle"][0] AS booktitle,
+     [item in proceedings._children WHERE item._type = "crossref"][0] AS crossref
+MERGE (bt:Conference {name:booktitle._text})
+SET bt.crossref = crossref._text
+RETURN count(bt);
+// create relationships : REFERS_TO
+CALL apoc.load.xml("file:///proceedings-db.xml") YIELD value
+UNWIND value._children AS foo
+WITH [x in foo WHERE x._type = 'proceedings'] AS proceedings_s
+UNWIND proceedings_s AS proceedings
+WITH proceedings.key AS proceedingsKEY, 
+     [item in proceedings._children WHERE item._type = "booktitle"][0] AS booktitle,
+     [item in proceedings._children WHERE item._type = "pages"][0] AS pages
+MATCH (i:proceedings {key: proceedingsKEY})
+MATCH (bt:Conference {name:booktitle._text})
+MERGE (i)-[r:REFERS_TO]->(bt)
+SET r.pages = pages._text
+RETURN count(r);
