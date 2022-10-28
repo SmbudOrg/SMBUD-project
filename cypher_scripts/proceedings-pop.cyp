@@ -130,7 +130,7 @@ UNWIND proceedings_s AS proceedings
 WITH proceedings.key AS proceedingsKEY, 
      [item in proceedings._children WHERE item._type = "booktitle"][0] AS booktitle,
      [item in proceedings._children WHERE item._type = "pages"][0] AS pages
-MATCH (i:proceedings {key: proceedingsKEY})
+MATCH (i:Proceedings {key: proceedingsKEY})
 MATCH (bt:Conference {name:booktitle._text})
 MERGE (i)-[r:REFERS_TO]->(bt)
 SET r.pages = pages._text
