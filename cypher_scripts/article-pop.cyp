@@ -29,7 +29,7 @@ UNWIND article_s AS article
 WITH [item in article._children WHERE item._type = "author"] AS author_s
 UNWIND author_s AS author
 WITH author._text AS name, author.orcid as _orcid
-MERGE (auth:Person {orcid:_orcid})
+MERGE (auth:Person {orcid: _orcid})
 SET auth.name = name
 RETURN count(auth);
 // create relationships :AUTHOR_OF
@@ -58,8 +58,9 @@ WITH article,
      [item in article._children WHERE item._type = "crossref"][0] AS crossref
 
 MERGE (j:Journal {name: journal._text})
-MERGE (v:Volume {journal: journal._text, volume: toInteger(volume._text)})
-SET v.crossref = crossref._text
+MERGE (v:Volume {journal: journal._text, volume: volume._text})
+SET v.crossref = crossref._text,
+    v.volume = volume._text
 RETURN j,v;
 
 // create relationships :COLLECTED_IN
@@ -73,9 +74,9 @@ WITH article.key AS articleKEY,
      [item in article._children WHERE item._type = "number"][0] AS number
 
 MATCH (a:Article {key: articleKEY})
-MATCH (v:Volume {journal: journal._text, volume: toInteger(volume._text)})
+MATCH (v:Volume {journal: journal._text, volume: volume._text})
 MERGE (a)-[r:COLLECTED_IN]->(v)
-SET r.number = number._text,
+SET r.number = number._text
 RETURN DISTINCT count(r);
 
 // create relationships :REFERS_TO
@@ -85,7 +86,7 @@ WITH [x in foo WHERE x._type = 'article'] AS article_s
 UNWIND article_s AS article
 WITH [item in article._children WHERE item._type = "journal"][0] AS journal,
      [item in article._children WHERE item._type = "volume"][0] AS volume
-MATCH (v:Volume {journal: journal._text, volume: toInteger(volume._text)})
+MATCH (v:Volume {journal: journal._text, volume: volume._text})
 MATCH (j:Journal {name: journal._text})
 MERGE (v)-[r:REFERS_TO]->(j)
 RETURN DISTINCT count(r);
@@ -109,7 +110,7 @@ WITH [item in article._children WHERE item._type = "volume"][0] AS volume,
      [item in article._children WHERE item._type = "journal"][0] AS journal,
      [item in article._children WHERE item._type = "year"][0] AS year,
      [item in article._children WHERE item._type = "month"][0] AS month
-MATCH (v:Volume {journal: journal._text, volume: toInteger(volume._text)})
+MATCH (v:Volume {journal: journal._text, volume: volume._text})
 MATCH (y:Year {year:toInteger(year._text)})
 MERGE (v)-[r:PUBLISHED_IN]->(y)
 SET r.month = toInteger(month._text)
@@ -134,7 +135,7 @@ WITH [item in article._children WHERE item._type = "volume"][0] AS volume,
      [item in article._children WHERE item._type = "journal"][0] AS journal,
      [item in article._children WHERE item._type = "publisher"] AS publisher_s
 UNWIND publisher_s AS publisher
-MATCH (v:Volume {journal: journal._text, volume: toInteger(volume._text)})
+MATCH (v:Volume {journal: journal._text, volume: volume._text})
 MATCH (publ:Publisher {name:publisher._text})
 MERGE (v)-[r:PUBLISHED_BY]->(publ)
 RETURN count(r);
