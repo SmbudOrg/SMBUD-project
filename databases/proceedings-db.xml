@@ -1,14 +1,4 @@
-<dblp><proceedings mdate="2020-03-27" key="reference/genetic/2015">
-<editor orcid="0000-0002-2798-0104">Amir Hossein Gandomi</editor>
-<editor orcid="0000-0002-7593-8509">Amir Hossein Alavi</editor>
-<editor orcid="0000-0002-7002-5815">Conor Ryan</editor>
-<title>Handbook of Genetic Programming Applications</title>
-<publisher>Springer</publisher>
-<year>2015</year>
-<isbn>978-3-319-20882-4</isbn>
-<ee>https://doi.org/10.1007/978-3-319-20883-1</ee>
-<url>db/reference/genetic/genetic2015.html</url>
-</proceedings><proceedings mdate="2007-12-10" key="conf/cikm/2007">
+<dblp><proceedings mdate="2007-12-10" key="conf/cikm/2007">
 <title>Proceedings of the Sixteenth ACM Conference on Information and Knowledge Management, CIKM 2007, Lisbon, Portugal, November 6-10, 2007</title>
 <editor orcid="Mario J. Silva">Mario J. Silva</editor>
 <editor orcid="Alberto H. F. Laender">Alberto H. F. Laender</editor>

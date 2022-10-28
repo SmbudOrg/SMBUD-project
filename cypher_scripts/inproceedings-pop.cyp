@@ -59,53 +59,6 @@ MERGE (auth)-[:AUTHOR_OF]->(a)
 RETURN count(*);
 
 
-//Load Booktitle nodes
-CALL apoc.load.xml("file:///inproceedings-db.xml") YIELD value
-UNWIND value._children AS foo
-WITH [x in foo WHERE x._type = 'inproceedings'] AS inproceedings_s
-UNWIND inproceedings_s AS inproceedings
-WITH [item in inproceedings._children WHERE item._type = "booktitle"][0] AS booktitle,
-     [item in inproceedings._children WHERE item._type = "crossref"][0] AS crossref
-MERGE (bt:Conference {name:booktitle._text})
-SET bt.crossref = crossref._text
-RETURN count(bt);
-// create relationships : PRESENTED_AT
-CALL apoc.load.xml("file:///inproceedings-db.xml") YIELD value
-UNWIND value._children AS foo
-WITH [x in foo WHERE x._type = 'inproceedings'] AS inproceedings_s
-UNWIND inproceedings_s AS inproceedings
-WITH inproceedings.key AS inproceedingsKEY, 
-     [item in inproceedings._children WHERE item._type = "booktitle"][0] AS booktitle,
-     [item in inproceedings._children WHERE item._type = "pages"][0] AS pages
-MATCH (i:Inproceedings {key: inproceedingsKEY})
-MATCH (bt:Conference {name:booktitle._text})
-MERGE (i)-[r:PRESENTED_AT]->(bt)
-SET r.pages = pages._text
-RETURN count(r);
-
-
-//Load years nodes
-CALL apoc.load.xml("file:///inproceedings-db.xml") YIELD value
-UNWIND value._children AS foo
-WITH [x in foo WHERE x._type = 'inproceedings'] AS inproceedings_s
-UNWIND inproceedings_s AS inproceedings
-WITH [item in inproceedings._children WHERE item._type = "year"][0] AS year
-MERGE (y:Year {year:toInteger(year._text)})
-RETURN count(y);
-
-// create relationships : PUBLISHED_IN
-CALL apoc.load.xml("file:///inproceedings-db.xml") YIELD value
-UNWIND value._children AS foo
-WITH [x in foo WHERE x._type = 'inproceedings'] AS inproceedings_s
-UNWIND inproceedings_s AS inproceedings
-WITH inproceedings.key AS inproceedingsKEY, 
-     [item in inproceedings._children WHERE item._type = "year"][0] AS year
-MATCH (i:Inproceedings {key: inproceedingsKEY})
-MATCH (y:Year {year:toInteger(year._text)})
-MERGE (i)-[r:PUBLISHED_IN]->(y)
-RETURN count(r);
-
-
 // create relationships :CITES
 CALL apoc.load.xml("file:///inproceedings-db.xml") YIELD value
 UNWIND value._children AS foo
