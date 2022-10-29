@@ -1,0 +1,67 @@
+﻿[
+  {
+    "n": {
+"identity": 30391,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hector Garcia-Molina",
+"orcid": "Hector Garcia-Molina"
+      }
+    },
+    "count(r)": 26
+  },
+  {
+    "n": {
+"identity": 30644,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Philip S. Yu",
+"orcid": "Philip S. Yu"
+      }
+    },
+    "count(r)": 24
+  },
+  {
+    "n": {
+"identity": 30759,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard T. Snodgrass",
+"orcid": "Richard T. Snodgrass"
+      }
+    },
+    "count(r)": 23
+  },
+  {
+    "n": {
+"identity": 30748,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Elisa Bertino",
+"orcid": "Elisa Bertino"
+      }
+    },
+    "count(r)": 23
+  },
+  {
+    "n": {
+"identity": 32515,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christoph Beierle",
+"orcid": "Christoph Beierle"
+      }
+    },
+    "count(r)": 21
+  }
+]

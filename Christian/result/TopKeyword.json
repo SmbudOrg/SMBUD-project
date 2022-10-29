@@ -1,0 +1,542 @@
+﻿[
+  {
+    "n": {
+"identity": 4859,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "interfaces"
+      }
+    },
+    "count(r)": 391
+  },
+  {
+    "n": {
+"identity": 4847,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "q-learning"
+      }
+    },
+    "count(r)": 390
+  },
+  {
+    "n": {
+"identity": 4873,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "minimum path"
+      }
+    },
+    "count(r)": 384
+  },
+  {
+    "n": {
+"identity": 4882,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "javascript"
+      }
+    },
+    "count(r)": 379
+  },
+  {
+    "n": {
+"identity": 4866,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "cloud computing"
+      }
+    },
+    "count(r)": 374
+  },
+  {
+    "n": {
+"identity": 4856,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "data mining"
+      }
+    },
+    "count(r)": 372
+  },
+  {
+    "n": {
+"identity": 4880,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "html"
+      }
+    },
+    "count(r)": 371
+  },
+  {
+    "n": {
+"identity": 4865,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "computer science engineering"
+      }
+    },
+    "count(r)": 370
+  },
+  {
+    "n": {
+"identity": 4860,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "database design"
+      }
+    },
+    "count(r)": 370
+  },
+  {
+    "n": {
+"identity": 4854,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "graph search"
+      }
+    },
+    "count(r)": 369
+  },
+  {
+    "n": {
+"identity": 4887,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "c++"
+      }
+    },
+    "count(r)": 367
+  },
+  {
+    "n": {
+"identity": 4862,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "dijkstra"
+      }
+    },
+    "count(r)": 367
+  },
+  {
+    "n": {
+"identity": 4885,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "key-value databases"
+      }
+    },
+    "count(r)": 366
+  },
+  {
+    "n": {
+"identity": 4845,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "debugging"
+      }
+    },
+    "count(r)": 365
+  },
+  {
+    "n": {
+"identity": 4852,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "computer science"
+      }
+    },
+    "count(r)": 365
+  },
+  {
+    "n": {
+"identity": 4867,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "multiagent systems"
+      }
+    },
+    "count(r)": 365
+  },
+  {
+    "n": {
+"identity": 4878,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "language processing"
+      }
+    },
+    "count(r)": 364
+  },
+  {
+    "n": {
+"identity": 4844,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "graphs"
+      }
+    },
+    "count(r)": 362
+  },
+  {
+    "n": {
+"identity": 4863,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "data processing"
+      }
+    },
+    "count(r)": 360
+  },
+  {
+    "n": {
+"identity": 4851,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "c#"
+      }
+    },
+    "count(r)": 360
+  },
+  {
+    "n": {
+"identity": 4858,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "A*"
+      }
+    },
+    "count(r)": 360
+  },
+  {
+    "n": {
+"identity": 4884,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "unstructured data"
+      }
+    },
+    "count(r)": 359
+  },
+  {
+    "n": {
+"identity": 4876,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "computer architectures"
+      }
+    },
+    "count(r)": 359
+  },
+  {
+    "n": {
+"identity": 4848,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "algorithms"
+      }
+    },
+    "count(r)": 358
+  },
+  {
+    "n": {
+"identity": 4855,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "python"
+      }
+    },
+    "count(r)": 357
+  },
+  {
+    "n": {
+"identity": 4881,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "mongodb"
+      }
+    },
+    "count(r)": 357
+  },
+  {
+    "n": {
+"identity": 4857,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "c89"
+      }
+    },
+    "count(r)": 356
+  },
+  {
+    "n": {
+"identity": 4868,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "deep learning"
+      }
+    },
+    "count(r)": 356
+  },
+  {
+    "n": {
+"identity": 4869,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "neo4j"
+      }
+    },
+    "count(r)": 355
+  },
+  {
+    "n": {
+"identity": 4849,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "ai"
+      }
+    },
+    "count(r)": 355
+  },
+  {
+    "n": {
+"identity": 4843,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "java"
+      }
+    },
+    "count(r)": 353
+  },
+  {
+    "n": {
+"identity": 4872,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "graph model"
+      }
+    },
+    "count(r)": 351
+  },
+  {
+    "n": {
+"identity": 4879,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "path finding"
+      }
+    },
+    "count(r)": 350
+  },
+  {
+    "n": {
+"identity": 4871,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "graph database"
+      }
+    },
+    "count(r)": 348
+  },
+  {
+    "n": {
+"identity": 4861,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "cypher"
+      }
+    },
+    "count(r)": 348
+  },
+  {
+    "n": {
+"identity": 4864,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "big data"
+      }
+    },
+    "count(r)": 348
+  },
+  {
+    "n": {
+"identity": 4874,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "testing"
+      }
+    },
+    "count(r)": 347
+  },
+  {
+    "n": {
+"identity": 4850,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "relational databases"
+      }
+    },
+    "count(r)": 345
+  },
+  {
+    "n": {
+"identity": 4883,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "markov decision process"
+      }
+    },
+    "count(r)": 344
+  },
+  {
+    "n": {
+"identity": 4886,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "software engineering"
+      }
+    },
+    "count(r)": 342
+  },
+  {
+    "n": {
+"identity": 4853,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "redis"
+      }
+    },
+    "count(r)": 339
+  },
+  {
+    "n": {
+"identity": 4877,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "machine learning"
+      }
+    },
+    "count(r)": 338
+  },
+  {
+    "n": {
+"identity": 4870,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "non-relational databases"
+      }
+    },
+    "count(r)": 336
+  },
+  {
+    "n": {
+"identity": 4875,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "software"
+      }
+    },
+    "count(r)": 334
+  },
+  {
+    "n": {
+"identity": 4846,
+"labels": [
+        "Keyword"
+      ],
+"properties": {
+"keyword": "ER model"
+      }
+    },
+    "count(r)": 327
+  }
+]
