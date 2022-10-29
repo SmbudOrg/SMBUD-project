@@ -25,6 +25,7 @@ MATCH (w:Website)-[:HOMEPAGE_OF]-(a:Person)-[:AUTHOR_OF]-(p:Publication)-[:ABOUT
 WITH w, a, COUNT(*) AS pubcount
 ORDER BY pubcount DESC
 RETURN w, a, pubcount
+LIMIT 10
 
 4. Return the series that contain the most books about data mining published after 2018
 (5 nodes, aggregation, functions)
