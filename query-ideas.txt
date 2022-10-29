@@ -1,10 +1,10 @@
 NOTA: a ognuna di queste si possono aggiungere ulteriori condizioni (es. sotto le 200 pagine, con più di 100 citazioni,
 isbn non nullo,...)
-AGGREGATIONS: count, max, min, average, percentile count, sum
-FUNCTIONS: minimum path
+AGGREGATIONS: with (x)
+FUNCTIONS: minimum path, all(), count (x), max, min, average, percentile count, sum
 
 1. Return the top 10 keywords used together with data mining 
-(3 nodes, aggregations)
+(3 nodes, aggregations, functions)
 
 MATCH (k:Keyword)<-[:ABOUT]-(p:Publication)-[:ABOUT]->(m:Keyword {keyword: "data mining"})
 WITH k, COUNT(*) AS count
@@ -19,6 +19,7 @@ WHERE r.volume = 1
 RETURN b,s LIMIT 50
 
 3. Return top 10 authors that have written the most about data mining, but only the ones who have a website
+(4 nodes, aggregation, function)
 
 MATCH (w:Website)-[:HOMEPAGE_OF]-(a:Person)-[:AUTHOR_OF]-(p:Publication)-[:ABOUT]->(k:Keyword {keyword: "data mining"})
 WITH w, a, COUNT(*) AS pubcount
@@ -26,6 +27,7 @@ ORDER BY pubcount DESC
 RETURN w, a, pubcount
 
 4. Return the series that contain the most books about data mining published after 2018
+(5 nodes, aggregation, functions)
 
 MATCH (s:Series)-[:CONTAINS]->(b:Book)-[:ABOUT]->(k:Keyword {keyword: "data mining"}), (b:Book)-[:PUBLISHED_IN]->(y:Year)
 WHERE y.year >= 2018
@@ -36,19 +38,55 @@ RETURN s, bookcount LIMIT 20
 5. Ritornare i journal (/series/proceedings) i cui articoli (/book/inproceedings) hanno il maggior numero di keyword distinte
 (I journal che scrivono di argomenti più eterogenei)
 
+MATCH (j:Journal)<-[:REFERS_TO]-(v:Volume)<-[:COLLECTED_IN]-(a:Article)-[:ABOUT]->(k:Keyword)
+WITH j, COUNT(DISTINCT k) AS keywordcount
+ORDER BY keywordcount DESC
+RETURN j, keywordcount LIMIT 50
 
+6. Return publications about data mining written by professors associated with university x
+(5 nodes)
 
-6. Return publications about data mining written by professor associated with university x
+MATCH (u:University{name:"Polytechnic University of Milan, Italy"})<-[:AFFILIATED_TO]-(w:Website)-[:HOMEPAGE_OF]->(a:Person)-[:AUTHOR_OF]->(p:Publication)-[:ABOUT]-(k:Keyword)
+WHERE k.keyword = "data mining"
+RETURN p Limit 50
 
 7. Return the top 10 keywords used in phdthesis published under university x after 2018
 
-8. Return the top 10 universities with the most phd thesis about data mining
+MATCH (u:University{name:"University of Erlangen-Nuremberg, Germany"})<-[:PRODUCED_BY]-(p:Phdthesis)-[:ABOUT]->(k:Keyword),
+(p:Phdthesis)-[:PUBLISHED_IN]->(y:Year)
+WHERE y.year > 2018
+WITH k, COUNT(*) AS kcount
+ORDER BY kcount DESC
+RETURN k, kcount LIMIT 10
 
-9. Return publications about data mining written by authors affiliated with university x 
-(5 nodi: università, website (per affiliazione), autore, publication, keyword)
+8. Return the university with the most phd thesis about data mining
+
+MATCH (u:University)<-[:PRODUCED_BY]-(p:Phdthesis)-[:ABOUT]->(k:Keyword {keyword: "data mining"})
+WITH u, COUNT(*) AS pcount
+ORDER BY pcount DESC
+RETURN u, pcount LIMIT 1
+
+9. Return authors that wrote about data mining ordering them by the sum of the number of citations their articles about data mining received
+
+MATCH (p:Person)-[:AUTHOR_OF]->(a:Article)-[:ABOUT]->(k:Keyword {keyword: "data mining"})
+WITH p, SUM(a.citations) AS cit
+ORDER BY cit DESC
+RETURN p, cit LIMIT 50
 
 10. Return the minimum path between two authors through people that have worked (wrote/edited) on a publication together
 
 11. Return the minimum path between two keywords through keywords that appear in a publication together
 
 12. Order journals by the average number of citations of articles contained in it
+
+13. Return the website of the author with the maximum number of citations across publications about data mining
+
+14. Return the conference held in 2020 that resulted in the maximum number of inproceedings in the database
+
+15. Order journal volumes by the percentage of articles in them that are about data mining
+
+16. Order publishers by the average number of citations of their works that were published after 2020
+
+17. Return people that organised (editor of) the most number of conferences (proceedings) held after 2015
+
+18. 
