@@ -1,7 +1,7 @@
 NOTA: a ognuna di queste si possono aggiungere ulteriori condizioni (es. sotto le 200 pagine, con più di 100 citazioni,
 isbn non nullo,...)
 AGGREGATIONS: with (x)
-FUNCTIONS: minimum path (x), all(), count (x), max, min, average (x), percentile count, sum (x)
+FUNCTIONS: minimum path (x), all(), count (x), max, min, average (x), sum (x)
 
 1. Return the top 10 keywords used together with data mining 
 (3 nodes, aggregations, functions)
@@ -43,11 +43,13 @@ WITH j, COUNT(DISTINCT k) AS keywordcount
 ORDER BY keywordcount DESC
 RETURN j, keywordcount LIMIT 50
 
-6. Return publications about data mining written by professors associated with university x
+6. Return publications about data mining written by professors associated with university x, ordering them by the number of citations
 (5 nodes)
 
 MATCH (u:University{name:"Polytechnic University of Milan, Italy"})<-[:AFFILIATED_TO]-(w:Website)-[:HOMEPAGE_OF]->(a:Person)-[:AUTHOR_OF]->(p:Publication)-[:ABOUT]-(k:Keyword)
 WHERE k.keyword = "data mining"
+WITH p
+ORDER BY p.citations DESC
 RETURN p Limit 50
 
 7. Return the top 10 keywords used in phdthesis published under university x after 2018
@@ -69,6 +71,7 @@ RETURN u, pcount LIMIT 1
 9. Return authors that wrote about data mining ordering them by the sum of the number of citations their articles about data mining received
 
 MATCH (p:Person)-[:AUTHOR_OF]->(a:Article)-[:ABOUT]->(k:Keyword {keyword: "data mining"})
+WHERE a.citations IS NOT null
 WITH p, SUM(a.citations) AS cit
 ORDER BY cit DESC
 RETURN p, cit LIMIT 50
@@ -76,6 +79,7 @@ RETURN p, cit LIMIT 50
 10. Return the keywords that have the maximum number of citations across phdthesis published by university x
 
 MATCH (u:University {name: "Stanford University, USA"})<-[:PRODUCED_BY]-(p:Phdthesis)-[:ABOUT]->(k:Keyword)
+WHERE p.citations IS NOT null
 WITH k, avg(p.citations) AS avgcit
 ORDER BY avgcit DESC
 RETURN k LIMIT 10
@@ -89,6 +93,7 @@ RETURN p
 12. Order journals by the average number of citations of articles contained in it
 
 MATCH (j:Journal)<-[:REFERS_TO]-(v:Volume)<-[:COLLECTED_IN]-(a:Article)
+WHERE a.citations IS NOT null
 WITH j, avg(a.citations) AS avgcit
 ORDER BY avgcit
 RETURN j, avgcit LIMIT 50
@@ -96,18 +101,49 @@ RETURN j, avgcit LIMIT 50
 13. Return the author with the maximum number of citations across publications about data mining and their website
 
 MATCH (w:Website)-[:HOMEPAGE_OF]->(a:Person)-[:AUTHOR_OF]->(p:Publication)-[:ABOUT]->(k:Keyword {keyword: "data mining"})
+WHERE p.citations IS NOT null
 WITH w, a, SUM(p.citations) AS sumcit
 ORDER BY sumcit DESC
 RETURN w, a LIMIT 1
 
-14. Return the conference held in 2020 that resulted in the maximum number of inproceedings in the database
+14. Return the books published after 2019 that have the highest percentage of incollection elements about machine learning
 
-15. Order journal volumes by the percentage of articles in them that are about data mining
+MATCH (y:Year)<-[:PUBLISHED_IN]-(b:Book)<-[:COLLECTED_IN]-(i:Incollection)-[:ABOUT]-(k:Keyword {keyword: "machine learning"})
+WHERE y.year >= 2019
+WITH b, COUNT (i) AS icount
+ORDER BY icount DESC
+RETURN b, icount LIMIT 20 
 
-16. Order publishers by the average number of citations of their works that were published after 2020
+15. Order publishers by the average number of citations of their works that were published after 2015
 
-17. Return people that organised (editor of) the most number of conferences (proceedings) held after 2015
+MATCH (p:Publisher)<-[:PUBLISHED_BY]-(a:Publication)-[:PUBLISHED_IN]->(y:Year)
+WHERE y.year >= 2015 AND a.citations IS NOT null
+WITH p, avg(a.citations) AS avgcit
+ORDER BY avgcit DESC
+RETURN p, avgcit LIMIT 20
 
-18. Return the minimum path between two authors through people that have worked (wrote/edited) on a publication together
+16. Return publications about databases written after 2015 ordering them by the number of pages
+
+MATCH (k:Keyword {keyword:"neo4j"})<-[:ABOUT]-(p:Publication)-[:PUBLISHED_IN]->(y:Year)
+WHERE y.year >=2010
+WITH p
+ORDER BY p.pages ASC
+RETURN p, p.pages LIMIT 50
+
+17. Return people that organised (editor of) the most number of conferences (proceedings) held after 2010
+
+MATCH (p:Person)-[]-(c:Proceedings)-[:HELD_IN]->(y:Year)
+WHERE y.year >= 2010
+WITH p, COUNT(*) AS pcount
+ORDER BY pcount DESC
+RETURN p, pcount LIMIT 10
+
+18. Return authors affiliated with Politecnico di Milano ordering them by the average number of citations across their publications
+
+MATCH (u:University {name:"Polytechnic University of Milan, Italy"})<-[:AFFILIATED_TO]-(w:Website)-[:HOMEPAGE_OF]->(p:Person)-[]-(a:Publication)
+WHERE a.citations IS NOT null
+WITH p, avg(a.citations) AS avgcit
+ORDER BY avgcit DESC
+RETURN p 
 
 
