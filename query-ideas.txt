@@ -159,3 +159,13 @@ RETURN y, p LIMIT 5
 MATCH (w:Website)-[:HOMEPAGE_OF]->(pe1:Person)-[:EDITOR_OF]->(pr:Proceedings)-[:PUBLISHED_BY]->(pu:Publisher)<-[PUBLISHED_BY]-(b:Book)<-[:EDITOR_OF]-(pe2:Person)
 WHERE pe1 = pe2 AND pu.publisher = IEEE
 RETURN DISTINCT w
+
+21. Return the top 10 universities which have produced the higher number of phd thesis regarding the topic of language processing in the last two years
+(il dataset include le pubblicazioni fino al 2021 o 2022?)
+
+MATCH (u:University)<-[:PRODUCED BY]-(p:Phedthesis)-[r:ABOUT]->(k:Keyword{keyword:"language processing"})
+MATCH (p)-[:PUBLISHED IN]->(y:Year)
+WHERE y.year>2020
+RETURN u, count(r) AS n_thesis
+ORDER BY n_thesis DESC
+LIMIT 10
