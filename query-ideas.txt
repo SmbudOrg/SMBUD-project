@@ -1,14 +1,18 @@
 NOTA: a ognuna di queste si possono aggiungere ulteriori condizioni (es. sotto le 200 pagine, con più di 100 citazioni,
 isbn non nullo,...)
+AGGREGATIONS: count, max, min, average, percentile count, sum
+FUNCTIONS: minimum path
 
-1. Return the top 10 keywords used together with data mining (3 nodes, aggregations)
+1. Return the top 10 keywords used together with data mining 
+(3 nodes, aggregations)
 
 MATCH (k:Keyword)<-[:ABOUT]-(p:Publication)-[:ABOUT]->(m:Keyword {keyword: "data mining"})
 WITH k, COUNT(*) AS count
 ORDER BY count DESC
 RETURN k LIMIT 10
 
-2. Return first volumes of series that have at least a volume about data mining (4 nodes)
+2. Return first volumes of series that have at least a volume about data mining 
+(4 nodes)
 
 MATCH (b:Book)<-[r:CONTAINS]-(s:Series)-[:CONTAINS]->(a:Book)-[:ABOUT]->(k:Keyword {keyword: "relational databases"})
 WHERE r.volume = 1
@@ -32,6 +36,8 @@ RETURN s, bookcount LIMIT 20
 5. Ritornare i journal (/series/proceedings) i cui articoli (/book/inproceedings) hanno il maggior numero di keyword distinte
 (I journal che scrivono di argomenti più eterogenei)
 
+
+
 6. Return publications about data mining written by professor associated with university x
 
 7. Return the top 10 keywords used in phdthesis published under university x after 2018
@@ -40,3 +46,9 @@ RETURN s, bookcount LIMIT 20
 
 9. Return publications about data mining written by authors affiliated with university x 
 (5 nodi: università, website (per affiliazione), autore, publication, keyword)
+
+10. Return the minimum path between two authors through people that have worked (wrote/edited) on a publication together
+
+11. Return the minimum path between two keywords through keywords that appear in a publication together
+
+12. Order journals by the average number of citations of articles contained in it
