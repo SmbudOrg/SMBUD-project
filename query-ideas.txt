@@ -73,13 +73,32 @@ WITH p, SUM(a.citations) AS cit
 ORDER BY cit DESC
 RETURN p, cit LIMIT 50
 
-10. Return the minimum path between two authors through people that have worked (wrote/edited) on a publication together
+10. Return the keywords that have the maximum number of citations across phdthesis published by university x
+
+MATCH (u:University {name: "Stanford University, USA"})<-[:PRODUCED_BY]-(p:Phdthesis)-[:ABOUT]->(k:Keyword)
+WITH k, avg(p.citations) AS avgcit
+ORDER BY avgcit DESC
+RETURN k LIMIT 10
 
 11. Return the minimum path between two keywords through keywords that appear in a publication together
 
-12. Order journals by the average number of citations of articles contained in it
+MATCH (a:Keyword {keyword: "ER model"}), (b:Keyword {keyword:"machine learning"}),
+p = SHORTESTPATH((a)-[:ABOUT*]-(b))
+RETURN p
 
-13. Return the website of the author with the maximum number of citations across publications about data mining
+12. Order journals by the average number of citations of articles contained in it published after 2020
+
+MATCH (j:Journal)<-[:REFERS_TO]-(v:Volume)<-[:COLLECTED_IN]-(a:Article)
+WITH j, avg(a.citations) AS avgcit
+ORDER BY avgcit
+RETURN j, avgcit LIMIT 50
+
+13. Return the author with the maximum number of citations across publications about data mining and their website
+
+MATCH (w:Website)-[:HOMEPAGE_OF]->(a:Person)-[:AUTHOR_OF]->(p:Publication)-[:ABOUT]->(k:Keyword {keyword: "data mining"})
+WITH w, a, SUM(p.citations) AS sumcit
+ORDER BY sumcit DESC
+RETURN w, a LIMIT 1
 
 14. Return the conference held in 2020 that resulted in the maximum number of inproceedings in the database
 
@@ -89,4 +108,6 @@ RETURN p, cit LIMIT 50
 
 17. Return people that organised (editor of) the most number of conferences (proceedings) held after 2015
 
-18. 
+18. Return the minimum path between two authors through people that have worked (wrote/edited) on a publication together
+
+
