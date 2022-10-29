@@ -1,0 +1,42 @@
+NOTA: a ognuna di queste si possono aggiungere ulteriori condizioni (es. sotto le 200 pagine, con più di 100 citazioni,
+isbn non nullo,...)
+
+1. Return the top 10 keywords used together with data mining (3 nodes, aggregations)
+
+MATCH (k:Keyword)<-[:ABOUT]-(p:Publication)-[:ABOUT]->(m:Keyword {keyword: "data mining"})
+WITH k, COUNT(*) AS count
+ORDER BY count DESC
+RETURN k LIMIT 10
+
+2. Return first volumes of series that have at least a volume about data mining (4 nodes)
+
+MATCH (b:Book)<-[r:CONTAINS]-(s:Series)-[:CONTAINS]->(a:Book)-[:ABOUT]->(k:Keyword {keyword: "relational databases"})
+WHERE r.volume = 1
+RETURN b,s LIMIT 50
+
+3. Return top 10 authors that have written the most about data mining, but only the ones who have a website
+
+MATCH (w:Website)-[:HOMEPAGE_OF]-(a:Person)-[:AUTHOR_OF]-(p:Publication)-[:ABOUT]->(k:Keyword {keyword: "data mining"})
+WITH w, a, COUNT(*) AS pubcount
+ORDER BY pubcount DESC
+RETURN w, a, pubcount
+
+4. Return the series that contain the most books about data mining published after 2018
+
+MATCH (s:Series)-[:CONTAINS]->(b:Book)-[:ABOUT]->(k:Keyword {keyword: "data mining"}), (b:Book)-[:PUBLISHED_IN]->(y:Year)
+WHERE y.year >= 2018
+WITH s, COUNT(*) AS bookcount
+ORDER BY bookcount DESC
+RETURN s, bookcount LIMIT 20
+
+5. Ritornare i journal (/series/proceedings) i cui articoli (/book/inproceedings) hanno il maggior numero di keyword distinte
+(I journal che scrivono di argomenti più eterogenei)
+
+6. Return publications about data mining written by professor associated with university x
+
+7. Return the top 10 keywords used in phdthesis published under university x after 2018
+
+8. Return the top 10 universities with the most phd thesis about data mining
+
+9. Return publications about data mining written by authors affiliated with university x 
+(5 nodi: università, website (per affiliazione), autore, publication, keyword)
