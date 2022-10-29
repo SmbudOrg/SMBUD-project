@@ -1,7 +1,7 @@
 NOTA: a ognuna di queste si possono aggiungere ulteriori condizioni (es. sotto le 200 pagine, con più di 100 citazioni,
 isbn non nullo,...)
 AGGREGATIONS: with (x)
-FUNCTIONS: minimum path, all(), count (x), max, min, average, percentile count, sum
+FUNCTIONS: minimum path (x), all(), count (x), max, min, average (x), percentile count, sum (x)
 
 1. Return the top 10 keywords used together with data mining 
 (3 nodes, aggregations, functions)
