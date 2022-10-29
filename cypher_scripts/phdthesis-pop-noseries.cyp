@@ -75,24 +75,22 @@ CALL apoc.load.xml("file:///phdthesis-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
 UNWIND phdthesis_s AS phdthesis
-WITH phdthesis,[item in phdthesis._children WHERE item._type = "school"] AS school_s
-UNWIND school_s as school
-MERGE (s:University {name:school._text})
-SET s.name=school._text
-RETURN count(s);
-// create relationships :PRODUCED_BY
+WITH phdthesis, [item in phdthesis._children WHERE item._type = "school"] AS uni_s
+UNWIND uni_s AS uni
+MERGE (u:University {name: uni._text})
+RETURN count(u);
+// create relationships :ABOUT
 CALL apoc.load.xml("file:///phdthesis-db.xml") YIELD value
 UNWIND value._children AS foo
 WITH [x in foo WHERE x._type = 'phdthesis'] AS phdthesis_s
 UNWIND phdthesis_s AS phdthesis
-WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "school"][0] AS school_s
-UNWIND school_s as school
-WITH phdthesisKEY, school
-MATCH (t:Phdthesis {key: phdthesisKEY})
-MATCH (s:University {name:school._text})
-MERGE (t)-[:PRODUCED_BY]->(y)
-RETURN *;
-
+WITH phdthesis.key AS phdthesisKEY, [item in phdthesis._children WHERE item._type = "school"] AS uni_s
+UNWIND uni_s AS uni
+WITH phdthesisKEY, uni
+MATCH (a:Phdthesis {key: phdthesisKEY})
+MATCH (u:University {name: uni._text})
+MERGE (a)-[:PRODUCED_BY]->(u)
+RETURN * LIMIT 100;
 
 //Load Publisher nodes
 CALL apoc.load.xml("file:///phdthesis-db.xml") YIELD value
@@ -136,5 +134,5 @@ WITH phdthesisKEY, keyword
 MATCH (a:Phdthesis {key: phdthesisKEY})
 MATCH (k:Keyword {keyword: keyword._text})
 MERGE (a)-[:ABOUT]->(k)
-RETURN *;
+RETURN * LIMIT 100;
 
