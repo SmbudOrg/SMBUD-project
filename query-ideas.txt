@@ -146,4 +146,16 @@ WITH p, avg(a.citations) AS avgcit
 ORDER BY avgcit DESC
 RETURN p 
 
+19. Return the 5 proceedings containing the biggest number of inproceedings for each of the last 10 years
 
+MATCH (y:Year)<-[h:HELD_IN]-(p:Proceedings)<-[c:CROSSREF]-(i:Inproceedings)
+WHERE y.year >= 2012
+WITH y, p, COUNT(*) AS inproceedings_count
+ORDER BY inproceedings_count DESC
+RETURN y, p LIMIT 5
+
+20. Return website of an editor who has edited at least one book and one proceeding published by the same Publisher (IEEE for example)
+
+MATCH (w:Website)-[:HOMEPAGE_OF]->(pe1:Person)-[:EDITOR_OF]->(pr:Proceedings)-[:PUBLISHED_BY]->(pu:Publisher)<-[PUBLISHED_BY]-(b:Book)<-[:EDITOR_OF]-(pe2:Person)
+WHERE pe1 = pe2 AND pu.publisher = IEEE
+RETURN DISTINCT w
