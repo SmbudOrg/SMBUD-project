@@ -86,7 +86,7 @@ MATCH (a:Keyword {keyword: "ER model"}), (b:Keyword {keyword:"machine learning"}
 p = SHORTESTPATH((a)-[:ABOUT*]-(b))
 RETURN p
 
-12. Order journals by the average number of citations of articles contained in it published after 2020
+12. Order journals by the average number of citations of articles contained in it
 
 MATCH (j:Journal)<-[:REFERS_TO]-(v:Volume)<-[:COLLECTED_IN]-(a:Article)
 WITH j, avg(a.citations) AS avgcit
