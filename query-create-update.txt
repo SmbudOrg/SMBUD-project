@@ -5,3 +5,41 @@ WHERE r.volume IS NOT NULL AND r.volume >= 85 AND r.volume <= 100
 MERGE (k:Keyword {keyword: "machine learning"})
 MERGE((b)-[t:ABOUT]->(k))
 RETURN s, b, t, k
+
+2. Insert a new Phdthesis
+
+MERGE(p:Publication:Phdthesis{key: "newphdthesiskey"})
+SET p.title = "New Phd Thesis",
+t.pages = 54,
+t.citations = 0
+MERGE(a:Person {orcid: "Barbara Hausmann"})
+SET a.name = "Barbara Hausmann"
+MERGE((a)-[r:AUTHOR_OF]-(p))
+MERGE(y:Year {year: 2022})
+MERGE((p)-[:PUBLISHED_IN]->(y))
+MERGE(pub:Publisher {name: "Springer"})
+MERGE((p)-[:PUBLISHED_BY]->(pub))
+RETURN p, a, y, pub
+
+3. Insert a website for Barbara Hausmann, affiliating her to the Technical University of Graz, Austria
+
+MATCH(a:Person {orcid: "Barbara Hausmann"})
+MERGE(w:Website {key: "newwebsitekey"})
+SET w.title = "Barbara Hausmann's homepage",
+    w.url = "www.barbarahausmann.com"
+MERGE((w)-[:HOMEPAGE_OF]->(a))
+MERGE(u:University {name: "Technical University of Graz, Austria"})
+MERGE((w)-[:AFFILIATED_TO]->(u))
+RETURN a, w, u
+
+4. Add a new inproceedings to the proceedings of "26th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2020, Hong Kong, December 2-4, 2020", which has key "conf/icpads/2020", and add keyword "distributed systems"
+
+MATCH(p:Proceedings {key: "conf/icpads/2020"})
+MERGE(i:Inproceedings {key: "newinprockey"})
+SET i.title = "New article about Distributed Systems",
+    i.pages = 36,
+    i.citations = 15
+MERGE((i)-[:CROSSREF]->(p))
+MERGE(k:Keyword {keyword: "distributed systems"})
+MERGE((i)-[:ABOUT]->(k))
+RETURN p, i, k
