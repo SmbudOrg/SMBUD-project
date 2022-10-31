@@ -1,0 +1,7 @@
+1. Add the "machine learning" keyword to books in the "Intelligent Systems Reference Library" series from volume 85 to volume 100
+
+MATCH (s:Series)-[r:CONTAINS]-(b:Book)
+WHERE r.volume IS NOT NULL AND r.volume >= 85 AND r.volume <= 100
+MERGE (k:Keyword {keyword: "machine learning"})
+MERGE((b)-[t:ABOUT]->(k))
+RETURN s, b, t, k
