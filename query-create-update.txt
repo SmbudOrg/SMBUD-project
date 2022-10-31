@@ -43,3 +43,7 @@ MERGE((i)-[:CROSSREF]->(p))
 MERGE(k:Keyword {keyword: "distributed systems"})
 MERGE((i)-[:ABOUT]->(k))
 RETURN p, i, k
+
+5. Add a new article to volume 51 of journal "Commun. ACM". The volume was published in 2022.
+
+MATCH (j:Journal {name: "Commun. ACM"})
