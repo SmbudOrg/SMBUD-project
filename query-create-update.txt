@@ -35,7 +35,7 @@ RETURN a, w, u
 4. Add a new inproceedings to the proceedings of "26th IEEE International Conference on Parallel and Distributed Systems, ICPADS 2020, Hong Kong, December 2-4, 2020", which has key "conf/icpads/2020", and add keyword "distributed systems"
 
 MATCH(p:Proceedings {key: "conf/icpads/2020"})
-MERGE(i:Inproceedings {key: "newinprockey"})
+MERGE(i:Publication:Inproceedings {key: "newinprockey"})
 SET i.title = "New article about Distributed Systems",
     i.pages = 36,
     i.citations = 15
@@ -47,3 +47,15 @@ RETURN p, i, k
 5. Add a new article to volume 51 of journal "Commun. ACM". The volume was published in 2022.
 
 MATCH (j:Journal {name: "Commun. ACM"})
+MERGE (v:Volume {journal: "Commun. ACM", volume: 51}
+MERGE ((v)-[:REFERS_TO]->(j))
+MATCH ((v)-[r:PUBLISHED_IN]->(z:Year))
+WHERE z.year != 2022
+DELETE r
+MERGE(y:Year {year: 2022})
+MERGE ((v)-[:PUBLISHED_IN]->(y))
+MERGE (a:Publication:Article {key: "newarticlekey"})
+SET a.title = "New Article",
+    a.pages = 112
+MERGE ((a)-[:COLLECTED_IN]->(v))
+RETURN j, v, a, y
