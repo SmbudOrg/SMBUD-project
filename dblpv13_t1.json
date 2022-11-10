@@ -1,0 +1,869 @@
+[
+{ 
+    "_id" : "53e99784b7602d9701f3e3f5", 
+    "title" : "3GIO.", 
+    "venue" : {
+        "type" : 0
+    }, 
+    "year" : 2011, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "lang" : "en"
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e133", 
+    "title" : "The relationship between canopy parameters and spectrum of winter wheat under different irrigations in Hebei Province.", 
+    "authors" : [
+        {
+            "_id" : "53f45728dabfaec09f209538", 
+            "name" : "Peijuan Wang"
+        }, 
+        {
+            "_id" : "5601754345cedb3395e59457", 
+            "name" : "Jiahua Zhang"
+        }, 
+        {
+            "_id" : "53f38438dabfae4b34a08928", 
+            "name" : "Donghui Xie"
+        }, 
+        {
+            "_id" : "5601754345cedb3395e5945a", 
+            "name" : "Yanyan Xu"
+        }, 
+        {
+            "_id" : "53f43d25dabfaeecd6995149", 
+            "name" : "Yun Xu"
+        }
+    ], 
+    "venue" : {
+        "_id" : "53a7297d20f7420be8bd4ae7", 
+        "name_d" : "International Geoscience and Remote Sensing Symposium", 
+        "type" : 0, 
+        "raw" : "IGARSS"
+    }, 
+    "year" : 2011, 
+    "keywords" : [
+        "canopy parameters", 
+        "canopy spectrum", 
+        "different soil water content control", 
+        "winter wheat", 
+        "irrigation", 
+        "hydrology", 
+        "radiometry", 
+        "moisture", 
+        "indexes", 
+        "vegetation", 
+        "indexation", 
+        "dry weight", 
+        "soil moisture", 
+        "water content", 
+        "indexing terms", 
+        "spectrum", 
+        "natural disaster"
+    ], 
+    "fos" : [
+        "Agronomy", 
+        "Moisture", 
+        "Hydrology", 
+        "Environmental science", 
+        "Dry weight", 
+        "Water content", 
+        "Stomatal conductance", 
+        "Transpiration", 
+        "Irrigation", 
+        "Soil water", 
+        "Canopy"
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "1930", 
+    "page_end" : "1933", 
+    "lang" : "en", 
+    "volume" : "null", 
+    "issue" : "null", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : "10.1109/IGARSS.2011.6049503", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1109/IGARSS.2011.6049503"
+    ], 
+    "abstract" : "Drought is the first place in all the natural disasters in the world. It is especially serious in North China Plain. In this paper, different soil water content control levels at winter wheat growth stages are performed on Gucheng Ecological-Meteorological Integrated Observation Experiment Station of CAMS, China. Some canopy parameters, including growth conditions, dry weight, physiological parameters and hyperspectral reflectance, are measured from erecting stage to milk stage for winter wheat in 2009. The relationship between canopy parameters and soil relative moisture, canopy water content and water indices of winter wheat are established. The results show that some parameters, such as SPAD and dry weight of leaves, decrease with the increasing of soil relative moisture, while other parameters, including dry weight of caudexes, above ground dry weight, height, photosynthesis rate, intercellular CO 2 concentration, stomatal conductance and transpiration rate, increase corresponding to the soil relative moisture. Obvious linear relationship between stomatal conductance and transpiration rate is established with 45 samples, which R2 reaches to 0.6152. Finally, the fitting equations between canopy water content and water indices are regressed with b5, b6 and b7 of MODIS bands. The equations are best with b7 and worst with b5. So the fitting equations with b7 can be used to inverse the canopy water content of winter wheat using MODIS or other remote sensing images with similar bands range to MODIS in Hebei Province. © 2011 IEEE."
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e151", 
+    "title" : "A solution to the problem of touching and broken characters.", 
+    "authors" : [
+        {
+            "_id" : "53f46797dabfaeb22f542630", 
+            "name" : "Jairo Rocha"
+        }, 
+        {
+            "_id" : "54328883dabfaeb4c6a8a699", 
+            "name" : "Theo Pavlidis"
+        }
+    ], 
+    "venue" : {
+        "_id" : "53a72a4920f7420be8bfa51b", 
+        "name_d" : "International Conference on Document Analysis and Recognition", 
+        "type" : 0, 
+        "raw" : "ICDAR-1"
+    }, 
+    "year" : 1993, 
+    "keywords" : [
+        "handwriting recognition", 
+        "prototypes", 
+        "image segmentation", 
+        "computer science", 
+        "expert systems", 
+        "knowledge base", 
+        "pattern recognition", 
+        "usability", 
+        "optical character recognition", 
+        "shape", 
+        "feature extraction"
+    ], 
+    "fos" : [
+        "Intelligent character recognition", 
+        "Pattern recognition", 
+        "Computer science", 
+        "Feature (computer vision)", 
+        "Document processing", 
+        "Handwriting recognition", 
+        "Optical character recognition", 
+        "Feature extraction", 
+        "Feature (machine learning)", 
+        "Artificial intelligence", 
+        "Intelligent word recognition"
+    ], 
+    "n_citation" : 17, 
+    "page_start" : "602", 
+    "page_end" : "605", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : "10.1109/ICDAR.1993.395663", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1109/ICDAR.1993.395663"
+    ], 
+    "abstract" : "", 
+    "references" : [
+        "53e99cf5b7602d97025ace63", 
+        "557e8a7a6fee0fe990caa63d", 
+        "53e9a96cb7602d97032c459a", 
+        "53e9b929b7602d9704515791", 
+        "557e59ebf6678c77ea222447"
+    ]
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e15d", 
+    "title" : "Timing yield estimation using statistical static timing analysis", 
+    "authors" : [
+        {
+            "_id" : "53f43b03dabfaedce555bf2a", 
+            "name" : "Min Pan"
+        }, 
+        {
+            "_id" : "53f45ee9dabfaee43ecda842", 
+            "name" : "Chris C. N. Chu"
+        }, 
+        {
+            "_id" : "53f42e8cdabfaee1c0a4274e", 
+            "name" : "Hai Zhou"
+        }
+    ], 
+    "venue" : {
+        "_id" : "53a72e2020f7420be8c80142", 
+        "name_d" : "International Symposium on Circuits and Systems", 
+        "type" : 0, 
+        "raw" : "ISCAS (3)"
+    }, 
+    "year" : 2005, 
+    "keywords" : [
+        "sequential circuits", 
+        "statistical distributions", 
+        "set-up time constraints", 
+        "register-to-register paths", 
+        "statistical static timing analysis", 
+        "integrated circuit modelling", 
+        "parameter estimation", 
+        "statistical analysis", 
+        "circuit model", 
+        "path delays", 
+        "deep sub-micron technology", 
+        "timing", 
+        "delay distributions", 
+        "delays", 
+        "circuit timing", 
+        "shortest path variations", 
+        "hold time constraints", 
+        "integrated circuit yield", 
+        "process variations", 
+        "integrated circuit layout", 
+        "high-performance circuit designs", 
+        "clock skew", 
+        "timing yield estimation", 
+        "deterministic static timing analysis", 
+        "monte carlo simulation", 
+        "design method", 
+        "static timing analysis", 
+        "design methodology", 
+        "process variation", 
+        "shortest path", 
+        "registers", 
+        "circuit design", 
+        "circuit analysis"
+    ], 
+    "fos" : [
+        "Delay calculation", 
+        "Timing failure", 
+        "Monte Carlo method", 
+        "Sequential logic", 
+        "Statistical static timing analysis", 
+        "Shortest path problem", 
+        "Computer science", 
+        "Algorithm", 
+        "Clock skew", 
+        "Static timing analysis", 
+        "Statistics"
+    ], 
+    "n_citation" : 28, 
+    "page_start" : "2461", 
+    "page_end" : "2464Vol.3", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "0-7803-8834-8", 
+    "doi" : "10.1109/ISCAS.2005.1465124", 
+    "pdf" : "//static.aminer.org/pdf/PDF/000/423/329/timing_yield_estimation_using_statistical_static_timing_analysis.pdf", 
+    "url" : [
+        "http://dx.doi.org/10.1109/ISCAS.2005.1465124", 
+        "http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?tp=&arnumber=1465124"
+    ], 
+    "abstract" : "As process variations become a significant problem in deep sub-micron technology, a shift from deterministic static timing analysis to statistical static timing analysis for high-performance circuit designs could reduce the excessive conservatism that is built into current timing design methods. We address the timing yield problem for sequential circuits and propose a statistical approach to handle it. We consider the spatial and path reconvergence correlations between path delays, set-up time and hold time constraints, and clock skew due to process variations. We propose a method to get the timing yield based on the delay distributions of register-to-register paths in the circuit On average, the timing yield results obtained by our approach have average errors of less than 1.0% in comparison with Monte Carlo simulation. Experimental results show that shortest path variations and clock skew due to process variations have considerable impact on circuit timing, which could bias the timing yield results. In addition, the correlation between longest and shortest path delays is not significant.", 
+    "references" : [
+        "53e9a8a9b7602d97031f6bb9", 
+        "599c7b6b601a182cd27360da", 
+        "53e9b443b7602d9703f3e52b", 
+        "53e9a6a6b7602d9702fdc57e", 
+        "599c7b6a601a182cd2735703", 
+        "53e9aad9b7602d970345afea", 
+        "5582821f0cf2bf7bae57ac18", 
+        "5e8911859fced0a24bb9a2ba", 
+        "53e9b002b7602d9703a5c932"
+    ]
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e161", 
+    "title" : "360°", 
+    "authors" : [
+        {
+            "_id" : "53f46946dabfaec09f24b4ed", 
+            "name" : "Miguel Palma", 
+            "org" : "Miguel Palma Studio", 
+            "gid" : "5b86cf1ae1cd8e14a3fc787b", 
+            "oid" : "544bd9c245ce266baf189c4f"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5390a74a20f70186a0e8b40b", 
+        "raw" : "ACM SIGGRAPH ASIA 2009 Art Gallery & Emerging Technologies: Adaptation"
+    }, 
+    "year" : 2009, 
+    "keywords" : [
+        "global high technology", 
+        "daily short-distance flight", 
+        "enormous waste", 
+        "daily life"
+    ], 
+    "page_start" : "39", 
+    "page_end" : "39", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : "10.1145/1665137.1665166", 
+    "abstract" : "360° represents the concerns that are addressed in most of my work and my approach to it: the effect of global high technology on daily life and the environment (for example, daily short-distance flights to avoid enormous wastes of time)."
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e162", 
+    "title" : "300", 
+    "authors" : [
+        {
+            "gid" : "5b869031e1cd8e14a34a782f", 
+            "_id" : "53f43d95dabfaedf435b63fa", 
+            "name" : "Maureen Squillace", 
+            "org" : "Fox Studios Australia, Moore Park, New South Wales, Australia", 
+            "orgid" : "5f71b2e41c455f439fe3efd1"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5736ae3ad39c4f40a7976010", 
+        "raw" : "SIGGRAPH Computer Animation Festival", 
+        "raw_zh" : null, 
+        "type" : 10
+    }, 
+    "year" : 2007, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "14", 
+    "page_end" : "14", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : "10.1145/1281740.1281746", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1145/1281740.1281746", 
+        "http://doi.acm.org/10.1145/1281740.1281746"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e165", 
+    "title" : "34957+70764=105621", 
+    "authors" : [
+        {
+            "_id" : "54484654dabfae87b7dfc077", 
+            "name" : "Jon G. Hall", 
+            "sid" : "433474"
+        }
+    ], 
+    "venue" : {
+        "_id" : "53a001b1831432abcb737ee4", 
+        "type" : 0, 
+        "raw" : "Expert Systems"
+    }, 
+    "year" : 2009, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "305", 
+    "page_end" : "306", 
+    "lang" : "en", 
+    "volume" : "26", 
+    "issue" : "4", 
+    "doi" : "10.1111/j.1468-0394.2009.00532.x", 
+    "url" : [
+        "http://dx.doi.org/10.1111/j.1468-0394.2009.00532.x"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e922", 
+    "title" : "International Conference on Nano/Micro Engineered and Molecular Systems", 
+    "authors" : [
+        {
+            "_id" : "53f39e3edabfae4b34aa8c4a", 
+            "name" : "Jungil Park", 
+            "sid" : "237372"
+        }, 
+        {
+            "name" : "Sunyoung Ahn", 
+            "sid" : "24447851", 
+            "_id" : "53f431bcdabfaee2a1cb41b5"
+        }, 
+        {
+            "_id" : "53f46ac3dabfaeee22a63eab", 
+            "name" : "Youngmi Kim Pak", 
+            "sid" : "4241287"
+        }, 
+        {
+            "_id" : "53f44f6adabfaedf435efcb8", 
+            "name" : "James Jungho Pak", 
+            "sid" : "22875855"
+        }
+    ], 
+    "venue" : {
+        "_id" : "53a72dfb20f7420be8c7a2f3", 
+        "raw" : "NEMS"
+    }, 
+    "year" : 2009, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 1, 
+    "page_start" : "1054", 
+    "page_end" : "1057", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "doi" : "10.1109/NEMS.2009.5068754", 
+    "pdf" : "//static.aminer.org/pdf/PDF/002/845/190/.pdf", 
+    "url" : [
+        "http://doi.ieeecomputersociety.org/10.1109/NEMS.2009.5068754"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3e4f4", 
+    "title" : "2BTextures", 
+    "authors" : [
+        {
+            "_id" : "53f45ad4dabfaee1c0b3e206", 
+            "name" : "Bonnie Mitchell"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5736ae3ad39c4f40a7976060", 
+        "type" : 10, 
+        "raw" : "SIGGRAPH Computer Animation Fesitval"
+    }, 
+    "year" : 2009, 
+    "keywords" : [
+        "visual source material", 
+        "minute sound", 
+        "integrated journey temporally", 
+        "abstract environment", 
+        "intricate detail", 
+        "particulated image", 
+        "artists delve", 
+        "visual experience", 
+        "multi-faceted granular complexity", 
+        "stylized natural element"
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "8", 
+    "page_end" : "8", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : "10.1145/1596685.1596687", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1145/1596685.1596687", 
+        "http://doi.acm.org/10.1145/1596685.1596687", 
+        "db/conf/siggraph/siggraph2009festival.html#Mitchell09", 
+        "https://doi.org/10.1145/1596685.1596687"
+    ], 
+    "abstract" : "\"2BTextures\", a two-movement audio/visual experience, leads viewers through abstract environments influenced by nature and life. This integrated journey temporally explores the multi-faceted granular complexity inherent in its sonic and visual source material. By fragmenting and simulating stylized natural elements, the artists delve into the intricate detail found in minute sounds and particulated images. As each movement unfolds, viewers traverse a macro-landscape or shift their focus to micro-elements."
+},
+{ 
+    "_id" : "53e99784b7602d9701f3eaf2", 
+    "title" : "11MonkeysII", 
+    "authors" : [
+        {
+            "_id" : "53f438d0dabfaeee229c1f1c", 
+            "name" : "Naotaka Tanaka"
+        }, 
+        {
+            "_id" : "53f47083dabfaeee22a79321", 
+            "name" : "Mio Yamamoto"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5390b44b20f70186a0efa5ba", 
+        "raw" : "RoboCup 2009", 
+        "raw_zh" : null, 
+        "publisher" : null, 
+        "type" : 0
+    }, 
+    "year" : 2001, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "513", 
+    "page_end" : "514", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "3-540-42185-8", 
+    "doi" : "10.1007/3-540-45324-5_74", 
+    "url" : [
+        "http://dx.doi.org/10.1007/3-540-45324-5_74"
+    ], 
+    "abstract" : "Constructing a system that can cope with a dynamically changing environment is one of the greatest interests in the field of software engineering.And, biologically inspired systems, such as brain-nervous system, genetic system are already modeled as neural networks and genetic algorithms(GAs in short), and its usefulness is reported in various fields.Ho wever, despite of its advanced information processing system, immune system and endocrine system still has a long way to go before it is modeled like other ones.This may due to their complexity and randomness of the system.Nev ertheless, the nature of the biological immune system, it is dedicated to self-preservation under hostile environment and enables the creature to maintain its life.Imm une system is also capable of learning, memory, and pattern recognition. "
+},
+{ 
+    "_id" : "53e99784b7602d9701f3eaf4", 
+    "title" : "1may", 
+    "authors" : [
+        {
+            "name" : "Daniel Zdunczyk", 
+            "org" : "Wroclaw, Poland", 
+            "gid" : "5b86cf86e1cd8e14a3ff9ffc", 
+            "_id" : "53f4312edabfaee02ac9110a"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5736ae3ad39c4f40a7976010", 
+        "raw" : "SIGGRAPH Computer Animation Festival", 
+        "raw_zh" : null, 
+        "type" : 10
+    }, 
+    "year" : 2004, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "197", 
+    "page_end" : "197", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "1-58113-896-2", 
+    "doi" : "10.1145/1186015.1186050", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1145/1186015.1186050", 
+        "http://doi.acm.org/10.1145/1186015.1186050"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3eaf6", 
+    "title" : "1", 
+    "authors" : [
+        {
+            "_id" : "560175b545cedb3395e59d80", 
+            "name" : "C. Evans"
+        }, 
+        {
+            "name" : "S. Abu Rmeileh", 
+            "_id" : "53f42d5edabfaedce54c5021"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5550378c7cea80f95418e530", 
+        "raw" : "AINA Workshops", 
+        "raw_zh" : null, 
+        "publisher" : null, 
+        "type" : 0
+    }, 
+    "year" : 2013, 
+    "keywords" : [
+        "existing platform", 
+        "software agent", 
+        "BDI model", 
+        "new BDI", 
+        "agent platform design", 
+        "CloudNetBDI platform prototype", 
+        "effective agent system", 
+        "CloudNetBDI platform", 
+        "autonomous BDI", 
+        "agent platform"
+    ], 
+    "n_citation" : 39, 
+    "page_start" : "1186", 
+    "page_end" : "1191", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : "10.1109/WAINA.2013.48", 
+    "url" : [
+        "http://doi.ieeecomputersociety.org/10.1109/WAINA.2013.48"
+    ], 
+    "abstract" : "There is a growing interest in the potential of software agent technologies for building the next generation of advanced software systems that will help solving problems that require advanced user interactions and intensive collaborations. Despite this interest, software agents are not yet widespread due to many reasons, one of which is the heavy programming work that has to be done in order to create efficient and effective agent systems, particularly from the point of view of agents' characteristics, such as autonomy and deliberation on one hand, and integration with other technologies and applications on the other. While several agent platforms implement the belief-desire-intention (BDI) architecture have been proposed, most of these platforms are implemented based on existing general purpose programming languages, e.g. Java. As a consequence, this prevents the use of advanced features of the underlying programming language and the integration with new technologies and paradigms that are essential for the development of enterprise applications. Due to these limitations of the existing platforms, a new BDI distributed agent platform design and implementation is proposed in this paper. The CloudNetBDI platform prototype is compliant with the specifications of the Foundation for Intelligent Physical Agents (FIPA) and has been implemented in the .NET framework. The CloudNetBDI platform employs the BDI model as an internal reasoning engine for its agents. Furthermore, the CloudNetBDI platform provides an interface for developers to design and develop enriched, robust and autonomous BDI based distributed multi-agent systems."
+},
+{ 
+    "_id" : "53e99784b7602d9701f3f177", 
+    "title" : "6th", 
+    "authors" : [
+        {
+            "_id" : "53f42d84dabfaee1c0a355c4", 
+            "name" : "Damien Perritaz", 
+            "sid" : "3844816"
+        }, 
+        {
+            "_id" : "53f46fa1dabfaec09f263a80", 
+            "name" : "Christophe Salzmann", 
+            "sid" : "2269097"
+        }, 
+        {
+            "sid" : "17895751", 
+            "_id" : "541023addabfae450f4d5127", 
+            "name" : "Denis Gillet"
+        }, 
+        {
+            "name" : "Olivier Naef", 
+            "sid" : "22873952", 
+            "_id" : "53f42b9fdabfaedf434faea8"
+        }, 
+        {
+            "sid" : "5217547", 
+            "_id" : "53f454cddabfaec09f2009b7", 
+            "name" : "Jacques Bapst"
+        }, 
+        {
+            "name" : "Frédéric Barras", 
+            "sid" : "23688121", 
+            "_id" : "53f47a8ddabfaee43ed42c17"
+        }, 
+        {
+            "_id" : "54096818dabfae8faa68bc76", 
+            "name" : "Elena Mugellini", 
+            "sid" : "3501899"
+        }, 
+        {
+            "_id" : "54865672dabfae8a11fb31aa", 
+            "name" : "Omar Abou Khaled", 
+            "sid" : "101612"
+        }
+    ], 
+    "venue" : {
+        "_id" : "53a723b120f74fc8a8f32fea", 
+        "raw" : "Human Machine Interaction", 
+        "raw_zh" : null, 
+        "publisher" : null, 
+        "type" : 0
+    }, 
+    "year" : 2009, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "280", 
+    "page_end" : "310", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "doi" : "10.1007/978-3-642-00437-7_11", 
+    "pdf" : "", 
+    "url" : [
+        "http://dx.doi.org/10.1007/978-3-642-00437-7_11"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3f326", 
+    "title" : "458nm", 
+    "authors" : [
+        {
+            "_id" : "53f44a4adabfaedd74dfe5c0", 
+            "name" : " Institute of Animation, Visual Effects and Digital Postproduction", 
+            "org" : "Filmakademie Baden-Württemberg, Ludwigsburg, Germany", 
+            "gid" : "5b86ab01e1cd8e14a3fb2c33", 
+            "orgid" : "5f71b3e41c455f439fe46157"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5736ae3ad39c4f40a7976010", 
+        "raw" : "SIGGRAPH Computer Animation Festival", 
+        "raw_zh" : null, 
+        "type" : 10
+    }, 
+    "year" : 2006, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "", 
+    "page_end" : "", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "1-59593-364-6", 
+    "doi" : "10.1145/1179196.1179199", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1145/1179196.1179199", 
+        "http://doi.acm.org/10.1145/1179196.1179199"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3f327", 
+    "title" : "49", 
+    "authors" : [
+        {
+            "_id" : "53f42fd0dabfaedd74d553b0", 
+            "name" : "Ichiro Iwano", 
+            "org" : "Iwano Design, Nagakute Aichi, Japan", 
+            "gid" : "5b86be9ce1cd8e14a3856487", 
+            "orgid" : "5f71b2b31c455f439fe3da0a"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5736ae3ad39c4f40a7976010", 
+        "raw" : "SIGGRAPH Computer Animation Festival", 
+        "raw_zh" : null, 
+        "type" : 10
+    }, 
+    "year" : 2007, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "16", 
+    "page_end" : "16", 
+    "lang" : "en", 
+    "volume" : "31", 
+    "issue" : "5", 
+    "issn" : "Regional Anesthesia and Pain Medicine", 
+    "isbn" : "", 
+    "doi" : "10.1145/1281740.1281748", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1145/1281740.1281748", 
+        "http://doi.acm.org/10.1145/1281740.1281748"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3f4d1", 
+    "title" : "893", 
+    "authors" : [
+        {
+            "gid" : "5b86c6c2e1cd8e14a3bfca09", 
+            "_id" : "53f459b8dabfaeecd69f7b93", 
+            "name" : "Anne Brotot", 
+            "org" : "2 rue Yvan Audouard, Arles, France", 
+            "orgid" : "5f71b4961c455f439fe4b0fe"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5736ae3ad39c4f40a7976010", 
+        "raw" : "SIGGRAPH Computer Animation Festival", 
+        "raw_zh" : null, 
+        "type" : 10
+    }, 
+    "year" : 2008, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "11", 
+    "page_end" : "11", 
+    "lang" : "en", 
+    "volume" : "8", 
+    "issue" : "4", 
+    "issn" : "Journal of Pain", 
+    "isbn" : "", 
+    "doi" : "10.1145/1400468.1400471", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1145/1400468.1400471", 
+        "http://doi.acm.org/10.1145/1400468.1400471"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3f4d2", 
+    "title" : "8848", 
+    "authors" : [
+        {
+            "_id" : "53f463b3dabfaee4dc8430d5", 
+            "name" : "Annabel Sebag", 
+            "org" : "Supinfocom Valenciennes, Paris, France", 
+            "gid" : "5b86a747e1cd8e14a3e2d100", 
+            "orgid" : "5f71b4391c455f439fe4876d"
+        }
+    ], 
+    "venue" : {
+        "_id" : "5736ae3ad39c4f40a7976010", 
+        "raw" : "SIGGRAPH Computer Animation Festival", 
+        "raw_zh" : null, 
+        "type" : 10
+    }, 
+    "year" : 2007, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "17", 
+    "page_end" : "17", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : "10.1145/1281740.1281749", 
+    "pdf" : null, 
+    "url" : [
+        "http://dx.doi.org/10.1145/1281740.1281749", 
+        "http://doi.acm.org/10.1145/1281740.1281749"
+    ], 
+    "abstract" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3f352", 
+    "title" : "4IM.", 
+    "authors" : [
+
+    ], 
+    "venue" : {
+        "type" : 0
+    }, 
+    "year" : 2008, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 0, 
+    "page_start" : "", 
+    "page_end" : "", 
+    "lang" : "en", 
+    "volume" : "", 
+    "issue" : "", 
+    "issn" : "", 
+    "isbn" : "", 
+    "doi" : ""
+},
+{ 
+    "_id" : "53e99784b7602d9701f3f0b9", 
+    "title" : "7373170279850", 
+    "authors" : [
+        {
+            "name" : "Jean-marc Deshouillers", 
+            "sid" : "134541", 
+            "_id" : "53f42c7cdabfaedf43509437"
+        }, 
+        {
+            "_id" : "53f4d04ddabfaeeee2f8199d", 
+            "name" : "François Hennecart", 
+            "sid" : "2189974"
+        }, 
+        {
+            "_id" : "53f431fedabfaee43ec009a6", 
+            "name" : "Bernard Landreau", 
+            "sid" : "1170774"
+        }, 
+        {
+            "sid" : "34129661", 
+            "_id" : "53f46fe4dabfaeee22a770f3", 
+            "name" : "I. Gusti Putu Purnaba"
+        }
+    ], 
+    "venue" : {
+        "_id" : "555036dd7cea80f954161b91", 
+        "raw" : "Math. Comput.", 
+        "raw_zh" : null, 
+        "publisher" : null, 
+        "type" : 0
+    }, 
+    "year" : 2000, 
+    "keywords" : [
+
+    ], 
+    "n_citation" : 12, 
+    "page_start" : "421", 
+    "page_end" : "439", 
+    "lang" : "en", 
+    "volume" : "69", 
+    "issue" : "229", 
+    "doi" : "10.1090/S0025-5718-99-01116-3", 
+    "pdf" : "//static.aminer.org/pdf/PDF/001/011/809/.pdf", 
+    "url" : [
+        "http://dx.doi.org/10.1090/S0025-5718-99-01116-3"
+    ], 
+    "abstract" : "We conjecture that 7,373,170,279,850 is the largest integer which cannot be expressed as the sum of four nonnegative integral cubes."
+}
+]
