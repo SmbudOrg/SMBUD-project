@@ -30,18 +30,20 @@ with open(inputfile, "r", encoding="utf-8") as input:
     data = json.load(input)
 
 for i in range(0, len(data)):
+    
     if("authors" in data[i]):
         for j in range(0, len(data[i]["authors"])):
-            name = data[i]["authors"][j]["name"]
+            if ("name" in data[i]["authors"][j]):
+                name = data[i]["authors"][j]["name"]
 
-            if (random.random() <= emailp):
-                emailname = (name.replace(" ", "")).lower()
-                data[i]["authors"][j]["email"] = emailname + "@gmail.com"
+                if (random.random() <= emailp):
+                    emailname = (name.replace(" ", "")).lower()
+                    data[i]["authors"][j]["email"] = emailname + "@gmail.com"
 
-            if (random.random() <= biop):
-                u = random.randint(0, len(universities)-1)
-                bio = name + " was born in " + str(random.randint(1940, 2000)) + " and studied at " + universities[u]
-                data[i]["authors"][j]["bio"] = bio
+                if (random.random() <= biop):
+                    u = random.randint(0, len(universities)-1)
+                    bio = name + " was born in " + str(random.randint(1940, 2000)) + " and studied at " + universities[u]
+                    data[i]["authors"][j]["bio"] = bio
             
 
 with open(outputfile, "w", encoding="utf-8") as output:
