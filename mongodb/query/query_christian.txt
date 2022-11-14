@@ -1,0 +1,45 @@
+// 1 authors per number of citations 
+
+aggregate([
+    {
+        '$unwind': {
+            'path': '$authors', 
+            'preserveNullAndEmptyArrays': false
+        }
+    }, {
+        '$group': {
+            '_id': '$authors._id', 
+            'sumofcit': {
+                '$sum': '$n_citation'
+            }
+        }
+    }, {
+        '$sort': {
+            'sumofcit': -1
+        }
+    }, {
+        '$limit': 5
+    }
+])
+
+// 2
+
+[
+    {
+        '$unwind': {
+            'path': '$keywords', 
+            'preserveNullAndEmptyArrays': False
+        }
+    }, {
+        '$group': {
+            '_id': '$_id', 
+            'NumberOfKeywords': {
+                '$count': {}
+            }
+        }
+    }, {
+        '$sort': {
+            'NumberOfKeywords': -1
+        }
+    }
+]
