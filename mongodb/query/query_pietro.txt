@@ -22,15 +22,51 @@ db.articles_refs.aggregate(
   {"$limit":5}
 )
 
-//Find the authors that produced articles about "design" and/or "miscellaneous"
+//Find the authors that produced articles about "design" and/or "miscellaneous" after 2003
 
 db.articles_refs.aggregate(
-  {"$match":{"keywords":{"$in":["design","miscellaneous"]}}},
+  {"$match":{"keywords":{"$in":["design","miscellaneous"]},"$expr":{"$gt":["year",2003]}}},
   {"$unwind":"$authors"},
   {"$group":{"_id":"$authors"}}
   )
 
-//Find the articles with at least 3 sections
+//Find the articles that are at least 3 pages long with at least 3 sections (in teoria funziona ma va aggiustato il dataset perché le pagine le prende come stringhe)
+
+db.articles_refs.find(
+  {
+  "text.sections.2":{"$exists":true},
+  "$expr":{"$gt":[
+      {"$subtract": ["$pages.page_end","$pages.page_start"]},3]
+    }
+  })
+
+//Find the articles that reference to articles about "design" between 2000 and 2003
+
+db.articles_refs.aggregate(
+  {"$unwind":"$references"},
+  {"$lookup":
+    { 
+      "from": "articles_refs",
+      "localField": "references",
+      "foreignField": "_id",
+      "as": "doc_info"
+    }
+  },
+  {"$match":
+    {
+      "doc_info.keywords":"design",
+      "$expr":{"$gte":["doc_info.year",2000]},
+      "$expr":{"$lte":["doc_info.year",2003]}
+    }
+  }
+)
+
+
+
+
+
+
+
 
 
 //Prova di lookup, funziona ma l'output non è molto utile per adesso
