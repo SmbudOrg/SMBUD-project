@@ -6,6 +6,33 @@ aggregate([
   {"$sort":{"count":-1}}
 ])
 
+//Find the first 5 most referenced documents
+db.articles_refs.aggregate(
+  {"$unwind":"$references"},
+  {"$group":{"_id":"$references","count":{"$sum":1}}},
+  {"$lookup":
+    { 
+      "from": "articles_refs",
+      "localField": "_id",
+      "foreignField": "_id",
+      "as": "doc_info"
+    }
+  },
+  {"$sort":{"count":-1}},
+  {"$limit":5}
+)
+
+//Find the authors that produced articles about "design" and/or "miscellaneous"
+
+db.articles_refs.aggregate(
+  {"$match":{"keywords":{"$in":["design","miscellaneous"]}}},
+  {"$unwind":"$authors"},
+  {"$group":{"_id":"$authors"}}
+  )
+
+//Find the articles with at least 3 sections
+
+
 //Prova di lookup, funziona ma l'output non è molto utile per adesso
 db.articles_refs.aggregate([
    {
