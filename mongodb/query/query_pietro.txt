@@ -62,7 +62,11 @@ db.articles_refs.aggregate(
 )
 
 
-
+*/ REMINDER: 
+            -Solve the dataset problem for which the pages numbers are strings
+            -Try to make a query with a text search
+            -Make create/update queries
+*/
 
 
 
