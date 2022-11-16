@@ -30,7 +30,7 @@ db.articles_refs.aggregate(
   {"$group":{"_id":"$authors"}}
   )
 
-//Find the articles that are at least 3 pages long with at least 3 sections (in teoria funziona ma va aggiustato il dataset perché le pagine le prende come stringhe)
+//Find the articles that are at least 3 pages long with at least 3 sections
 
 db.articles_refs.find(
   {
@@ -62,8 +62,31 @@ db.articles_refs.aggregate(
 )
 
 
+// Remove empty string issn fields
+db.articles_refs.updateMany({"issn": ""},{"$unset": {"issn":""}})
+
+// Remove empty reference arrays fields
+db.articles_refs.updateMany({"text": []},{"$unset": {"text":""}})
+
+
+
+//Add a field to the documents that specifies the number of documents that reference to it <--- non ci sono riuscito e mi sa che non si può fare una                                                                                                     cosa del genere
+db.articles_refs.aggregate([
+  {"$unwind":"$references"},
+  {"$group":{"_id":"$references","count":{"$sum":1}}},
+  {"$lookup":
+    { 
+      "from": "articles_refs",
+      "localField": "_id",
+      "foreignField": "_id",
+      "as": "doc_info"
+    }
+  }
+  {"$set":{"n_citations":"$count"}}
+  ])
+
+
 */ REMINDER: 
-            -Solve the dataset problem for which the pages numbers are strings
             -Try to make a query with a text search
             -Make create/update queries
 */
