@@ -203,4 +203,67 @@
     }
 ]
 
-// 5. Multiple Filtering through refs
+// 5. Multiple Filtering through refs: top documents per number of references to the same venue
+[
+    {
+        '$lookup': {
+            'from': 'data3', 
+            'localField': 'references', 
+            'foreignField': '_id', 
+            'as': 'ref'
+        }
+    }, {
+        '$unwind': {
+            'path': '$ref', 
+            'preserveNullAndEmptyArrays': False
+        }
+    }, {
+        '$match': {
+            'venue._id': {
+                '$exists': True
+            }
+        }
+    }, {
+        '$match': {
+            '$expr': {
+                '$and': [
+                    {
+                        '$eq': [
+                            '$venue._id', '$ref.venue._id'
+                        ]
+                    }, {
+                        '$ne': [
+                            '$venue._id', 'null'
+                        ]
+                    }, {
+                        '$ne': [
+                            '$ref.venue._id', 'null'
+                        ]
+                    }
+                ]
+            }
+        }
+    }, {
+        '$group': {
+            '_id': '$_id', 
+            'title': {
+                '$first': '$title'
+            }, 
+            'venue_id': {
+                '$first': '$venue._id'
+            }, 
+            'venue_raw': {
+                '$first': '$venue.raw'
+            }, 
+            'count': {
+                '$sum': 1
+            }
+        }
+    }, {
+        '$sort': {
+            'count': -1
+        }
+    }, {
+        '$limit': 5
+    }
+]
