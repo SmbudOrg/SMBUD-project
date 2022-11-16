@@ -1,14 +1,195 @@
-// 1 authors per number of citations 
+// 1. Multiple Filtering conditions: top documents, filtered by keywords and year, sorted by citations 
+[{
+ $match: {
+  $and: [
+   {
+    keywords: {
+     $in: [
+      'machine learning',
+      'markov decision process',
+      'data mining'
+     ]
+    }
+   },
+   {
+    year: {
+     $gte: 2010
+    }
+   }
+  ]
+ }
+}, {
+ $sort: {
+  n_citation: -1
+ }
+}, {
+ $limit: 5
+}]
 
-aggregate([
+[
     {
+        '$match': {
+            '$and': [
+                {
+                    'keywords': {
+                        '$in': [
+                            'machine learning', 
+                            'markov decision process', 
+                            'data mining'
+                        ]
+                    }
+                }, {
+                    'year': {
+                        '$gte': 2010
+                    }
+                }
+            ]
+        }
+    }, {
+        '$sort': {
+            'n_citation': -1
+        }
+    }, {
+        '$limit': 5
+    }
+]
+
+
+// 2. Multiple Filtering conditions, aggregation: top authors per number of pages written about a specific topic
+[{
+ $match: {
+  keywords: {
+   $in: [
+    'markov decision process',
+    'data mining'
+   ]
+  }
+ }
+}, {
+ $unwind: {
+  path: '$authors',
+  preserveNullAndEmptyArrays: false
+ }
+}, {
+ $match: {
+  'authors._id': {
+   $ne: null
+  }
+ }
+}, {
+ $addFields: {
+  'pages.diff': {
+   $subtract: [
+    '$pages.page_end',
+    '$pages.page_start'
+   ]
+  }
+ }
+}, {
+ $group: {
+  _id: '$authors._id',
+  name: {
+   $first: '$authors.name'
+  },
+  org: {
+   $first: '$authors.org'
+  },
+  totalPages: {
+   $sum: '$pages.diff'
+  }
+ }
+}, {
+ $sort: {
+  totalPages: -1
+ }
+}, {
+ $limit: 5
+}]
+
+[
+    {
+        '$match': {
+            'keywords': {
+                '$in': [
+                    'markov decision process', 'data mining'
+                ]
+            }
+        }
+    }, {
         '$unwind': {
             'path': '$authors', 
-            'preserveNullAndEmptyArrays': false
+            'preserveNullAndEmptyArrays': False
+        }
+    }, {
+        '$match': {
+            'authors._id': {
+                '$ne': None
+            }
+        }
+    }, {
+        '$addFields': {
+            'pages.diff': {
+                '$subtract': [
+                    '$pages.page_end', '$pages.page_start'
+                ]
+            }
         }
     }, {
         '$group': {
             '_id': '$authors._id', 
+            'name': {
+                '$first': '$authors.name'
+            }, 
+            'org': {
+                '$first': '$authors.org'
+            }, 
+            'totalPages': {
+                '$sum': '$pages.diff'
+            }
+        }
+    }, {
+        '$sort': {
+            'totalPages': -1
+        }
+    }, {
+        '$limit': 5
+    }
+]
+
+// 3. Multiple Filtering conditions (also on internal subdocs)
+
+
+// 4. Multiple Filtering through unwind: top authors per citations regarding a specific topic
+[
+    {
+        '$unwind': {
+            'path': '$keywords', 
+            'preserveNullAndEmptyArrays': False
+        }
+    }, {
+        '$match': {
+            'keywords': 'machine learning'
+        }
+    }, {
+        '$unwind': {
+            'path': '$authors', 
+            'preserveNullAndEmptyArrays': False
+        }
+    }, {
+        '$match': {
+            'authors._id': {
+                '$ne': None
+            }
+        }
+    }, {
+        '$group': {
+            '_id': '$authors._id', 
+            'name': {
+                '$first': '$authors.name'
+            }, 
+            'org': {
+                '$first': '$authors.org'
+            }, 
             'sumofcit': {
                 '$sum': '$n_citation'
             }
@@ -20,26 +201,6 @@ aggregate([
     }, {
         '$limit': 5
     }
-])
-
-// 2
-
-[
-    {
-        '$unwind': {
-            'path': '$keywords', 
-            'preserveNullAndEmptyArrays': False
-        }
-    }, {
-        '$group': {
-            '_id': '$_id', 
-            'NumberOfKeywords': {
-                '$count': {}
-            }
-        }
-    }, {
-        '$sort': {
-            'NumberOfKeywords': -1
-        }
-    }
 ]
+
+// 5. Multiple Filtering through refs
