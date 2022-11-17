@@ -1,0 +1,30 @@
+// Find the average number of references of articles written by ONLY ONE person in the period from 2010 to 2015
+
+db.test.aggregate([
+    {"$match": {"authors": {"$size": 1}, 
+                "year": {$gte: 2010, $lte: 2015}, 
+                "references":{"$exists":true}
+                }
+    },
+    {"$group": {"_id": "$year",
+                "avg": {"$avg": {"$size": "$references"}}
+                }
+    },
+    {"$sort":{"_id":1}},
+])
+ 
+
+ // Find the 15 articles published on the venue "IEICE Transactions" with the biggest number of keywords
+
+ db.test.aggregate([
+    {"$unwind": "$venue"},
+    {"$match": {"venue.raw": "IEICE Transactions"}
+    },
+    {"$group": {
+        "_id": "$_id",
+        "year": { "$first": "$year" },
+        "n_keywords": {"$avg": {"$size": "$keywords"}}
+    }},
+    {"$sort":{"n_keywords": -1}},
+    {"$limit": 15}
+ ])
