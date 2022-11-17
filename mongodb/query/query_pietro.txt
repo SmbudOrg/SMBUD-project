@@ -6,6 +6,14 @@ aggregate([
   {"$sort":{"count":-1}}
 ])
 
+//Most used keywords per year
+
+db.articles_refs.aggregate([
+  {"$unwind":"$keywords"},
+  {"$group":{"_id":{"keyword":"$keywords","year":"$year"},"count":{"$count":1}}},
+  {"$sort":{"_id.year":1,"count":-1}}
+])
+
 //Find the first 5 most referenced documents
 db.articles_refs.aggregate(
   {"$unwind":"$references"},
