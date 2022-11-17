@@ -1,0 +1,33 @@
+Filtro semplice
+
+-C filtro semplice di Sara (prima query)
+-C altri filtri semplici di christian
+
+Filtro con sottodocumenti
+-C Query di sara su enciclopedia
+-N Nicolo 2
+
+Aggregate con filtro
+-C Query di sara sull'avg di citazioni degli autori di un argomento
+-P Idea di query a partire dalla prima di Pietro (parola più utilizzata per ogni anno)
+-N Nicolo 1
+
+Ref 
+-P linea 43 pietro
+-P Sara 5
+-C Christian 5
+
+Update
+-N Update bio
+-P Genera una keyword che esiste all'interno dell'abstract
+-P Eliminare i campi nulli ("null", "",[]) (per ipotetica pulizia periodica)
+
+Create
+-N Inserimento di un articolo
+
+Delete
+-N Cancella gli articoli di un autore (perchè ha revocato i diritti)
+-->Per Nicolò: cambia riga ER
+
+
+
