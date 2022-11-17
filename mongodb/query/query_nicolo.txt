@@ -14,17 +14,14 @@ db.test.aggregate([
 ])
  
 
- // Find the 15 articles published on the venue "IEICE Transactions" with the biggest number of keywords
-
+ // Find the 5 articles published on the venue "IEICE Transactions" with the biggest number of keywords
+ 
  db.test.aggregate([
     {"$unwind": "$venue"},
     {"$match": {"venue.raw": "IEICE Transactions"}
     },
-    {"$group": {
-        "_id": "$_id",
-        "year": { "$first": "$year" },
-        "n_keywords": {"$avg": {"$size": "$keywords"}}
-    }},
+    {"$addFields": {"n_keywords":{"$size":"$keywords"}}},
+    {"$project":{"title":1,"authors.name":1,"year":1,"n_keywords":1}},
     {"$sort":{"n_keywords": -1}},
-    {"$limit": 15}
+    {"$limit": 5}
  ])
