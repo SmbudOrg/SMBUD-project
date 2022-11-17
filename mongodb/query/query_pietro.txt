@@ -77,6 +77,8 @@ db.articles_refs.updateMany({"issn": ""},{"$unset": {"issn":""}})
 // Remove empty reference arrays fields
 db.articles_refs.updateMany({"text": []},{"$unset": {"text":""}})
 
+//Add keyword that is inside the abstract
+db.articles_refs.updateMany({"$text":{"$search":"natural disasters"}},{"$push":{"keywords":"natural disasters"}})
 
 
 //Add a field to the documents that specifies the number of documents that reference to it <--- non ci sono riuscito e mi sa che non si può fare una                                                                                                     cosa del genere
