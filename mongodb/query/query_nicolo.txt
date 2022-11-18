@@ -14,6 +14,7 @@ db.test.aggregate([
 ])
  
 
+
 // 2) Find the 3 articles published on the venue "Encyclopedia of Parallel Computing" with the biggest number of keywords
  // (Before running the query, delete the few documents of this collection that don't have the field 'keywords')
  
@@ -28,6 +29,7 @@ db.test.aggregate([
  ])
 
 
+
 // 3) Update the "bio" of an author who has just won an award
 // We use updateOne instead of updateMany because we need to know indexes of the "authors" array for each document we want to update
 
@@ -35,3 +37,54 @@ db.test.updateOne(
     {"authors.name": "Annabel Sebag"},
     {"$set": {"authors.0.bio": "Annabel Sebag was born in 1990; in November 2022 she was awarded with the Dijkstra Prize."}}
 )
+
+
+
+// 4) Insert a new document
+
+db.test.insertOne(
+    {
+        _id: "53e9978ab7602d9701f76423",
+        title: "A new perspective on Deep Learning",
+        abstract: "We conjecture that the maximum number of layers in a CNN can be extended with new techniques",
+        authors: [
+            {name: "Mark Towns", org: "Microsoft Italy, Milan", email: "mtowns@gmail.com", bio: "Mark Towns was born in 1971 and studied at University of Manchester."},
+            {name: "John Smith", org: "Italian Institute of Technology, Genova", email: "john_smith@gmail.com", bio: "John Smith was born in 1982 and studied at University of Cambridge."}
+        ],
+        keywords: [
+            "Deep Learning",
+            "Neural Networks",
+            "Machine Learning"
+        ],
+        venue: {raw: "IEICE Transactions", publisher: "Thomson Reuters"},
+        volume: "34",
+        issue: "216",
+        year: 2012,
+        pages: {page_start: 512, page_end: 518},
+        n_citation: 6,
+        lang: "en",
+        url: "http://doi.acm.org/10.1145/1726352.9384527",
+        text: {
+            paragraphs: [
+                "Introduction", 
+                "Premises",
+                "Experiments",
+                "Discoveries",
+                "Conclusion"
+            ],
+            images: [
+                {url: "http://dummyimage.com/367x480.png/cc0010/ffffff", caption: "Old style CNN"},
+                {url: "http://dummyimage.com/367x480.png/cc4353/ffffff", caption: "Improved CNN"}
+            ],
+            sections: [
+                {paragraphs: "example1", images: "example2", subsections: "example3"},
+                {paragraphs: "example4", images: "example5", subsections: "example6"}
+            ]
+        },
+        references: [
+            "53e99786b7603d9701f56096",
+            "53e9979ab7632d9701f46694"
+        ]
+    }
+)
+
