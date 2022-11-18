@@ -14,14 +14,15 @@ db.test.aggregate([
 ])
  
 
- // Find the 5 articles published on the venue "IEICE Transactions" with the biggest number of keywords
+// Find the 3 articles published on the venue "Encyclopedia of Parallel Computing" with the biggest number of keywords
+ // (Before running the query, delete the few documents of this collection that don't have the field 'keywords')
  
  db.test.aggregate([
     {"$unwind": "$venue"},
-    {"$match": {"venue.raw": "IEICE Transactions"}
+    {"$match": {"venue.raw": "Encyclopedia of Parallel Computing"}
     },
     {"$addFields": {"n_keywords":{"$size":"$keywords"}}},
     {"$project":{"title":1,"authors.name":1,"year":1,"n_keywords":1}},
     {"$sort":{"n_keywords": -1}},
-    {"$limit": 5}
+    {"$limit": 3}
  ])
