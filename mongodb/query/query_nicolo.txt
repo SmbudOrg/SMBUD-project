@@ -88,3 +88,10 @@ db.test.insertOne(
     }
 )
 
+
+
+// 5) Delete the articles of a certain venue (because it revoked the copyright permissions for example)
+
+db.test.deleteMany(
+    {"venue.raw": "SIGGRAPH Visual Proceedings"}
+)
