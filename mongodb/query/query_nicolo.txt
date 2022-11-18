@@ -1,4 +1,4 @@
-// Find the average number of references of articles written by ONLY ONE person in the period from 2010 to 2015
+// 1) Find the average number of references of articles written by ONLY ONE person in the period from 2010 to 2015
 
 db.test.aggregate([
     {"$match": {"authors": {"$size": 1}, 
@@ -14,7 +14,7 @@ db.test.aggregate([
 ])
  
 
-// Find the 3 articles published on the venue "Encyclopedia of Parallel Computing" with the biggest number of keywords
+// 2) Find the 3 articles published on the venue "Encyclopedia of Parallel Computing" with the biggest number of keywords
  // (Before running the query, delete the few documents of this collection that don't have the field 'keywords')
  
  db.test.aggregate([
@@ -26,3 +26,12 @@ db.test.aggregate([
     {"$sort":{"n_keywords": -1}},
     {"$limit": 3}
  ])
+
+
+// 3) Update the "bio" of an author who has just won an award
+// We use updateOne instead of updateMany because we need to know indexes of the "authors" array for each document we want to update
+
+db.test.updateOne(
+    {"authors.name": "Annabel Sebag"},
+    {"$set": {"authors.0.bio": "Annabel Sebag was born in 1990; in November 2022 she was awarded with the Dijkstra Prize."}}
+)
