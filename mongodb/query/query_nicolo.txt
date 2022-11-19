@@ -16,7 +16,6 @@ db.test.aggregate([
 
 
 // 2) Find the 3 articles published on the venue "Encyclopedia of Parallel Computing" with the biggest number of keywords
- // (Before running the query, delete the few documents of this collection that don't have the field 'keywords')
  
  db.test.aggregate([
     {"$unwind": "$venue"},
@@ -31,11 +30,11 @@ db.test.aggregate([
 
 
 // 3) Update the "bio" of an author who has just won an award
-// We use updateOne instead of updateMany because we need to know indexes of the "authors" array for each document we want to update
 
-db.test.updateOne(
-    {"authors.name": "Annabel Sebag"},
-    {"$set": {"authors.0.bio": "Annabel Sebag was born in 1990; in November 2022 she was awarded with the Dijkstra Prize."}}
+db.article.updateMany(
+	{"authors.name": "Annabel Sebag"},
+	{"$set": {"authors.$[e].bio": "Annabel Sebag was born in 1990; in November 2022 she was awarded with the Dijkstra Prize."}},
+	{arrayFilters: [ {"e.name": "Annabel Sebag"} ]}
 )
 
 
@@ -44,7 +43,6 @@ db.test.updateOne(
 
 db.test.insertOne(
     {
-        _id: "53e9978ab7602d9701f76423",
         title: "A new perspective on Deep Learning",
         abstract: "We conjecture that the maximum number of layers in a CNN can be extended with new techniques",
         authors: [
