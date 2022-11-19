@@ -1,0 +1,5 @@
+db.article.updateMany(
+	{"authors.name": "Damien Perritaz"},
+	{"$set": {"authors.$[e].bio": "Prova bio"}},
+	{arrayFilters: [ {"e.name": "Damien Perritaz"} ]}
+)
