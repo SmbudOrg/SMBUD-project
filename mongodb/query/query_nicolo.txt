@@ -17,10 +17,10 @@ db.test.aggregate([
 
 // 2) Find the 3 articles published on the venue "Encyclopedia of Parallel Computing" with the biggest number of keywords
  
- db.test.aggregate([
+db.test.aggregate([
     {"$unwind": "$venue"},
-    {"$match": {"venue.raw": "Encyclopedia of Parallel Computing"}
-    },
+    {"$match": {"venue.raw": "Encyclopedia of Parallel Computing", "keywords": {"$exists": true}}
+    }, 
     {"$addFields": {"n_keywords":{"$size":"$keywords"}}},
     {"$project":{"title":1,"authors.name":1,"year":1,"n_keywords":1}},
     {"$sort":{"n_keywords": -1}},
