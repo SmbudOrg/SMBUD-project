@@ -1,6 +1,6 @@
 // 1) Find the average number of references of articles written by ONLY ONE person in the period from 2010 to 2015
 
-db.article.aggregate([
+db.articles.aggregate([
     {"$match": {"authors": {"$size": 1}, 
                 "year": {$gte: 2010, $lte: 2015}, 
                 "references":{"$exists":true}
@@ -17,7 +17,7 @@ db.article.aggregate([
 
 // 2) Find the 3 articles published on the venue "Encyclopedia of Parallel Computing" with the biggest number of keywords
  
-db.article.aggregate([
+db.articles.aggregate([
     {"$unwind": "$venue"},
     {"$match": {"venue.raw": "Encyclopedia of Parallel Computing", "keywords": {"$exists": true}}
     }, 
@@ -31,7 +31,7 @@ db.article.aggregate([
 
 // 3) Update the "bio" of an author who has just won an award
 
-db.article.updateMany(
+db.articles.updateMany(
 	{"authors.name": "Annabel Sebag"},
 	{"$set": {"authors.$[e].bio": "Annabel Sebag was born in 1990; in November 2022 she was awarded with the Dijkstra Prize."}},
 	{arrayFilters: [ {"e.name": "Annabel Sebag"} ]}
@@ -41,7 +41,7 @@ db.article.updateMany(
 
 // 4) Insert a new document
 
-db.article.insertOne(
+db.articles.insertOne(
     {
         title: "A new perspective on Deep Learning",
         abstract: "We conjecture that the maximum number of layers in a CNN can be extended with new techniques",
@@ -90,6 +90,6 @@ db.article.insertOne(
 
 // 5) Delete the articles of a certain venue (because it revoked the copyright permissions for example)
 
-db.article.deleteMany(
+db.articles.deleteMany(
     {"venue.raw": "SIGGRAPH Visual Proceedings"}
 )
