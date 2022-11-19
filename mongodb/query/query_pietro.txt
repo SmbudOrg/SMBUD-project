@@ -6,6 +6,15 @@ aggregate([
   {"$sort":{"count":-1}}
 ])
 
+//Most used keyword per year
+db.articles_refs.aggregate([
+  {"$unwind":"$keywords"},
+  {"$group":{"_id":{"keyword":"$keywords","year":"$year"},"count":{"$sum":1} } },
+  {"$sort":{"_id.year":1,"count":-1}},                                                          
+  {"$group":{"_id":"$_id.year","max":{"$first":"$count"},"keyword":{"$first":"$_id.keyword"}}},
+  {"$sort":{"_id":1}}
+])
+
 //Find the first 5 most referenced documents
 db.articles_refs.aggregate(
   {"$unwind":"$references"},
@@ -68,6 +77,8 @@ db.articles_refs.updateMany({"issn": ""},{"$unset": {"issn":""}})
 // Remove empty reference arrays fields
 db.articles_refs.updateMany({"text": []},{"$unset": {"text":""}})
 
+//Add keyword that is inside the abstract
+db.articles_refs.updateMany({"$text":{"$search":"natural disasters"}},{"$push":{"keywords":"natural disasters"}})
 
 
 //Add a field to the documents that specifies the number of documents that reference to it <--- non ci sono riuscito e mi sa che non si può fare una                                                                                                     cosa del genere
