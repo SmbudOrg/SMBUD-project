@@ -9,9 +9,9 @@ data_out = []
 #author, editor e series hanno una key e quindi sono presenti separatamente nello script
 #ALTRI SOTTOELEMENTI:
 #sottoelementi che sono stringhe semplici
-subelements = ["title", "publisher", "crossref", "journal"]
+subelements = ["title", "publisher", "journal"]
 #sottoelementi che sono array di stringhe
-arraysubelements = ["keyword", "isbn", "ee", "cite", "note"]
+arraysubelements = ["keyword", "ee", "cite", "note"]
 #sottoelementi che sono int semplici
 intsubelements = ["year", "citations", "pages", "volume"]
 
