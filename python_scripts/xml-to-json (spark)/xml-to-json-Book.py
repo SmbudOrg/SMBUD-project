@@ -1,17 +1,17 @@
 import xml.etree.ElementTree as ET
 import json
 
-inputfile = "Datasets (xml)/article-db.xml"
-outputfile = "Datasets (json)/article-db.json"
+inputfile = "Datasets (xml)/book-db.xml"
+outputfile = "Datasets (json)/book-db.json"
 
 data_out = []
 
 #author, editor e series hanno una key e quindi sono presenti separatamente nello script
 #ALTRI SOTTOELEMENTI:
 #sottoelementi che sono stringhe semplici
-subelements = ["title", "publisher", "crossref", "journal"]
+subelements = ["title", "publisher", "crossref"]
 #sottoelementi che sono array di stringhe
-arraysubelements = ["keyword", "isbn", "ee", "cite", "note"]
+arraysubelements = ["keyword", "isbn", "ee"]
 #sottoelementi che sono int semplici
 intsubelements = ["year", "citations", "pages", "volume"]
 
@@ -54,7 +54,6 @@ with open(inputfile, "r") as f_in:
         for intsubel in intsubelements:
             if (element.find(intsubel) is not None):
                 pub[intsubel] = int(element.find(intsubel).text)
-
 
         data_out.append(pub)
 
