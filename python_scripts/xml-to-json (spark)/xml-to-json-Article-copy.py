@@ -9,9 +9,9 @@ data_out = []
 #author, editor e series hanno una key e quindi sono presenti separatamente nello script
 #ALTRI SOTTOELEMENTI:
 #sottoelementi che sono stringhe semplici
-subelements = ["title", "publisher", "journal"]
+subelements = ["title", "journal", "publisher", "crossref"]
 #sottoelementi che sono array di stringhe
-arraysubelements = ["keyword", "ee", "cite"]
+arraysubelements = ["keyword", "isbn", "ee", "cite", "note"]
 #sottoelementi che sono int semplici
 intsubelements = ["year", "citations", "pages", "volume"]
 
@@ -54,6 +54,7 @@ with open(inputfile, "r") as f_in:
         for intsubel in intsubelements:
             if (element.find(intsubel) is not None):
                 pub[intsubel] = int(element.find(intsubel).text)
+
 
         data_out.append(pub)
 
