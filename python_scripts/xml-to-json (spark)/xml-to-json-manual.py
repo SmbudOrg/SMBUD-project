@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 import json
 
-inputfile = "Datasets (xml)/article-db.xml"
-outputfile = "Datasets (json)/article-db.json"
+inputfile = "Datasets (xml)/any-db.xml"
+outputfile = "Datasets (json)/any-db.json"
 
 data_out = []
 
