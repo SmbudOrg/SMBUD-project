@@ -40,7 +40,7 @@ with open(inputfile, "r") as f_in:
         
         series = element.find("series")
         if (series is not None):
-            pub["series"] = {"key": series.get("key"), "title": series.text}
+            pub["series"] = {"href": series.get("href"), "title": series.text}
         
         for s in subelements:
             if (element.find(s) is not None):
