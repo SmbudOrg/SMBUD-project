@@ -2,7 +2,7 @@
 - WHERE, LIMIT, LIKE
 - WHERE, IN, Nested Query
 - GROUP BY, 1 JOIN, AS (fatto: query 1 Christian, most cited authors in a given field)
-- WHERE, GROUP BY
+- WHERE, GROUP BY (fatto: query 2 Sara, top keywords used with another keyword)
 - GROUP BY, HAVING, AS 
 - WHERE, GROUP BY, HAVING, AS (fatto: query 1 Sara, find series about relational databases)
 - WHERE, Nested Query (i.e., 2-step Queries), GROUP BY
