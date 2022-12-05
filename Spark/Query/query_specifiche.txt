@@ -3,8 +3,8 @@
 - WHERE, IN, Nested Query
 - GROUP BY, 1 JOIN, AS (fatto: query 1 Christian, most cited authors in a given field)
 - WHERE, GROUP BY
-- GROUP BY, HAVING, AS (fatto: query 1 Sara, find series about relational databases)
-- WHERE, GROUP BY, HAVING, AS
+- GROUP BY, HAVING, AS 
+- WHERE, GROUP BY, HAVING, AS (fatto: query 1 Sara, find series about relational databases)
 - WHERE, Nested Query (i.e., 2-step Queries), GROUP BY
 - WHERE, GROUP BY, HAVING, 1 JOIN
 - WHERE, GROUP BY, HAVING, 2 JOINs
