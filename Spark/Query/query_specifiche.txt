@@ -7,4 +7,4 @@
 - WHERE, GROUP BY, HAVING, AS (fatto: query 1 Sara, find series about relational databases)
 - WHERE, Nested Query (i.e., 2-step Queries), GROUP BY
 - WHERE, GROUP BY, HAVING, 1 JOIN (fatto: query 3 Sara, top books about a specific topic)
-- WHERE, GROUP BY, HAVING, 2 JOINs
+- WHERE, GROUP BY, HAVING, 2 JOINs(fatto: query 1 Cristina, best professors for number of citations at a given university, DA RIVEDERE)
