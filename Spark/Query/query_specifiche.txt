@@ -1,3 +1,7 @@
+at least 5 data creation/update operations (add a new row, remove a row, etc.)
+-1) Add website (fatto: query 2 Cristina)
+
+at least 10 queries
 - WHERE, JOIN (fatto: query 1 Pietro, find articles cited in articles with most citations)
 - WHERE, LIMIT, LIKE (fatto: query 2 Pietro, find authors of books with a certain keyword)
 - WHERE, IN, Nested Query (fatto: query 2 Nicolò, find books not about a certain topic and published by one of favourite Publishers)
