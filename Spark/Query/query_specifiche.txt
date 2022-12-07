@@ -1,6 +1,6 @@
 - WHERE, JOIN (fatto: query 1 Pietro, find articles cited in articles with most citations)
 - WHERE, LIMIT, LIKE (fatto: query 2 Pietro, find authors of books with a certain keyword)
-- WHERE, IN, Nested Query
+- WHERE, IN, Nested Query (fatto: query 2 Nicolò, find books not about a certain topic and published by one of favourite Publishers)
 - GROUP BY, 1 JOIN, AS (fatto: query 1 Christian, most cited authors in a given field)
 - WHERE, GROUP BY (fatto: query 2 Sara, top keywords used with another keyword)
 - GROUP BY, HAVING, AS (fatto: query 1 Nicolò, top journals per heterogeneity)
